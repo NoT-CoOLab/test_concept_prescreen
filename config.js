@@ -19,7 +19,7 @@ const CONFIG = {
   // has no local pool until you add one, e.g.:
   //   regions: [{ code: "AT", population: "Austrian", label: { en: "Austria" } }]
   regions: [{ code: "DE", population: "German", label: { en: "Germany", de: "Deutschland", sl: "Nemčija" } },
-    { code: "SI", population: "Slovenian", label: { en: "Slovenia", de: "Slowenien", sl: "Slovenija" } ],
+    { code: "SI", population: "Slovenian", label: { en: "Slovenia", de: "Slowenien", sl: "Slovenija" } }],
 
   // The session ends automatically once BOTH of these are reached (whichever comes
   // later keeps it going) — or once the participant's pool runs out entirely.
@@ -34,7 +34,7 @@ const CONFIG = {
   // Recipients who only get the FINAL email (e.g. a supervising doctor who doesn't
   // need the periodic in-progress copies) — leave empty for nobody in this category.
   // Add an address here like: finalOnlyEmails: ["doctor@example.com"]
-  finalOnlyEmails: [barbala.ostrovska@gmail.com],
+  finalOnlyEmails: ["barbala.ostrovska@gmail.com"],
 
   emailjs: {
     // From your EmailJS account (emailjs.com) — see email-relay/DEPLOY.md step 1.
