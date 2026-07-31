@@ -147,15 +147,28 @@
       }
     };
     setSaveIndicator("pending");
+    // A stalled connection (e.g. "connected to WiFi but no real internet") often
+    // doesn't reject quickly — it can just hang for a long time. Racing it against a
+    // timeout isn't enough on its own: the abandoned request keeps running in the
+    // background regardless, and after enough of those pile up, the browser's
+    // per-host connection limit (6 in most browsers) is exhausted, silently queueing
+    // every later retry behind them forever — which is exactly what was happening.
+    // AbortController actually cancels the request when the timeout fires, freeing
+    // that connection slot immediately so the next retry can really go out.
+    var controller = new AbortController();
+    var timeoutId = setTimeout(function () { controller.abort(); }, 8000);
     return fetch("https://api.emailjs.com/api/v1.0/email/send", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload)
+      body: JSON.stringify(payload),
+      signal: controller.signal
     }).then(function (resp) {
+      clearTimeout(timeoutId);
       if (!resp.ok) throw new Error("EmailJS responded with status " + resp.status);
       setSaveIndicator("ok");
       return { ok: true };
     }).catch(function (err) {
+      clearTimeout(timeoutId);
       console.warn("Checkpoint email failed (the next checkpoint will resend everything):", err);
       setSaveIndicator("offline");
       return { ok: false };
@@ -612,13 +625,6 @@
   $("btn-dont-know").addEventListener("click", function () { handleResponse("unknown"); });
 
   // ---------------- Done screen ----------------
-  function withTimeout(promise, ms) {
-    return Promise.race([
-      promise,
-      new Promise(function (resolve) { setTimeout(function () { resolve({ ok: false, timedOut: true }); }, ms); })
-    ]);
-  }
-
   function finishSession() {
     stopKeyboardListening();
     state.finished = true;
@@ -637,7 +643,7 @@
   function attemptFinishSend() {
     if (finishSendInFlight) return;
     finishSendInFlight = true;
-    withTimeout(sendCheckpointEmail("finish"), 8000).then(function (result) {
+    sendCheckpointEmail("finish").then(function (result) {
       finishSendInFlight = false;
       if (result && result.ok) {
         stopFinishRetrying();
