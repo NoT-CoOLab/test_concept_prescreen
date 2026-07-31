@@ -1,9 +1,3 @@
-# Recognition Pretest — Test
-
-This folder is a complete, standalone static site — copy it into the root of its own
-GitHub repo and enable GitHub Pages (Settings → Pages → Deploy from `main` branch).
-No build step, no dependencies.
-
 **Before deploying:**
 1. Set `appendUrl`, `lookupUrl`, and `backendToken` in `config.js` — see the main
    project's `apps-script/DEPLOY.md` (Google Drive) or `email-relay/DEPLOY.md`
