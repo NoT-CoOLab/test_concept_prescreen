@@ -5,8 +5,8 @@ const CONFIG = {
   siteId: "test",
   siteName: "Test",
 
-  languages: ["en", "de"],
-  languageLabels: { en: "English", de: "Deutsch" },
+  languages: ["en", "de", "sl"],
+  languageLabels: { en: "English", de: "Deutsch", sl: "Slovenščina" },
 
   // Countries participants can flag as "I know people/places from here especially well".
   // This is about familiarity, not identity — a participant can select none or several.
