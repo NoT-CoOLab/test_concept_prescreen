@@ -6,7 +6,6 @@
   "use strict";
 
   var STATE_KEY = "expstate_" + CONFIG.siteId;
-  var QUEUE_KEY = "expqueue_" + CONFIG.siteId;
   var LANG_KEY = "explang_" + CONFIG.siteId;
 
   var CSV_HEADER = ["participant_code", "site", "session_start_iso", "response_timestamp_iso",
@@ -89,73 +88,6 @@
     return bucketA.concat(bucketB);
   }
 
-  // ---------------- Remote sync (Google Apps Script) ----------------
-  function jsonp(url) {
-    return new Promise(function (resolve, reject) {
-      var cbName = "cb_" + Math.random().toString(36).slice(2);
-      var done = false;
-      window[cbName] = function (payload) {
-        done = true;
-        resolve(payload);
-        cleanup();
-      };
-      var script = document.createElement("script");
-      script.src = url + (url.indexOf("?") !== -1 ? "&" : "?") + "callback=" + cbName;
-      script.onerror = function () { if (!done) { reject(new Error("jsonp_failed")); cleanup(); } };
-      function cleanup() {
-        delete window[cbName];
-        if (script.parentNode) script.parentNode.removeChild(script);
-      }
-      document.body.appendChild(script);
-      setTimeout(function () { if (!done) { reject(new Error("jsonp_timeout")); cleanup(); } }, 9000);
-    });
-  }
-
-  function lookupRemote(code) {
-    var url = CONFIG.lookupUrl + "?action=lookup&site=" + encodeURIComponent(CONFIG.siteId) +
-      "&code=" + encodeURIComponent(code) + "&token=" + encodeURIComponent(CONFIG.backendToken);
-    return jsonp(url);
-  }
-
-  function sendAppend(row) {
-    var payload = Object.assign({}, row, { token: CONFIG.backendToken });
-    return fetch(CONFIG.appendUrl, {
-      method: "POST",
-      mode: "no-cors",
-      headers: { "Content-Type": "text/plain;charset=utf-8" },
-      body: JSON.stringify(payload)
-    });
-  }
-
-  var sending = false;
-  function processQueue() {
-    if (sending) return;
-    var q = JSON.parse(localStorage.getItem(QUEUE_KEY) || "[]");
-    if (!q.length) return;
-    sending = true;
-    setSaveIndicator("pending");
-    (function step() {
-      var q2 = JSON.parse(localStorage.getItem(QUEUE_KEY) || "[]");
-      if (!q2.length) { sending = false; setSaveIndicator("ok"); return; }
-      sendAppend(q2[0]).then(function () {
-        q2.shift();
-        localStorage.setItem(QUEUE_KEY, JSON.stringify(q2));
-        step();
-      }).catch(function () {
-        sending = false;
-        setSaveIndicator("offline");
-      });
-    })();
-  }
-  function queueAppend(row) {
-    var q = JSON.parse(localStorage.getItem(QUEUE_KEY) || "[]");
-    q.push(row);
-    localStorage.setItem(QUEUE_KEY, JSON.stringify(q));
-    processQueue();
-  }
-  window.addEventListener("online", processQueue);
-  setInterval(processQueue, 6000);
-
   function setSaveIndicator(kind) {
     var el = $("save-indicator");
     if (!kind) { el.hidden = true; return; }
@@ -173,10 +105,7 @@
   //
   // Because each checkpoint is a complete snapshot (not a diff), a single failed send
   // is not fatal — the next checkpoint resends everything, so there's no separate
-  // retry queue here the way the apps-script backend needs.
-  //
-  // The EmailJS SDK is only loaded for sites actually using this backend, so sites on
-  // the apps-script backend carry no extra network dependency.
+  // retry queue needed here.
   var emailjsReady = null;
   function ensureEmailjsLoaded() {
     if (emailjsReady) return emailjsReady;
@@ -199,10 +128,18 @@
     return state.rows.map(function (row) { return JSON.stringify(row); }).join("\n");
   }
 
+  function recipientsFor(checkpointType) {
+    var always = (CONFIG.notifyEmails || []).filter(Boolean);
+    var finalOnly = (CONFIG.finalOnlyEmails || []).filter(Boolean);
+    return checkpointType === "finish" ? always.concat(finalOnly) : always;
+  }
+
+  // Resolves with {ok: true} or {ok: false} — never rejects — so callers can react to
+  // failure (e.g. finishSession showing a "still trying to save" screen) without needing
+  // a try/catch. A failed send isn't reported as a JS error, just a false "ok".
   function sendCheckpointEmail(checkpointType) {
-    if (CONFIG.backend !== "email-relay") return Promise.resolve();
     var cfg = CONFIG.emailjs || {};
-    var recipients = (CONFIG.notifyEmails || []).filter(Boolean);
+    var recipients = recipientsFor(checkpointType);
     // Recipients joined with commas as ONE subject segment (not fixed slots), so this
     // works whether there's 1 recipient today or more added later — see
     // email-relay/DEPLOY.md for how the flow turns this back into a proper To field.
@@ -218,9 +155,11 @@
       return window.emailjs.send(cfg.serviceId, cfg.templateId, params);
     }).then(function () {
       setSaveIndicator("ok");
+      return { ok: true };
     }).catch(function (err) {
       console.warn("Checkpoint email failed (the next checkpoint will resend everything):", err);
       setSaveIndicator("offline");
+      return { ok: false };
     });
   }
 
@@ -252,11 +191,6 @@
     $("welcome-body").textContent = t("welcomeBody");
     $("btn-resume-local").textContent = (state && !$("btn-resume-local").hidden) ? resumeLocalLabel(state) : t("resumeContinueLocal");
     $("btn-start-new").textContent = t("startNew");
-    $("btn-show-code-entry").textContent = t("resumeWithCode");
-    $("btn-show-code-entry").hidden = !CONFIG.crossDeviceResumeSupported;
-    $("code-input-label").textContent = t("codeInputLabel");
-    $("code-input").placeholder = t("codeInputPlaceholder");
-    $("btn-code-submit").textContent = t("codeSubmit");
 
     $("setup-title").textContent = t("setupTitle");
     $("regions-label").textContent = t("regionsLabel");
@@ -281,9 +215,13 @@
 
     $("finishing-title").textContent = t("finishingTitle");
     $("finishing-body").textContent = t("finishingBody");
+    $("connection-issue-title").textContent = t("connectionIssueTitle");
+    $("connection-issue-body").textContent = t("connectionIssueBody");
     $("done-title").textContent = t("doneTitle");
     $("done-body").textContent = t("doneBody");
-    $("btn-download-backup").textContent = t("downloadBackup");
+    document.querySelectorAll(".btn-download-backup").forEach(function (btn) {
+      btn.textContent = t("downloadBackup");
+    });
 
     populateRegionsGrid();
     populateAgeGroupGrid();
@@ -402,8 +340,6 @@
   function initWelcome() {
     var saved = loadState();
     var continueBtn = $("btn-resume-local");
-    var codeBlock = $("welcome-code-entry");
-    codeBlock.hidden = true;
 
     if (saved && !saved.finished && saved.order && (saved.order.length || saved.current)) {
       state = saved;
@@ -419,7 +355,7 @@
   $("btn-resume-local").addEventListener("click", function () {
     if (!state.current) advanceTrial();
     setSaveIndicator(null);
-    if (CONFIG.backend === "email-relay") ensureEmailjsLoaded().catch(function () { /* handled per-send */ });
+    ensureEmailjsLoaded().catch(function () { /* handled per-send */ });
     showScreen("screen-task");
     renderCurrentStim();
     startKeyboardListening();
@@ -429,103 +365,6 @@
     state = null;
     showScreen("screen-setup");
   });
-  $("btn-show-code-entry").addEventListener("click", function () {
-    $("welcome-code-entry").hidden = false;
-    $("code-input").focus();
-  });
-  $("btn-code-submit").addEventListener("click", submitCode);
-  $("code-input").addEventListener("keydown", function (e) { if (e.key === "Enter") submitCode(); });
-
-  // Some backends (Apps Script) aggregate known/seen counts server-side and return them
-  // directly. Others (the Power Automate/OneDrive flow) just hand back the raw JSON-Lines
-  // file content, since that's far less error-prone to build in a low-code flow than
-  // aggregating with loops and variables — so we aggregate it here instead, client-side,
-  // where it's actually testable.
-  function normalizeLookupResult(res) {
-    if (!res) return { found: false };
-    if (res.raw === undefined) return res; // already aggregated (Apps Script shape)
-
-    var lines = String(res.raw).split("\n").map(function (l) { return l.trim(); }).filter(Boolean);
-    var seen = [];
-    var knownPeople = 0, knownPlaces = 0, seenPeople = 0, seenPlaces = 0;
-    var last = null;
-    lines.forEach(function (line) {
-      var row;
-      try { row = JSON.parse(line); } catch (e) { return; } // skip a corrupted/partial line
-      seen.push(row.file_name);
-      var isKnown = row.response === "known";
-      if (row.type === "person") { seenPeople++; if (isKnown) knownPeople++; }
-      else if (row.type === "place") { seenPlaces++; if (isKnown) knownPlaces++; }
-      last = row;
-    });
-    if (!last) return { found: false };
-    return {
-      found: true,
-      seenFileNames: seen,
-      knownPeopleCount: knownPeople,
-      knownPlacesCount: knownPlaces,
-      seenPeopleCount: seenPeople,
-      seenPlacesCount: seenPlaces,
-      regionsSelected: last.regions_selected,
-      ageGroupCode: last.age_group_code,
-      interestsSelected: last.interests_selected,
-      sessionStartIso: last.session_start_iso
-    };
-  }
-
-  function submitCode() {
-    var code = $("code-input").value.trim().toUpperCase();
-    var errEl = $("code-error");
-    errEl.hidden = true;
-    if (!code) return;
-    $("btn-code-submit").disabled = true;
-    lookupRemote(code).then(function (rawRes) {
-      $("btn-code-submit").disabled = false;
-      var res = normalizeLookupResult(rawRes);
-      if (!res || !res.found) {
-        errEl.textContent = t("codeNotFound");
-        errEl.hidden = false;
-        return;
-      }
-      resumeFromRemote(code, res);
-    }).catch(function () {
-      $("btn-code-submit").disabled = false;
-      errEl.textContent = t("codeLookupError");
-      errEl.hidden = false;
-    });
-  }
-
-  function resumeFromRemote(code, res) {
-    var regionCodes = (res.regionsSelected || "").split("|").filter(Boolean);
-    var regionPopulations = regionsByCodes(regionCodes).map(function (r) { return r.population; });
-    var ageGroupCode = parseInt(res.ageGroupCode, 10);
-    if (isNaN(ageGroupCode)) ageGroupCode = (data.age_groups && data.age_groups[0] && data.age_groups[0].code) || 1;
-    var interests = (res.interestsSelected || "").split("|").filter(Boolean);
-    var pool = buildPool(regionPopulations, ageGroupCode);
-    var order = buildOrder(pool, interests, res.seenFileNames || []);
-
-    state = {
-      code: code,
-      regionCodes: regionCodes,
-      ageGroupCode: ageGroupCode,
-      interests: interests,
-      order: order,
-      current: null,
-      rows: [], // detailed rows from before the resume aren't re-fetched locally; server file already has them
-      knownPeopleCount: res.knownPeopleCount || 0,
-      knownPlacesCount: res.knownPlacesCount || 0,
-      seenPeopleCount: res.seenPeopleCount || 0,
-      seenPlacesCount: res.seenPlacesCount || 0,
-      sessionStartIso: res.sessionStartIso || nowIso(),
-      trialIndex: (res.seenFileNames || []).length,
-      finished: false
-    };
-    saveState();
-    advanceTrial();
-    showScreen("screen-task");
-    renderCurrentStim();
-    startKeyboardListening();
-  }
 
   // ---------------- Setup screen ----------------
   $("btn-setup-continue").addEventListener("click", function () {
@@ -572,7 +411,7 @@
 
   // ---------------- Instructions screen ----------------
   $("btn-instructions-begin").addEventListener("click", function () {
-    if (CONFIG.backend === "email-relay") ensureEmailjsLoaded().catch(function () { /* handled per-send */ });
+    ensureEmailjsLoaded().catch(function () { /* handled per-send */ });
     advanceTrial();
     showScreen("screen-task");
     renderCurrentStim();
@@ -676,13 +515,9 @@
     state.current = null;
     saveState();
 
-    if (CONFIG.backend === "email-relay") {
-      var every = CONFIG.checkpointEveryNResponses || 25;
-      if (state.trialIndex > 0 && state.trialIndex % every === 0) {
-        sendCheckpointEmail("periodic");
-      }
-    } else {
-      queueAppend(row);
+    var every = CONFIG.checkpointEveryNResponses || 25;
+    if (state.trialIndex > 0 && state.trialIndex % every === 0) {
+      sendCheckpointEmail("periodic");
     }
   }
 
@@ -759,7 +594,7 @@
   function withTimeout(promise, ms) {
     return Promise.race([
       promise,
-      new Promise(function (resolve) { setTimeout(resolve, ms); })
+      new Promise(function (resolve) { setTimeout(function () { resolve({ ok: false, timedOut: true }); }, ms); })
     ]);
   }
 
@@ -768,20 +603,41 @@
     state.finished = true;
     saveState();
     $("done-stats").hidden = true;
-    if (CONFIG.backend === "email-relay") {
-      // Show "done" only once the final save has actually completed (or given up after
-      // a timeout) — not before. Showing "thank you" immediately, with the send still
-      // in flight in the background, invites closing the tab before it finishes.
-      showScreen("screen-finishing");
-      withTimeout(sendCheckpointEmail("finish"), 8000).then(function () {
-        showScreen("screen-done");
-      });
-    } else {
-      showScreen("screen-done");
-    }
+    // Show "done" only once the final save has actually completed — not before.
+    // Showing "thank you" regardless, with the send still in flight or having failed
+    // in the background, would give a false sense that everything reached the
+    // researcher even if (e.g.) the internet connection dropped right at the end.
+    showScreen("screen-finishing");
+    attemptFinishSend();
   }
 
-  $("btn-download-backup").addEventListener("click", function () {
+  var finishRetryTimer = null;
+  var finishSendInFlight = false;
+  function attemptFinishSend() {
+    if (finishSendInFlight) return;
+    finishSendInFlight = true;
+    withTimeout(sendCheckpointEmail("finish"), 8000).then(function (result) {
+      finishSendInFlight = false;
+      if (result && result.ok) {
+        stopFinishRetrying();
+        showScreen("screen-done");
+      } else {
+        showScreen("screen-connection-issue");
+        startFinishRetrying();
+      }
+    });
+  }
+  function startFinishRetrying() {
+    if (finishRetryTimer) return; // already retrying
+    finishRetryTimer = setInterval(attemptFinishSend, 8000);
+    window.addEventListener("online", attemptFinishSend);
+  }
+  function stopFinishRetrying() {
+    if (finishRetryTimer) { clearInterval(finishRetryTimer); finishRetryTimer = null; }
+    window.removeEventListener("online", attemptFinishSend);
+  }
+
+  function downloadBackupCsv() {
     var lines = [CSV_HEADER.join(",")];
     state.rows.forEach(function (row) {
       lines.push(CSV_HEADER.map(function (h) { return csvEscape(row[h]); }).join(","));
@@ -795,6 +651,9 @@
     a.click();
     document.body.removeChild(a);
     setTimeout(function () { URL.revokeObjectURL(url); }, 2000);
+  }
+  document.querySelectorAll(".btn-download-backup").forEach(function (btn) {
+    btn.addEventListener("click", downloadBackupCsv);
   });
 
   function csvEscape(v) {
