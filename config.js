@@ -26,14 +26,9 @@ const CONFIG = {
   //   exists, so cross-device resume-by-code isn't available; same-device resume
   //   (browser storage) always works regardless.
   //
-  // backend: "apps-script" — see apps-script/DEPLOY.md instead, if you have a Google
-  //   account you can use for this. Supports live per-response saving and
-  //   cross-device resume. Set appendUrl/lookupUrl/backendToken if you use this instead.
-  //
   backend: "email-relay",
   crossDeviceResumeSupported: false,
 
-  // Exactly two recipients: you, then this site's supervising doctor/PI.
   // The email-relay flow sends the final file to both — see email-relay/DEPLOY.md.
   // (Currently only one recipient is set — add the doctor's email here when you have
   // it; the flow and app both handle either 1 or 2 recipients cleanly.)
@@ -56,8 +51,4 @@ const CONFIG = {
   // reasonable starting point — see email-relay/DEPLOY.md for the quota math.
   checkpointEveryNResponses: 25,
 
-  // Unused when backend is "email-relay" — kept here only for switching to "apps-script".
-  appendUrl: "",
-  lookupUrl: "",
-  backendToken: ""
 };
