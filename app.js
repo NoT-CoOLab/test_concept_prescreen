@@ -118,7 +118,14 @@
       var script = document.createElement("script");
       script.src = "https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js";
       script.onload = initAndResolve;
-      script.onerror = function () { reject(new Error("emailjs_sdk_load_failed")); };
+      script.onerror = function () {
+        // Don't leave a permanently-rejected promise cached — if this stayed cached,
+        // every future retry (e.g. after reconnecting) would keep reusing this same
+        // failed attempt forever instead of trying to load the script again.
+        emailjsReady = null;
+        if (script.parentNode) script.parentNode.removeChild(script);
+        reject(new Error("emailjs_sdk_load_failed"));
+      };
       document.head.appendChild(script);
     });
     return emailjsReady;
