@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+<title>Recognition Pretest</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <span class="topbar-title" id="site-title-label">&nbsp;</span>
+    <label class="lang-switch">
+      <span class="visually-hidden" id="language-label">Language</span>
+      <select id="language-select" aria-label="Language"></select>
+    </label>
+  </div>
+  <div class="save-indicator" id="save-indicator" hidden></div>
+</header>
+
+<main id="app">
+
+  <!-- WELCOME -->
+  <section class="screen" id="screen-welcome" data-screen>
+    <div class="card card-static">
+      <h1 id="welcome-title"></h1>
+      <p id="welcome-body"></p>
+
+      <div id="welcome-actions" class="button-stack">
+        <button class="btn btn-primary" id="btn-start-new"></button>
+        <button class="btn btn-ghost" id="btn-resume-local" hidden></button>
+        <button class="btn btn-text" id="btn-show-code-entry"></button>
+      </div>
+
+      <div id="welcome-code-entry" class="code-entry" hidden>
+        <label for="code-input" id="code-input-label"></label>
+        <div class="code-entry-row">
+          <input type="text" id="code-input" autocomplete="off" autocapitalize="characters" maxlength="8">
+          <button class="btn btn-primary" id="btn-code-submit"></button>
+        </div>
+        <p class="field-error" id="code-error" hidden></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SETUP -->
+  <section class="screen" id="screen-setup" data-screen hidden>
+    <div class="card card-static">
+      <h1 id="setup-title"></h1>
+
+      <div class="field-group" id="regions-field">
+        <label id="regions-label"></label>
+        <p class="field-note" id="regions-note"></p>
+        <div class="tag-grid" id="regions-grid"></div>
+      </div>
+
+      <div class="field-group">
+        <label id="age-label"></label>
+        <div class="tag-grid" id="age-group-grid"></div>
+        <p class="field-error" id="age-error" hidden></p>
+      </div>
+
+      <div class="field-group">
+        <label id="interests-label"></label>
+        <div class="tag-grid" id="interests-grid"></div>
+      </div>
+
+      <button class="btn btn-primary btn-block" id="btn-setup-continue"></button>
+    </div>
+  </section>
+
+  <!-- INSTRUCTIONS -->
+  <section class="screen" id="screen-instructions" data-screen hidden>
+    <div class="card card-static">
+      <h1 id="instructions-title"></h1>
+      <p id="instructions-body" class="instructions-body"></p>
+
+      <div class="instructions-image-frame" id="instructions-image-frame">
+        <span id="instructions-image-placeholder"></span>
+        <!-- To add the real example image: place a file at images/instructions_example.png
+             and it will automatically replace this placeholder (see app.js). -->
+      </div>
+
+      <div class="controls-legend">
+        <h2 id="instructions-controls-title"></h2>
+        <p id="instructions-controls-touch"></p>
+        <p id="instructions-controls-keyboard"></p>
+        <p id="instructions-controls-buttons"></p>
+      </div>
+
+      <button class="btn btn-primary btn-block" id="btn-instructions-begin"></button>
+    </div>
+  </section>
+
+  <!-- TASK -->
+  <section class="screen" id="screen-task" data-screen hidden>
+    <div class="task-header">
+      <p class="task-reminder" id="task-reminder"></p>
+    </div>
+
+    <div class="stage">
+      <div class="stim-card" id="stim-card">
+        <div class="stim-image-wrap">
+          <img id="stim-image" alt="" draggable="false">
+        </div>
+        <div class="stim-name" id="stim-name"></div>
+        <div class="swipe-flag swipe-flag-know" id="flag-know"></div>
+        <div class="swipe-flag swipe-flag-unknown" id="flag-unknown"></div>
+      </div>
+    </div>
+
+    <div class="response-buttons">
+      <button class="btn btn-response btn-unknown" id="btn-dont-know">
+        <span class="btn-icon" aria-hidden="true">&#10005;</span>
+        <span id="btn-dont-know-label"></span>
+      </button>
+      <button class="btn btn-response btn-know" id="btn-know">
+        <span class="btn-icon" aria-hidden="true">&#10003;</span>
+        <span id="btn-know-label"></span>
+      </button>
+    </div>
+  </section>
+
+  <!-- DONE -->
+  <section class="screen" id="screen-done" data-screen hidden>
+    <div class="card card-static">
+      <h1 id="done-title"></h1>
+      <p id="done-body"></p>
+      <p class="done-stats" id="done-stats"></p>
+      <button class="btn btn-text" id="btn-download-backup"></button>
+    </div>
+  </section>
+
+</main>
+
+<script src="i18n.js"></script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

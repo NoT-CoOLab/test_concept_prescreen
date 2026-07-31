@@ -1,0 +1,4914 @@
+{
+ "concepts": [
+  {
+   "file_name": "adam_sandler.jpg",
+   "names": {
+    "en": "Adam Sandler",
+    "de": "Adam Sandler",
+    "sl": "Adam Sandler"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV",
+    "Comedy/Entertainment"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "adele_singer.jpg",
+   "names": {
+    "en": "Adele",
+    "de": "Adele",
+    "sl": "Adele"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "alicia_keys.jpg",
+   "names": {
+    "en": "Alicia Keys",
+    "de": "Alicia Keys",
+    "sl": "Alicia Keys"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "andy_murray.jpg",
+   "names": {
+    "en": "Andy Murray",
+    "de": "Andy Murray",
+    "sl": "Andy Murray"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "angela_merkel.jpg",
+   "names": {
+    "en": "Angela Merkel",
+    "de": "Angela Merkel",
+    "sl": "Angela Merkel"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Politics"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "angelina_jolie.jpg",
+   "names": {
+    "en": "Angelina Jolie",
+    "de": "Angelina Jolie",
+    "sl": "Angelina Jolie"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "anne_hathaway.jpg",
+   "names": {
+    "en": "Anne Hathaway",
+    "de": "Anne Hathaway",
+    "sl": "Anne Hathaway"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "anthony_hopkins.jpg",
+   "names": {
+    "en": "Anthony Hopkins",
+    "de": "Anthony Hopkins",
+    "sl": "Anthony Hopkins"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "antonio_banderas.jpg",
+   "names": {
+    "en": "Antonio Banderas",
+    "de": "Antonio Banderas",
+    "sl": "Antonio Banderas"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "ariana_grande.jpg",
+   "names": {
+    "en": "Ariana Grande",
+    "de": "Ariana Grande",
+    "sl": "Ariana Grande"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "arnold_schwarzenegger.jpg",
+   "names": {
+    "en": "Arnold Schwarzenegger",
+    "de": "Arnold Schwarzenegger",
+    "sl": "Arnold Schwarzenegger"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV",
+    "Politics"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "avril_lavigne.jpg",
+   "names": {
+    "en": "Avril Lavigne",
+    "de": "Avril Lavigne",
+    "sl": "Avril Lavigne"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "bad_bunny.jpeg",
+   "names": {
+    "en": "Bad Bunny",
+    "de": "Bad Bunny",
+    "sl": "Bad Bunny"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "barack_obama.jpg",
+   "names": {
+    "en": "Barack Obama",
+    "de": "Barack Obama",
+    "sl": "Barack Obama"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Politics"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "barbara_schoeneberger.JPG",
+   "names": {
+    "en": "Barbara Schöneberger",
+    "de": "Barbara Schöneberger",
+    "sl": "Barbara Schöneberger"
+   },
+   "population": "German",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Comedy/Entertainment"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "bastian_schweinsteiger.jpg",
+   "names": {
+    "en": "Bastian Schweinsteiger",
+    "de": "Bastian Schweinsteiger",
+    "sl": "Bastian Schweinsteiger"
+   },
+   "population": "German",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "benedict_cumberbatch.jpg",
+   "names": {
+    "en": "Benedict Cumberbatch",
+    "de": "Benedict Cumberbatch",
+    "sl": "Benedict Cumberbatch"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "beyonce.jpeg",
+   "names": {
+    "en": "Beyoncé",
+    "de": "Beyoncé",
+    "sl": "Beyoncé"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "bill_gates.jpg",
+   "names": {
+    "en": "Bill Gates",
+    "de": "Bill Gates",
+    "sl": "Bill Gates"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Business/Tech"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "billie_eilish.jpg",
+   "names": {
+    "en": "Billie Eilish",
+    "de": "Billie Eilish",
+    "sl": "Billie Eilish"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "bono_musician.png",
+   "names": {
+    "en": "Bono",
+    "de": "Bono",
+    "sl": "Bono"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "boris_becker.jpg",
+   "names": {
+    "en": "Boris Becker",
+    "de": "Boris Becker",
+    "sl": "Boris Becker"
+   },
+   "population": "German",
+   "min_age_group": 3,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "brad_pitt.jpg",
+   "names": {
+    "en": "Brad Pitt",
+    "de": "Brad Pitt",
+    "sl": "Brad Pitt"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "branko_duric.jpg",
+   "names": {
+    "en": "Branko Đurić \"Đuro\"",
+    "de": "Branko Đurić \"Đuro\"",
+    "sl": "Branko Đurić \"Đuro\""
+   },
+   "population": "Slovenian",
+   "min_age_group": 3,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV",
+    "Comedy/Entertainment"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "britney_spears.jpg",
+   "names": {
+    "en": "Britney Spears",
+    "de": "Britney Spears",
+    "sl": "Britney Spears"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "cameron_diaz.jpg",
+   "names": {
+    "en": "Cameron Diaz",
+    "de": "Cameron Diaz",
+    "sl": "Cameron Diaz"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "camila_cabello.png",
+   "names": {
+    "en": "Camila Cabello",
+    "de": "Camila Cabello",
+    "sl": "Camila Cabello"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "cate_blanchett.jpg",
+   "names": {
+    "en": "Cate Blanchett",
+    "de": "Cate Blanchett",
+    "sl": "Cate Blanchett"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "charlize_theron.jpg",
+   "names": {
+    "en": "Charlize Theron",
+    "de": "Charlize Theron",
+    "sl": "Charlize Theron"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "chris_evans_actor.jpg",
+   "names": {
+    "en": "Chris Evans",
+    "de": "Chris Evans",
+    "sl": "Chris Evans"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "chris_hemsworth.jpg",
+   "names": {
+    "en": "Chris Hemsworth",
+    "de": "Chris Hemsworth",
+    "sl": "Chris Hemsworth"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "christina_aguilera.jpg",
+   "names": {
+    "en": "Christina Aguilera",
+    "de": "Christina Aguilera",
+    "sl": "Christina Aguilera"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "christoph_waltz.jpg",
+   "names": {
+    "en": "Christoph Waltz",
+    "de": "Christoph Waltz",
+    "sl": "Christoph Waltz"
+   },
+   "population": "German",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "cillian_murphy.png",
+   "names": {
+    "en": "Cillian Murphy",
+    "de": "Cillian Murphy",
+    "sl": "Cillian Murphy"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "colin_firth.jpg",
+   "names": {
+    "en": "Colin Firth",
+    "de": "Colin Firth",
+    "sl": "Colin Firth"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "cristiano_ronaldo.jpg",
+   "names": {
+    "en": "Cristiano Ronaldo",
+    "de": "Cristiano Ronaldo",
+    "sl": "Cristiano Ronaldo"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "daniel_radcliffe.jpg",
+   "names": {
+    "en": "Daniel Radcliffe",
+    "de": "Daniel Radcliffe",
+    "sl": "Daniel Radcliffe"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "david_beckham.jpg",
+   "names": {
+    "en": "David Beckham",
+    "de": "David Beckham",
+    "sl": "David Beckham"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "denis_advic.jpg",
+   "names": {
+    "en": "Denis Avdić",
+    "de": "Denis Avdić",
+    "sl": "Denis Avdić"
+   },
+   "population": "Slovenian",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Comedy/Entertainment"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "dieter_bohlen.jpg",
+   "names": {
+    "en": "Dieter Bohlen",
+    "de": "Dieter Bohlen",
+    "sl": "Dieter Bohlen"
+   },
+   "population": "German",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music",
+    "Comedy/Entertainment"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "doja_cat.jpg",
+   "names": {
+    "en": "Doja Cat",
+    "de": "Doja Cat",
+    "sl": "Doja Cat"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "dolly_parton.jpg",
+   "names": {
+    "en": "Dolly Parton",
+    "de": "Dolly Parton",
+    "sl": "Dolly Parton"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "donald_trump.jpg",
+   "names": {
+    "en": "Donald Trump",
+    "de": "Donald Trump",
+    "sl": "Donald Trump"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Politics"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "drew_barrymore.jpg",
+   "names": {
+    "en": "Drew Barrymore",
+    "de": "Drew Barrymore",
+    "sl": "Drew Barrymore"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "dua_lipa.jpg",
+   "names": {
+    "en": "Dua Lipa",
+    "de": "Dua Lipa",
+    "sl": "Dua Lipa"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "dwayne_johnson.jpg",
+   "names": {
+    "en": "Dwayne Johnson",
+    "de": "Dwayne Johnson",
+    "sl": "Dwayne Johnson"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV",
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "ed_sheeran.jpg",
+   "names": {
+    "en": "Ed Sheeran",
+    "de": "Ed Sheeran",
+    "sl": "Ed Sheeran"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "eddie_murphy.jpg",
+   "names": {
+    "en": "Eddie Murphy",
+    "de": "Eddie Murphy",
+    "sl": "Eddie Murphy"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV",
+    "Comedy/Entertainment"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "elon_musk.jpg",
+   "names": {
+    "en": "Elon Musk",
+    "de": "Elon Musk",
+    "sl": "Elon Musk"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Business/Tech"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "elton_john.jpg",
+   "names": {
+    "en": "Elton John",
+    "de": "Elton John",
+    "sl": "Elton John"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "elvis_presley.jpg",
+   "names": {
+    "en": "Elvis Presley",
+    "de": "Elvis Presley",
+    "sl": "Elvis Presley"
+   },
+   "population": "global",
+   "min_age_group": 3,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "emilia_clarke.png",
+   "names": {
+    "en": "Emilia Clarke",
+    "de": "Emilia Clarke",
+    "sl": "Emilia Clarke"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "eminem.jpg",
+   "names": {
+    "en": "Eminem",
+    "de": "Eminem",
+    "sl": "Eminem"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "emma_stone.jpg",
+   "names": {
+    "en": "Emma Stone",
+    "de": "Emma Stone",
+    "sl": "Emma Stone"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "emma_thompson.jpg",
+   "names": {
+    "en": "Emma Thompson",
+    "de": "Emma Thompson",
+    "sl": "Emma Thompson"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "emma_watson.jpg",
+   "names": {
+    "en": "Emma Watson",
+    "de": "Emma Watson",
+    "sl": "Emma Watson"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "erling_haaland.jpg",
+   "names": {
+    "en": "Erling Haaland",
+    "de": "Erling Haaland",
+    "sl": "Erling Haaland"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "fernando_alonso.jpg",
+   "names": {
+    "en": "Fernando Alonso",
+    "de": "Fernando Alonso",
+    "sl": "Fernando Alonso"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "freddie_mercury.jpg",
+   "names": {
+    "en": "Freddie Mercury",
+    "de": "Freddie Mercury",
+    "sl": "Freddie Mercury"
+   },
+   "population": "global",
+   "min_age_group": 3,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "george_clooney.jpg",
+   "names": {
+    "en": "George Clooney",
+    "de": "George Clooney",
+    "sl": "George Clooney"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "goran_dragic.png",
+   "names": {
+    "en": "Goran Dragić",
+    "de": "Goran Dragić",
+    "sl": "Goran Dragić"
+   },
+   "population": "Slovenian",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "gordon_ramsay.jpg",
+   "names": {
+    "en": "Gordon Ramsay",
+    "de": "Gordon Ramsay",
+    "sl": "Gordon Ramsay"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Comedy/Entertainment"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "greta_thunberg.jpg",
+   "names": {
+    "en": "Greta Thunberg",
+    "de": "Greta Thunberg",
+    "sl": "Greta Thunberg"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Politics"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "guenther_jauch.jpg",
+   "names": {
+    "en": "Günther Jauch",
+    "de": "Günther Jauch",
+    "sl": "Günther Jauch"
+   },
+   "population": "German",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Comedy/Entertainment"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "gwen_stefani.jpg",
+   "names": {
+    "en": "Gwen Stefani",
+    "de": "Gwen Stefani",
+    "sl": "Gwen Stefani"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "halle_berry.jpg",
+   "names": {
+    "en": "Halle Berry",
+    "de": "Halle Berry",
+    "sl": "Halle Berry"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "harald_schmidt.jpg",
+   "names": {
+    "en": "Harald Schmidt",
+    "de": "Harald Schmidt",
+    "sl": "Harald Schmidt"
+   },
+   "population": "German",
+   "min_age_group": 3,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Comedy/Entertainment"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "harrison_ford.jpg",
+   "names": {
+    "en": "Harrison Ford",
+    "de": "Harrison Ford",
+    "sl": "Harrison Ford"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "harry_styles.jpg",
+   "names": {
+    "en": "Harry Styles",
+    "de": "Harry Styles",
+    "sl": "Harry Styles"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "hayden_christensen.jpg",
+   "names": {
+    "en": "Hayden Christensen",
+    "de": "Hayden Christensen",
+    "sl": "Hayden Christensen"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "helen_mirren.jpg",
+   "names": {
+    "en": "Helen Mirren",
+    "de": "Helen Mirren",
+    "sl": "Helen Mirren"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "helene_fischer.jpg",
+   "names": {
+    "en": "Helene Fischer",
+    "de": "Helene Fischer",
+    "sl": "Helene Fischer"
+   },
+   "population": "German",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "herbert_groenemeyer.jpg",
+   "names": {
+    "en": "Herbert Grönemeyer",
+    "de": "Herbert Grönemeyer",
+    "sl": "Herbert Grönemeyer"
+   },
+   "population": "German",
+   "min_age_group": 3,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "hugh_grant.jpg",
+   "names": {
+    "en": "Hugh Grant",
+    "de": "Hugh Grant",
+    "sl": "Hugh Grant"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "hugh_jackman.jpg",
+   "names": {
+    "en": "Hugh Jackman",
+    "de": "Hugh Jackman",
+    "sl": "Hugh Jackman"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "idris_elba.jpg",
+   "names": {
+    "en": "Idris Elba",
+    "de": "Idris Elba",
+    "sl": "Idris Elba"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "jamal_musiala.jpg",
+   "names": {
+    "en": "Jamal Musiala",
+    "de": "Jamal Musiala",
+    "sl": "Jamal Musiala"
+   },
+   "population": "German",
+   "min_age_group": 1,
+   "max_age_group": 1,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "jan_plestenjak.jpg",
+   "names": {
+    "en": "Jan Plestenjak",
+    "de": "Jan Plestenjak",
+    "sl": "Jan Plestenjak"
+   },
+   "population": "Slovenian",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "jenna_ortega.jpg",
+   "names": {
+    "en": "Jenna Ortega",
+    "de": "Jenna Ortega",
+    "sl": "Jenna Ortega"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 1,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "jennifer_aniston.jpg",
+   "names": {
+    "en": "Jennifer Aniston",
+    "de": "Jennifer Aniston",
+    "sl": "Jennifer Aniston"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "jennifer_lawrence.jpg",
+   "names": {
+    "en": "Jennifer Lawrence",
+    "de": "Jennifer Lawrence",
+    "sl": "Jennifer Lawrence"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "jennifer_lopez.png",
+   "names": {
+    "en": "Jennifer Lopez",
+    "de": "Jennifer Lopez",
+    "sl": "Jennifer Lopez"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Music",
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "jim_carrey.jpg",
+   "names": {
+    "en": "Jim Carrey",
+    "de": "Jim Carrey",
+    "sl": "Jim Carrey"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV",
+    "Comedy/Entertainment"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "jodie_foster.jpg",
+   "names": {
+    "en": "Jodie Foster",
+    "de": "Jodie Foster",
+    "sl": "Jodie Foster"
+   },
+   "population": "global",
+   "min_age_group": 3,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "johnny_depp.jpg",
+   "names": {
+    "en": "Johnny Depp",
+    "de": "Johnny Depp",
+    "sl": "Johnny Depp"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "jon_bon_jovi.jpg",
+   "names": {
+    "en": "Jon Bon Jovi",
+    "de": "Jon Bon Jovi",
+    "sl": "Jon Bon Jovi"
+   },
+   "population": "global",
+   "min_age_group": 3,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "jude_bellingham.jpg",
+   "names": {
+    "en": "Jude Bellingham",
+    "de": "Jude Bellingham",
+    "sl": "Jude Bellingham"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 1,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "julia_roberts.jpg",
+   "names": {
+    "en": "Julia Roberts",
+    "de": "Julia Roberts",
+    "sl": "Julia Roberts"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "jurgen_klopp.jpg",
+   "names": {
+    "en": "Jürgen Klopp",
+    "de": "Jürgen Klopp",
+    "sl": "Jürgen Klopp"
+   },
+   "population": "German",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "jurij_zrnec.jpg",
+   "names": {
+    "en": "Jurij Zrnec",
+    "de": "Jurij Zrnec",
+    "sl": "Jurij Zrnec"
+   },
+   "population": "Slovenian",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV",
+    "Comedy/Entertainment"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "justin_bieber.jpg",
+   "names": {
+    "en": "Justin Bieber",
+    "de": "Justin Bieber",
+    "sl": "Justin Bieber"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "kanye_west.png",
+   "names": {
+    "en": "Kanye West",
+    "de": "Kanye West",
+    "sl": "Kanye West"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "kate_winslet.jpg",
+   "names": {
+    "en": "Kate Winslet",
+    "de": "Kate Winslet",
+    "sl": "Kate Winslet"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "katy_perry.jpg",
+   "names": {
+    "en": "Katy Perry",
+    "de": "Katy Perry",
+    "sl": "Katy Perry"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "keanu_reeves.jpg",
+   "names": {
+    "en": "Keanu Reeves",
+    "de": "Keanu Reeves",
+    "sl": "Keanu Reeves"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "keira_knightley.jpg",
+   "names": {
+    "en": "Keira Knightley",
+    "de": "Keira Knightley",
+    "sl": "Keira Knightley"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "kim_kardashian.jpg",
+   "names": {
+    "en": "Kim Kardashian",
+    "de": "Kim Kardashian",
+    "sl": "Kim Kardashian"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Comedy/Entertainment"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "kylian_mbappe.png",
+   "names": {
+    "en": "Kylian Mbappé",
+    "de": "Kylian Mbappé",
+    "sl": "Kylian Mbappé"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 1,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "kylie_minogue.png",
+   "names": {
+    "en": "Kylie Minogue",
+    "de": "Kylie Minogue",
+    "sl": "Kylie Minogue"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "lady_gaga.jpg",
+   "names": {
+    "en": "Lady Gaga",
+    "de": "Lady Gaga",
+    "sl": "Lady Gaga"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "lebron_james.jpg",
+   "names": {
+    "en": "LeBron James",
+    "de": "LeBron James",
+    "sl": "LeBron James"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "lena_meyer_landrut.jpg",
+   "names": {
+    "en": "Lena Meyer-Landrut",
+    "de": "Lena Meyer-Landrut",
+    "sl": "Lena Meyer-Landrut"
+   },
+   "population": "German",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "leonardo_dicaprio.jpg",
+   "names": {
+    "en": "Leonardo DiCaprio",
+    "de": "Leonardo DiCaprio",
+    "sl": "Leonardo DiCaprio"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "lewis_capaldi.jpg",
+   "names": {
+    "en": "Lewis Capaldi",
+    "de": "Lewis Capaldi",
+    "sl": "Lewis Capaldi"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "lionel_messi.jpg",
+   "names": {
+    "en": "Lionel Messi",
+    "de": "Lionel Messi",
+    "sl": "Lionel Messi"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "lothar_matthaus.jpg",
+   "names": {
+    "en": "Lothar Matthäus",
+    "de": "Lothar Matthäus",
+    "sl": "Lothar Matthäus"
+   },
+   "population": "German",
+   "min_age_group": 3,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "luka_doncic.jpg",
+   "names": {
+    "en": "Luka Dončić",
+    "de": "Luka Dončić",
+    "sl": "Luka Dončić"
+   },
+   "population": "Slovenian",
+   "min_age_group": 1,
+   "max_age_group": 1,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "lukas_podolski.jpg",
+   "names": {
+    "en": "Lukas Podolski",
+    "de": "Lukas Podolski",
+    "sl": "Lukas Podolski"
+   },
+   "population": "German",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "madonna_singer.jpg",
+   "names": {
+    "en": "Madonna",
+    "de": "Madonna",
+    "sl": "Madonna"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "manuel_neuer.jpg",
+   "names": {
+    "en": "Manuel Neuer",
+    "de": "Manuel Neuer",
+    "sl": "Manuel Neuer"
+   },
+   "population": "German",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "margot_robbie.jpg",
+   "names": {
+    "en": "Margot Robbie",
+    "de": "Margot Robbie",
+    "sl": "Margot Robbie"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "mariah_carrey.jpg",
+   "names": {
+    "en": "Mariah Carrey",
+    "de": "Mariah Carrey",
+    "sl": "Mariah Carrey"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "marilyn_monroe.jpg",
+   "names": {
+    "en": "Marilyn Monroe",
+    "de": "Marilyn Monroe",
+    "sl": "Marilyn Monroe"
+   },
+   "population": "global",
+   "min_age_group": 3,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "mark_ruffalo.jpg",
+   "names": {
+    "en": "Mark Ruffalo",
+    "de": "Mark Ruffalo",
+    "sl": "Mark Ruffalo"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "mark_zuckerberg.jpg",
+   "names": {
+    "en": "Mark Zuckerberg",
+    "de": "Mark Zuckerberg",
+    "sl": "Mark Zuckerberg"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Business/Tech"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "markus_lanz.jpg",
+   "names": {
+    "en": "Markus Lanz",
+    "de": "Markus Lanz",
+    "sl": "Markus Lanz"
+   },
+   "population": "German",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Comedy/Entertainment"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "matt_damon.jpg",
+   "names": {
+    "en": "Matt Damon",
+    "de": "Matt Damon",
+    "sl": "Matt Damon"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "matthias_schweighoefer.jpg",
+   "names": {
+    "en": "Matthias Schweighöfer",
+    "de": "Matthias Schweighöfer",
+    "sl": "Matthias Schweighöfer"
+   },
+   "population": "German",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "max_verstappen.jpg",
+   "names": {
+    "en": "Max Verstappen",
+    "de": "Max Verstappen",
+    "sl": "Max Verstappen"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "melania_trump.jpg",
+   "names": {
+    "en": "Melania Trump",
+    "de": "Melania Trump",
+    "sl": "Melania Trump"
+   },
+   "population": "Slovenian",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Politics"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "meryl_streep.jpg",
+   "names": {
+    "en": "Meryl Streep",
+    "de": "Meryl Streep",
+    "sl": "Meryl Streep"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "michael_buble.jpg",
+   "names": {
+    "en": "Michael Bublé",
+    "de": "Michael Bublé",
+    "sl": "Michael Bublé"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "michael_jackson.jpg",
+   "names": {
+    "en": "Michael Jackson",
+    "de": "Michael Jackson",
+    "sl": "Michael Jackson"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "michael_jordan.jpg",
+   "names": {
+    "en": "Michael Jordan",
+    "de": "Michael Jordan",
+    "sl": "Michael Jordan"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "michael_phelps.jpg",
+   "names": {
+    "en": "Michael Phelps",
+    "de": "Michael Phelps",
+    "sl": "Michael Phelps"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "miley_cyrus.jpg",
+   "names": {
+    "en": "Miley Cyrus",
+    "de": "Miley Cyrus",
+    "sl": "Miley Cyrus"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "morgan_freeman.jpg",
+   "names": {
+    "en": "Morgan Freeman",
+    "de": "Morgan Freeman",
+    "sl": "Morgan Freeman"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "mr_bean.jpg",
+   "names": {
+    "en": "Mr Bean",
+    "de": "Mr Bean",
+    "sl": "Mr Bean"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV",
+    "Comedy/Entertainment"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "mrbeast.jpg",
+   "names": {
+    "en": "MrBeast",
+    "de": "MrBeast",
+    "sl": "MrBeast"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Comedy/Entertainment"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "naomi_osaka.jpg",
+   "names": {
+    "en": "Naomi Osaka",
+    "de": "Naomi Osaka",
+    "sl": "Naomi Osaka"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "natalie_portman.jpg",
+   "names": {
+    "en": "Natalie Portman",
+    "de": "Natalie Portman",
+    "sl": "Natalie Portman"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "nena_singer.jpg",
+   "names": {
+    "en": "Nena",
+    "de": "Nena",
+    "sl": "Nena"
+   },
+   "population": "German",
+   "min_age_group": 3,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "niall_horan.png",
+   "names": {
+    "en": "Niall Horan",
+    "de": "Niall Horan",
+    "sl": "Niall Horan"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "nicolas_cage.jpg",
+   "names": {
+    "en": "Nicolas Cage",
+    "de": "Nicolas Cage",
+    "sl": "Nicolas Cage"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "nicole_kidman.jpg",
+   "names": {
+    "en": "Nicole Kidman",
+    "de": "Nicole Kidman",
+    "sl": "Nicole Kidman"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "oliver_kahn.jpg",
+   "names": {
+    "en": "Oliver Kahn",
+    "de": "Oliver Kahn",
+    "sl": "Oliver Kahn"
+   },
+   "population": "German",
+   "min_age_group": 3,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "olivia_rodrigo.jpg",
+   "names": {
+    "en": "Olivia Rodrigo",
+    "de": "Olivia Rodrigo",
+    "sl": "Olivia Rodrigo"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 1,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "orlando_bloom.jpg",
+   "names": {
+    "en": "Orlando Bloom",
+    "de": "Orlando Bloom",
+    "sl": "Orlando Bloom"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "paul_mccartney.jpg",
+   "names": {
+    "en": "Paul McCartney",
+    "de": "Paul McCartney",
+    "sl": "Paul McCartney"
+   },
+   "population": "global",
+   "min_age_group": 3,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "penelope_cruz.jpg",
+   "names": {
+    "en": "Penélope Cruz",
+    "de": "Penélope Cruz",
+    "sl": "Penélope Cruz"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "pink_singer.jpg",
+   "names": {
+    "en": "Pink",
+    "de": "Pink",
+    "sl": "Pink"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "pope_francis.jpg",
+   "names": {
+    "en": "Pope Francis",
+    "de": "Pope Francis",
+    "sl": "Pope Francis"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "princess_diana.jpg",
+   "names": {
+    "en": "Princess Diana",
+    "de": "Princess Diana",
+    "sl": "Princess Diana"
+   },
+   "population": "global",
+   "min_age_group": 3,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Royalty"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "queen_elizabeth_ii.jpg",
+   "names": {
+    "en": "Queen Elizabeth II",
+    "de": "Queen Elizabeth II",
+    "sl": "Queen Elizabeth II"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Royalty"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "rafael_nadal.jpg",
+   "names": {
+    "en": "Rafael Nadal",
+    "de": "Rafael Nadal",
+    "sl": "Rafael Nadal"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "reese_witherspoon.jpg",
+   "names": {
+    "en": "Reese Witherspoon",
+    "de": "Reese Witherspoon",
+    "sl": "Reese Witherspoon"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "rihanna.png",
+   "names": {
+    "en": "Rihanna",
+    "de": "Rihanna",
+    "sl": "Rihanna"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "robert_de_niro.jpg",
+   "names": {
+    "en": "Robert De Niro",
+    "de": "Robert De Niro",
+    "sl": "Robert De Niro"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "robert_downey_jr.jpg",
+   "names": {
+    "en": "Robert Downey Jr.",
+    "de": "Robert Downey Jr.",
+    "sl": "Robert Downey Jr."
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "robert_pattinson.jpg",
+   "names": {
+    "en": "Robert Pattinson",
+    "de": "Robert Pattinson",
+    "sl": "Robert Pattinson"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "rod_stewart.jpg",
+   "names": {
+    "en": "Rod Stewart",
+    "de": "Rod Stewart",
+    "sl": "Rod Stewart"
+   },
+   "population": "global",
+   "min_age_group": 3,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "roger_federer.jpg",
+   "names": {
+    "en": "Roger Federer",
+    "de": "Roger Federer",
+    "sl": "Roger Federer"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "ryan_gosling.jpg",
+   "names": {
+    "en": "Ryan Gosling",
+    "de": "Ryan Gosling",
+    "sl": "Ryan Gosling"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "ryan_reynolds.jpg",
+   "names": {
+    "en": "Ryan Reynolds",
+    "de": "Ryan Reynolds",
+    "sl": "Ryan Reynolds"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "sabrina_carpenter.jpg",
+   "names": {
+    "en": "Sabrina Carpenter",
+    "de": "Sabrina Carpenter",
+    "sl": "Sabrina Carpenter"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 1,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "salma_hayek.jpg",
+   "names": {
+    "en": "Salma Hayek",
+    "de": "Salma Hayek",
+    "sl": "Salma Hayek"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "samuel_l_jackson.jpg",
+   "names": {
+    "en": "Samuel L. Jackson",
+    "de": "Samuel L. Jackson",
+    "sl": "Samuel L. Jackson"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "sandra_bullock.jpg",
+   "names": {
+    "en": "Sandra Bullock",
+    "de": "Sandra Bullock",
+    "sl": "Sandra Bullock"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "scarlett_johansson.jpg",
+   "names": {
+    "en": "Scarlett Johansson",
+    "de": "Scarlett Johansson",
+    "sl": "Scarlett Johansson"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "sebastian_vettel.jpg",
+   "names": {
+    "en": "Sebastian Vettel",
+    "de": "Sebastian Vettel",
+    "sl": "Sebastian Vettel"
+   },
+   "population": "German",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "selena_gomez.jpg",
+   "names": {
+    "en": "Selena Gomez",
+    "de": "Selena Gomez",
+    "sl": "Selena Gomez"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Music",
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "serena_williams.jpg",
+   "names": {
+    "en": "Serena Williams",
+    "de": "Serena Williams",
+    "sl": "Serena Williams"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "shakira.jpg",
+   "names": {
+    "en": "Shakira",
+    "de": "Shakira",
+    "sl": "Shakira"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "shawn_mendes.jpg",
+   "names": {
+    "en": "Shawn Mendes",
+    "de": "Shawn Mendes",
+    "sl": "Shawn Mendes"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "simon_cowell.jpg",
+   "names": {
+    "en": "Simon Cowell",
+    "de": "Simon Cowell",
+    "sl": "Simon Cowell"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Comedy/Entertainment",
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "simone_biles.jpg",
+   "names": {
+    "en": "Simone Biles",
+    "de": "Simone Biles",
+    "sl": "Simone Biles"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "stefan_raab.jpg",
+   "names": {
+    "en": "Stefan Raab",
+    "de": "Stefan Raab",
+    "sl": "Stefan Raab"
+   },
+   "population": "German",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Comedy/Entertainment"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "steve_carell.jpg",
+   "names": {
+    "en": "Steve Carell",
+    "de": "Steve Carell",
+    "sl": "Steve Carell"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV",
+    "Comedy/Entertainment"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "sting_musician.jpg",
+   "names": {
+    "en": "Sting",
+    "de": "Sting",
+    "sl": "Sting"
+   },
+   "population": "global",
+   "min_age_group": 3,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "sydney_sweeney.jpg",
+   "names": {
+    "en": "Sydney Sweeney",
+    "de": "Sydney Sweeney",
+    "sl": "Sydney Sweeney"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 1,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "tadej_pogacar.jpg",
+   "names": {
+    "en": "Tadej Pogačar",
+    "de": "Tadej Pogačar",
+    "sl": "Tadej Pogačar"
+   },
+   "population": "Slovenian",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "taylor_swift.png",
+   "names": {
+    "en": "Taylor Swift",
+    "de": "Taylor Swift",
+    "sl": "Taylor Swift"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "the_weeknd.jpg",
+   "names": {
+    "en": "The Weeknd",
+    "de": "The Weeknd",
+    "sl": "The Weeknd"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "thomas_gottschalk.jpg",
+   "names": {
+    "en": "Thomas Gottschalk",
+    "de": "Thomas Gottschalk",
+    "sl": "Thomas Gottschalk"
+   },
+   "population": "German",
+   "min_age_group": 3,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Comedy/Entertainment"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "thomas_muller.JPG",
+   "names": {
+    "en": "Thomas Müller",
+    "de": "Thomas Müller",
+    "sl": "Thomas Müller"
+   },
+   "population": "German",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "til_schweiger.jpg",
+   "names": {
+    "en": "Til Schweiger",
+    "de": "Til Schweiger",
+    "sl": "Til Schweiger"
+   },
+   "population": "German",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "timothee_chalamet.jpg",
+   "names": {
+    "en": "Timothée Chalamet",
+    "de": "Timothée Chalamet",
+    "sl": "Timothée Chalamet"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 1,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "tom_cruise.jpg",
+   "names": {
+    "en": "Tom Cruise",
+    "de": "Tom Cruise",
+    "sl": "Tom Cruise"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "tom_hanks.jpg",
+   "names": {
+    "en": "Tom Hanks",
+    "de": "Tom Hanks",
+    "sl": "Tom Hanks"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "tom_holland.jpg",
+   "names": {
+    "en": "Tom Holland",
+    "de": "Tom Holland",
+    "sl": "Tom Holland"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 2,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "toni_kroos.jpg",
+   "names": {
+    "en": "Toni Kroos",
+    "de": "Toni Kroos",
+    "sl": "Toni Kroos"
+   },
+   "population": "German",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "usain_bolt.jpg",
+   "names": {
+    "en": "Usain Bolt",
+    "de": "Usain Bolt",
+    "sl": "Usain Bolt"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "veronica_ferres.png",
+   "names": {
+    "en": "Veronica Ferres",
+    "de": "Veronica Ferres",
+    "sl": "Veronica Ferres"
+   },
+   "population": "German",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "victoria_beckham.jpg",
+   "names": {
+    "en": "Victoria Beckham",
+    "de": "Victoria Beckham",
+    "sl": "Victoria Beckham"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Music",
+    "Comedy/Entertainment"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "vin_diesel.jpg",
+   "names": {
+    "en": "Vin Diesel",
+    "de": "Vin Diesel",
+    "sl": "Vin Diesel"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "will_smith.jpg",
+   "names": {
+    "en": "Will Smith",
+    "de": "Will Smith",
+    "sl": "Will Smith"
+   },
+   "population": "global",
+   "min_age_group": 2,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV",
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "zendaya.jpg",
+   "names": {
+    "en": "Zendaya",
+    "de": "Zendaya",
+    "sl": "Zendaya"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 1,
+   "interest_tags": [
+    "Movies/TV",
+    "Music"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "zlatan_ibrahimovic.jpg",
+   "names": {
+    "en": "Zlatan Ibrahimović",
+    "de": "Zlatan Ibrahimović",
+    "sl": "Zlatan Ibrahimović"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 3,
+   "interest_tags": [
+    "Sports"
+   ],
+   "type": "person"
+  },
+  {
+   "file_name": "acropolis_parthenon.jpg",
+   "names": {
+    "en": "Acropolis of Athens (Parthenon)",
+    "de": "Akropolis von Athen (Parthenon)",
+    "sl": "Atenska akropola (Partenon)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "angkor_wat.jpg",
+   "names": {
+    "en": "Angkor Wat",
+    "de": "Angkor Wat",
+    "sl": "Angkor Vat"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Religion",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "arc_de_triomphe.jpg",
+   "names": {
+    "en": "Arc de Triomphe",
+    "de": "Arc de Triomphe",
+    "sl": "Arc de Triomphe"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "atomium.jpg",
+   "names": {
+    "en": "Atomium",
+    "de": "Atomium",
+    "sl": "Atomium"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture",
+    "Business/Tech"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "berlin_tv_tower.jpg",
+   "names": {
+    "en": "Berlin TV Tower",
+    "de": "Berliner Fernsehturm",
+    "sl": "Berlinski televizijski stolp"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "berlin_wall_east_side_gallery.JPG",
+   "names": {
+    "en": "Berlin Wall (East Side Gallery)",
+    "de": "Berliner Mauer (East Side Gallery)",
+    "sl": "Berlinski zid (East Side Gallery)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Politics"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "big_ben.jpg",
+   "names": {
+    "en": "Big Ben",
+    "de": "Big Ben",
+    "sl": "Big Ben"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture",
+    "Royalty",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "blue_lagoon_iceland.jpg",
+   "names": {
+    "en": "Blue Lagoon, Iceland",
+    "de": "Blaue Lagune (Island)",
+    "sl": "Modra laguna (Islandija)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Nature/Outdoors"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "blue_mosque_istanbul.jpg",
+   "names": {
+    "en": "Blue Mosque, Istanbul",
+    "de": "Blaue Moschee (Istanbul)",
+    "sl": "Modra mošeja (Istanbul)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "borobudur.jpg",
+   "names": {
+    "en": "Borobudur",
+    "de": "Borobudur",
+    "sl": "Borobudur"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "brandenburg_gate.jpg",
+   "names": {
+    "en": "Brandenburg Gate",
+    "de": "Brandenburger Tor",
+    "sl": "Brandenburška vrata"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "brooklyn_bridge.jpg",
+   "names": {
+    "en": "Brooklyn Bridge",
+    "de": "Brooklyn Bridge",
+    "sl": "Brooklynski most"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "buckingham_palace.jpg",
+   "names": {
+    "en": "Buckingham Palace",
+    "de": "Buckingham-Palast",
+    "sl": "Buckinghamska palača"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Royalty",
+    "Architecture",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "burj_al_arab.jpg",
+   "names": {
+    "en": "Burj Al Arab",
+    "de": "Burj Al Arab",
+    "sl": "Burj Al Arab"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture",
+    "Business/Tech"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "burj_khalifa.jpg",
+   "names": {
+    "en": "Burj Khalifa",
+    "de": "Burj Khalifa",
+    "sl": "Burj Khalifa"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture",
+    "Business/Tech",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "capitol_hill.jpg",
+   "names": {
+    "en": "United States Capitol",
+    "de": "US-Kapitol",
+    "sl": "Kapitol ZDA"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Politics",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "charles_bridge_prague.jpg",
+   "names": {
+    "en": "Charles Bridge, Prague",
+    "de": "Karlsbrücke (Prag)",
+    "sl": "Karlov most (Praga)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "chichen_itza.jpg",
+   "names": {
+    "en": "Chichén Itzá",
+    "de": "Chichén Itzá",
+    "sl": "Chichén Itzá"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Religion"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "christ_the_redeemer.jpg",
+   "names": {
+    "en": "Christ the Redeemer",
+    "de": "Christ the Redeemer",
+    "sl": "Christ the Redeemer"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "cn_tower.jpg",
+   "names": {
+    "en": "CN Tower",
+    "de": "CN Tower",
+    "sl": "Stolp CN"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "cologne_cathedral_koelner_dom.jpg",
+   "names": {
+    "en": "Cologne Cathedral",
+    "de": "Kölner Dom",
+    "sl": "Kölnska katedrala"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "colosseum.jpg",
+   "names": {
+    "en": "Colosseum",
+    "de": "Kolosseum",
+    "sl": "Kolosej"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "disneyland_paris_castle.jpg",
+   "names": {
+    "en": "Disneyland Paris Castle (Sleeping Beauty Castle)",
+    "de": "Schloss Dornröschen (Disneyland Paris)",
+    "sl": "Grad trnuljčice (Disneyland Pariz)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "dome_of_the_rock.jpg",
+   "names": {
+    "en": "Dome of the Rock",
+    "de": "Felsendom (Jerusalem)",
+    "sl": "Skalna kupola (Jeruzalem)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "dragon_bridge.jpg",
+   "names": {
+    "en": "Dragon Bridge, Ljubljana",
+    "de": "Drachenbrücke (Ljubljana)",
+    "sl": "Zmajski most (Ljubljana)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "duomo_di_milano_milan_cathedral.jpg",
+   "names": {
+    "en": "Milan Cathedral",
+    "de": "Mailänder Dom",
+    "sl": "Milanska katedrala"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "easter_island_moai.jpg",
+   "names": {
+    "en": "Easter Island",
+    "de": "Osterinsel",
+    "sl": "Velikonočni otok"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Nature/Outdoors"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "edinburgh_castle.jpg",
+   "names": {
+    "en": "Edinburgh Castle",
+    "de": "Edinburgh Castle",
+    "sl": "Grad Edinburgh"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture",
+    "Royalty"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "eiffel_tower.jpg",
+   "names": {
+    "en": "Eiffel Tower",
+    "de": "Eiffelturm",
+    "sl": "Eifflov stolp"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "empire_state_building.jpg",
+   "names": {
+    "en": "Empire State Building",
+    "de": "Empire State Building",
+    "sl": "Stavba Empire State"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "florence_cathedral_duomo_brunelleschi_dome.JPG",
+   "names": {
+    "en": "Florence Cathedral",
+    "de": "Florentiner Dom (Kathedrale Santa Maria del Fiore)",
+    "sl": "Firenška katedrala (Duomo)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "forbidden_city_tiananmen_gate.jpg",
+   "names": {
+    "en": "Forbidden City",
+    "de": "Verbotene Stadt (Peking)",
+    "sl": "Prepovedano mesto (Peking)"
+   },
+   "population": "German",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Royalty",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "frauenkirche_dresden.jpg",
+   "names": {
+    "en": "Frauenkirche, Dresden",
+    "de": "Frauenkirche (Dresden)",
+    "sl": "Dresdenska Frauenkirche"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "fushimi_inari_torii_gates.jpg",
+   "names": {
+    "en": "Fushimi Inari Torii Gates",
+    "de": "Fushimi-Inari-Torii",
+    "sl": "Vrata torii Fušimi Inari"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "gateway_arch_st_louis.jpg",
+   "names": {
+    "en": "Gateway Arch",
+    "de": "Gateway Arch",
+    "sl": "Gateway Arch"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "giants_causeway.JPG",
+   "names": {
+    "en": "Giant's Causeway",
+    "de": "Giant's Causeway (Damm der Riesen)",
+    "sl": "Velikanov nasip"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Nature/Outdoors"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "golden_gate_bridge.jpg",
+   "names": {
+    "en": "Golden Gate Bridge",
+    "de": "Golden Gate Bridge",
+    "sl": "Zlati most (Golden Gate)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "grand_canyon.jpg",
+   "names": {
+    "en": "Grand Canyon",
+    "de": "Grand Canyon",
+    "sl": "Veliki kanjon"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Nature/Outdoors"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "great_buddha_of_kamakura.jpg",
+   "names": {
+    "en": "Great Buddha of Kamakura",
+    "de": "Großer Buddha von Kamakura",
+    "sl": "Veliki Buda v Kamakuri"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "History/Ancient"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "great_sphinx_of_giza.jpg",
+   "names": {
+    "en": "Great Sphinx of Giza",
+    "de": "Große Sphinx von Gizeh",
+    "sl": "Velika sfinga v Gizi"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "great_wall_of_china.jpg",
+   "names": {
+    "en": "Great Wall of China",
+    "de": "Chinesische Mauer",
+    "sl": "Kitajski zid"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "guggenheim_museum_bilbao.jpg",
+   "names": {
+    "en": "Guggenheim Museum Bilbao",
+    "de": "Guggenheim-Museum Bilbao",
+    "sl": "Guggenheimov muzej Bilbao"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "hagia_sophia.jpg",
+   "names": {
+    "en": "Hagia Sophia",
+    "de": "Hagia Sophia",
+    "sl": "Hagija Sofija"
+   },
+   "population": "German",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "hallstatt_village.jpg",
+   "names": {
+    "en": "Hallstatt Village",
+    "de": "Hallstatt",
+    "sl": "Hallstatt"
+   },
+   "population": "German",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Nature/Outdoors"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "hamburg_elbphilharmonie.jpg",
+   "names": {
+    "en": "Elbphilharmonie, Hamburg",
+    "de": "Elbphilharmonie (Hamburg)",
+    "sl": "Elbphilharmonija (Hamburg)"
+   },
+   "population": "German",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "heidelberg_castle.jpg",
+   "names": {
+    "en": "Heidelberg Castle",
+    "de": "Heidelberger Schloss",
+    "sl": "Grad Heidelberg"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "hohenzollern_castle.jpg",
+   "names": {
+    "en": "Hohenzollern Castle",
+    "de": "Burg Hohenzollern",
+    "sl": "Grad Hohenzollern"
+   },
+   "population": "German",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "hollywood_sign.jpg",
+   "names": {
+    "en": "Hollywood Sign",
+    "de": "Hollywood-Schriftzug",
+    "sl": "Napis Hollywood"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "holstentor_luebeck.jpg",
+   "names": {
+    "en": "Holstentor, Lübeck",
+    "de": "Holstentor (Lübeck)",
+    "sl": "Holstentor (Lübeck)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "hoover_dam.jpg",
+   "names": {
+    "en": "Hoover Dam",
+    "de": "Hoover-Talsperre",
+    "sl": "Hooverjev jez"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture",
+    "Business/Tech"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "hungarian_parliament_building.JPG",
+   "names": {
+    "en": "Hungarian Parliament Building",
+    "de": "Ungarisches Parlamentsgebäude",
+    "sl": "Madžarska parlamentarna stavba"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Politics",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "kaaba_mecca.jpg",
+   "names": {
+    "en": "Masjid al-Haram (Kaaba, Mecca)",
+    "de": "Masjid al-Haram (Kaaba, Mekka)",
+    "sl": "Mestna mošeja (Kaaba, Meka)"
+   },
+   "population": "Slovenian",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "kinderdijk_windmills.jpg",
+   "names": {
+    "en": "Kinderdijk Windmills",
+    "de": "Windmühlen von Kinderdijk",
+    "sl": "Mlini na veter Kinderdijk"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture",
+    "Nature/Outdoors"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "lake_bled_island_church.jpg",
+   "names": {
+    "en": "Lake Bled and Bled Island Church",
+    "de": "Bleder See und Inselkirche",
+    "sl": "Blejsko jezero in cerkev na Blejskem ostrvu"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Nature/Outdoors",
+    "Religion"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "lake_bohinj.jpg",
+   "names": {
+    "en": "Lake Bohinj",
+    "de": "Wocheiner See",
+    "sl": "Bohinjsko jezero"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Nature/Outdoors"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "las_vegas_strip.jpg",
+   "names": {
+    "en": "Las Vegas Strip",
+    "de": "Las Vegas Strip",
+    "sl": "Las Vegas Strip"
+   },
+   "population": "Slovenian",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Comedy/Entertainment"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "leaning_tower_of_pisa.jpg",
+   "names": {
+    "en": "Leaning Tower of Pisa",
+    "de": "Schiefer Turm von Pisa",
+    "sl": "Poševni stolp v Pisi"
+   },
+   "population": "Slovenian",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "little_mermaid_statue_copenhagen.jpg",
+   "names": {
+    "en": "Little Mermaid Statue",
+    "de": "Kleine Meerjungfrau (Kopenhagen)",
+    "sl": "Mala morska deklica (Kopenhagen)"
+   },
+   "population": "Slovenian",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Movies/TV"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "ljubljana_castle.jpg",
+   "names": {
+    "en": "Ljubljana Castle",
+    "de": "Burg Ljubljana",
+    "sl": "Ljubljanski grad"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "london_eye.JPG",
+   "names": {
+    "en": "London Eye",
+    "de": "London Eye",
+    "sl": "London Eye"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "louvre_museum_glass_pyramid.jpg",
+   "names": {
+    "en": "Louvre Museum and Glass Pyramid",
+    "de": "Louvre-Museum und Glaspyramide",
+    "sl": "Louvre in steklena piramida"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "luxor_temple.jpg",
+   "names": {
+    "en": "Luxor Temple",
+    "de": "Luxor-Tempel",
+    "sl": "Tempelj Luksor"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Religion"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "machu_picchu.jpg",
+   "names": {
+    "en": "Machu Picchu",
+    "de": "Machu Picchu",
+    "sl": "Machu Picchu"
+   },
+   "population": "German",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Nature/Outdoors",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "marienplatz_new_town_hall_munich.jpg",
+   "names": {
+    "en": "Munich Town Hall",
+    "de": "Munich Town Hall",
+    "sl": "Munich Town Hall"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "marina_bay_sands.jpg",
+   "names": {
+    "en": "Marina Bay Sands",
+    "de": "Marina Bay Sands",
+    "sl": "Marina Bay Sands"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture",
+    "Business/Tech"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "mont_saint_michel.JPG",
+   "names": {
+    "en": "Mont Saint-Michel",
+    "de": "Mont Saint-Michel",
+    "sl": "Mont Saint-Michel"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "moulin_rouge.jpg",
+   "names": {
+    "en": "Moulin Rouge",
+    "de": "Moulin Rouge",
+    "sl": "Moulin Rouge"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Comedy/Entertainment",
+    "Music"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "mount_everest.jpg",
+   "names": {
+    "en": "Mount Everest",
+    "de": "Mount Everest",
+    "sl": "Mount Everest"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Nature/Outdoors",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "mount_fuji.jpg",
+   "names": {
+    "en": "Mount Fuji",
+    "de": "Fuji",
+    "sl": "Gora Fuji"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Nature/Outdoors"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "mount_rushmore.jpg",
+   "names": {
+    "en": "Mount Rushmore",
+    "de": "Mount Rushmore",
+    "sl": "Gora Rushmore"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Politics"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "mount_triglav.jpg",
+   "names": {
+    "en": "Mount Triglav",
+    "de": "Triglav",
+    "sl": "Triglav"
+   },
+   "population": "Slovenian",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Nature/Outdoors"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "neuschwanstein_castle.jpg",
+   "names": {
+    "en": "Neuschwanstein Castle",
+    "de": "Schloss Neuschwanstein",
+    "sl": "Grad Neuschwanstein"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "niagara_falls.jpg",
+   "names": {
+    "en": "Niagara Falls",
+    "de": "Niagarafälle",
+    "sl": "Niagarski slapovi"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Nature/Outdoors",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "notre_dame_cathedral_paris.jpg",
+   "names": {
+    "en": "Notre-Dame Cathedral",
+    "de": "Notre-Dame de Paris",
+    "sl": "Notre-Dame (Naša Gospa Pariška)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "Architecture",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "oxford_university.jpg",
+   "names": {
+    "en": "Oxford University",
+    "de": "Oxford University",
+    "sl": "Oxford University"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Business/Tech"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "palm_jumeirah.jpg",
+   "names": {
+    "en": "Palm Jumeirah",
+    "de": "Palm Jumeirah",
+    "sl": "Palm Jumeirah"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture",
+    "Business/Tech"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "pantheon_rome.jpg",
+   "names": {
+    "en": "Pantheon, Rome",
+    "de": "Pantheon (Rom)",
+    "sl": "Panteon (Rim)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Religion",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "park_guell.jpg",
+   "names": {
+    "en": "Park Güell",
+    "de": "Park Güell",
+    "sl": "Park Güell"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "pentagon_building.jpg",
+   "names": {
+    "en": "The Pentagon",
+    "de": "The Pentagon",
+    "sl": "The Pentagon"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Politics"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "petra_jordan.jpg",
+   "names": {
+    "en": "Petra",
+    "de": "Petra",
+    "sl": "Petra"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "petronas_twin_towers.jpg",
+   "names": {
+    "en": "Petronas Twin Towers",
+    "de": "Petronas Towers",
+    "sl": "Stolpa Petronas"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture",
+    "Business/Tech"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "piccadilly_circus.jpg",
+   "names": {
+    "en": "Piccadilly Circus",
+    "de": "Piccadilly Circus",
+    "sl": "Piccadilly Circus"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Comedy/Entertainment"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "piran.jpg",
+   "names": {
+    "en": "Piran",
+    "de": "Piran",
+    "sl": "Piran"
+   },
+   "population": "Slovenian",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Nature/Outdoors",
+    "History/Ancient"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "ponte_vecchio.JPG",
+   "names": {
+    "en": "Ponte Vecchio",
+    "de": "Ponte Vecchio",
+    "sl": "Ponte Vecchio"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "porta_nigra_trier.jpg",
+   "names": {
+    "en": "Porta Nigra, Trier",
+    "de": "Porta Nigra (Trier)",
+    "sl": "Porta Nigra (Trier)"
+   },
+   "population": "German",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "postojna_cave.jpg",
+   "names": {
+    "en": "Postojna Cave",
+    "de": "Höhle von Postojna",
+    "sl": "Postojnska jama"
+   },
+   "population": "Slovenian",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Nature/Outdoors"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "prague_astronomical_clock.jpg",
+   "names": {
+    "en": "Prague Astronomical Clock",
+    "de": "Prager Astronomische Uhr (Orloj)",
+    "sl": "Praška astronomska ura (Orloj)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "predjama_castle.jpg",
+   "names": {
+    "en": "Predjama Castle",
+    "de": "Schloss Predjama",
+    "sl": "Predjamski grad"
+   },
+   "population": "Slovenian",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "preseren_square.jpg",
+   "names": {
+    "en": "Prešeren Square, Ljubljana",
+    "de": "Prešeren-Platz (Ljubljana)",
+    "sl": "Prešernov trg (Ljubljana)"
+   },
+   "population": "Slovenian",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "pyramids_of_giza.jpg",
+   "names": {
+    "en": "Pyramids of Giza",
+    "de": "Pyramiden von Gizeh",
+    "sl": "Piramide v Gizi"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "red_square_moscow.jpg",
+   "names": {
+    "en": "Red Square",
+    "de": "Roter Platz",
+    "sl": "Rdeči trg"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Politics",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "reichstag_building_berlin.jpg",
+   "names": {
+    "en": "Reichstag Building",
+    "de": "Reichstagsgebäude",
+    "sl": "Stavba nemškega parlamenta (Reichstag)"
+   },
+   "population": "German",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Politics",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "royal_albert_hall.jpg",
+   "names": {
+    "en": "Royal Albert Hall",
+    "de": "Royal Albert Hall",
+    "sl": "Royal Albert Hall"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "sacre_coeur_basilica.jpg",
+   "names": {
+    "en": "Sacré-Cœur Basilica",
+    "de": "Sacré-Cœur-Basilika",
+    "sl": "Bazilika Sacré-Cœur"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "sagrada_familia.jpg",
+   "names": {
+    "en": "Sagrada Família",
+    "de": "Sagrada Família",
+    "sl": "Sagrada Família"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "santorini.jpg",
+   "names": {
+    "en": "Santorini",
+    "de": "Santorini",
+    "sl": "Santorini"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Nature/Outdoors"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "sheikh_zayed_grand_mosque.jpg",
+   "names": {
+    "en": "Sheikh Zayed Grand Mosque",
+    "de": "Scheich-Zayid-Moschee",
+    "sl": "Velika mošeja šejka Zayeda"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "shibuya_crossing.jpg",
+   "names": {
+    "en": "Shibuya Crossing",
+    "de": "Shibuya-Kreuzung",
+    "sl": "Shibuya prehod"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Comedy/Entertainment"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "singapore_merlion.jpg",
+   "names": {
+    "en": "Merlion, Singapore",
+    "de": "Merlion (Singapur)",
+    "sl": "Merlion (Singapur)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "sistine_chapel.jpg",
+   "names": {
+    "en": "Sistine Chapel",
+    "de": "Sixtinische Kapelle",
+    "sl": "Sikstinska kapela"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "space_needle.jpg",
+   "names": {
+    "en": "Space Needle",
+    "de": "Space Needle",
+    "sl": "Space Needle"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "spanish_steps_rome.jpg",
+   "names": {
+    "en": "Spanish Steps, Rome",
+    "de": "Spanische Treppe (Rom)",
+    "sl": "Španske stopnice (Rim)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "st_marks_square_and_basilica_venice.jpg",
+   "names": {
+    "en": "St. Mark's Square and Basilica, Venice",
+    "de": "Markusplatz und Markusbasilika (Venedig)",
+    "sl": "Trg svetega Marka in bazilika (Benetke)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "st_peters_basilica.jpg",
+   "names": {
+    "en": "St. Peter's Basilica",
+    "de": "Petersdom",
+    "sl": "Bazilika svetega Petra"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "statue_of_liberty.jpg",
+   "names": {
+    "en": "Statue of Liberty",
+    "de": "Freiheitsstatue",
+    "sl": "Kip svobode"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Politics",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "stonehenge.jpg",
+   "names": {
+    "en": "Stonehenge",
+    "de": "Stonehenge",
+    "sl": "Stonehenge"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "sydney_harbour_bridge.jpg",
+   "names": {
+    "en": "Sydney Harbour Bridge",
+    "de": "Sydney Harbour Bridge",
+    "sl": "Most Sydney Harbour"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "sydney_opera_house.jpg",
+   "names": {
+    "en": "Sydney Opera House",
+    "de": "Sydney Opera House",
+    "sl": "Opera v Sydneyju"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music",
+    "Architecture",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "table_mountain_cape_town.jpg",
+   "names": {
+    "en": "Table Mountain, Cape Town",
+    "de": "Tafelberg (Kapstadt)",
+    "sl": "Mizasta gora (Cape Town)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Nature/Outdoors"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "taipei_101.jpg",
+   "names": {
+    "en": "Taipei 101",
+    "de": "Taipei 101",
+    "sl": "Taipei 101"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture",
+    "Business/Tech"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "taj_mahal.jpg",
+   "names": {
+    "en": "Taj Mahal",
+    "de": "Taj Mahal",
+    "sl": "Taj Mahal"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "temple_of_heaven_beijing.jpg",
+   "names": {
+    "en": "Temple of Heaven, Beijing",
+    "de": "Himmelstempel (Peking)",
+    "sl": "Tempelj neba (Peking)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "terracotta_army.jpg",
+   "names": {
+    "en": "Terracotta Army",
+    "de": "Terracotta Army",
+    "sl": "Terracotta Army"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "the_gherkin_london.JPG",
+   "names": {
+    "en": "The Gherkin",
+    "de": "The Gherkin",
+    "sl": "The Gherkin"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture",
+    "Business/Tech"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "the_shard_london.jpg",
+   "names": {
+    "en": "The Shard",
+    "de": "The Shard",
+    "sl": "The Shard"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "the_white_house.jpg",
+   "names": {
+    "en": "White House",
+    "de": "Weißes Haus",
+    "sl": "Bela hiša"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Politics",
+    "Architecture",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "times_square.jpg",
+   "names": {
+    "en": "Times Square",
+    "de": "Times Square",
+    "sl": "Times Square"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Comedy/Entertainment",
+    "General"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "tower_bridge.jpg",
+   "names": {
+    "en": "Tower Bridge",
+    "de": "Tower Bridge",
+    "sl": "Tower Bridge"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "tower_of_london.jpg",
+   "names": {
+    "en": "Tower of London",
+    "de": "Tower of London",
+    "sl": "Londonski Tower"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Royalty",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "trafalgar_square.jpg",
+   "names": {
+    "en": "Trafalgar Square",
+    "de": "Trafalgar Square",
+    "sl": "Trg Trafalgar"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "trevi_fountain.jpg",
+   "names": {
+    "en": "Trevi Fountain",
+    "de": "Trevi-Brunnen",
+    "sl": "Fontana di Trevi"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "triple_bridge.jpg",
+   "names": {
+    "en": "Triple Bridge, Ljubljana",
+    "de": "Dreierbrücke (Ljubljana)",
+    "sl": "Tromostovje (Ljubljana)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "uluru_ayers_rock.jpg",
+   "names": {
+    "en": "Uluru (Ayers Rock)",
+    "de": "Uluru (Ayers Rock)",
+    "sl": "Uluru (Ayers Rock)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Nature/Outdoors"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "venice_canals.jpg",
+   "names": {
+    "en": "Venice Canals",
+    "de": "Venice Canals",
+    "sl": "Venice Canals"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Nature/Outdoors",
+    "History/Ancient"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "versailles_palace.jpg",
+   "names": {
+    "en": "Palace of Versailles",
+    "de": "Schloss Versailles",
+    "sl": "Versajska palača"
+   },
+   "population": "Slovenian",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Royalty",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "vintgar_gorge.jpg",
+   "names": {
+    "en": "Vintgar Gorge",
+    "de": "Vintgar-Klamm",
+    "sl": "Soteska Vintgar"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Nature/Outdoors"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "western_wailing_wall.jpg",
+   "names": {
+    "en": "Western Wall (Wailing Wall)",
+    "de": "Westmauer (Klagemauer)",
+    "sl": "Zahodni zid (Zid objokovanja)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "History/Ancient"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "westminster_abbey.jpg",
+   "names": {
+    "en": "Westminster Abbey",
+    "de": "Westminster Abbey",
+    "sl": "Westminster Abbey"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "Royalty",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "white_cliffs_of_dover.jpg",
+   "names": {
+    "en": "White Cliffs of Dover",
+    "de": "White Cliffs of Dover",
+    "sl": "White Cliffs of Dover"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Nature/Outdoors"
+   ],
+   "type": "place"
+  }
+ ],
+ "age_groups": [
+  {
+   "code": 1,
+   "age_min": 0,
+   "age_max": 29
+  },
+  {
+   "code": 2,
+   "age_min": 30,
+   "age_max": 45
+  },
+  {
+   "code": 3,
+   "age_min": 46,
+   "age_max": 61
+  },
+  {
+   "code": 4,
+   "age_min": 62,
+   "age_max": 100
+  }
+ ]
+}
