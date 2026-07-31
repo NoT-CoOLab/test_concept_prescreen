@@ -106,31 +106,15 @@
   // Because each checkpoint is a complete snapshot (not a diff), a single failed send
   // is not fatal — the next checkpoint resends everything, so there's no separate
   // retry queue needed here.
-  var emailjsReady = null;
-  function ensureEmailjsLoaded() {
-    if (emailjsReady) return emailjsReady;
-    emailjsReady = new Promise(function (resolve, reject) {
-      function initAndResolve() {
-        try { window.emailjs.init({ publicKey: (CONFIG.emailjs || {}).publicKey }); } catch (e) { /* older SDK: init not required */ }
-        resolve();
-      }
-      if (typeof window.emailjs !== "undefined") { initAndResolve(); return; }
-      var script = document.createElement("script");
-      script.src = "https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js";
-      script.onload = initAndResolve;
-      script.onerror = function () {
-        // Don't leave a permanently-rejected promise cached — if this stayed cached,
-        // every future retry (e.g. after reconnecting) would keep reusing this same
-        // failed attempt forever instead of trying to load the script again.
-        emailjsReady = null;
-        if (script.parentNode) script.parentNode.removeChild(script);
-        reject(new Error("emailjs_sdk_load_failed"));
-      };
-      document.head.appendChild(script);
-    });
-    return emailjsReady;
-  }
-
+  //
+  // This calls EmailJS's plain REST endpoint directly with fetch() rather than loading
+  // their SDK from a CDN — deliberately. The SDK approach had a real bug: loading it
+  // requires a separate script from a CDN, and that load was cached, including when it
+  // failed — so if the very first attempt happened while offline, every future retry
+  // (even after reconnecting) kept reusing that same failed, cached attempt forever
+  // instead of trying again. A plain fetch() call has no such shared, cacheable
+  // "is it loaded" state to get stuck in — every call is independent by construction,
+  // and there's one fewer external host (the CDN) that could be the thing that's down.
   function buildCheckpointBody() {
     return state.rows.map(function (row) { return JSON.stringify(row); }).join("\n");
   }
@@ -152,15 +136,23 @@
     // email-relay/DEPLOY.md for how the flow turns this back into a proper To field.
     var subject = ["PRETEST-DATA", CONFIG.siteId, state.code, checkpointType,
       recipients.join(",")].join("|");
-    var params = {
-      to_email: cfg.ingressTo,
-      subject: subject,
-      message: buildCheckpointBody()
+    var payload = {
+      service_id: cfg.serviceId,
+      template_id: cfg.templateId,
+      user_id: cfg.publicKey,
+      template_params: {
+        to_email: cfg.ingressTo,
+        subject: subject,
+        message: buildCheckpointBody()
+      }
     };
     setSaveIndicator("pending");
-    return ensureEmailjsLoaded().then(function () {
-      return window.emailjs.send(cfg.serviceId, cfg.templateId, params);
-    }).then(function () {
+    return fetch("https://api.emailjs.com/api/v1.0/email/send", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    }).then(function (resp) {
+      if (!resp.ok) throw new Error("EmailJS responded with status " + resp.status);
       setSaveIndicator("ok");
       return { ok: true };
     }).catch(function (err) {
@@ -362,7 +354,6 @@
   $("btn-resume-local").addEventListener("click", function () {
     if (!state.current) advanceTrial();
     setSaveIndicator(null);
-    ensureEmailjsLoaded().catch(function () { /* handled per-send */ });
     showScreen("screen-task");
     renderCurrentStim();
     startKeyboardListening();
@@ -418,7 +409,6 @@
 
   // ---------------- Instructions screen ----------------
   $("btn-instructions-begin").addEventListener("click", function () {
-    ensureEmailjsLoaded().catch(function () { /* handled per-send */ });
     advanceTrial();
     showScreen("screen-task");
     renderCurrentStim();
@@ -464,11 +454,39 @@
       state.current = null; advanceTrial(); renderCurrentStim(); return;
     }
     resetCardTransform(true);
+
+    // Stay locked, and hide the previous picture + name immediately, until the new
+    // image is actually ready. Otherwise a slow-loading image leaves the OLD picture
+    // on screen next to the NEW name for however long it takes to load — a mismatched
+    // pairing that's confusing at best, and actively wrong for a task that's asking
+    // "do you recognise this picture AND this name together."
+    locked = true;
+    stimName.textContent = "";
+    stimImage.style.visibility = "hidden";
+    var wrap = stimImage.parentNode;
+    var oldFallback = wrap.querySelector(".stim-missing-fallback");
+    if (oldFallback) oldFallback.remove();
+    var loadingEl = wrap.querySelector(".stim-loading");
+    if (!loadingEl) {
+      loadingEl = document.createElement("div");
+      loadingEl.className = "stim-loading spinner";
+      wrap.appendChild(loadingEl);
+    }
+    loadingEl.hidden = false;
+
+    function reveal() {
+      loadingEl.hidden = true;
+      stimImage.style.visibility = "visible";
+      stimName.textContent = concept.names[lang] || concept.names.en;
+      trialStartTs = performance.now();
+      locked = false;
+    }
+
     stimImage.alt = "";
+    stimImage.onload = reveal;
     stimImage.onerror = function () {
       stimImage.onerror = null;
       stimImage.style.display = "none";
-      var wrap = stimImage.parentNode;
       var fallback = wrap.querySelector(".stim-missing-fallback");
       if (!fallback) {
         fallback = document.createElement("div");
@@ -477,14 +495,10 @@
         wrap.appendChild(fallback);
       }
       fallback.textContent = concept.file_name;
+      reveal();
     };
     stimImage.style.display = "";
-    var oldFallback = stimImage.parentNode.querySelector(".stim-missing-fallback");
-    if (oldFallback) oldFallback.remove();
     stimImage.src = "images/" + concept.file_name;
-    stimName.textContent = concept.names[lang] || concept.names.en;
-    trialStartTs = performance.now();
-    locked = false;
   }
 
   function recordResponse(responseValue) {
