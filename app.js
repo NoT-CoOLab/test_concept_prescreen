@@ -279,6 +279,8 @@
     $("btn-know-label").textContent = t("knowButton");
     $("btn-dont-know-label").textContent = t("dontKnowButton");
 
+    $("finishing-title").textContent = t("finishingTitle");
+    $("finishing-body").textContent = t("finishingBody");
     $("done-title").textContent = t("doneTitle");
     $("done-body").textContent = t("doneBody");
     $("btn-download-backup").textContent = t("downloadBackup");
@@ -754,13 +756,29 @@
   $("btn-dont-know").addEventListener("click", function () { handleResponse("unknown"); });
 
   // ---------------- Done screen ----------------
+  function withTimeout(promise, ms) {
+    return Promise.race([
+      promise,
+      new Promise(function (resolve) { setTimeout(resolve, ms); })
+    ]);
+  }
+
   function finishSession() {
     stopKeyboardListening();
     state.finished = true;
     saveState();
-    if (CONFIG.backend === "email-relay") sendCheckpointEmail("finish");
     $("done-stats").hidden = true;
-    showScreen("screen-done");
+    if (CONFIG.backend === "email-relay") {
+      // Show "done" only once the final save has actually completed (or given up after
+      // a timeout) — not before. Showing "thank you" immediately, with the send still
+      // in flight in the background, invites closing the tab before it finishes.
+      showScreen("screen-finishing");
+      withTimeout(sendCheckpointEmail("finish"), 8000).then(function () {
+        showScreen("screen-done");
+      });
+    } else {
+      showScreen("screen-done");
+    }
   }
 
   $("btn-download-backup").addEventListener("click", function () {
