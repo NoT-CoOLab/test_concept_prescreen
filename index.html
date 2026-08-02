@@ -112,7 +112,7 @@
     </div>
   </section>
 
-  <!-- FINISHING (shown while the final save is in flight) -->
+  <!-- FINISHING (brief initial attempt) -->
   <section class="screen" id="screen-finishing" data-screen hidden>
     <div class="card card-static">
       <div class="spinner" aria-hidden="true"></div>
@@ -121,14 +121,16 @@
     </div>
   </section>
 
-  <!-- CONNECTION ISSUE (shown if the final save couldn't be confirmed, e.g. no internet;
-       keeps retrying automatically in the background) -->
-  <section class="screen" id="screen-connection-issue" data-screen hidden>
+  <!-- WAITING FOR CONNECTION (genuinely offline, confirmed by the browser itself —
+       this is specifically the case worth waiting through, so it keeps retrying and
+       doesn't move on until either it succeeds or the situation turns out to be
+       something other than a plain connectivity gap) -->
+  <section class="screen" id="screen-waiting-connection" data-screen hidden>
     <div class="card card-static">
       <div class="spinner" aria-hidden="true"></div>
-      <h1 id="connection-issue-title"></h1>
-      <p id="connection-issue-body"></p>
-      <button class="btn btn-text btn-download-backup"></button>
+      <h1 id="waiting-connection-title"></h1>
+      <p id="waiting-connection-body"></p>
+      <button class="btn btn-ghost btn-block btn-download-backup" id="btn-download-backup-waiting"></button>
     </div>
   </section>
 
@@ -138,7 +140,8 @@
       <h1 id="done-title"></h1>
       <p id="done-body"></p>
       <p class="done-stats" id="done-stats"></p>
-      <button class="btn btn-text btn-download-backup"></button>
+      <button class="btn btn-primary btn-download-backup" id="btn-download-backup-done"></button>
+      <button class="btn btn-ghost btn-block" id="btn-retry-send" hidden></button>
     </div>
   </section>
 

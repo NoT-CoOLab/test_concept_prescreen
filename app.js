@@ -53,6 +53,29 @@
     for (var i = 0; i < 6; i++) out += charset[Math.floor(Math.random() * charset.length)];
     return out;
   }
+  // Lets a researcher assign a specific, human-chosen participant ID (e.g. sequential
+  // "001", "002"...) by handing out a link like "?pid=001" for each session, instead of
+  // a random generated code. Deliberately NOT auto-incremented by the site itself —
+  // there's no shared counter anywhere in this architecture (no server, no database),
+  // so two participants on two different computers independently generating "the next
+  // number" could genuinely collide. Putting the researcher in control of the number
+  // sidesteps that entirely. Falls back to the random generator if no ?pid= is given,
+  // so nothing breaks for casual testing.
+  //
+  // The value is sanitized because it flows into a pipe-delimited email subject line
+  // (a stray "|" would corrupt the fields the Power Automate flow parses out) and into
+  // a downloaded filename (so no path separators or other unsafe characters either) —
+  // only letters, numbers, "-", and "_" survive, capped at 20 characters.
+  function getAssignedParticipantId() {
+    try {
+      var raw = new URLSearchParams(window.location.search).get("pid");
+      if (!raw) return null;
+      var cleaned = String(raw).replace(/[^A-Za-z0-9_-]/g, "").slice(0, 20);
+      return cleaned || null;
+    } catch (e) {
+      return null;
+    }
+  }
   function shuffle(arr) {
     for (var i = arr.length - 1; i > 0; i--) {
       var j = Math.floor(Math.random() * (i + 1));
@@ -164,14 +187,31 @@
       signal: controller.signal
     }).then(function (resp) {
       clearTimeout(timeoutId);
-      if (!resp.ok) throw new Error("EmailJS responded with status " + resp.status);
-      setSaveIndicator("ok");
-      return { ok: true };
+      if (resp.ok) {
+        setSaveIndicator("ok");
+        return { ok: true };
+      }
+      // We got an actual response — the connection is fine, EmailJS just rejected the
+      // request. Most commonly this is their free-tier quota (200/month): once used
+      // up, EmailJS returns HTTP 426 and silently ignores every request until the
+      // quota resets. That's a completely different situation from "no internet" —
+      // retrying identically will never succeed until the quota resets or the plan is
+      // upgraded, and blaming the participant's connection for it is actively
+      // misleading. Log the real reason so it's actually diagnosable later, and tell
+      // callers this explicitly rather than lumping it in with genuine connectivity
+      // failures.
+      return resp.text().then(function (bodyText) {
+        console.warn("EmailJS rejected the request — status " + resp.status + ": " + bodyText);
+        setSaveIndicator("offline");
+        return { ok: false, serverRejected: true, status: resp.status, quotaLikely: resp.status === 426 };
+      });
     }).catch(function (err) {
       clearTimeout(timeoutId);
-      console.warn("Checkpoint email failed (the next checkpoint will resend everything):", err);
+      // fetch() throwing (rather than resolving with a response) means the request
+      // never reached a server at all — this is the genuine "no internet" case.
+      console.warn("Checkpoint email failed before getting a response (genuine connectivity issue):", err);
       setSaveIndicator("offline");
-      return { ok: false };
+      return { ok: false, serverRejected: false };
     });
   }
 
@@ -227,13 +267,22 @@
 
     $("finishing-title").textContent = t("finishingTitle");
     $("finishing-body").textContent = t("finishingBody");
-    $("connection-issue-title").textContent = t("connectionIssueTitle");
-    $("connection-issue-body").textContent = t("connectionIssueBody");
+    $("waiting-connection-title").textContent = t("waitingConnectionTitle");
+    $("waiting-connection-body").textContent = t("waitingConnectionBody");
     $("done-title").textContent = t("doneTitle");
-    $("done-body").textContent = t("doneBody");
+    $("done-body").textContent = (state && state.finishUnconfirmed) ? t("doneBodyUnconfirmed") : t("doneBody");
     document.querySelectorAll(".btn-download-backup").forEach(function (btn) {
       btn.textContent = t("downloadBackup");
     });
+    var doneBtn = $("btn-download-backup-done");
+    doneBtn.classList.toggle("btn-primary", !!(state && state.finishUnconfirmed));
+    doneBtn.classList.toggle("btn-text", !(state && state.finishUnconfirmed));
+    doneBtn.classList.toggle("btn-ghost", false);
+    var retryBtn = $("btn-retry-send");
+    retryBtn.hidden = !(state && state.finishUnconfirmed);
+    retryBtn.classList.toggle("btn-primary", false);
+    retryBtn.classList.toggle("btn-ghost", true);
+    if (!retryBtn.disabled) retryBtn.textContent = t("retrySendButton");
 
     populateRegionsGrid();
     populateAgeGroupGrid();
@@ -401,7 +450,7 @@
     var order = buildOrder(pool, interests, []);
 
     state = {
-      code: generateCode(),
+      code: getAssignedParticipantId() || generateCode(),
       regionCodes: regionCodes,
       ageGroupCode: ageGroupCode,
       interests: interests,
@@ -630,10 +679,6 @@
     state.finished = true;
     saveState();
     $("done-stats").hidden = true;
-    // Show "done" only once the final save has actually completed — not before.
-    // Showing "thank you" regardless, with the send still in flight or having failed
-    // in the background, would give a false sense that everything reached the
-    // researcher even if (e.g.) the internet connection dropped right at the end.
     showScreen("screen-finishing");
     attemptFinishSend();
   }
@@ -647,12 +692,48 @@
       finishSendInFlight = false;
       if (result && result.ok) {
         stopFinishRetrying();
-        showScreen("screen-done");
-      } else {
-        showScreen("screen-connection-issue");
-        startFinishRetrying();
+        state.finishUnconfirmed = false;
+        saveState();
+        showDoneScreen();
+        return;
       }
+      // navigator.onLine === false means the browser itself has confirmed there's no
+      // network connection at all — a plain, ordinary "wait for the internet to come
+      // back" situation, worth actually waiting through since it will very likely
+      // resolve on its own. Anything else (a real response that was rejected, a
+      // request that failed or timed out while the browser believes it's online) is
+      // NOT that — retrying identically won't necessarily help, and there's no reason
+      // to make anyone wait through it. This is exactly the distinction that matters:
+      // "no internet" is worth pausing for; "internet's fine, something else is wrong"
+      // is not, and should never block finishing the task.
+      if (navigator.onLine === false && $("screen-done").hidden) {
+        showScreen("screen-waiting-connection");
+      } else if ($("screen-done").hidden) {
+        state.finishUnconfirmed = true;
+        saveState();
+        showDoneScreen();
+      } else {
+        // Already on screen-done (e.g. this was a manual retry click, or a background
+        // attempt while already there) and it failed again — reset the retry button
+        // so it doesn't stay stuck showing "Sending…" forever.
+        var retryBtn = $("btn-retry-send");
+        retryBtn.disabled = false;
+        retryBtn.textContent = t("retrySendButton");
+      }
+      startFinishRetrying();
     });
+  }
+  function showDoneScreen() {
+    $("done-body").textContent = state.finishUnconfirmed ? t("doneBodyUnconfirmed") : t("doneBody");
+    var dlBtn = $("btn-download-backup-done");
+    dlBtn.classList.toggle("btn-text", !state.finishUnconfirmed);
+    dlBtn.classList.toggle("btn-primary", !!state.finishUnconfirmed);
+    var retryBtn = $("btn-retry-send");
+    retryBtn.hidden = !state.finishUnconfirmed;
+    retryBtn.classList.add("btn-ghost");
+    retryBtn.disabled = false;
+    retryBtn.textContent = t("retrySendButton");
+    showScreen("screen-done");
   }
   function startFinishRetrying() {
     if (finishRetryTimer) return; // already retrying
@@ -663,6 +744,18 @@
     if (finishRetryTimer) { clearInterval(finishRetryTimer); finishRetryTimer = null; }
     window.removeEventListener("online", attemptFinishSend);
   }
+
+  // Manual retry, for when someone doesn't want to just wait on the automatic
+  // background attempts — same underlying send, just triggered on demand with
+  // immediate feedback instead of silently happening (or not) in the background.
+  // attemptFinishSend()'s own finishSendInFlight guard already makes this safe to
+  // press even if a background retry happens to be in flight at the same moment.
+  $("btn-retry-send").addEventListener("click", function () {
+    var btn = $("btn-retry-send");
+    btn.disabled = true;
+    btn.textContent = t("retrySendButtonSending");
+    attemptFinishSend();
+  });
 
   function downloadBackupCsv() {
     var lines = [CSV_HEADER.join(",")];
@@ -679,6 +772,8 @@
     document.body.removeChild(a);
     setTimeout(function () { URL.revokeObjectURL(url); }, 2000);
   }
+  // Always available, on every screen that can follow the last trial — never
+  // conditional, never automatic, always just a click away if wanted.
   document.querySelectorAll(".btn-download-backup").forEach(function (btn) {
     btn.addEventListener("click", downloadBackupCsv);
   });
