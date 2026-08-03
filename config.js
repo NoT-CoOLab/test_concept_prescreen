@@ -9,8 +9,8 @@ const CONFIG = {
   siteName: "Test",
 
   // Which of "en" / "de" / "sl" (or other codes you add strings for in i18n.js) this site offers.
-  languages: ["en", "de", "sl"],
-  languageLabels: { en: "English", de: "Deutsch", sl: "Slovenščina" },
+  languages: ["en", "de", "sl", "tur", "ukr", "rus" ],
+  languageLabels: { en: "English", de: "Deutsch", sl: "Slovenščina", tur: "Türkçe", ukr: "український", rus: "русский" },
 
   // Countries participants can flag as "I know people/places from here especially well".
   // This is about familiarity, not identity — a participant can select none or several.
@@ -18,8 +18,10 @@ const CONFIG = {
   // concept_list.xlsx for this site's local concepts. Empty by default — this template
   // has no local pool until you add one, e.g.:
   //   regions: [{ code: "AT", population: "Austrian", label: { en: "Austria" } }]
-  regions: [{ code: "DE", population: "German", label: { en: "Germany", de: "Deutschland", sl: "Nemčija" } },
-    { code: "SI", population: "Slovenian", label: { en: "Slovenia", de: "Slowenien", sl: "Slovenija" } }],
+  regions: [
+    { code: "DE", population: "German", label: { en: "Germany", de: "Deutschland", sl: "Nemčija" } },
+    { code: "SI", population: "Slovenian", label: { en: "Slovenia", de: "Slowenien", sl: "Slovenija" } }
+  ],
 
   // The session ends automatically once BOTH of these are reached (whichever comes
   // later keeps it going) — or once the participant's pool runs out entirely.
@@ -50,5 +52,5 @@ const CONFIG = {
   // finish, so an abrupt tab close doesn't lose more than this many responses
   // from reaching your inbox. 25 is a reasonable starting point — see
   // email-relay/DEPLOY.md for the quota math.
-  checkpointEveryNResponses: 60
+  checkpointEveryNResponses: 25
 };
