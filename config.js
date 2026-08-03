@@ -52,5 +52,5 @@ const CONFIG = {
   // finish, so an abrupt tab close doesn't lose more than this many responses
   // from reaching your inbox. 25 is a reasonable starting point — see
   // email-relay/DEPLOY.md for the quota math.
-  checkpointEveryNResponses: 25
+  checkpointEveryNResponses: 100
 };
