@@ -30,16 +30,6 @@
       <div id="welcome-actions" class="button-stack">
         <button class="btn btn-primary" id="btn-start-new"></button>
         <button class="btn btn-ghost" id="btn-resume-local" hidden></button>
-        <button class="btn btn-text" id="btn-show-code-entry"></button>
-      </div>
-
-      <div id="welcome-code-entry" class="code-entry" hidden>
-        <label for="code-input" id="code-input-label"></label>
-        <div class="code-entry-row">
-          <input type="text" id="code-input" autocomplete="off" autocapitalize="characters" maxlength="8">
-          <button class="btn btn-primary" id="btn-code-submit"></button>
-        </div>
-        <p class="field-error" id="code-error" hidden></p>
       </div>
     </div>
   </section>
@@ -122,12 +112,25 @@
     </div>
   </section>
 
-  <!-- FINISHING (email-relay backend only: shown while the final save is in flight) -->
+  <!-- FINISHING (brief initial attempt) -->
   <section class="screen" id="screen-finishing" data-screen hidden>
     <div class="card card-static">
       <div class="spinner" aria-hidden="true"></div>
       <h1 id="finishing-title"></h1>
       <p id="finishing-body"></p>
+    </div>
+  </section>
+
+  <!-- WAITING FOR CONNECTION (genuinely offline, confirmed by the browser itself —
+       this is specifically the case worth waiting through, so it keeps retrying and
+       doesn't move on until either it succeeds or the situation turns out to be
+       something other than a plain connectivity gap) -->
+  <section class="screen" id="screen-waiting-connection" data-screen hidden>
+    <div class="card card-static">
+      <div class="spinner" aria-hidden="true"></div>
+      <h1 id="waiting-connection-title"></h1>
+      <p id="waiting-connection-body"></p>
+      <button class="btn btn-ghost btn-block btn-download-backup" id="btn-download-backup-waiting"></button>
     </div>
   </section>
 
@@ -137,7 +140,8 @@
       <h1 id="done-title"></h1>
       <p id="done-body"></p>
       <p class="done-stats" id="done-stats"></p>
-      <button class="btn btn-text" id="btn-download-backup"></button>
+      <button class="btn btn-primary btn-download-backup" id="btn-download-backup-done"></button>
+      <button class="btn btn-ghost btn-block" id="btn-retry-send" hidden></button>
     </div>
   </section>
 

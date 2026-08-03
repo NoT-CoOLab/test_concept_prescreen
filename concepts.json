@@ -2,10 +2,14 @@
  "concepts": [
   {
    "file_name": "adam_sandler.jpg",
+   "index": "P001",
    "names": {
     "en": "Adam Sandler",
     "de": "Adam Sandler",
-    "sl": "Adam Sandler"
+    "sl": "Adam Sandler",
+    "tur": "Adam Sandler",
+    "ukr": "Адам Сендлер",
+    "rus": "Адам Сэндлер"
    },
    "population": "global",
    "min_age_group": 2,
@@ -18,10 +22,14 @@
   },
   {
    "file_name": "adele_singer.jpg",
+   "index": "P002",
    "names": {
     "en": "Adele",
     "de": "Adele",
-    "sl": "Adele"
+    "sl": "Adele",
+    "tur": "Adele",
+    "ukr": "Адель",
+    "rus": "Адель"
    },
    "population": "global",
    "min_age_group": 1,
@@ -33,10 +41,14 @@
   },
   {
    "file_name": "alicia_keys.jpg",
+   "index": "P003",
    "names": {
     "en": "Alicia Keys",
     "de": "Alicia Keys",
-    "sl": "Alicia Keys"
+    "sl": "Alicia Keys",
+    "tur": "Alicia Keys",
+    "ukr": "Алісія Кіз",
+    "rus": "Алиша Киз"
    },
    "population": "global",
    "min_age_group": 2,
@@ -48,10 +60,14 @@
   },
   {
    "file_name": "andy_murray.jpg",
+   "index": "P004",
    "names": {
     "en": "Andy Murray",
     "de": "Andy Murray",
-    "sl": "Andy Murray"
+    "sl": "Andy Murray",
+    "tur": "Andy Murray",
+    "ukr": "Енді Мюррей",
+    "rus": "Энди Маррей"
    },
    "population": "global",
    "min_age_group": 2,
@@ -63,10 +79,14 @@
   },
   {
    "file_name": "angela_merkel.jpg",
+   "index": "P005",
    "names": {
     "en": "Angela Merkel",
     "de": "Angela Merkel",
-    "sl": "Angela Merkel"
+    "sl": "Angela Merkel",
+    "tur": "Angela Merkel",
+    "ukr": "Анджела Меркель",
+    "rus": "Ангела Меркель"
    },
    "population": "global",
    "min_age_group": 2,
@@ -78,10 +98,14 @@
   },
   {
    "file_name": "angelina_jolie.jpg",
+   "index": "P006",
    "names": {
     "en": "Angelina Jolie",
     "de": "Angelina Jolie",
-    "sl": "Angelina Jolie"
+    "sl": "Angelina Jolie",
+    "tur": "Angelina Jolie",
+    "ukr": "Анджеліна Джолі",
+    "rus": "Анджелина Джоли"
    },
    "population": "global",
    "min_age_group": 2,
@@ -93,10 +117,14 @@
   },
   {
    "file_name": "anne_hathaway.jpg",
+   "index": "P007",
    "names": {
     "en": "Anne Hathaway",
     "de": "Anne Hathaway",
-    "sl": "Anne Hathaway"
+    "sl": "Anne Hathaway",
+    "tur": "Anne Hathaway",
+    "ukr": "Енн Гетевей",
+    "rus": "Энн Хэтэуэй"
    },
    "population": "global",
    "min_age_group": 1,
@@ -108,10 +136,14 @@
   },
   {
    "file_name": "anthony_hopkins.jpg",
+   "index": "P008",
    "names": {
     "en": "Anthony Hopkins",
     "de": "Anthony Hopkins",
-    "sl": "Anthony Hopkins"
+    "sl": "Anthony Hopkins",
+    "tur": "Anthony Hopkins",
+    "ukr": "Ентоні Гопкінс",
+    "rus": "Энтони Хопкинс"
    },
    "population": "global",
    "min_age_group": 2,
@@ -123,10 +155,14 @@
   },
   {
    "file_name": "antonio_banderas.jpg",
+   "index": "P009",
    "names": {
     "en": "Antonio Banderas",
     "de": "Antonio Banderas",
-    "sl": "Antonio Banderas"
+    "sl": "Antonio Banderas",
+    "tur": "Antonio Banderas",
+    "ukr": "Антоніо Бандерас",
+    "rus": "Антонио Бандерас"
    },
    "population": "global",
    "min_age_group": 2,
@@ -138,10 +174,14 @@
   },
   {
    "file_name": "ariana_grande.jpg",
+   "index": "P010",
    "names": {
     "en": "Ariana Grande",
     "de": "Ariana Grande",
-    "sl": "Ariana Grande"
+    "sl": "Ariana Grande",
+    "tur": "Ariana Grande",
+    "ukr": "Аріана Гранде",
+    "rus": "Ариана Гранде"
    },
    "population": "global",
    "min_age_group": 1,
@@ -153,10 +193,14 @@
   },
   {
    "file_name": "arnold_schwarzenegger.jpg",
+   "index": "P011",
    "names": {
     "en": "Arnold Schwarzenegger",
     "de": "Arnold Schwarzenegger",
-    "sl": "Arnold Schwarzenegger"
+    "sl": "Arnold Schwarzenegger",
+    "tur": "Arnold Schwarzenegger",
+    "ukr": "Арнольд Шварценеггер",
+    "rus": "Арнольд Шварценеггер"
    },
    "population": "global",
    "min_age_group": 2,
@@ -169,10 +213,14 @@
   },
   {
    "file_name": "avril_lavigne.jpg",
+   "index": "P012",
    "names": {
     "en": "Avril Lavigne",
     "de": "Avril Lavigne",
-    "sl": "Avril Lavigne"
+    "sl": "Avril Lavigne",
+    "tur": "Avril Lavigne",
+    "ukr": "Авріл Лавін",
+    "rus": "Аврил Лавин"
    },
    "population": "global",
    "min_age_group": 2,
@@ -184,10 +232,14 @@
   },
   {
    "file_name": "bad_bunny.jpeg",
+   "index": "P013",
    "names": {
     "en": "Bad Bunny",
     "de": "Bad Bunny",
-    "sl": "Bad Bunny"
+    "sl": "Bad Bunny",
+    "tur": "Bad Bunny",
+    "ukr": "Bad Bunny",
+    "rus": "Bad Bunny"
    },
    "population": "global",
    "min_age_group": 1,
@@ -199,10 +251,14 @@
   },
   {
    "file_name": "barack_obama.jpg",
+   "index": "P014",
    "names": {
     "en": "Barack Obama",
     "de": "Barack Obama",
-    "sl": "Barack Obama"
+    "sl": "Barack Obama",
+    "tur": "Barack Obama",
+    "ukr": "Барак Обама",
+    "rus": "Барак Обама"
    },
    "population": "global",
    "min_age_group": 1,
@@ -214,12 +270,16 @@
   },
   {
    "file_name": "barbara_schoeneberger.JPG",
+   "index": "P015",
    "names": {
     "en": "Barbara Schöneberger",
     "de": "Barbara Schöneberger",
-    "sl": "Barbara Schöneberger"
+    "sl": "Barbara Schöneberger",
+    "tur": "Barbara Schöneberger",
+    "ukr": "Барбара Шьонебергер",
+    "rus": "Барбара Шёнебергер"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 2,
    "max_age_group": 3,
    "interest_tags": [
@@ -229,12 +289,16 @@
   },
   {
    "file_name": "bastian_schweinsteiger.jpg",
+   "index": "P016",
    "names": {
     "en": "Bastian Schweinsteiger",
     "de": "Bastian Schweinsteiger",
-    "sl": "Bastian Schweinsteiger"
+    "sl": "Bastian Schweinsteiger",
+    "tur": "Bastian Schweinsteiger",
+    "ukr": "Бастіан Швайнштайгер",
+    "rus": "Бастиан Швайнштайгер"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 2,
    "max_age_group": 3,
    "interest_tags": [
@@ -244,10 +308,14 @@
   },
   {
    "file_name": "benedict_cumberbatch.jpg",
+   "index": "P017",
    "names": {
     "en": "Benedict Cumberbatch",
     "de": "Benedict Cumberbatch",
-    "sl": "Benedict Cumberbatch"
+    "sl": "Benedict Cumberbatch",
+    "tur": "Benedict Cumberbatch",
+    "ukr": "Бенедикт Камбербетч",
+    "rus": "Бенедикт Камбербэтч"
    },
    "population": "global",
    "min_age_group": 1,
@@ -259,10 +327,14 @@
   },
   {
    "file_name": "beyonce.jpeg",
+   "index": "P018",
    "names": {
     "en": "Beyoncé",
     "de": "Beyoncé",
-    "sl": "Beyoncé"
+    "sl": "Beyoncé",
+    "tur": "Beyoncé",
+    "ukr": "Бейонсе",
+    "rus": "Бейонсе"
    },
    "population": "global",
    "min_age_group": 1,
@@ -274,10 +346,14 @@
   },
   {
    "file_name": "bill_gates.jpg",
+   "index": "P019",
    "names": {
     "en": "Bill Gates",
     "de": "Bill Gates",
-    "sl": "Bill Gates"
+    "sl": "Bill Gates",
+    "tur": "Bill Gates",
+    "ukr": "Білл Гейтс",
+    "rus": "Билл Гейтс"
    },
    "population": "global",
    "min_age_group": 2,
@@ -289,10 +365,14 @@
   },
   {
    "file_name": "billie_eilish.jpg",
+   "index": "P020",
    "names": {
     "en": "Billie Eilish",
     "de": "Billie Eilish",
-    "sl": "Billie Eilish"
+    "sl": "Billie Eilish",
+    "tur": "Billie Eilish",
+    "ukr": "Біллі Айліш",
+    "rus": "Билли Айлиш"
    },
    "population": "global",
    "min_age_group": 1,
@@ -304,10 +384,14 @@
   },
   {
    "file_name": "bono_musician.png",
+   "index": "P021",
    "names": {
     "en": "Bono",
     "de": "Bono",
-    "sl": "Bono"
+    "sl": "Bono",
+    "tur": "Bono",
+    "ukr": "Боно",
+    "rus": "Боно"
    },
    "population": "global",
    "min_age_group": 2,
@@ -319,12 +403,16 @@
   },
   {
    "file_name": "boris_becker.jpg",
+   "index": "P022",
    "names": {
     "en": "Boris Becker",
     "de": "Boris Becker",
-    "sl": "Boris Becker"
+    "sl": "Boris Becker",
+    "tur": "Boris Becker",
+    "ukr": "Борис Беккер",
+    "rus": "Борис Беккер"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 3,
    "max_age_group": 4,
    "interest_tags": [
@@ -334,10 +422,14 @@
   },
   {
    "file_name": "brad_pitt.jpg",
+   "index": "P023",
    "names": {
     "en": "Brad Pitt",
     "de": "Brad Pitt",
-    "sl": "Brad Pitt"
+    "sl": "Brad Pitt",
+    "tur": "Brad Pitt",
+    "ukr": "Бред Пітт",
+    "rus": "Брэд Питт"
    },
    "population": "global",
    "min_age_group": 2,
@@ -349,12 +441,16 @@
   },
   {
    "file_name": "branko_duric.jpg",
+   "index": "P024",
    "names": {
     "en": "Branko Đurić \"Đuro\"",
-    "de": "Branko Đurić \"Đuro\"",
-    "sl": "Branko Đurić \"Đuro\""
+    "de": "Branko Đurić „Đuro“",
+    "sl": "Branko Đurić \"Đuro\"",
+    "tur": "Branko Đurić \"Đuro\"",
+    "ukr": "Бранко Джурич «Джуро»",
+    "rus": "Бранко Джурич («Джуро»)"
    },
-   "population": "Slovenian",
+   "population": "slovenian",
    "min_age_group": 3,
    "max_age_group": 4,
    "interest_tags": [
@@ -365,10 +461,14 @@
   },
   {
    "file_name": "britney_spears.jpg",
+   "index": "P025",
    "names": {
     "en": "Britney Spears",
     "de": "Britney Spears",
-    "sl": "Britney Spears"
+    "sl": "Britney Spears",
+    "tur": "Britney Spears",
+    "ukr": "Брітні Спірс",
+    "rus": "Бритни Спирс"
    },
    "population": "global",
    "min_age_group": 2,
@@ -380,10 +480,14 @@
   },
   {
    "file_name": "cameron_diaz.jpg",
+   "index": "P026",
    "names": {
     "en": "Cameron Diaz",
     "de": "Cameron Diaz",
-    "sl": "Cameron Diaz"
+    "sl": "Cameron Diaz",
+    "tur": "Cameron Diaz",
+    "ukr": "Кемерон Діас",
+    "rus": "Кэмерон Диас"
    },
    "population": "global",
    "min_age_group": 2,
@@ -395,10 +499,14 @@
   },
   {
    "file_name": "camila_cabello.png",
+   "index": "P027",
    "names": {
     "en": "Camila Cabello",
     "de": "Camila Cabello",
-    "sl": "Camila Cabello"
+    "sl": "Camila Cabello",
+    "tur": "Camila Cabello",
+    "ukr": "Каміла Кабелло",
+    "rus": "Камила Кабельо"
    },
    "population": "global",
    "min_age_group": 1,
@@ -410,10 +518,14 @@
   },
   {
    "file_name": "cate_blanchett.jpg",
+   "index": "P028",
    "names": {
     "en": "Cate Blanchett",
     "de": "Cate Blanchett",
-    "sl": "Cate Blanchett"
+    "sl": "Cate Blanchett",
+    "tur": "Cate Blanchett",
+    "ukr": "Кейт Бланшетт",
+    "rus": "Кейт Бланшетт"
    },
    "population": "global",
    "min_age_group": 2,
@@ -425,10 +537,14 @@
   },
   {
    "file_name": "charlize_theron.jpg",
+   "index": "P029",
    "names": {
     "en": "Charlize Theron",
     "de": "Charlize Theron",
-    "sl": "Charlize Theron"
+    "sl": "Charlize Theron",
+    "tur": "Charlize Theron",
+    "ukr": "Шарліз Терон",
+    "rus": "Шарлиз Терон"
    },
    "population": "global",
    "min_age_group": 2,
@@ -440,10 +556,14 @@
   },
   {
    "file_name": "chris_evans_actor.jpg",
+   "index": "P030",
    "names": {
     "en": "Chris Evans",
     "de": "Chris Evans",
-    "sl": "Chris Evans"
+    "sl": "Chris Evans",
+    "tur": "Chris Evans",
+    "ukr": "Кріс Еванс",
+    "rus": "Крис Эванс"
    },
    "population": "global",
    "min_age_group": 1,
@@ -455,10 +575,14 @@
   },
   {
    "file_name": "chris_hemsworth.jpg",
+   "index": "P031",
    "names": {
     "en": "Chris Hemsworth",
     "de": "Chris Hemsworth",
-    "sl": "Chris Hemsworth"
+    "sl": "Chris Hemsworth",
+    "tur": "Chris Hemsworth",
+    "ukr": "Кріс Гемсворт",
+    "rus": "Крис Хемсворт"
    },
    "population": "global",
    "min_age_group": 1,
@@ -470,10 +594,14 @@
   },
   {
    "file_name": "christina_aguilera.jpg",
+   "index": "P032",
    "names": {
     "en": "Christina Aguilera",
     "de": "Christina Aguilera",
-    "sl": "Christina Aguilera"
+    "sl": "Christina Aguilera",
+    "tur": "Christina Aguilera",
+    "ukr": "Крістіна Агілера",
+    "rus": "Кристина Агилера"
    },
    "population": "global",
    "min_age_group": 2,
@@ -485,12 +613,16 @@
   },
   {
    "file_name": "christoph_waltz.jpg",
+   "index": "P033",
    "names": {
     "en": "Christoph Waltz",
     "de": "Christoph Waltz",
-    "sl": "Christoph Waltz"
+    "sl": "Christoph Waltz",
+    "tur": "Christoph Waltz",
+    "ukr": "Крістоф Вальц",
+    "rus": "Кристоф Вальц"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 2,
    "max_age_group": 4,
    "interest_tags": [
@@ -500,10 +632,14 @@
   },
   {
    "file_name": "cillian_murphy.png",
+   "index": "P034",
    "names": {
     "en": "Cillian Murphy",
     "de": "Cillian Murphy",
-    "sl": "Cillian Murphy"
+    "sl": "Cillian Murphy",
+    "tur": "Cillian Murphy",
+    "ukr": "Кілліан Мерфі",
+    "rus": "Киллиан Мерфи"
    },
    "population": "global",
    "min_age_group": 1,
@@ -515,10 +651,14 @@
   },
   {
    "file_name": "colin_firth.jpg",
+   "index": "P035",
    "names": {
     "en": "Colin Firth",
     "de": "Colin Firth",
-    "sl": "Colin Firth"
+    "sl": "Colin Firth",
+    "tur": "Colin Firth",
+    "ukr": "Колін Ферт",
+    "rus": "Колин Ферт"
    },
    "population": "global",
    "min_age_group": 2,
@@ -530,10 +670,14 @@
   },
   {
    "file_name": "cristiano_ronaldo.jpg",
+   "index": "P036",
    "names": {
     "en": "Cristiano Ronaldo",
     "de": "Cristiano Ronaldo",
-    "sl": "Cristiano Ronaldo"
+    "sl": "Cristiano Ronaldo",
+    "tur": "Cristiano Ronaldo",
+    "ukr": "Крістіано Роналду",
+    "rus": "Криштиану Роналду"
    },
    "population": "global",
    "min_age_group": 1,
@@ -545,10 +689,14 @@
   },
   {
    "file_name": "daniel_radcliffe.jpg",
+   "index": "P037",
    "names": {
     "en": "Daniel Radcliffe",
     "de": "Daniel Radcliffe",
-    "sl": "Daniel Radcliffe"
+    "sl": "Daniel Radcliffe",
+    "tur": "Daniel Radcliffe",
+    "ukr": "Деніел Редкліфф",
+    "rus": "Дэниел Рэдклифф"
    },
    "population": "global",
    "min_age_group": 1,
@@ -560,10 +708,14 @@
   },
   {
    "file_name": "david_beckham.jpg",
+   "index": "P038",
    "names": {
     "en": "David Beckham",
     "de": "David Beckham",
-    "sl": "David Beckham"
+    "sl": "David Beckham",
+    "tur": "David Beckham",
+    "ukr": "Девід Бекхем",
+    "rus": "Дэвид Бекхэм"
    },
    "population": "global",
    "min_age_group": 2,
@@ -575,12 +727,16 @@
   },
   {
    "file_name": "denis_advic.jpg",
+   "index": "P039",
    "names": {
     "en": "Denis Avdić",
     "de": "Denis Avdić",
-    "sl": "Denis Avdić"
+    "sl": "Denis Avdić",
+    "tur": "Denis Avdić",
+    "ukr": "Деніс Авдич",
+    "rus": "Денис Авдич"
    },
-   "population": "Slovenian",
+   "population": "slovenian",
    "min_age_group": 2,
    "max_age_group": 3,
    "interest_tags": [
@@ -590,12 +746,16 @@
   },
   {
    "file_name": "dieter_bohlen.jpg",
+   "index": "P040",
    "names": {
     "en": "Dieter Bohlen",
     "de": "Dieter Bohlen",
-    "sl": "Dieter Bohlen"
+    "sl": "Dieter Bohlen",
+    "tur": "Dieter Bohlen",
+    "ukr": "Дітер Болен",
+    "rus": "Дитер Болен"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 2,
    "max_age_group": 4,
    "interest_tags": [
@@ -606,10 +766,14 @@
   },
   {
    "file_name": "doja_cat.jpg",
+   "index": "P041",
    "names": {
     "en": "Doja Cat",
     "de": "Doja Cat",
-    "sl": "Doja Cat"
+    "sl": "Doja Cat",
+    "tur": "Doja Cat",
+    "ukr": "Доджа Кет",
+    "rus": "Doja Cat"
    },
    "population": "global",
    "min_age_group": 1,
@@ -621,10 +785,14 @@
   },
   {
    "file_name": "dolly_parton.jpg",
+   "index": "P042",
    "names": {
     "en": "Dolly Parton",
     "de": "Dolly Parton",
-    "sl": "Dolly Parton"
+    "sl": "Dolly Parton",
+    "tur": "Dolly Parton",
+    "ukr": "Доллі Партон",
+    "rus": "Долли Партон"
    },
    "population": "global",
    "min_age_group": 2,
@@ -636,10 +804,14 @@
   },
   {
    "file_name": "donald_trump.jpg",
+   "index": "P043",
    "names": {
     "en": "Donald Trump",
     "de": "Donald Trump",
-    "sl": "Donald Trump"
+    "sl": "Donald Trump",
+    "tur": "Donald Trump",
+    "ukr": "Дональд Трамп",
+    "rus": "Дональд Трамп"
    },
    "population": "global",
    "min_age_group": 1,
@@ -651,10 +823,14 @@
   },
   {
    "file_name": "drew_barrymore.jpg",
+   "index": "P044",
    "names": {
     "en": "Drew Barrymore",
     "de": "Drew Barrymore",
-    "sl": "Drew Barrymore"
+    "sl": "Drew Barrymore",
+    "tur": "Drew Barrymore",
+    "ukr": "Дрю Беррімор",
+    "rus": "Дрю Бэрримор"
    },
    "population": "global",
    "min_age_group": 2,
@@ -666,10 +842,14 @@
   },
   {
    "file_name": "dua_lipa.jpg",
+   "index": "P045",
    "names": {
     "en": "Dua Lipa",
     "de": "Dua Lipa",
-    "sl": "Dua Lipa"
+    "sl": "Dua Lipa",
+    "tur": "Dua Lipa",
+    "ukr": "Дуа Ліпа",
+    "rus": "Дуа Липа"
    },
    "population": "global",
    "min_age_group": 1,
@@ -681,10 +861,14 @@
   },
   {
    "file_name": "dwayne_johnson.jpg",
+   "index": "P046",
    "names": {
     "en": "Dwayne Johnson",
     "de": "Dwayne Johnson",
-    "sl": "Dwayne Johnson"
+    "sl": "Dwayne Johnson",
+    "tur": "Dwayne Johnson",
+    "ukr": "Дуейн Джонсон",
+    "rus": "Дуэйн Джонсон"
    },
    "population": "global",
    "min_age_group": 1,
@@ -697,10 +881,14 @@
   },
   {
    "file_name": "ed_sheeran.jpg",
+   "index": "P047",
    "names": {
     "en": "Ed Sheeran",
     "de": "Ed Sheeran",
-    "sl": "Ed Sheeran"
+    "sl": "Ed Sheeran",
+    "tur": "Ed Sheeran",
+    "ukr": "Ед Ширан",
+    "rus": "Эд Ширан"
    },
    "population": "global",
    "min_age_group": 1,
@@ -712,10 +900,14 @@
   },
   {
    "file_name": "eddie_murphy.jpg",
+   "index": "P048",
    "names": {
     "en": "Eddie Murphy",
     "de": "Eddie Murphy",
-    "sl": "Eddie Murphy"
+    "sl": "Eddie Murphy",
+    "tur": "Eddie Murphy",
+    "ukr": "Едді Мерфі",
+    "rus": "Эдди Мерфи"
    },
    "population": "global",
    "min_age_group": 2,
@@ -728,10 +920,14 @@
   },
   {
    "file_name": "elon_musk.jpg",
+   "index": "P049",
    "names": {
     "en": "Elon Musk",
     "de": "Elon Musk",
-    "sl": "Elon Musk"
+    "sl": "Elon Musk",
+    "tur": "Elon Musk",
+    "ukr": "Ілон Маск",
+    "rus": "Илон Маск"
    },
    "population": "global",
    "min_age_group": 1,
@@ -743,10 +939,14 @@
   },
   {
    "file_name": "elton_john.jpg",
+   "index": "P050",
    "names": {
     "en": "Elton John",
     "de": "Elton John",
-    "sl": "Elton John"
+    "sl": "Elton John",
+    "tur": "Elton John",
+    "ukr": "Елтон Джон",
+    "rus": "Элтон Джон"
    },
    "population": "global",
    "min_age_group": 2,
@@ -758,10 +958,14 @@
   },
   {
    "file_name": "elvis_presley.jpg",
+   "index": "P051",
    "names": {
     "en": "Elvis Presley",
     "de": "Elvis Presley",
-    "sl": "Elvis Presley"
+    "sl": "Elvis Presley",
+    "tur": "Elvis Presley",
+    "ukr": "Елвіс Преслі",
+    "rus": "Элвис Пресли"
    },
    "population": "global",
    "min_age_group": 3,
@@ -773,10 +977,14 @@
   },
   {
    "file_name": "emilia_clarke.png",
+   "index": "P052",
    "names": {
     "en": "Emilia Clarke",
     "de": "Emilia Clarke",
-    "sl": "Emilia Clarke"
+    "sl": "Emilia Clarke",
+    "tur": "Emilia Clarke",
+    "ukr": "Емілія Кларк",
+    "rus": "Эмилия Кларк"
    },
    "population": "global",
    "min_age_group": 1,
@@ -788,10 +996,14 @@
   },
   {
    "file_name": "eminem.jpg",
+   "index": "P053",
    "names": {
     "en": "Eminem",
     "de": "Eminem",
-    "sl": "Eminem"
+    "sl": "Eminem",
+    "tur": "Eminem",
+    "ukr": "Емінем",
+    "rus": "Эминем"
    },
    "population": "global",
    "min_age_group": 1,
@@ -803,10 +1015,14 @@
   },
   {
    "file_name": "emma_stone.jpg",
+   "index": "P054",
    "names": {
     "en": "Emma Stone",
     "de": "Emma Stone",
-    "sl": "Emma Stone"
+    "sl": "Emma Stone",
+    "tur": "Emma Stone",
+    "ukr": "Емма Стоун",
+    "rus": "Эмма Стоун"
    },
    "population": "global",
    "min_age_group": 1,
@@ -818,10 +1034,14 @@
   },
   {
    "file_name": "emma_thompson.jpg",
+   "index": "P055",
    "names": {
     "en": "Emma Thompson",
     "de": "Emma Thompson",
-    "sl": "Emma Thompson"
+    "sl": "Emma Thompson",
+    "tur": "Emma Thompson",
+    "ukr": "Емма Томпсон",
+    "rus": "Эмма Томпсон"
    },
    "population": "global",
    "min_age_group": 2,
@@ -833,10 +1053,14 @@
   },
   {
    "file_name": "emma_watson.jpg",
+   "index": "P056",
    "names": {
     "en": "Emma Watson",
     "de": "Emma Watson",
-    "sl": "Emma Watson"
+    "sl": "Emma Watson",
+    "tur": "Emma Watson",
+    "ukr": "Емма Вотсон",
+    "rus": "Эмма Уотсон"
    },
    "population": "global",
    "min_age_group": 1,
@@ -848,10 +1072,14 @@
   },
   {
    "file_name": "erling_haaland.jpg",
+   "index": "P057",
    "names": {
     "en": "Erling Haaland",
     "de": "Erling Haaland",
-    "sl": "Erling Haaland"
+    "sl": "Erling Haaland",
+    "tur": "Erling Haaland",
+    "ukr": "Ерлінг Холанд",
+    "rus": "Эрлинг Холанд"
    },
    "population": "global",
    "min_age_group": 1,
@@ -863,10 +1091,14 @@
   },
   {
    "file_name": "fernando_alonso.jpg",
+   "index": "P058",
    "names": {
     "en": "Fernando Alonso",
     "de": "Fernando Alonso",
-    "sl": "Fernando Alonso"
+    "sl": "Fernando Alonso",
+    "tur": "Fernando Alonso",
+    "ukr": "Фернандо Алонсо",
+    "rus": "Фернандо Алонсо"
    },
    "population": "global",
    "min_age_group": 2,
@@ -878,10 +1110,14 @@
   },
   {
    "file_name": "freddie_mercury.jpg",
+   "index": "P059",
    "names": {
     "en": "Freddie Mercury",
     "de": "Freddie Mercury",
-    "sl": "Freddie Mercury"
+    "sl": "Freddie Mercury",
+    "tur": "Freddie Mercury",
+    "ukr": "Фредді Мерк'юрі",
+    "rus": "Фредди Меркьюри"
    },
    "population": "global",
    "min_age_group": 3,
@@ -893,10 +1129,14 @@
   },
   {
    "file_name": "george_clooney.jpg",
+   "index": "P060",
    "names": {
     "en": "George Clooney",
     "de": "George Clooney",
-    "sl": "George Clooney"
+    "sl": "George Clooney",
+    "tur": "George Clooney",
+    "ukr": "Джордж Клуні",
+    "rus": "Джордж Клуни"
    },
    "population": "global",
    "min_age_group": 2,
@@ -908,12 +1148,16 @@
   },
   {
    "file_name": "goran_dragic.png",
+   "index": "P061",
    "names": {
     "en": "Goran Dragić",
     "de": "Goran Dragić",
-    "sl": "Goran Dragić"
+    "sl": "Goran Dragić",
+    "tur": "Goran Dragić",
+    "ukr": "Горан Драгіч",
+    "rus": "Горан Драгич"
    },
-   "population": "Slovenian",
+   "population": "slovenian",
    "min_age_group": 2,
    "max_age_group": 3,
    "interest_tags": [
@@ -923,10 +1167,14 @@
   },
   {
    "file_name": "gordon_ramsay.jpg",
+   "index": "P062",
    "names": {
     "en": "Gordon Ramsay",
     "de": "Gordon Ramsay",
-    "sl": "Gordon Ramsay"
+    "sl": "Gordon Ramsay",
+    "tur": "Gordon Ramsay",
+    "ukr": "Гордон Рамзі",
+    "rus": "Гордон Рамзи"
    },
    "population": "global",
    "min_age_group": 1,
@@ -938,10 +1186,14 @@
   },
   {
    "file_name": "greta_thunberg.jpg",
+   "index": "P063",
    "names": {
     "en": "Greta Thunberg",
     "de": "Greta Thunberg",
-    "sl": "Greta Thunberg"
+    "sl": "Greta Thunberg",
+    "tur": "Greta Thunberg",
+    "ukr": "Ґрета Тунберг",
+    "rus": "Грета Тунберг"
    },
    "population": "global",
    "min_age_group": 1,
@@ -953,12 +1205,16 @@
   },
   {
    "file_name": "guenther_jauch.jpg",
+   "index": "P064",
    "names": {
     "en": "Günther Jauch",
     "de": "Günther Jauch",
-    "sl": "Günther Jauch"
+    "sl": "Günther Jauch",
+    "tur": "Günther Jauch",
+    "ukr": "Ґюнтер Яух",
+    "rus": "Гюнтер Яух"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 2,
    "max_age_group": 4,
    "interest_tags": [
@@ -968,10 +1224,14 @@
   },
   {
    "file_name": "gwen_stefani.jpg",
+   "index": "P065",
    "names": {
     "en": "Gwen Stefani",
     "de": "Gwen Stefani",
-    "sl": "Gwen Stefani"
+    "sl": "Gwen Stefani",
+    "tur": "Gwen Stefani",
+    "ukr": "Ґвен Стефані",
+    "rus": "Гвен Стефани"
    },
    "population": "global",
    "min_age_group": 2,
@@ -983,10 +1243,14 @@
   },
   {
    "file_name": "halle_berry.jpg",
+   "index": "P066",
    "names": {
     "en": "Halle Berry",
     "de": "Halle Berry",
-    "sl": "Halle Berry"
+    "sl": "Halle Berry",
+    "tur": "Halle Berry",
+    "ukr": "Голлі Беррі",
+    "rus": "Холли Берри"
    },
    "population": "global",
    "min_age_group": 2,
@@ -998,12 +1262,16 @@
   },
   {
    "file_name": "harald_schmidt.jpg",
+   "index": "P067",
    "names": {
     "en": "Harald Schmidt",
     "de": "Harald Schmidt",
-    "sl": "Harald Schmidt"
+    "sl": "Harald Schmidt",
+    "tur": "Harald Schmidt",
+    "ukr": "Гаральд Шмідт",
+    "rus": "Харальд Шмидт"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 3,
    "max_age_group": 4,
    "interest_tags": [
@@ -1013,10 +1281,14 @@
   },
   {
    "file_name": "harrison_ford.jpg",
+   "index": "P068",
    "names": {
     "en": "Harrison Ford",
     "de": "Harrison Ford",
-    "sl": "Harrison Ford"
+    "sl": "Harrison Ford",
+    "tur": "Harrison Ford",
+    "ukr": "Гаррісон Форд",
+    "rus": "Харрисон Форд"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1028,10 +1300,14 @@
   },
   {
    "file_name": "harry_styles.jpg",
+   "index": "P069",
    "names": {
     "en": "Harry Styles",
     "de": "Harry Styles",
-    "sl": "Harry Styles"
+    "sl": "Harry Styles",
+    "tur": "Harry Styles",
+    "ukr": "Гаррі Стайлз",
+    "rus": "Гарри Стайлс"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1043,10 +1319,14 @@
   },
   {
    "file_name": "hayden_christensen.jpg",
+   "index": "P070",
    "names": {
     "en": "Hayden Christensen",
     "de": "Hayden Christensen",
-    "sl": "Hayden Christensen"
+    "sl": "Hayden Christensen",
+    "tur": "Hayden Christensen",
+    "ukr": "Гайден Крістенсен",
+    "rus": "Хейден Кристенсен"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1058,10 +1338,14 @@
   },
   {
    "file_name": "helen_mirren.jpg",
+   "index": "P071",
    "names": {
     "en": "Helen Mirren",
     "de": "Helen Mirren",
-    "sl": "Helen Mirren"
+    "sl": "Helen Mirren",
+    "tur": "Helen Mirren",
+    "ukr": "Гелен Міррен",
+    "rus": "Хелен Миррен"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1073,12 +1357,16 @@
   },
   {
    "file_name": "helene_fischer.jpg",
+   "index": "P072",
    "names": {
     "en": "Helene Fischer",
     "de": "Helene Fischer",
-    "sl": "Helene Fischer"
+    "sl": "Helene Fischer",
+    "tur": "Helene Fischer",
+    "ukr": "Гелен Фішер",
+    "rus": "Хелена Фишер"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 2,
    "max_age_group": 4,
    "interest_tags": [
@@ -1088,12 +1376,16 @@
   },
   {
    "file_name": "herbert_groenemeyer.jpg",
+   "index": "P073",
    "names": {
     "en": "Herbert Grönemeyer",
     "de": "Herbert Grönemeyer",
-    "sl": "Herbert Grönemeyer"
+    "sl": "Herbert Grönemeyer",
+    "tur": "Herbert Grönemeyer",
+    "ukr": "Герберт Ґрьонемейєр",
+    "rus": "Герберт Грёнемайер"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 3,
    "max_age_group": 4,
    "interest_tags": [
@@ -1103,10 +1395,14 @@
   },
   {
    "file_name": "hugh_grant.jpg",
+   "index": "P074",
    "names": {
     "en": "Hugh Grant",
     "de": "Hugh Grant",
-    "sl": "Hugh Grant"
+    "sl": "Hugh Grant",
+    "tur": "Hugh Grant",
+    "ukr": "Г'ю Ґрант",
+    "rus": "Хью Грант"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1118,10 +1414,14 @@
   },
   {
    "file_name": "hugh_jackman.jpg",
+   "index": "P075",
    "names": {
     "en": "Hugh Jackman",
     "de": "Hugh Jackman",
-    "sl": "Hugh Jackman"
+    "sl": "Hugh Jackman",
+    "tur": "Hugh Jackman",
+    "ukr": "Г'ю Джекман",
+    "rus": "Хью Джекман"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1133,10 +1433,14 @@
   },
   {
    "file_name": "idris_elba.jpg",
+   "index": "P076",
    "names": {
     "en": "Idris Elba",
     "de": "Idris Elba",
-    "sl": "Idris Elba"
+    "sl": "Idris Elba",
+    "tur": "Idris Elba",
+    "ukr": "Ідріс Ельба",
+    "rus": "Идрис Эльба"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1148,12 +1452,16 @@
   },
   {
    "file_name": "jamal_musiala.jpg",
+   "index": "P077",
    "names": {
     "en": "Jamal Musiala",
     "de": "Jamal Musiala",
-    "sl": "Jamal Musiala"
+    "sl": "Jamal Musiala",
+    "tur": "Jamal Musiala",
+    "ukr": "Джамал Мусіала",
+    "rus": "Джамал Мусиала"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 1,
    "max_age_group": 1,
    "interest_tags": [
@@ -1163,12 +1471,16 @@
   },
   {
    "file_name": "jan_plestenjak.jpg",
+   "index": "P078",
    "names": {
     "en": "Jan Plestenjak",
     "de": "Jan Plestenjak",
-    "sl": "Jan Plestenjak"
+    "sl": "Jan Plestenjak",
+    "tur": "Jan Plestenjak",
+    "ukr": "Ян Плестеняк",
+    "rus": "Ян Плестеняк"
    },
-   "population": "Slovenian",
+   "population": "slovenian",
    "min_age_group": 2,
    "max_age_group": 3,
    "interest_tags": [
@@ -1178,10 +1490,14 @@
   },
   {
    "file_name": "jenna_ortega.jpg",
+   "index": "P079",
    "names": {
     "en": "Jenna Ortega",
     "de": "Jenna Ortega",
-    "sl": "Jenna Ortega"
+    "sl": "Jenna Ortega",
+    "tur": "Jenna Ortega",
+    "ukr": "Дженна Ортега",
+    "rus": "Дженна Ортега"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1193,10 +1509,14 @@
   },
   {
    "file_name": "jennifer_aniston.jpg",
+   "index": "P080",
    "names": {
     "en": "Jennifer Aniston",
     "de": "Jennifer Aniston",
-    "sl": "Jennifer Aniston"
+    "sl": "Jennifer Aniston",
+    "tur": "Jennifer Aniston",
+    "ukr": "Дженніфер Еністон",
+    "rus": "Дженнифер Энистон"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1208,10 +1528,14 @@
   },
   {
    "file_name": "jennifer_lawrence.jpg",
+   "index": "P081",
    "names": {
     "en": "Jennifer Lawrence",
     "de": "Jennifer Lawrence",
-    "sl": "Jennifer Lawrence"
+    "sl": "Jennifer Lawrence",
+    "tur": "Jennifer Lawrence",
+    "ukr": "Дженніфер Лоуренс",
+    "rus": "Дженнифер Лоуренс"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1223,10 +1547,14 @@
   },
   {
    "file_name": "jennifer_lopez.png",
+   "index": "P082",
    "names": {
     "en": "Jennifer Lopez",
     "de": "Jennifer Lopez",
-    "sl": "Jennifer Lopez"
+    "sl": "Jennifer Lopez",
+    "tur": "Jennifer Lopez",
+    "ukr": "Дженніфер Лопес",
+    "rus": "Дженнифер Лопес"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1239,10 +1567,14 @@
   },
   {
    "file_name": "jim_carrey.jpg",
+   "index": "P083",
    "names": {
     "en": "Jim Carrey",
     "de": "Jim Carrey",
-    "sl": "Jim Carrey"
+    "sl": "Jim Carrey",
+    "tur": "Jim Carrey",
+    "ukr": "Джим Керрі",
+    "rus": "Джим Керри"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1255,10 +1587,14 @@
   },
   {
    "file_name": "jodie_foster.jpg",
+   "index": "P084",
    "names": {
     "en": "Jodie Foster",
     "de": "Jodie Foster",
-    "sl": "Jodie Foster"
+    "sl": "Jodie Foster",
+    "tur": "Jodie Foster",
+    "ukr": "Джоді Фостер",
+    "rus": "Джоди Фостер"
    },
    "population": "global",
    "min_age_group": 3,
@@ -1270,10 +1606,14 @@
   },
   {
    "file_name": "johnny_depp.jpg",
+   "index": "P085",
    "names": {
     "en": "Johnny Depp",
     "de": "Johnny Depp",
-    "sl": "Johnny Depp"
+    "sl": "Johnny Depp",
+    "tur": "Johnny Depp",
+    "ukr": "Джонні Депп",
+    "rus": "Джонни Депп"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1285,10 +1625,14 @@
   },
   {
    "file_name": "jon_bon_jovi.jpg",
+   "index": "P086",
    "names": {
     "en": "Jon Bon Jovi",
     "de": "Jon Bon Jovi",
-    "sl": "Jon Bon Jovi"
+    "sl": "Jon Bon Jovi",
+    "tur": "Jon Bon Jovi",
+    "ukr": "Джон Бон Джові",
+    "rus": "Джон Бон Джови"
    },
    "population": "global",
    "min_age_group": 3,
@@ -1300,10 +1644,14 @@
   },
   {
    "file_name": "jude_bellingham.jpg",
+   "index": "P087",
    "names": {
     "en": "Jude Bellingham",
     "de": "Jude Bellingham",
-    "sl": "Jude Bellingham"
+    "sl": "Jude Bellingham",
+    "tur": "Jude Bellingham",
+    "ukr": "Джуд Беллінгем",
+    "rus": "Джуд Беллингем"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1315,10 +1663,14 @@
   },
   {
    "file_name": "julia_roberts.jpg",
+   "index": "P088",
    "names": {
     "en": "Julia Roberts",
     "de": "Julia Roberts",
-    "sl": "Julia Roberts"
+    "sl": "Julia Roberts",
+    "tur": "Julia Roberts",
+    "ukr": "Джулія Робертс",
+    "rus": "Джулия Робертс"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1330,12 +1682,16 @@
   },
   {
    "file_name": "jurgen_klopp.jpg",
+   "index": "P089",
    "names": {
     "en": "Jürgen Klopp",
     "de": "Jürgen Klopp",
-    "sl": "Jürgen Klopp"
+    "sl": "Jürgen Klopp",
+    "tur": "Jürgen Klopp",
+    "ukr": "Юрген Клопп",
+    "rus": "Юрген Клопп"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 1,
    "max_age_group": 3,
    "interest_tags": [
@@ -1345,12 +1701,16 @@
   },
   {
    "file_name": "jurij_zrnec.jpg",
+   "index": "P090",
    "names": {
     "en": "Jurij Zrnec",
     "de": "Jurij Zrnec",
-    "sl": "Jurij Zrnec"
+    "sl": "Jurij Zrnec",
+    "tur": "Jurij Zrnec",
+    "ukr": "Юрій Зрнец",
+    "rus": "Юрий Зрнец"
    },
-   "population": "Slovenian",
+   "population": "slovenian",
    "min_age_group": 2,
    "max_age_group": 3,
    "interest_tags": [
@@ -1361,10 +1721,14 @@
   },
   {
    "file_name": "justin_bieber.jpg",
+   "index": "P091",
    "names": {
     "en": "Justin Bieber",
     "de": "Justin Bieber",
-    "sl": "Justin Bieber"
+    "sl": "Justin Bieber",
+    "tur": "Justin Bieber",
+    "ukr": "Джастін Бібер",
+    "rus": "Джастин Бибер"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1376,10 +1740,14 @@
   },
   {
    "file_name": "kanye_west.png",
+   "index": "P092",
    "names": {
     "en": "Kanye West",
     "de": "Kanye West",
-    "sl": "Kanye West"
+    "sl": "Kanye West",
+    "tur": "Kanye West",
+    "ukr": "Каньє Вест",
+    "rus": "Канье Уэст"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1391,10 +1759,14 @@
   },
   {
    "file_name": "kate_winslet.jpg",
+   "index": "P093",
    "names": {
     "en": "Kate Winslet",
     "de": "Kate Winslet",
-    "sl": "Kate Winslet"
+    "sl": "Kate Winslet",
+    "tur": "Kate Winslet",
+    "ukr": "Кейт Вінслет",
+    "rus": "Кейт Уинслет"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1406,10 +1778,14 @@
   },
   {
    "file_name": "katy_perry.jpg",
+   "index": "P094",
    "names": {
     "en": "Katy Perry",
     "de": "Katy Perry",
-    "sl": "Katy Perry"
+    "sl": "Katy Perry",
+    "tur": "Katy Perry",
+    "ukr": "Кеті Перрі",
+    "rus": "Кэти Перри"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1421,10 +1797,14 @@
   },
   {
    "file_name": "keanu_reeves.jpg",
+   "index": "P095",
    "names": {
     "en": "Keanu Reeves",
     "de": "Keanu Reeves",
-    "sl": "Keanu Reeves"
+    "sl": "Keanu Reeves",
+    "tur": "Keanu Reeves",
+    "ukr": "Кіану Рівз",
+    "rus": "Киану Ривз"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1436,10 +1816,14 @@
   },
   {
    "file_name": "keira_knightley.jpg",
+   "index": "P096",
    "names": {
     "en": "Keira Knightley",
     "de": "Keira Knightley",
-    "sl": "Keira Knightley"
+    "sl": "Keira Knightley",
+    "tur": "Keira Knightley",
+    "ukr": "Кіра Найтлі",
+    "rus": "Кира Найтли"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1451,10 +1835,14 @@
   },
   {
    "file_name": "kim_kardashian.jpg",
+   "index": "P097",
    "names": {
     "en": "Kim Kardashian",
     "de": "Kim Kardashian",
-    "sl": "Kim Kardashian"
+    "sl": "Kim Kardashian",
+    "tur": "Kim Kardashian",
+    "ukr": "Кім Кардаш'ян",
+    "rus": "Ким Кардашьян"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1466,10 +1854,14 @@
   },
   {
    "file_name": "kylian_mbappe.png",
+   "index": "P098",
    "names": {
     "en": "Kylian Mbappé",
     "de": "Kylian Mbappé",
-    "sl": "Kylian Mbappé"
+    "sl": "Kylian Mbappé",
+    "tur": "Kylian Mbappe",
+    "ukr": "Кайліан Мбаппе",
+    "rus": "Килиан Мбаппе"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1481,10 +1873,14 @@
   },
   {
    "file_name": "kylie_minogue.png",
+   "index": "P099",
    "names": {
     "en": "Kylie Minogue",
     "de": "Kylie Minogue",
-    "sl": "Kylie Minogue"
+    "sl": "Kylie Minogue",
+    "tur": "Kylie Minogue",
+    "ukr": "Кайлі Міноуг",
+    "rus": "Кайли Миноуг"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1496,10 +1892,14 @@
   },
   {
    "file_name": "lady_gaga.jpg",
+   "index": "P100",
    "names": {
     "en": "Lady Gaga",
     "de": "Lady Gaga",
-    "sl": "Lady Gaga"
+    "sl": "Lady Gaga",
+    "tur": "Leydi Gaga",
+    "ukr": "Леді Гага",
+    "rus": "Леди Гага"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1511,10 +1911,14 @@
   },
   {
    "file_name": "lebron_james.jpg",
+   "index": "P101",
    "names": {
     "en": "LeBron James",
     "de": "LeBron James",
-    "sl": "LeBron James"
+    "sl": "LeBron James",
+    "tur": "LeBron James",
+    "ukr": "Леброн Джеймс",
+    "rus": "Леброн Джеймс"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1526,12 +1930,16 @@
   },
   {
    "file_name": "lena_meyer_landrut.jpg",
+   "index": "P102",
    "names": {
     "en": "Lena Meyer-Landrut",
     "de": "Lena Meyer-Landrut",
-    "sl": "Lena Meyer-Landrut"
+    "sl": "Lena Meyer-Landrut",
+    "tur": "Lena Meyer-Landrut",
+    "ukr": "Лена Мейєр-Ландрут",
+    "rus": "Лена Майер-Ландрут"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 1,
    "max_age_group": 2,
    "interest_tags": [
@@ -1541,10 +1949,14 @@
   },
   {
    "file_name": "leonardo_dicaprio.jpg",
+   "index": "P103",
    "names": {
     "en": "Leonardo DiCaprio",
     "de": "Leonardo DiCaprio",
-    "sl": "Leonardo DiCaprio"
+    "sl": "Leonardo DiCaprio",
+    "tur": "Leonardo DiCaprio",
+    "ukr": "Леонардо ДіКапріо",
+    "rus": "Леонардо Ди Каприо"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1556,10 +1968,14 @@
   },
   {
    "file_name": "lewis_capaldi.jpg",
+   "index": "P104",
    "names": {
     "en": "Lewis Capaldi",
     "de": "Lewis Capaldi",
-    "sl": "Lewis Capaldi"
+    "sl": "Lewis Capaldi",
+    "tur": "Lewis Capaldi",
+    "ukr": "Льюїс Капальді",
+    "rus": "Льюис Капальди"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1571,10 +1987,14 @@
   },
   {
    "file_name": "lionel_messi.jpg",
+   "index": "P105",
    "names": {
     "en": "Lionel Messi",
     "de": "Lionel Messi",
-    "sl": "Lionel Messi"
+    "sl": "Lionel Messi",
+    "tur": "Lionel Messi",
+    "ukr": "Ліонель Мессі",
+    "rus": "Лионель Месси"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1586,12 +2006,16 @@
   },
   {
    "file_name": "lothar_matthaus.jpg",
+   "index": "P106",
    "names": {
     "en": "Lothar Matthäus",
     "de": "Lothar Matthäus",
-    "sl": "Lothar Matthäus"
+    "sl": "Lothar Matthäus",
+    "tur": "Lothar Matthäus",
+    "ukr": "Лотар Маттеус",
+    "rus": "Лотар Маттеус"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 3,
    "max_age_group": 4,
    "interest_tags": [
@@ -1601,12 +2025,16 @@
   },
   {
    "file_name": "luka_doncic.jpg",
+   "index": "P107",
    "names": {
     "en": "Luka Dončić",
     "de": "Luka Dončić",
-    "sl": "Luka Dončić"
+    "sl": "Luka Dončić",
+    "tur": "Luka Dončić",
+    "ukr": "Лука Дончич",
+    "rus": "Лука Дончич"
    },
-   "population": "Slovenian",
+   "population": "slovenian",
    "min_age_group": 1,
    "max_age_group": 1,
    "interest_tags": [
@@ -1616,12 +2044,16 @@
   },
   {
    "file_name": "lukas_podolski.jpg",
+   "index": "P108",
    "names": {
     "en": "Lukas Podolski",
     "de": "Lukas Podolski",
-    "sl": "Lukas Podolski"
+    "sl": "Lukas Podolski",
+    "tur": "Lukas Podolski",
+    "ukr": "Лукас Подольскі",
+    "rus": "Лукас Подольски"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 2,
    "max_age_group": 3,
    "interest_tags": [
@@ -1631,10 +2063,14 @@
   },
   {
    "file_name": "madonna_singer.jpg",
+   "index": "P109",
    "names": {
     "en": "Madonna",
     "de": "Madonna",
-    "sl": "Madonna"
+    "sl": "Madonna",
+    "tur": "Madonna",
+    "ukr": "Мадонна",
+    "rus": "Мадонна"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1646,12 +2082,16 @@
   },
   {
    "file_name": "manuel_neuer.jpg",
+   "index": "P110",
    "names": {
     "en": "Manuel Neuer",
     "de": "Manuel Neuer",
-    "sl": "Manuel Neuer"
+    "sl": "Manuel Neuer",
+    "tur": "Manuel Neuer",
+    "ukr": "Мануель Нойєр",
+    "rus": "Мануэль Нойер"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 1,
    "max_age_group": 3,
    "interest_tags": [
@@ -1661,10 +2101,14 @@
   },
   {
    "file_name": "margot_robbie.jpg",
+   "index": "P111",
    "names": {
     "en": "Margot Robbie",
     "de": "Margot Robbie",
-    "sl": "Margot Robbie"
+    "sl": "Margot Robbie",
+    "tur": "Margot Robbie",
+    "ukr": "Марго Роббі",
+    "rus": "Марго Робби"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1676,10 +2120,14 @@
   },
   {
    "file_name": "mariah_carrey.jpg",
+   "index": "P112",
    "names": {
-    "en": "Mariah Carrey",
-    "de": "Mariah Carrey",
-    "sl": "Mariah Carrey"
+    "en": "Mariah Carey",
+    "de": "Mariah Carey",
+    "sl": "Mariah Carey",
+    "tur": "Mariah Carey",
+    "ukr": "Мерайя Кері",
+    "rus": "Мэрайя Кэри"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1691,10 +2139,14 @@
   },
   {
    "file_name": "marilyn_monroe.jpg",
+   "index": "P113",
    "names": {
     "en": "Marilyn Monroe",
     "de": "Marilyn Monroe",
-    "sl": "Marilyn Monroe"
+    "sl": "Marilyn Monroe",
+    "tur": "Marilyn Monroe",
+    "ukr": "Мерилін Монро",
+    "rus": "Мэрилин Монро"
    },
    "population": "global",
    "min_age_group": 3,
@@ -1706,10 +2158,14 @@
   },
   {
    "file_name": "mark_ruffalo.jpg",
+   "index": "P114",
    "names": {
     "en": "Mark Ruffalo",
     "de": "Mark Ruffalo",
-    "sl": "Mark Ruffalo"
+    "sl": "Mark Ruffalo",
+    "tur": "Mark Ruffalo",
+    "ukr": "Марк Руффало",
+    "rus": "Марк Руффало"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1721,10 +2177,14 @@
   },
   {
    "file_name": "mark_zuckerberg.jpg",
+   "index": "P115",
    "names": {
     "en": "Mark Zuckerberg",
     "de": "Mark Zuckerberg",
-    "sl": "Mark Zuckerberg"
+    "sl": "Mark Zuckerberg",
+    "tur": "Mark Zuckerberg",
+    "ukr": "Марк Цукерберг",
+    "rus": "Марк Цукерберг"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1736,12 +2196,16 @@
   },
   {
    "file_name": "markus_lanz.jpg",
+   "index": "P116",
    "names": {
     "en": "Markus Lanz",
     "de": "Markus Lanz",
-    "sl": "Markus Lanz"
+    "sl": "Markus Lanz",
+    "tur": "Markus Lanz",
+    "ukr": "Маркус Ланц",
+    "rus": "Маркус Ланц"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 2,
    "max_age_group": 3,
    "interest_tags": [
@@ -1751,10 +2215,14 @@
   },
   {
    "file_name": "matt_damon.jpg",
+   "index": "P117",
    "names": {
     "en": "Matt Damon",
     "de": "Matt Damon",
-    "sl": "Matt Damon"
+    "sl": "Matt Damon",
+    "tur": "Matt Damon",
+    "ukr": "Метт Деймон",
+    "rus": "Мэтт Дэймон"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1766,12 +2234,16 @@
   },
   {
    "file_name": "matthias_schweighoefer.jpg",
+   "index": "P118",
    "names": {
     "en": "Matthias Schweighöfer",
     "de": "Matthias Schweighöfer",
-    "sl": "Matthias Schweighöfer"
+    "sl": "Matthias Schweighöfer",
+    "tur": "Matthias Schweighöfer",
+    "ukr": "Маттіас Швайгхофер",
+    "rus": "Маттиас Швайгхёфер"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 1,
    "max_age_group": 3,
    "interest_tags": [
@@ -1781,10 +2253,14 @@
   },
   {
    "file_name": "max_verstappen.jpg",
+   "index": "P119",
    "names": {
     "en": "Max Verstappen",
     "de": "Max Verstappen",
-    "sl": "Max Verstappen"
+    "sl": "Max Verstappen",
+    "tur": "Max Verstappen",
+    "ukr": "Макс Ферстаппен",
+    "rus": "Макс Ферстаппен"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1796,12 +2272,16 @@
   },
   {
    "file_name": "melania_trump.jpg",
+   "index": "P120",
    "names": {
     "en": "Melania Trump",
     "de": "Melania Trump",
-    "sl": "Melania Trump"
+    "sl": "Melania Trump",
+    "tur": "Melanya Trump",
+    "ukr": "Меланія Трамп",
+    "rus": "Мелания Трамп"
    },
-   "population": "Slovenian",
+   "population": "slovenian",
    "min_age_group": 1,
    "max_age_group": 3,
    "interest_tags": [
@@ -1811,10 +2291,14 @@
   },
   {
    "file_name": "meryl_streep.jpg",
+   "index": "P121",
    "names": {
     "en": "Meryl Streep",
     "de": "Meryl Streep",
-    "sl": "Meryl Streep"
+    "sl": "Meryl Streep",
+    "tur": "Meryl Streep",
+    "ukr": "Меріл Стріп",
+    "rus": "Мерил Стрип"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1826,10 +2310,14 @@
   },
   {
    "file_name": "michael_buble.jpg",
+   "index": "P122",
    "names": {
     "en": "Michael Bublé",
     "de": "Michael Bublé",
-    "sl": "Michael Bublé"
+    "sl": "Michael Bublé",
+    "tur": "Michael Bublé",
+    "ukr": "Майкл Бубле",
+    "rus": "Майкл Бубле"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1841,10 +2329,14 @@
   },
   {
    "file_name": "michael_jackson.jpg",
+   "index": "P123",
    "names": {
     "en": "Michael Jackson",
     "de": "Michael Jackson",
-    "sl": "Michael Jackson"
+    "sl": "Michael Jackson",
+    "tur": "Michael Jackson",
+    "ukr": "Майкл Джексон",
+    "rus": "Майкл Джексон"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1856,10 +2348,14 @@
   },
   {
    "file_name": "michael_jordan.jpg",
+   "index": "P124",
    "names": {
     "en": "Michael Jordan",
     "de": "Michael Jordan",
-    "sl": "Michael Jordan"
+    "sl": "Michael Jordan",
+    "tur": "Michael Jordan",
+    "ukr": "Майкл Джордан",
+    "rus": "Майкл Джордан"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1871,10 +2367,14 @@
   },
   {
    "file_name": "michael_phelps.jpg",
+   "index": "P125",
    "names": {
     "en": "Michael Phelps",
     "de": "Michael Phelps",
-    "sl": "Michael Phelps"
+    "sl": "Michael Phelps",
+    "tur": "Michael Phelps",
+    "ukr": "Майкл Фелпс",
+    "rus": "Майкл Фелпс"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1886,10 +2386,14 @@
   },
   {
    "file_name": "miley_cyrus.jpg",
+   "index": "P126",
    "names": {
     "en": "Miley Cyrus",
     "de": "Miley Cyrus",
-    "sl": "Miley Cyrus"
+    "sl": "Miley Cyrus",
+    "tur": "Miley Cyrus",
+    "ukr": "Майлі Сайрус",
+    "rus": "Майли Сайрус"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1901,10 +2405,14 @@
   },
   {
    "file_name": "morgan_freeman.jpg",
+   "index": "P127",
    "names": {
     "en": "Morgan Freeman",
     "de": "Morgan Freeman",
-    "sl": "Morgan Freeman"
+    "sl": "Morgan Freeman",
+    "tur": "Morgan Freeman",
+    "ukr": "Морган Фрімен",
+    "rus": "Морган Фриман"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1916,10 +2424,14 @@
   },
   {
    "file_name": "mr_bean.jpg",
+   "index": "P128",
    "names": {
     "en": "Mr Bean",
-    "de": "Mr Bean",
-    "sl": "Mr Bean"
+    "de": "Mr. Bean",
+    "sl": "Mr Bean",
+    "tur": "Mr. Bean",
+    "ukr": "Містер Бін",
+    "rus": "Мистер Бин"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1932,10 +2444,14 @@
   },
   {
    "file_name": "mrbeast.jpg",
+   "index": "P129",
    "names": {
     "en": "MrBeast",
     "de": "MrBeast",
-    "sl": "MrBeast"
+    "sl": "MrBeast",
+    "tur": "MrBeast",
+    "ukr": "MrBeast",
+    "rus": "Мистер Бист"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1947,10 +2463,14 @@
   },
   {
    "file_name": "naomi_osaka.jpg",
+   "index": "P130",
    "names": {
     "en": "Naomi Osaka",
     "de": "Naomi Osaka",
-    "sl": "Naomi Osaka"
+    "sl": "Naomi Osaka",
+    "tur": "Naomi Osaka",
+    "ukr": "Наомі Осака",
+    "rus": "Наоми Осака"
    },
    "population": "global",
    "min_age_group": 1,
@@ -1962,10 +2482,14 @@
   },
   {
    "file_name": "natalie_portman.jpg",
+   "index": "P131",
    "names": {
     "en": "Natalie Portman",
     "de": "Natalie Portman",
-    "sl": "Natalie Portman"
+    "sl": "Natalie Portman",
+    "tur": "Natalie Portman",
+    "ukr": "Наталі Портман",
+    "rus": "Натали Портман"
    },
    "population": "global",
    "min_age_group": 2,
@@ -1977,12 +2501,16 @@
   },
   {
    "file_name": "nena_singer.jpg",
+   "index": "P132",
    "names": {
     "en": "Nena",
     "de": "Nena",
-    "sl": "Nena"
+    "sl": "Nena",
+    "tur": "Nena",
+    "ukr": "Нена",
+    "rus": "Нена"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 3,
    "max_age_group": 4,
    "interest_tags": [
@@ -1992,10 +2520,14 @@
   },
   {
    "file_name": "niall_horan.png",
+   "index": "P133",
    "names": {
     "en": "Niall Horan",
     "de": "Niall Horan",
-    "sl": "Niall Horan"
+    "sl": "Niall Horan",
+    "tur": "Niall Horan",
+    "ukr": "Нілл Хоран",
+    "rus": "Найл Хоран"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2007,10 +2539,14 @@
   },
   {
    "file_name": "nicolas_cage.jpg",
+   "index": "P134",
    "names": {
     "en": "Nicolas Cage",
     "de": "Nicolas Cage",
-    "sl": "Nicolas Cage"
+    "sl": "Nicolas Cage",
+    "tur": "Nicolas Cage",
+    "ukr": "Ніколас Кейдж",
+    "rus": "Николас Кейдж"
    },
    "population": "global",
    "min_age_group": 2,
@@ -2022,10 +2558,14 @@
   },
   {
    "file_name": "nicole_kidman.jpg",
+   "index": "P135",
    "names": {
     "en": "Nicole Kidman",
     "de": "Nicole Kidman",
-    "sl": "Nicole Kidman"
+    "sl": "Nicole Kidman",
+    "tur": "Nicole Kidman",
+    "ukr": "Ніколь Кідман",
+    "rus": "Николь Кидман"
    },
    "population": "global",
    "min_age_group": 2,
@@ -2037,12 +2577,16 @@
   },
   {
    "file_name": "oliver_kahn.jpg",
+   "index": "P136",
    "names": {
     "en": "Oliver Kahn",
     "de": "Oliver Kahn",
-    "sl": "Oliver Kahn"
+    "sl": "Oliver Kahn",
+    "tur": "Oliver Kahn",
+    "ukr": "Олівер Кан",
+    "rus": "Оливер Кан"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 3,
    "max_age_group": 4,
    "interest_tags": [
@@ -2052,10 +2596,14 @@
   },
   {
    "file_name": "olivia_rodrigo.jpg",
+   "index": "P137",
    "names": {
     "en": "Olivia Rodrigo",
     "de": "Olivia Rodrigo",
-    "sl": "Olivia Rodrigo"
+    "sl": "Olivia Rodrigo",
+    "tur": "Olivia Rodrigo",
+    "ukr": "Олівія Родріго",
+    "rus": "Оливия Родриго"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2067,10 +2615,14 @@
   },
   {
    "file_name": "orlando_bloom.jpg",
+   "index": "P138",
    "names": {
     "en": "Orlando Bloom",
     "de": "Orlando Bloom",
-    "sl": "Orlando Bloom"
+    "sl": "Orlando Bloom",
+    "tur": "Orlando Bloom",
+    "ukr": "Орландо Блум",
+    "rus": "Орландо Блум"
    },
    "population": "global",
    "min_age_group": 2,
@@ -2082,10 +2634,14 @@
   },
   {
    "file_name": "paul_mccartney.jpg",
+   "index": "P139",
    "names": {
     "en": "Paul McCartney",
     "de": "Paul McCartney",
-    "sl": "Paul McCartney"
+    "sl": "Paul McCartney",
+    "tur": "Paul McCartney",
+    "ukr": "Пол Маккартні",
+    "rus": "Пол Маккартни"
    },
    "population": "global",
    "min_age_group": 3,
@@ -2097,10 +2653,14 @@
   },
   {
    "file_name": "penelope_cruz.jpg",
+   "index": "P140",
    "names": {
     "en": "Penélope Cruz",
     "de": "Penélope Cruz",
-    "sl": "Penélope Cruz"
+    "sl": "Penélope Cruz",
+    "tur": "Penélope Cruz",
+    "ukr": "Пенелопа Крус",
+    "rus": "Пенелопе Крус"
    },
    "population": "global",
    "min_age_group": 2,
@@ -2112,10 +2672,14 @@
   },
   {
    "file_name": "pink_singer.jpg",
+   "index": "P141",
    "names": {
     "en": "Pink",
     "de": "Pink",
-    "sl": "Pink"
+    "sl": "Pink",
+    "tur": "Pink",
+    "ukr": "Пінк",
+    "rus": "Пинк"
    },
    "population": "global",
    "min_age_group": 2,
@@ -2127,10 +2691,14 @@
   },
   {
    "file_name": "pope_francis.jpg",
+   "index": "P142",
    "names": {
     "en": "Pope Francis",
-    "de": "Pope Francis",
-    "sl": "Pope Francis"
+    "de": "Papst Franziskus",
+    "sl": "Papež Frančišek",
+    "tur": "Papa Franciscus",
+    "ukr": "Папа Франциск",
+    "rus": "Папа Франциск"
    },
    "population": "global",
    "min_age_group": 2,
@@ -2142,10 +2710,14 @@
   },
   {
    "file_name": "princess_diana.jpg",
+   "index": "P143",
    "names": {
     "en": "Princess Diana",
-    "de": "Princess Diana",
-    "sl": "Princess Diana"
+    "de": "Prinzessin Diana",
+    "sl": "Princesa Diana",
+    "tur": "Prenses Diana",
+    "ukr": "Принцеса Діана",
+    "rus": "Принцесса Диана"
    },
    "population": "global",
    "min_age_group": 3,
@@ -2157,10 +2729,14 @@
   },
   {
    "file_name": "queen_elizabeth_ii.jpg",
+   "index": "P144",
    "names": {
     "en": "Queen Elizabeth II",
-    "de": "Queen Elizabeth II",
-    "sl": "Queen Elizabeth II"
+    "de": "Königin Elisabeth II.",
+    "sl": "Kraljica Elizabeta II.",
+    "tur": "Kraliçe II. Elizabeth",
+    "ukr": "Королева Єлизавета II",
+    "rus": "Королева Елизавета II"
    },
    "population": "global",
    "min_age_group": 2,
@@ -2172,10 +2748,14 @@
   },
   {
    "file_name": "rafael_nadal.jpg",
+   "index": "P145",
    "names": {
     "en": "Rafael Nadal",
     "de": "Rafael Nadal",
-    "sl": "Rafael Nadal"
+    "sl": "Rafael Nadal",
+    "tur": "Rafael Nadal",
+    "ukr": "Рафаель Надаль",
+    "rus": "Рафаэль Надаль"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2187,10 +2767,14 @@
   },
   {
    "file_name": "reese_witherspoon.jpg",
+   "index": "P146",
    "names": {
     "en": "Reese Witherspoon",
     "de": "Reese Witherspoon",
-    "sl": "Reese Witherspoon"
+    "sl": "Reese Witherspoon",
+    "tur": "Reese Witherspoon",
+    "ukr": "Різ Візерспун",
+    "rus": "Риз Уизерспун"
    },
    "population": "global",
    "min_age_group": 2,
@@ -2202,10 +2786,14 @@
   },
   {
    "file_name": "rihanna.png",
+   "index": "P147",
    "names": {
     "en": "Rihanna",
     "de": "Rihanna",
-    "sl": "Rihanna"
+    "sl": "Rihanna",
+    "tur": "Rihanna",
+    "ukr": "Ріанна",
+    "rus": "Рианна"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2217,10 +2805,14 @@
   },
   {
    "file_name": "robert_de_niro.jpg",
+   "index": "P148",
    "names": {
     "en": "Robert De Niro",
     "de": "Robert De Niro",
-    "sl": "Robert De Niro"
+    "sl": "Robert De Niro",
+    "tur": "Robert De Niro",
+    "ukr": "Роберт Де Ніро",
+    "rus": "Роберт Де Ниро"
    },
    "population": "global",
    "min_age_group": 2,
@@ -2232,10 +2824,14 @@
   },
   {
    "file_name": "robert_downey_jr.jpg",
+   "index": "P149",
    "names": {
     "en": "Robert Downey Jr.",
     "de": "Robert Downey Jr.",
-    "sl": "Robert Downey Jr."
+    "sl": "Robert Downey Jr.",
+    "tur": "Robert Downey Jr.",
+    "ukr": "Роберт Дауні-молодший",
+    "rus": "Роберт Дауни мл."
    },
    "population": "global",
    "min_age_group": 1,
@@ -2247,10 +2843,14 @@
   },
   {
    "file_name": "robert_pattinson.jpg",
+   "index": "P150",
    "names": {
     "en": "Robert Pattinson",
     "de": "Robert Pattinson",
-    "sl": "Robert Pattinson"
+    "sl": "Robert Pattinson",
+    "tur": "Robert Pattinson",
+    "ukr": "Роберт Паттінсон",
+    "rus": "Роберт Паттинсон"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2262,10 +2862,14 @@
   },
   {
    "file_name": "rod_stewart.jpg",
+   "index": "P151",
    "names": {
     "en": "Rod Stewart",
     "de": "Rod Stewart",
-    "sl": "Rod Stewart"
+    "sl": "Rod Stewart",
+    "tur": "Rod Stewart",
+    "ukr": "Род Стюарт",
+    "rus": "Род Стюарт"
    },
    "population": "global",
    "min_age_group": 3,
@@ -2277,10 +2881,14 @@
   },
   {
    "file_name": "roger_federer.jpg",
+   "index": "P152",
    "names": {
     "en": "Roger Federer",
     "de": "Roger Federer",
-    "sl": "Roger Federer"
+    "sl": "Roger Federer",
+    "tur": "Roger Federer",
+    "ukr": "Роджер Федерер",
+    "rus": "Роджер Федерер"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2292,10 +2900,14 @@
   },
   {
    "file_name": "ryan_gosling.jpg",
+   "index": "P153",
    "names": {
     "en": "Ryan Gosling",
     "de": "Ryan Gosling",
-    "sl": "Ryan Gosling"
+    "sl": "Ryan Gosling",
+    "tur": "Ryan Gosling",
+    "ukr": "Раян Гослінг",
+    "rus": "Райан Гослинг"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2307,10 +2919,14 @@
   },
   {
    "file_name": "ryan_reynolds.jpg",
+   "index": "P154",
    "names": {
     "en": "Ryan Reynolds",
     "de": "Ryan Reynolds",
-    "sl": "Ryan Reynolds"
+    "sl": "Ryan Reynolds",
+    "tur": "Ryan Reynolds",
+    "ukr": "Раян Рейнольдс",
+    "rus": "Райан Рейнольдс"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2322,10 +2938,14 @@
   },
   {
    "file_name": "sabrina_carpenter.jpg",
+   "index": "P155",
    "names": {
     "en": "Sabrina Carpenter",
     "de": "Sabrina Carpenter",
-    "sl": "Sabrina Carpenter"
+    "sl": "Sabrina Carpenter",
+    "tur": "Sabrina Carpenter",
+    "ukr": "Сабріна Карпентер",
+    "rus": "Сабрина Карпентер"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2337,10 +2957,14 @@
   },
   {
    "file_name": "salma_hayek.jpg",
+   "index": "P156",
    "names": {
     "en": "Salma Hayek",
     "de": "Salma Hayek",
-    "sl": "Salma Hayek"
+    "sl": "Salma Hayek",
+    "tur": "Salma Hayek",
+    "ukr": "Сальма Гаєк",
+    "rus": "Сальма Хайек"
    },
    "population": "global",
    "min_age_group": 2,
@@ -2352,10 +2976,14 @@
   },
   {
    "file_name": "samuel_l_jackson.jpg",
+   "index": "P157",
    "names": {
     "en": "Samuel L. Jackson",
     "de": "Samuel L. Jackson",
-    "sl": "Samuel L. Jackson"
+    "sl": "Samuel L. Jackson",
+    "tur": "Samuel L. Jackson",
+    "ukr": "Семюел Л. Джексон",
+    "rus": "Сэмюэл Л. Джексон"
    },
    "population": "global",
    "min_age_group": 2,
@@ -2367,10 +2995,14 @@
   },
   {
    "file_name": "sandra_bullock.jpg",
+   "index": "P158",
    "names": {
     "en": "Sandra Bullock",
     "de": "Sandra Bullock",
-    "sl": "Sandra Bullock"
+    "sl": "Sandra Bullock",
+    "tur": "Sandra Bullock",
+    "ukr": "Сандра Буллок",
+    "rus": "Сандра Буллок"
    },
    "population": "global",
    "min_age_group": 2,
@@ -2382,10 +3014,14 @@
   },
   {
    "file_name": "scarlett_johansson.jpg",
+   "index": "P159",
    "names": {
     "en": "Scarlett Johansson",
     "de": "Scarlett Johansson",
-    "sl": "Scarlett Johansson"
+    "sl": "Scarlett Johansson",
+    "tur": "Scarlett Johansson",
+    "ukr": "Скарлетт Йоханссон",
+    "rus": "Скарлетт Йоханссон"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2397,12 +3033,16 @@
   },
   {
    "file_name": "sebastian_vettel.jpg",
+   "index": "P160",
    "names": {
     "en": "Sebastian Vettel",
     "de": "Sebastian Vettel",
-    "sl": "Sebastian Vettel"
+    "sl": "Sebastian Vettel",
+    "tur": "Sebastian Vettel",
+    "ukr": "Себастьян Феттель",
+    "rus": "Себастьян Феттель"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 1,
    "max_age_group": 3,
    "interest_tags": [
@@ -2412,10 +3052,14 @@
   },
   {
    "file_name": "selena_gomez.jpg",
+   "index": "P161",
    "names": {
     "en": "Selena Gomez",
     "de": "Selena Gomez",
-    "sl": "Selena Gomez"
+    "sl": "Selena Gomez",
+    "tur": "Selena Gomez",
+    "ukr": "Селена Гомес",
+    "rus": "Селена Гомес"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2428,10 +3072,14 @@
   },
   {
    "file_name": "serena_williams.jpg",
+   "index": "P162",
    "names": {
     "en": "Serena Williams",
     "de": "Serena Williams",
-    "sl": "Serena Williams"
+    "sl": "Serena Williams",
+    "tur": "Serena Williams",
+    "ukr": "Серена Вільямс",
+    "rus": "Серена Уильямс"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2443,10 +3091,14 @@
   },
   {
    "file_name": "shakira.jpg",
+   "index": "P163",
    "names": {
     "en": "Shakira",
     "de": "Shakira",
-    "sl": "Shakira"
+    "sl": "Shakira",
+    "tur": "Shakira",
+    "ukr": "Шакіра",
+    "rus": "Шакира"
    },
    "population": "global",
    "min_age_group": 2,
@@ -2458,10 +3110,14 @@
   },
   {
    "file_name": "shawn_mendes.jpg",
+   "index": "P164",
    "names": {
     "en": "Shawn Mendes",
     "de": "Shawn Mendes",
-    "sl": "Shawn Mendes"
+    "sl": "Shawn Mendes",
+    "tur": "Shawn Mendes",
+    "ukr": "Шон Мендес",
+    "rus": "Шон Мендес"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2473,10 +3129,14 @@
   },
   {
    "file_name": "simon_cowell.jpg",
+   "index": "P165",
    "names": {
     "en": "Simon Cowell",
     "de": "Simon Cowell",
-    "sl": "Simon Cowell"
+    "sl": "Simon Cowell",
+    "tur": "Simon Cowell",
+    "ukr": "Саймон Ковелл",
+    "rus": "Саймон Коуэлл"
    },
    "population": "global",
    "min_age_group": 2,
@@ -2489,10 +3149,14 @@
   },
   {
    "file_name": "simone_biles.jpg",
+   "index": "P166",
    "names": {
     "en": "Simone Biles",
     "de": "Simone Biles",
-    "sl": "Simone Biles"
+    "sl": "Simone Biles",
+    "tur": "Simone Biles",
+    "ukr": "Сімон Байлз",
+    "rus": "Симона Байлз"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2504,12 +3168,16 @@
   },
   {
    "file_name": "stefan_raab.jpg",
+   "index": "P167",
    "names": {
     "en": "Stefan Raab",
     "de": "Stefan Raab",
-    "sl": "Stefan Raab"
+    "sl": "Stefan Raab",
+    "tur": "Stefan Raab",
+    "ukr": "Стефан Рааб",
+    "rus": "Стефан Рааб"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 2,
    "max_age_group": 3,
    "interest_tags": [
@@ -2519,10 +3187,14 @@
   },
   {
    "file_name": "steve_carell.jpg",
+   "index": "P168",
    "names": {
     "en": "Steve Carell",
     "de": "Steve Carell",
-    "sl": "Steve Carell"
+    "sl": "Steve Carell",
+    "tur": "Steve Carell",
+    "ukr": "Стів Карелл",
+    "rus": "Стив Карелл"
    },
    "population": "global",
    "min_age_group": 2,
@@ -2535,10 +3207,14 @@
   },
   {
    "file_name": "sting_musician.jpg",
+   "index": "P169",
    "names": {
     "en": "Sting",
     "de": "Sting",
-    "sl": "Sting"
+    "sl": "Sting",
+    "tur": "Sting",
+    "ukr": "Стінг",
+    "rus": "Стинг"
    },
    "population": "global",
    "min_age_group": 3,
@@ -2550,10 +3226,14 @@
   },
   {
    "file_name": "sydney_sweeney.jpg",
+   "index": "P170",
    "names": {
     "en": "Sydney Sweeney",
     "de": "Sydney Sweeney",
-    "sl": "Sydney Sweeney"
+    "sl": "Sydney Sweeney",
+    "tur": "Sydney Sweeney",
+    "ukr": "Сідні Суїні",
+    "rus": "Сидни Суини"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2565,12 +3245,16 @@
   },
   {
    "file_name": "tadej_pogacar.jpg",
+   "index": "P171",
    "names": {
     "en": "Tadej Pogačar",
     "de": "Tadej Pogačar",
-    "sl": "Tadej Pogačar"
+    "sl": "Tadej Pogačar",
+    "tur": "Tadej Pogačar",
+    "ukr": "Тадей Погачар",
+    "rus": "Тадей Погачар"
    },
-   "population": "Slovenian",
+   "population": "slovenian",
    "min_age_group": 1,
    "max_age_group": 2,
    "interest_tags": [
@@ -2580,10 +3264,14 @@
   },
   {
    "file_name": "taylor_swift.png",
+   "index": "P172",
    "names": {
     "en": "Taylor Swift",
     "de": "Taylor Swift",
-    "sl": "Taylor Swift"
+    "sl": "Taylor Swift",
+    "tur": "Taylor Swift",
+    "ukr": "Тейлор Свіфт",
+    "rus": "Тейлор Свифт"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2595,10 +3283,14 @@
   },
   {
    "file_name": "the_weeknd.jpg",
+   "index": "P173",
    "names": {
     "en": "The Weeknd",
     "de": "The Weeknd",
-    "sl": "The Weeknd"
+    "sl": "The Weeknd",
+    "tur": "The Weeknd",
+    "ukr": "The Weeknd",
+    "rus": "The Weeknd"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2610,12 +3302,16 @@
   },
   {
    "file_name": "thomas_gottschalk.jpg",
+   "index": "P174",
    "names": {
     "en": "Thomas Gottschalk",
     "de": "Thomas Gottschalk",
-    "sl": "Thomas Gottschalk"
+    "sl": "Thomas Gottschalk",
+    "tur": "Thomas Gottschalk",
+    "ukr": "Томас Готтшалк",
+    "rus": "Томас Готтшальк"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 3,
    "max_age_group": 4,
    "interest_tags": [
@@ -2625,12 +3321,16 @@
   },
   {
    "file_name": "thomas_muller.JPG",
+   "index": "P175",
    "names": {
     "en": "Thomas Müller",
     "de": "Thomas Müller",
-    "sl": "Thomas Müller"
+    "sl": "Thomas Müller",
+    "tur": "Thomas Müller",
+    "ukr": "Томас Мюллер",
+    "rus": "Томас Мюллер"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 1,
    "max_age_group": 3,
    "interest_tags": [
@@ -2640,12 +3340,16 @@
   },
   {
    "file_name": "til_schweiger.jpg",
+   "index": "P176",
    "names": {
     "en": "Til Schweiger",
     "de": "Til Schweiger",
-    "sl": "Til Schweiger"
+    "sl": "Til Schweiger",
+    "tur": "Til Schweiger",
+    "ukr": "Тіль Швайгер",
+    "rus": "Тиль Швайгер"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 2,
    "max_age_group": 4,
    "interest_tags": [
@@ -2655,10 +3359,14 @@
   },
   {
    "file_name": "timothee_chalamet.jpg",
+   "index": "P177",
    "names": {
     "en": "Timothée Chalamet",
     "de": "Timothée Chalamet",
-    "sl": "Timothée Chalamet"
+    "sl": "Timothée Chalamet",
+    "tur": "Timothée Chalamet",
+    "ukr": "Тімоті Шаламе",
+    "rus": "Тимоти Шаламе"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2670,10 +3378,14 @@
   },
   {
    "file_name": "tom_cruise.jpg",
+   "index": "P178",
    "names": {
     "en": "Tom Cruise",
     "de": "Tom Cruise",
-    "sl": "Tom Cruise"
+    "sl": "Tom Cruise",
+    "tur": "Tom Cruise",
+    "ukr": "Том Круз",
+    "rus": "Том Круз"
    },
    "population": "global",
    "min_age_group": 2,
@@ -2685,10 +3397,14 @@
   },
   {
    "file_name": "tom_hanks.jpg",
+   "index": "P179",
    "names": {
     "en": "Tom Hanks",
     "de": "Tom Hanks",
-    "sl": "Tom Hanks"
+    "sl": "Tom Hanks",
+    "tur": "Tom Hanks",
+    "ukr": "Том Генкс",
+    "rus": "Том Хэнкс"
    },
    "population": "global",
    "min_age_group": 2,
@@ -2700,10 +3416,14 @@
   },
   {
    "file_name": "tom_holland.jpg",
+   "index": "P180",
    "names": {
     "en": "Tom Holland",
     "de": "Tom Holland",
-    "sl": "Tom Holland"
+    "sl": "Tom Holland",
+    "tur": "Tom Holland",
+    "ukr": "Том Голланд",
+    "rus": "Том Холланд"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2715,12 +3435,16 @@
   },
   {
    "file_name": "toni_kroos.jpg",
+   "index": "P181",
    "names": {
     "en": "Toni Kroos",
     "de": "Toni Kroos",
-    "sl": "Toni Kroos"
+    "sl": "Toni Kroos",
+    "tur": "Toni Kroos",
+    "ukr": "Тоні Кроос",
+    "rus": "Тони Кроос"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 1,
    "max_age_group": 3,
    "interest_tags": [
@@ -2730,10 +3454,14 @@
   },
   {
    "file_name": "usain_bolt.jpg",
+   "index": "P182",
    "names": {
     "en": "Usain Bolt",
     "de": "Usain Bolt",
-    "sl": "Usain Bolt"
+    "sl": "Usain Bolt",
+    "tur": "Usain Bolt",
+    "ukr": "Усейн Болт",
+    "rus": "Усэйн Болт"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2745,12 +3473,16 @@
   },
   {
    "file_name": "veronica_ferres.png",
+   "index": "P183",
    "names": {
     "en": "Veronica Ferres",
     "de": "Veronica Ferres",
-    "sl": "Veronica Ferres"
+    "sl": "Veronica Ferres",
+    "tur": "Veronica Ferres",
+    "ukr": "Вероніка Феррес",
+    "rus": "Вероника Феррес"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 2,
    "max_age_group": 4,
    "interest_tags": [
@@ -2760,10 +3492,14 @@
   },
   {
    "file_name": "victoria_beckham.jpg",
+   "index": "P184",
    "names": {
     "en": "Victoria Beckham",
     "de": "Victoria Beckham",
-    "sl": "Victoria Beckham"
+    "sl": "Victoria Beckham",
+    "tur": "Victoria Beckham",
+    "ukr": "Вікторія Бекхем",
+    "rus": "Виктория Бекхэм"
    },
    "population": "global",
    "min_age_group": 2,
@@ -2776,10 +3512,14 @@
   },
   {
    "file_name": "vin_diesel.jpg",
+   "index": "P185",
    "names": {
     "en": "Vin Diesel",
     "de": "Vin Diesel",
-    "sl": "Vin Diesel"
+    "sl": "Vin Diesel",
+    "tur": "Vin Diesel",
+    "ukr": "Він Дізель",
+    "rus": "Вин Дизель"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2791,10 +3531,14 @@
   },
   {
    "file_name": "will_smith.jpg",
+   "index": "P186",
    "names": {
     "en": "Will Smith",
     "de": "Will Smith",
-    "sl": "Will Smith"
+    "sl": "Will Smith",
+    "tur": "Will Smith",
+    "ukr": "Вілл Сміт",
+    "rus": "Уилл Смит"
    },
    "population": "global",
    "min_age_group": 2,
@@ -2807,10 +3551,14 @@
   },
   {
    "file_name": "zendaya.jpg",
+   "index": "P187",
    "names": {
     "en": "Zendaya",
     "de": "Zendaya",
-    "sl": "Zendaya"
+    "sl": "Zendaya",
+    "tur": "Zendaya",
+    "ukr": "Зендая",
+    "rus": "Зендая"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2823,10 +3571,14 @@
   },
   {
    "file_name": "zlatan_ibrahimovic.jpg",
+   "index": "P188",
    "names": {
     "en": "Zlatan Ibrahimović",
     "de": "Zlatan Ibrahimović",
-    "sl": "Zlatan Ibrahimović"
+    "sl": "Zlatan Ibrahimović",
+    "tur": "Zlatan Ibrahimović",
+    "ukr": "Златан Ібрагімович",
+    "rus": "Златан Ибрагимович"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2838,10 +3590,14 @@
   },
   {
    "file_name": "acropolis_parthenon.jpg",
+   "index": "L001",
    "names": {
     "en": "Acropolis of Athens (Parthenon)",
     "de": "Akropolis von Athen (Parthenon)",
-    "sl": "Atenska akropola (Partenon)"
+    "sl": "Atenska Akropola (Partenon)",
+    "tur": "Atina Akropolü (Parthenon)",
+    "ukr": "Афінський Акрополь (Парфенон)",
+    "rus": "Афинский акрополь (Парфенон)"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2854,10 +3610,14 @@
   },
   {
    "file_name": "angkor_wat.jpg",
+   "index": "L002",
    "names": {
     "en": "Angkor Wat",
     "de": "Angkor Wat",
-    "sl": "Angkor Vat"
+    "sl": "Angkor Wat",
+    "tur": "Angkor Wat",
+    "ukr": "Ангкор-Ват",
+    "rus": "Ангкор-Ват"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2871,10 +3631,14 @@
   },
   {
    "file_name": "arc_de_triomphe.jpg",
+   "index": "L003",
    "names": {
     "en": "Arc de Triomphe",
     "de": "Arc de Triomphe",
-    "sl": "Arc de Triomphe"
+    "sl": "Slanolok zmage",
+    "tur": "Zafer Takı (Arc de Triomphe)",
+    "ukr": "Тріумфальна арка",
+    "rus": "Триумфальная арка"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2887,10 +3651,14 @@
   },
   {
    "file_name": "atomium.jpg",
+   "index": "L004",
    "names": {
     "en": "Atomium",
     "de": "Atomium",
-    "sl": "Atomium"
+    "sl": "Atomium",
+    "tur": "Atomium",
+    "ukr": "Атоміум",
+    "rus": "Атомиум"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2903,10 +3671,14 @@
   },
   {
    "file_name": "berlin_tv_tower.jpg",
+   "index": "L005",
    "names": {
     "en": "Berlin TV Tower",
     "de": "Berliner Fernsehturm",
-    "sl": "Berlinski televizijski stolp"
+    "sl": "Berlinski televizijski stolp",
+    "tur": "Berlin Televizyon Kulesi",
+    "ukr": "Берлінська телевежа",
+    "rus": "Берлинская телебашня"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2918,10 +3690,14 @@
   },
   {
    "file_name": "berlin_wall_east_side_gallery.JPG",
+   "index": "L006",
    "names": {
     "en": "Berlin Wall (East Side Gallery)",
     "de": "Berliner Mauer (East Side Gallery)",
-    "sl": "Berlinski zid (East Side Gallery)"
+    "sl": "Berlinski zid (Galerija vzhodne strani)",
+    "tur": "Berlin Duvarı (East Side Gallery)",
+    "ukr": "Берлінська стіна (Східна галерея)",
+    "rus": "Берлинская стена (Восточная галерея)"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2934,10 +3710,14 @@
   },
   {
    "file_name": "big_ben.jpg",
+   "index": "L007",
    "names": {
     "en": "Big Ben",
     "de": "Big Ben",
-    "sl": "Big Ben"
+    "sl": "Big Ben",
+    "tur": "Big Ben",
+    "ukr": "Біг-Бен",
+    "rus": "Биг-Бен"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2951,10 +3731,14 @@
   },
   {
    "file_name": "blue_lagoon_iceland.jpg",
+   "index": "L008",
    "names": {
     "en": "Blue Lagoon, Iceland",
-    "de": "Blaue Lagune (Island)",
-    "sl": "Modra laguna (Islandija)"
+    "de": "Blaue Lagune, Island",
+    "sl": "Modra laguna, Islandija",
+    "tur": "Mavi Lagün, İzlanda",
+    "ukr": "Блакитна лагуна, Ісландія",
+    "rus": "Голубая лагуна, Исландия"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2966,10 +3750,14 @@
   },
   {
    "file_name": "blue_mosque_istanbul.jpg",
+   "index": "L009",
    "names": {
     "en": "Blue Mosque, Istanbul",
-    "de": "Blaue Moschee (Istanbul)",
-    "sl": "Modra mošeja (Istanbul)"
+    "de": "Blaue Moschee, Istanbul",
+    "sl": "Modra mošeja, Istanbul",
+    "tur": "Sultanahmet Camii, İstanbul",
+    "ukr": "Блакитна мечеть, Стамбул",
+    "rus": "Голубая мечеть, Стамбул"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2982,10 +3770,14 @@
   },
   {
    "file_name": "borobudur.jpg",
+   "index": "L010",
    "names": {
     "en": "Borobudur",
     "de": "Borobudur",
-    "sl": "Borobudur"
+    "sl": "Borobudur",
+    "tur": "Borobudur",
+    "ukr": "Боробудур",
+    "rus": "Боробудур"
    },
    "population": "global",
    "min_age_group": 1,
@@ -2999,10 +3791,14 @@
   },
   {
    "file_name": "brandenburg_gate.jpg",
+   "index": "L011",
    "names": {
     "en": "Brandenburg Gate",
     "de": "Brandenburger Tor",
-    "sl": "Brandenburška vrata"
+    "sl": "Brandenburška vrata",
+    "tur": "Brandenburg Kapısı",
+    "ukr": "Бранденбурзькі ворота",
+    "rus": "Бранденбург Ворота"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3016,10 +3812,14 @@
   },
   {
    "file_name": "brooklyn_bridge.jpg",
+   "index": "L012",
    "names": {
     "en": "Brooklyn Bridge",
     "de": "Brooklyn Bridge",
-    "sl": "Brooklynski most"
+    "sl": "Brooklynski most",
+    "tur": "Brooklyn Köprüsü",
+    "ukr": "Бруклінський міст",
+    "rus": "Бруклинский мост"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3031,10 +3831,14 @@
   },
   {
    "file_name": "buckingham_palace.jpg",
+   "index": "L013",
    "names": {
     "en": "Buckingham Palace",
-    "de": "Buckingham-Palast",
-    "sl": "Buckinghamska palača"
+    "de": "Buckingham Palace",
+    "sl": "Buckinghamska palača",
+    "tur": "Buckingham Sarayı",
+    "ukr": "Букінгемський палац",
+    "rus": "Букингемский дворец"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3048,10 +3852,14 @@
   },
   {
    "file_name": "burj_al_arab.jpg",
+   "index": "L014",
    "names": {
     "en": "Burj Al Arab",
     "de": "Burj Al Arab",
-    "sl": "Burj Al Arab"
+    "sl": "Burj Al Arab",
+    "tur": "Burç El Arap",
+    "ukr": "Бурдж-аль-Араб",
+    "rus": "Бурдж-эль-Араб"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3064,10 +3872,14 @@
   },
   {
    "file_name": "burj_khalifa.jpg",
+   "index": "L015",
    "names": {
     "en": "Burj Khalifa",
     "de": "Burj Khalifa",
-    "sl": "Burj Khalifa"
+    "sl": "Burj Khalifa",
+    "tur": "Burç Halife",
+    "ukr": "Бурдж-Халіфа",
+    "rus": "Бурдж-Халифа"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3080,27 +3892,15 @@
    "type": "place"
   },
   {
-   "file_name": "capitol_hill.jpg",
-   "names": {
-    "en": "United States Capitol",
-    "de": "US-Kapitol",
-    "sl": "Kapitol ZDA"
-   },
-   "population": "global",
-   "min_age_group": 1,
-   "max_age_group": 4,
-   "interest_tags": [
-    "Politics",
-    "Architecture"
-   ],
-   "type": "place"
-  },
-  {
    "file_name": "charles_bridge_prague.jpg",
+   "index": "L016",
    "names": {
     "en": "Charles Bridge, Prague",
-    "de": "Karlsbrücke (Prag)",
-    "sl": "Karlov most (Praga)"
+    "de": "Karlsbrücke, Prag",
+    "sl": "Karlov most, Praga",
+    "tur": "Charles Köprüsü, Prag",
+    "ukr": "Карлів міст, Прага",
+    "rus": "Карлов мост, Прага"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3113,10 +3913,14 @@
   },
   {
    "file_name": "chichen_itza.jpg",
+   "index": "L017",
    "names": {
     "en": "Chichén Itzá",
     "de": "Chichén Itzá",
-    "sl": "Chichén Itzá"
+    "sl": "Chichén Itzá",
+    "tur": "Chichén Itzá",
+    "ukr": "Чичен-Іца",
+    "rus": "Чичен-Ица"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3129,10 +3933,14 @@
   },
   {
    "file_name": "christ_the_redeemer.jpg",
+   "index": "L018",
    "names": {
     "en": "Christ the Redeemer",
-    "de": "Christ the Redeemer",
-    "sl": "Christ the Redeemer"
+    "de": "Christusstatue (Cristo Redentor)",
+    "sl": "Kristus Odrešenik",
+    "tur": "Kurtarıcı İsa Heykeli",
+    "ukr": "Статуя Христа-Спасителя",
+    "rus": "Христос-Искупитель"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3145,10 +3953,14 @@
   },
   {
    "file_name": "cn_tower.jpg",
+   "index": "L019",
    "names": {
     "en": "CN Tower",
     "de": "CN Tower",
-    "sl": "Stolp CN"
+    "sl": "CN Tower",
+    "tur": "CN Kulesi",
+    "ukr": "CN Tower",
+    "rus": "CN Tower"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3160,10 +3972,14 @@
   },
   {
    "file_name": "cologne_cathedral_koelner_dom.jpg",
+   "index": "L020",
    "names": {
     "en": "Cologne Cathedral",
     "de": "Kölner Dom",
-    "sl": "Kölnska katedrala"
+    "sl": "Kölnska katedrala",
+    "tur": "Köln Katedrali",
+    "ukr": "Кельнський собор",
+    "rus": "Кёльнский собор"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3176,10 +3992,14 @@
   },
   {
    "file_name": "colosseum.jpg",
+   "index": "L021",
    "names": {
     "en": "Colosseum",
     "de": "Kolosseum",
-    "sl": "Kolosej"
+    "sl": "Kolosej",
+    "tur": "Kolezyum",
+    "ukr": "Колізей",
+    "rus": "Колизей"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3193,10 +4013,14 @@
   },
   {
    "file_name": "disneyland_paris_castle.jpg",
+   "index": "L022",
    "names": {
     "en": "Disneyland Paris Castle (Sleeping Beauty Castle)",
-    "de": "Schloss Dornröschen (Disneyland Paris)",
-    "sl": "Grad trnuljčice (Disneyland Pariz)"
+    "de": "Disneyland Paris Schloss (Schloss Dornröschen)",
+    "sl": "Disneyland Pariški grad (Grad Trnuljčice)",
+    "tur": "Disneyland Paris Şatosu (Uyuyan Güzel Şatosu)",
+    "ukr": "Паризький замок Діснейленд (Замок Сплячої Красуні)",
+    "rus": "Диснейленд Парижский замок (Замок Спящей красавицы)"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3208,10 +4032,14 @@
   },
   {
    "file_name": "dome_of_the_rock.jpg",
+   "index": "L023",
    "names": {
     "en": "Dome of the Rock",
-    "de": "Felsendom (Jerusalem)",
-    "sl": "Skalna kupola (Jeruzalem)"
+    "de": "Felsendom",
+    "sl": "Kupola na skali",
+    "tur": "Kubbet-üs Sahra",
+    "ukr": "Купол Скелі",
+    "rus": "Купол Скалы"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3225,41 +4053,33 @@
   },
   {
    "file_name": "dragon_bridge.jpg",
+   "index": "L024",
    "names": {
     "en": "Dragon Bridge, Ljubljana",
-    "de": "Drachenbrücke (Ljubljana)",
-    "sl": "Zmajski most (Ljubljana)"
+    "de": "Drachenbrücke, Ljubljana",
+    "sl": "Zmajski most, Ljubljana",
+    "tur": "Ejderha Köprüsü, Ljubljana",
+    "ukr": "Міст Дракона, Любляна",
+    "rus": "Драконий мост, Любляна"
    },
    "population": "global",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
-    "Architecture"
-   ],
-   "type": "place"
-  },
-  {
-   "file_name": "duomo_di_milano_milan_cathedral.jpg",
-   "names": {
-    "en": "Milan Cathedral",
-    "de": "Mailänder Dom",
-    "sl": "Milanska katedrala"
-   },
-   "population": "global",
-   "min_age_group": 1,
-   "max_age_group": 4,
-   "interest_tags": [
-    "Religion",
     "Architecture"
    ],
    "type": "place"
   },
   {
    "file_name": "easter_island_moai.jpg",
+   "index": "L025",
    "names": {
     "en": "Easter Island",
     "de": "Osterinsel",
-    "sl": "Velikonočni otok"
+    "sl": "Velikonočni otok",
+    "tur": "Paskalya Adası",
+    "ukr": "Острів Пасхи",
+    "rus": "Остров Пасхи"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3272,10 +4092,14 @@
   },
   {
    "file_name": "edinburgh_castle.jpg",
+   "index": "L026",
    "names": {
     "en": "Edinburgh Castle",
     "de": "Edinburgh Castle",
-    "sl": "Grad Edinburgh"
+    "sl": "Edinburški grad",
+    "tur": "Edinburgh Kalesi",
+    "ukr": "Единбурзький замок",
+    "rus": "Эдинбургский замок"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3289,10 +4113,14 @@
   },
   {
    "file_name": "eiffel_tower.jpg",
+   "index": "L027",
    "names": {
     "en": "Eiffel Tower",
     "de": "Eiffelturm",
-    "sl": "Eifflov stolp"
+    "sl": "Eifflov stolp",
+    "tur": "Eyfel Kulesi",
+    "ukr": "Ейфелева вежа",
+    "rus": "Эйфелева башня"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3304,11 +4132,35 @@
    "type": "place"
   },
   {
+   "file_name": "hamburg_elbphilharmonie.jpg",
+   "index": "L028",
+   "names": {
+    "en": "Elbphilharmonie, Hamburg",
+    "de": "Elbphilharmonie, Hamburg",
+    "sl": "Labska filharmonija, Hamburg",
+    "tur": "Elbphilharmonie, Hamburg",
+    "ukr": "Ельбська філармонія, Гамбург",
+    "rus": "Эльбфилармония, Гамбург"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Music",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
    "file_name": "empire_state_building.jpg",
+   "index": "L029",
    "names": {
     "en": "Empire State Building",
     "de": "Empire State Building",
-    "sl": "Stavba Empire State"
+    "sl": "Empire State Building",
+    "tur": "Empire State Binası",
+    "ukr": "Емпайр-Стейт-Білдинг",
+    "rus": "Эмпайр-стейт-билдинг"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3321,10 +4173,14 @@
   },
   {
    "file_name": "florence_cathedral_duomo_brunelleschi_dome.JPG",
+   "index": "L030",
    "names": {
     "en": "Florence Cathedral",
-    "de": "Florentiner Dom (Kathedrale Santa Maria del Fiore)",
-    "sl": "Firenška katedrala (Duomo)"
+    "de": "Kathedrale von Florenz",
+    "sl": "Firenška katedrala",
+    "tur": "Floransa Katedrali",
+    "ukr": "Флорентійський собор",
+    "rus": "Флорентийский собор"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3337,12 +4193,16 @@
   },
   {
    "file_name": "forbidden_city_tiananmen_gate.jpg",
+   "index": "L031",
    "names": {
     "en": "Forbidden City",
-    "de": "Verbotene Stadt (Peking)",
-    "sl": "Prepovedano mesto (Peking)"
+    "de": "Verbotene Stadt",
+    "sl": "Prepovedano mesto",
+    "tur": "Yasak Şehir",
+    "ukr": "Заборонене місто",
+    "rus": "Запретный город"
    },
-   "population": "German",
+   "population": "global",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -3354,12 +4214,16 @@
   },
   {
    "file_name": "frauenkirche_dresden.jpg",
+   "index": "L032",
    "names": {
     "en": "Frauenkirche, Dresden",
-    "de": "Frauenkirche (Dresden)",
-    "sl": "Dresdenska Frauenkirche"
+    "de": "Frauenkirche, Dresden",
+    "sl": "Frauenkirche, Dresden",
+    "tur": "Frauenkirche, Dresden",
+    "ukr": "Фрауенкірхе, Дрезден",
+    "rus": "Фрауэнкирхе, Дрезден"
    },
-   "population": "global",
+   "population": "german",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -3370,10 +4234,14 @@
   },
   {
    "file_name": "fushimi_inari_torii_gates.jpg",
+   "index": "L033",
    "names": {
     "en": "Fushimi Inari Torii Gates",
-    "de": "Fushimi-Inari-Torii",
-    "sl": "Vrata torii Fušimi Inari"
+    "de": "Fushimi-Inari-Torii-Tore",
+    "sl": "Vrata Fushimi Inari Torii",
+    "tur": "Fushimi Inari Torii Kapıları",
+    "ukr": "Ворота Фусімі-Інарі-Торії",
+    "rus": "Ворота Тории Фусими Инари"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3386,10 +4254,14 @@
   },
   {
    "file_name": "gateway_arch_st_louis.jpg",
+   "index": "L034",
    "names": {
     "en": "Gateway Arch",
     "de": "Gateway Arch",
-    "sl": "Gateway Arch"
+    "sl": "Vratni lok",
+    "tur": "Gateway Arch",
+    "ukr": "Арка Гейтвей",
+    "rus": "Арка Ворот"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3401,10 +4273,14 @@
   },
   {
    "file_name": "giants_causeway.JPG",
+   "index": "L035",
    "names": {
     "en": "Giant's Causeway",
-    "de": "Giant's Causeway (Damm der Riesen)",
-    "sl": "Velikanov nasip"
+    "de": "Giant’s Causeway",
+    "sl": "Velikanski nasip",
+    "tur": "Devler Kaldırımı (Giant's Causeway)",
+    "ukr": "Дамба Велетнів",
+    "rus": "Дорога гигантов"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3416,10 +4292,14 @@
   },
   {
    "file_name": "golden_gate_bridge.jpg",
+   "index": "L036",
    "names": {
     "en": "Golden Gate Bridge",
     "de": "Golden Gate Bridge",
-    "sl": "Zlati most (Golden Gate)"
+    "sl": "Most Golden Gate",
+    "tur": "Golden Gate Köprüsü",
+    "ukr": "Міст Золота Брама",
+    "rus": "Мост Золотые Ворота"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3432,10 +4312,14 @@
   },
   {
    "file_name": "grand_canyon.jpg",
+   "index": "L037",
    "names": {
     "en": "Grand Canyon",
     "de": "Grand Canyon",
-    "sl": "Veliki kanjon"
+    "sl": "Grand Kanjon",
+    "tur": "Büyük Kanyon",
+    "ukr": "Гранд Каньйон",
+    "rus": "Большой каньон"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3447,10 +4331,14 @@
   },
   {
    "file_name": "great_buddha_of_kamakura.jpg",
+   "index": "L038",
    "names": {
     "en": "Great Buddha of Kamakura",
     "de": "Großer Buddha von Kamakura",
-    "sl": "Veliki Buda v Kamakuri"
+    "sl": "Veliki Buda v Kamakuri",
+    "tur": "Kamakura Büyük Buda Heykeli",
+    "ukr": "Великий Будда Камакури",
+    "rus": "Великий Будда Камакуры"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3463,10 +4351,14 @@
   },
   {
    "file_name": "great_sphinx_of_giza.jpg",
+   "index": "L039",
    "names": {
     "en": "Great Sphinx of Giza",
     "de": "Große Sphinx von Gizeh",
-    "sl": "Velika sfinga v Gizi"
+    "sl": "Velika sfinga v Gizi",
+    "tur": "Gize Büyük Sfenksi",
+    "ukr": "Великий Сфінкс у Гізі",
+    "rus": "Великий Сфинкс Гизы"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3479,10 +4371,14 @@
   },
   {
    "file_name": "great_wall_of_china.jpg",
+   "index": "L040",
    "names": {
     "en": "Great Wall of China",
     "de": "Chinesische Mauer",
-    "sl": "Kitajski zid"
+    "sl": "Kitajski zid",
+    "tur": "Çin Seddi",
+    "ukr": "Велика Китайська стіна",
+    "rus": "Великая Китайская стена"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3496,10 +4392,14 @@
   },
   {
    "file_name": "guggenheim_museum_bilbao.jpg",
+   "index": "L041",
    "names": {
     "en": "Guggenheim Museum Bilbao",
     "de": "Guggenheim-Museum Bilbao",
-    "sl": "Guggenheimov muzej Bilbao"
+    "sl": "Muzej Guggenheim Bilbao",
+    "tur": "Guggenheim Müzesi Bilbao",
+    "ukr": "Музей Гуггенхайма, Більбао",
+    "rus": "Музей Гуггенхайма в Бильбао"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3511,12 +4411,16 @@
   },
   {
    "file_name": "hagia_sophia.jpg",
+   "index": "L042",
    "names": {
     "en": "Hagia Sophia",
     "de": "Hagia Sophia",
-    "sl": "Hagija Sofija"
+    "sl": "Agija Sofija",
+    "tur": "Ayasofya",
+    "ukr": "Собор Святої Софії",
+    "rus": "Собор Святой Софии"
    },
-   "population": "German",
+   "population": "global",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -3528,12 +4432,16 @@
   },
   {
    "file_name": "hallstatt_village.jpg",
+   "index": "L043",
    "names": {
     "en": "Hallstatt Village",
-    "de": "Hallstatt",
-    "sl": "Hallstatt"
+    "de": "Dorf Hallstatt",
+    "sl": "Vas Hallstatt",
+    "tur": "Hallstatt Köyü",
+    "ukr": "Селище Гальштат",
+    "rus": "Деревня Гальштатт"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -3542,29 +4450,17 @@
    "type": "place"
   },
   {
-   "file_name": "hamburg_elbphilharmonie.jpg",
-   "names": {
-    "en": "Elbphilharmonie, Hamburg",
-    "de": "Elbphilharmonie (Hamburg)",
-    "sl": "Elbphilharmonija (Hamburg)"
-   },
-   "population": "German",
-   "min_age_group": 1,
-   "max_age_group": 4,
-   "interest_tags": [
-    "Music",
-    "Architecture"
-   ],
-   "type": "place"
-  },
-  {
    "file_name": "heidelberg_castle.jpg",
+   "index": "L044",
    "names": {
     "en": "Heidelberg Castle",
-    "de": "Heidelberger Schloss",
-    "sl": "Grad Heidelberg"
+    "de": "Heidelberg Burg",
+    "sl": "Grad Heidelberg",
+    "tur": "Heidelberg Kalesi",
+    "ukr": "Гейдельберзький замок",
+    "rus": "Гейдельбергский замок"
    },
-   "population": "global",
+   "population": "german",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -3575,12 +4471,16 @@
   },
   {
    "file_name": "hohenzollern_castle.jpg",
+   "index": "L045",
    "names": {
     "en": "Hohenzollern Castle",
     "de": "Burg Hohenzollern",
-    "sl": "Grad Hohenzollern"
+    "sl": "Grad Hohenzollern",
+    "tur": "Hohenzollern Kale",
+    "ukr": "Замок Гогенцоллерн",
+    "rus": "Гогенцоллерны Замок"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -3591,10 +4491,14 @@
   },
   {
    "file_name": "hollywood_sign.jpg",
+   "index": "L046",
    "names": {
     "en": "Hollywood Sign",
     "de": "Hollywood-Schriftzug",
-    "sl": "Napis Hollywood"
+    "sl": "Hollywoodski znak",
+    "tur": "Hollywood Yazısı",
+    "ukr": "Знак Голлівуду",
+    "rus": "Голливудская вывеска"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3606,12 +4510,16 @@
   },
   {
    "file_name": "holstentor_luebeck.jpg",
+   "index": "L047",
    "names": {
     "en": "Holstentor, Lübeck",
-    "de": "Holstentor (Lübeck)",
-    "sl": "Holstentor (Lübeck)"
+    "de": "Holstentor, Lübeck",
+    "sl": "Holstentor, Lübeck",
+    "tur": "Holstentor, Lübeck",
+    "ukr": "Гольстентор, Любек",
+    "rus": "Хольстентор, Любек"
    },
-   "population": "global",
+   "population": "german",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -3622,10 +4530,14 @@
   },
   {
    "file_name": "hoover_dam.jpg",
+   "index": "L048",
    "names": {
     "en": "Hoover Dam",
-    "de": "Hoover-Talsperre",
-    "sl": "Hooverjev jez"
+    "de": "Hoover-Staudamm",
+    "sl": "Hooverjev jez",
+    "tur": "Hoover Barajı",
+    "ukr": "Гребля Гувера",
+    "rus": "Плотина Гувера"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3638,10 +4550,14 @@
   },
   {
    "file_name": "hungarian_parliament_building.JPG",
+   "index": "L049",
    "names": {
     "en": "Hungarian Parliament Building",
     "de": "Ungarisches Parlamentsgebäude",
-    "sl": "Madžarska parlamentarna stavba"
+    "sl": "Madžarski parlament",
+    "tur": "Macaristan Parlamento Binası",
+    "ukr": "Будівля угорського парламенту",
+    "rus": "Здание венгерского парламента"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3653,27 +4569,15 @@
    "type": "place"
   },
   {
-   "file_name": "kaaba_mecca.jpg",
-   "names": {
-    "en": "Masjid al-Haram (Kaaba, Mecca)",
-    "de": "Masjid al-Haram (Kaaba, Mekka)",
-    "sl": "Mestna mošeja (Kaaba, Meka)"
-   },
-   "population": "Slovenian",
-   "min_age_group": 1,
-   "max_age_group": 4,
-   "interest_tags": [
-    "Religion",
-    "Architecture"
-   ],
-   "type": "place"
-  },
-  {
    "file_name": "kinderdijk_windmills.jpg",
+   "index": "L050",
    "names": {
     "en": "Kinderdijk Windmills",
     "de": "Windmühlen von Kinderdijk",
-    "sl": "Mlini na veter Kinderdijk"
+    "sl": "Vetrne mline Kinderdijk",
+    "tur": "Kinderdijk Yel Değirmenleri",
+    "ukr": "Вітряки Кіндердейк",
+    "rus": "Ветряные мельницы Киндердейк"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3686,10 +4590,14 @@
   },
   {
    "file_name": "lake_bled_island_church.jpg",
+   "index": "L051",
    "names": {
     "en": "Lake Bled and Bled Island Church",
     "de": "Bleder See und Inselkirche",
-    "sl": "Blejsko jezero in cerkev na Blejskem ostrvu"
+    "sl": "Blejsko jezero in cerkev na Blejskem otoku",
+    "tur": "Bled Gölü ve Bled Adası Kilisesi",
+    "ukr": "Озеро Блед та церква на острові Блед",
+    "rus": "Озеро Блед и церковь на острове Блед"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3702,12 +4610,16 @@
   },
   {
    "file_name": "lake_bohinj.jpg",
+   "index": "L052",
    "names": {
     "en": "Lake Bohinj",
-    "de": "Wocheiner See",
-    "sl": "Bohinjsko jezero"
+    "de": "Wocheiner See (Bohinj-See)",
+    "sl": "Bohinjsko jezero",
+    "tur": "Bohinj Gölü",
+    "ukr": "Озеро Бохінь",
+    "rus": "Озеро Бохинь"
    },
-   "population": "global",
+   "population": "slovenian",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -3717,12 +4629,16 @@
   },
   {
    "file_name": "las_vegas_strip.jpg",
+   "index": "L053",
    "names": {
     "en": "Las Vegas Strip",
     "de": "Las Vegas Strip",
-    "sl": "Las Vegas Strip"
+    "sl": "Las Vegas Strip",
+    "tur": "Las Vegas Strip",
+    "ukr": "Лас-Вегас-Стріп",
+    "rus": "Лас-Вегас-Стрип"
    },
-   "population": "Slovenian",
+   "population": "global",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -3732,12 +4648,16 @@
   },
   {
    "file_name": "leaning_tower_of_pisa.jpg",
+   "index": "L054",
    "names": {
     "en": "Leaning Tower of Pisa",
     "de": "Schiefer Turm von Pisa",
-    "sl": "Poševni stolp v Pisi"
+    "sl": "Poševni stolp v Pisi",
+    "tur": "Pisa Kulesi",
+    "ukr": "Пізанська вежа",
+    "rus": "Пизанская башня"
    },
-   "population": "Slovenian",
+   "population": "global",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -3749,12 +4669,16 @@
   },
   {
    "file_name": "little_mermaid_statue_copenhagen.jpg",
+   "index": "L055",
    "names": {
     "en": "Little Mermaid Statue",
-    "de": "Kleine Meerjungfrau (Kopenhagen)",
-    "sl": "Mala morska deklica (Kopenhagen)"
+    "de": "Statue der kleinen Meerjungfrau",
+    "sl": "Kip Male morske deklice",
+    "tur": "Küçük Deniz Kızı Heykeli",
+    "ukr": "Статуя Русалоньки",
+    "rus": "Статуя Русалочки"
    },
-   "population": "Slovenian",
+   "population": "global",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -3764,12 +4688,16 @@
   },
   {
    "file_name": "ljubljana_castle.jpg",
+   "index": "L056",
    "names": {
     "en": "Ljubljana Castle",
-    "de": "Burg Ljubljana",
-    "sl": "Ljubljanski grad"
+    "de": "Burg von Ljubljana",
+    "sl": "Ljubljanski grad",
+    "tur": "Ljubljana Kalesi",
+    "ukr": "Люблянський замок",
+    "rus": "Люблянский замок"
    },
-   "population": "global",
+   "population": "slovenian",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -3780,12 +4708,16 @@
   },
   {
    "file_name": "london_eye.JPG",
+   "index": "L057",
    "names": {
     "en": "London Eye",
     "de": "London Eye",
-    "sl": "London Eye"
+    "sl": "London Eye",
+    "tur": "London Eye",
+    "ukr": "Лондонське око",
+    "rus": "Лондонский глаз"
    },
-   "population": "global",
+   "population": "slovenian",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -3795,12 +4727,16 @@
   },
   {
    "file_name": "louvre_museum_glass_pyramid.jpg",
+   "index": "L058",
    "names": {
     "en": "Louvre Museum and Glass Pyramid",
     "de": "Louvre-Museum und Glaspyramide",
-    "sl": "Louvre in steklena piramida"
+    "sl": "Muzej Louvre in steklena piramida",
+    "tur": "Louvre Müzesi ve Cam Piramit",
+    "ukr": "Музей Лувр та скляна піраміда",
+    "rus": "Лувр и стеклянная пирамида"
    },
-   "population": "global",
+   "population": "slovenian",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -3810,10 +4746,14 @@
   },
   {
    "file_name": "luxor_temple.jpg",
+   "index": "L059",
    "names": {
     "en": "Luxor Temple",
     "de": "Luxor-Tempel",
-    "sl": "Tempelj Luksor"
+    "sl": "Tempelj v Luksorju",
+    "tur": "Luksor Tapınağı",
+    "ukr": "Луксорський храм",
+    "rus": "Храм Луксора"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3826,12 +4766,16 @@
   },
   {
    "file_name": "machu_picchu.jpg",
+   "index": "L060",
    "names": {
     "en": "Machu Picchu",
     "de": "Machu Picchu",
-    "sl": "Machu Picchu"
+    "sl": "Machu Picchu",
+    "tur": "Machu Picchu",
+    "ukr": "Мачу-Пікчу",
+    "rus": "Мачу-Пикчу"
    },
-   "population": "German",
+   "population": "global",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -3842,26 +4786,15 @@
    "type": "place"
   },
   {
-   "file_name": "marienplatz_new_town_hall_munich.jpg",
-   "names": {
-    "en": "Munich Town Hall",
-    "de": "Munich Town Hall",
-    "sl": "Munich Town Hall"
-   },
-   "population": "global",
-   "min_age_group": 1,
-   "max_age_group": 4,
-   "interest_tags": [
-    "Architecture"
-   ],
-   "type": "place"
-  },
-  {
    "file_name": "marina_bay_sands.jpg",
+   "index": "L061",
    "names": {
     "en": "Marina Bay Sands",
     "de": "Marina Bay Sands",
-    "sl": "Marina Bay Sands"
+    "sl": "Marina Bay Sands",
+    "tur": "Marina Bay Sands",
+    "ukr": "Марина-Бей-Сендс",
+    "rus": "Марина-Бэй-Сэндс"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3873,11 +4806,74 @@
    "type": "place"
   },
   {
+   "file_name": "kaaba_mecca.jpg",
+   "index": "L062",
+   "names": {
+    "en": "Masjid al-Haram (Kaaba, Mecca)",
+    "de": "Masdschid al-Haram (Kaaba, Mekka)",
+    "sl": "Mošeja al-Haram (Kaaba, Meka)",
+    "tur": "Mescid-i Haram (Kabe, Mekke)",
+    "ukr": "Масджид аль-Харам (Кааба, Мекка)",
+    "rus": "Мечеть аль-Харам (Кааба, Мекка)"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "singapore_merlion.jpg",
+   "index": "L063",
+   "names": {
+    "en": "Merlion, Singapore",
+    "de": "Merlion, Singapur",
+    "sl": "Merlion, Singapur",
+    "tur": "Merlion, Singapur",
+    "ukr": "Мерліон, Сінгапур",
+    "rus": "Мерлион, Сингапур"
+   },
+   "population": "german",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "duomo_di_milano_milan_cathedral.jpg",
+   "index": "L064",
+   "names": {
+    "en": "Milan Cathedral",
+    "de": "Mailänder Dom",
+    "sl": "Milanska katedrala",
+    "tur": "Milano Katedrali",
+    "ukr": "Міланський собор",
+    "rus": "Миланский собор"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Religion",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
    "file_name": "mont_saint_michel.JPG",
+   "index": "L065",
    "names": {
     "en": "Mont Saint-Michel",
     "de": "Mont Saint-Michel",
-    "sl": "Mont Saint-Michel"
+    "sl": "Mont Saint-Michel",
+    "tur": "Mont Saint-Michel",
+    "ukr": "Мон-Сен-Мішель",
+    "rus": "Мон-Сен-Мишель"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3891,10 +4887,14 @@
   },
   {
    "file_name": "moulin_rouge.jpg",
+   "index": "L066",
    "names": {
     "en": "Moulin Rouge",
     "de": "Moulin Rouge",
-    "sl": "Moulin Rouge"
+    "sl": "Moulin Rouge",
+    "tur": "Moulin Rouge",
+    "ukr": "Мулен-Руж",
+    "rus": "Мулен-Руж"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3907,10 +4907,14 @@
   },
   {
    "file_name": "mount_everest.jpg",
+   "index": "L067",
    "names": {
     "en": "Mount Everest",
     "de": "Mount Everest",
-    "sl": "Mount Everest"
+    "sl": "Mount Everest",
+    "tur": "Everest Dağı",
+    "ukr": "Гора Еверест",
+    "rus": "Эверест"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3923,10 +4927,14 @@
   },
   {
    "file_name": "mount_fuji.jpg",
+   "index": "L068",
    "names": {
     "en": "Mount Fuji",
-    "de": "Fuji",
-    "sl": "Gora Fuji"
+    "de": "Mount Fuji",
+    "sl": "Gora Fuji",
+    "tur": "Fuji Dağı",
+    "ukr": "Гора Фудзі",
+    "rus": "Фуджи"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3938,10 +4946,14 @@
   },
   {
    "file_name": "mount_rushmore.jpg",
+   "index": "L069",
    "names": {
     "en": "Mount Rushmore",
     "de": "Mount Rushmore",
-    "sl": "Gora Rushmore"
+    "sl": "Gora Rushmore",
+    "tur": "Rushmore Dağı",
+    "ukr": "Гора Рашмор",
+    "rus": "Рашмор"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3954,12 +4966,16 @@
   },
   {
    "file_name": "mount_triglav.jpg",
+   "index": "L070",
    "names": {
     "en": "Mount Triglav",
     "de": "Triglav",
-    "sl": "Triglav"
+    "sl": "Gora Triglav",
+    "tur": "Triglav Dağı",
+    "ukr": "Гора Триглав",
+    "rus": "Триглав"
    },
-   "population": "Slovenian",
+   "population": "global",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -3968,11 +4984,34 @@
    "type": "place"
   },
   {
+   "file_name": "marienplatz_new_town_hall_munich.jpg",
+   "index": "L071",
+   "names": {
+    "en": "Munich Town Hall",
+    "de": "Münchner Rathaus",
+    "sl": "Mestna hiša v Münchnu",
+    "tur": "Münih Belediye Binası",
+    "ukr": "Мюнхенська ратуша",
+    "rus": "Мюнхенская ратуша"
+   },
+   "population": "slovenian",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
    "file_name": "neuschwanstein_castle.jpg",
+   "index": "L072",
    "names": {
     "en": "Neuschwanstein Castle",
     "de": "Schloss Neuschwanstein",
-    "sl": "Grad Neuschwanstein"
+    "sl": "Grad Neuschwanstein",
+    "tur": "Neuschwanstein Şatosu",
+    "ukr": "Замок Нойшванштайн",
+    "rus": "Замок Нойшванштайн"
    },
    "population": "global",
    "min_age_group": 1,
@@ -3985,10 +5024,14 @@
   },
   {
    "file_name": "niagara_falls.jpg",
+   "index": "L073",
    "names": {
     "en": "Niagara Falls",
     "de": "Niagarafälle",
-    "sl": "Niagarski slapovi"
+    "sl": "Niagarski slapovi",
+    "tur": "Niagara Şelalesi",
+    "ukr": "Ніагарський водоспад",
+    "rus": "Ниагарский водопад"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4001,10 +5044,14 @@
   },
   {
    "file_name": "notre_dame_cathedral_paris.jpg",
+   "index": "L074",
    "names": {
     "en": "Notre-Dame Cathedral",
-    "de": "Notre-Dame de Paris",
-    "sl": "Notre-Dame (Naša Gospa Pariška)"
+    "de": "Kathedrale Notre-Dame",
+    "sl": "Katedrala Notre-Dame",
+    "tur": "Notre-Dame Katedrali",
+    "ukr": "Собор Паризької Богоматері",
+    "rus": "Собор Нотр-Дам"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4018,10 +5065,14 @@
   },
   {
    "file_name": "oxford_university.jpg",
+   "index": "L075",
    "names": {
     "en": "Oxford University",
-    "de": "Oxford University",
-    "sl": "Oxford University"
+    "de": "Universität Oxford",
+    "sl": "Univerza v Oxfordu",
+    "tur": "Oxford Üniversitesi",
+    "ukr": "Оксфордський університет",
+    "rus": "Оксфордский университет"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4032,11 +5083,36 @@
    "type": "place"
   },
   {
+   "file_name": "versailles_palace.jpg",
+   "index": "L076",
+   "names": {
+    "en": "Palace of Versailles",
+    "de": "Schloss Versailles",
+    "sl": "Versajska palača",
+    "tur": "Versay Sarayı",
+    "ukr": "Версальський палац",
+    "rus": "Версальский дворец"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "History/Ancient",
+    "Royalty",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
    "file_name": "palm_jumeirah.jpg",
+   "index": "L077",
    "names": {
     "en": "Palm Jumeirah",
     "de": "Palm Jumeirah",
-    "sl": "Palm Jumeirah"
+    "sl": "Palm Jumeirah",
+    "tur": "Palm Jumeirah",
+    "ukr": "Пальма Джумейра",
+    "rus": "Пальмовая башня Джумейра"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4049,10 +5125,14 @@
   },
   {
    "file_name": "pantheon_rome.jpg",
+   "index": "L078",
    "names": {
     "en": "Pantheon, Rome",
-    "de": "Pantheon (Rom)",
-    "sl": "Panteon (Rim)"
+    "de": "Pantheon, Rom",
+    "sl": "Panteon, Rim",
+    "tur": "Pantheon, Roma",
+    "ukr": "Пантеон, Рим",
+    "rus": "Пантеон, Рим"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4066,10 +5146,14 @@
   },
   {
    "file_name": "park_guell.jpg",
+   "index": "L079",
    "names": {
     "en": "Park Güell",
     "de": "Park Güell",
-    "sl": "Park Güell"
+    "sl": "Park Güell",
+    "tur": "Park Güell",
+    "ukr": "Парк Гуель",
+    "rus": "Парк Гуэль"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4080,26 +5164,15 @@
    "type": "place"
   },
   {
-   "file_name": "pentagon_building.jpg",
-   "names": {
-    "en": "The Pentagon",
-    "de": "The Pentagon",
-    "sl": "The Pentagon"
-   },
-   "population": "global",
-   "min_age_group": 1,
-   "max_age_group": 4,
-   "interest_tags": [
-    "Politics"
-   ],
-   "type": "place"
-  },
-  {
    "file_name": "petra_jordan.jpg",
+   "index": "L080",
    "names": {
     "en": "Petra",
     "de": "Petra",
-    "sl": "Petra"
+    "sl": "Petra",
+    "tur": "Petra",
+    "ukr": "Петра",
+    "rus": "Петра"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4112,10 +5185,14 @@
   },
   {
    "file_name": "petronas_twin_towers.jpg",
+   "index": "L081",
    "names": {
     "en": "Petronas Twin Towers",
     "de": "Petronas Towers",
-    "sl": "Stolpa Petronas"
+    "sl": "Petronova stolpa dvojčka",
+    "tur": "Petronas İkiz Kuleleri",
+    "ukr": "Вежі-близнюки Петронас",
+    "rus": "Башни-близнецы Петронас"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4128,10 +5205,14 @@
   },
   {
    "file_name": "piccadilly_circus.jpg",
+   "index": "L082",
    "names": {
     "en": "Piccadilly Circus",
     "de": "Piccadilly Circus",
-    "sl": "Piccadilly Circus"
+    "sl": "Piccadilly Circus",
+    "tur": "Piccadilly Circus",
+    "ukr": "Пікаділлі-Серкус",
+    "rus": "Пикадилли-серкус"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4143,12 +5224,16 @@
   },
   {
    "file_name": "piran.jpg",
+   "index": "L083",
    "names": {
     "en": "Piran",
     "de": "Piran",
-    "sl": "Piran"
+    "sl": "Piran",
+    "tur": "Piran",
+    "ukr": "Піран",
+    "rus": "Пиран"
    },
-   "population": "Slovenian",
+   "population": "slovenian",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -4159,10 +5244,14 @@
   },
   {
    "file_name": "ponte_vecchio.JPG",
+   "index": "L084",
    "names": {
     "en": "Ponte Vecchio",
     "de": "Ponte Vecchio",
-    "sl": "Ponte Vecchio"
+    "sl": "Monte Vecchio",
+    "tur": "Ponte Vecchio",
+    "ukr": "Міст Понте-Веккьо",
+    "rus": "Понте-Веккьо"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4175,12 +5264,16 @@
   },
   {
    "file_name": "porta_nigra_trier.jpg",
+   "index": "L085",
    "names": {
     "en": "Porta Nigra, Trier",
-    "de": "Porta Nigra (Trier)",
-    "sl": "Porta Nigra (Trier)"
+    "de": "Porta Nigra, Trier",
+    "sl": "Porta Nigra, Trier",
+    "tur": "Porta Nigra, Trier",
+    "ukr": "Порта-Нігра, Трір",
+    "rus": "Порта-Нигра, Трир"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -4191,12 +5284,16 @@
   },
   {
    "file_name": "postojna_cave.jpg",
+   "index": "L086",
    "names": {
     "en": "Postojna Cave",
     "de": "Höhle von Postojna",
-    "sl": "Postojnska jama"
+    "sl": "Postojnska jama",
+    "tur": "Postojna Mağarası",
+    "ukr": "Постойнська печера",
+    "rus": "Постойнская пещера"
    },
-   "population": "Slovenian",
+   "population": "slovenian",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -4206,10 +5303,14 @@
   },
   {
    "file_name": "prague_astronomical_clock.jpg",
+   "index": "L087",
    "names": {
     "en": "Prague Astronomical Clock",
-    "de": "Prager Astronomische Uhr (Orloj)",
-    "sl": "Praška astronomska ura (Orloj)"
+    "de": "Prager Rathausuhr",
+    "sl": "Praška astronomska ura",
+    "tur": "Prag Astronomik Saati",
+    "ukr": "Празький астрономічний годинник",
+    "rus": "Пражские астрономические часы"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4222,12 +5323,16 @@
   },
   {
    "file_name": "predjama_castle.jpg",
+   "index": "L088",
    "names": {
     "en": "Predjama Castle",
-    "de": "Schloss Predjama",
-    "sl": "Predjamski grad"
+    "de": "Burg Predjama",
+    "sl": "Predjamski grad",
+    "tur": "Predjama Kalesi",
+    "ukr": "Пред'ямський замок",
+    "rus": "Предъямский замок"
    },
-   "population": "Slovenian",
+   "population": "slovenian",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -4238,12 +5343,16 @@
   },
   {
    "file_name": "preseren_square.jpg",
+   "index": "L089",
    "names": {
     "en": "Prešeren Square, Ljubljana",
-    "de": "Prešeren-Platz (Ljubljana)",
-    "sl": "Prešernov trg (Ljubljana)"
+    "de": "Prešeren-Platz, Ljubljana",
+    "sl": "Prešernov trg, Ljubljana",
+    "tur": "Prešeren Meydanı, Ljubljana",
+    "ukr": "Площа Прешерна, Любляна",
+    "rus": "Площадь Прешерена, Любляна"
    },
-   "population": "Slovenian",
+   "population": "slovenian",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -4253,10 +5362,14 @@
   },
   {
    "file_name": "pyramids_of_giza.jpg",
+   "index": "L090",
    "names": {
     "en": "Pyramids of Giza",
     "de": "Pyramiden von Gizeh",
-    "sl": "Piramide v Gizi"
+    "sl": "Piramide v Gizi",
+    "tur": "Gize Piramitleri",
+    "ukr": "Піраміди Гізи",
+    "rus": "Пирамиды Гизы"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4270,10 +5383,14 @@
   },
   {
    "file_name": "red_square_moscow.jpg",
+   "index": "L091",
    "names": {
     "en": "Red Square",
     "de": "Roter Platz",
-    "sl": "Rdeči trg"
+    "sl": "Rdeči trg",
+    "tur": "Kızıl Meydan",
+    "ukr": "Червона площа",
+    "rus": "Красная площадь"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4287,12 +5404,16 @@
   },
   {
    "file_name": "reichstag_building_berlin.jpg",
+   "index": "L092",
    "names": {
     "en": "Reichstag Building",
     "de": "Reichstagsgebäude",
-    "sl": "Stavba nemškega parlamenta (Reichstag)"
+    "sl": "Reichstag",
+    "tur": "Reichstag Binası",
+    "ukr": "Рейхстаг",
+    "rus": "Здание Рейхстага"
    },
-   "population": "German",
+   "population": "german",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -4303,10 +5424,14 @@
   },
   {
    "file_name": "royal_albert_hall.jpg",
+   "index": "L093",
    "names": {
     "en": "Royal Albert Hall",
     "de": "Royal Albert Hall",
-    "sl": "Royal Albert Hall"
+    "sl": "Royal Albert Hall",
+    "tur": "Royal Albert Hall",
+    "ukr": "Альберт-хол",
+    "rus": "Королевский Альберт-холл"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4319,10 +5444,14 @@
   },
   {
    "file_name": "sacre_coeur_basilica.jpg",
+   "index": "L094",
    "names": {
     "en": "Sacré-Cœur Basilica",
-    "de": "Sacré-Cœur-Basilika",
-    "sl": "Bazilika Sacré-Cœur"
+    "de": "Basilika Sacré-Cœur",
+    "sl": "Bazilika Sacré-Cœur",
+    "tur": "Sacré-Cœur Bazilikası",
+    "ukr": "Базиліка Сакре-Кер",
+    "rus": "Базилика Сакре-Кёр"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4335,10 +5464,14 @@
   },
   {
    "file_name": "sagrada_familia.jpg",
+   "index": "L095",
    "names": {
     "en": "Sagrada Família",
     "de": "Sagrada Família",
-    "sl": "Sagrada Família"
+    "sl": "Sagrada Família",
+    "tur": "Sagrada Família",
+    "ukr": "Саграда Фамілія",
+    "rus": "Саграда-Фамилия"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4351,10 +5484,14 @@
   },
   {
    "file_name": "santorini.jpg",
+   "index": "L096",
    "names": {
     "en": "Santorini",
-    "de": "Santorini",
-    "sl": "Santorini"
+    "de": "Santorin",
+    "sl": "Santorini",
+    "tur": "Santorini",
+    "ukr": "Санторіні",
+    "rus": "Санторини"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4366,10 +5503,14 @@
   },
   {
    "file_name": "sheikh_zayed_grand_mosque.jpg",
+   "index": "L097",
    "names": {
     "en": "Sheikh Zayed Grand Mosque",
     "de": "Scheich-Zayid-Moschee",
-    "sl": "Velika mošeja šejka Zayeda"
+    "sl": "Velika mošeja šejka Zayeda",
+    "tur": "Şeyh Zayed Ulu Camii",
+    "ukr": "Велика мечеть шейха Заїда",
+    "rus": "Большая мечеть шейха Зайда"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4382,10 +5523,14 @@
   },
   {
    "file_name": "shibuya_crossing.jpg",
+   "index": "L098",
    "names": {
     "en": "Shibuya Crossing",
-    "de": "Shibuya-Kreuzung",
-    "sl": "Shibuya prehod"
+    "de": "Kreuzung von Shibuya",
+    "sl": "Prehod Shibuya",
+    "tur": "Shibuya Kavşağı",
+    "ukr": "Перехрестя Сібуя",
+    "rus": "Кроссинг Сибуя"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4396,26 +5541,15 @@
    "type": "place"
   },
   {
-   "file_name": "singapore_merlion.jpg",
-   "names": {
-    "en": "Merlion, Singapore",
-    "de": "Merlion (Singapur)",
-    "sl": "Merlion (Singapur)"
-   },
-   "population": "global",
-   "min_age_group": 1,
-   "max_age_group": 4,
-   "interest_tags": [
-    "Architecture"
-   ],
-   "type": "place"
-  },
-  {
    "file_name": "sistine_chapel.jpg",
+   "index": "L099",
    "names": {
     "en": "Sistine Chapel",
     "de": "Sixtinische Kapelle",
-    "sl": "Sikstinska kapela"
+    "sl": "Sikstinska kapela",
+    "tur": "Sistine Şapeli",
+    "ukr": "Сікстинська капела",
+    "rus": "Сикстинская капелла"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4428,10 +5562,14 @@
   },
   {
    "file_name": "space_needle.jpg",
+   "index": "L100",
    "names": {
     "en": "Space Needle",
     "de": "Space Needle",
-    "sl": "Space Needle"
+    "sl": "Space Needle",
+    "tur": "Space Needle",
+    "ukr": "Спейс-Нідл",
+    "rus": "Спейс-Нидл"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4443,10 +5581,14 @@
   },
   {
    "file_name": "spanish_steps_rome.jpg",
+   "index": "L101",
    "names": {
     "en": "Spanish Steps, Rome",
-    "de": "Spanische Treppe (Rom)",
-    "sl": "Španske stopnice (Rim)"
+    "de": "Spanische Treppe, Rom",
+    "sl": "Španske stopnice, Rim",
+    "tur": "İspanyol Merdivenleri, Roma",
+    "ukr": "Іспанські сходи, Рим",
+    "rus": "Испанская лестница, Рим"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4459,10 +5601,14 @@
   },
   {
    "file_name": "st_marks_square_and_basilica_venice.jpg",
+   "index": "L102",
    "names": {
     "en": "St. Mark's Square and Basilica, Venice",
-    "de": "Markusplatz und Markusbasilika (Venedig)",
-    "sl": "Trg svetega Marka in bazilika (Benetke)"
+    "de": "Markusplatz und Markusdom, Venedig",
+    "sl": "Trg in bazilika sv. Marka, Benetke",
+    "tur": "San Marco Meydanı ve Bazilikası, Venedik",
+    "ukr": "Площа та базиліка Святого Марка, Венеція",
+    "rus": "Площадь и базилика Святого Марка, Венеция"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4476,10 +5622,14 @@
   },
   {
    "file_name": "st_peters_basilica.jpg",
+   "index": "L103",
    "names": {
     "en": "St. Peter's Basilica",
     "de": "Petersdom",
-    "sl": "Bazilika svetega Petra"
+    "sl": "Bazilika sv. Petra",
+    "tur": "Aziz Petrus Bazilikası",
+    "ukr": "Базиліка Святого Петра",
+    "rus": "Базилика Святого Петра"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4492,10 +5642,14 @@
   },
   {
    "file_name": "statue_of_liberty.jpg",
+   "index": "L104",
    "names": {
     "en": "Statue of Liberty",
     "de": "Freiheitsstatue",
-    "sl": "Kip svobode"
+    "sl": "Kip svobode",
+    "tur": "Özgürlük Heykeli",
+    "ukr": "Статуя Свободи",
+    "rus": "Статуя Свободы"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4509,10 +5663,14 @@
   },
   {
    "file_name": "stonehenge.jpg",
+   "index": "L105",
    "names": {
     "en": "Stonehenge",
     "de": "Stonehenge",
-    "sl": "Stonehenge"
+    "sl": "Stonehenge",
+    "tur": "Stonehenge",
+    "ukr": "Стоунхендж",
+    "rus": "Стоунхендж"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4525,10 +5683,14 @@
   },
   {
    "file_name": "sydney_harbour_bridge.jpg",
+   "index": "L106",
    "names": {
     "en": "Sydney Harbour Bridge",
     "de": "Sydney Harbour Bridge",
-    "sl": "Most Sydney Harbour"
+    "sl": "Pristaniški most v Sydneyju",
+    "tur": "Sidney Liman Köprüsü",
+    "ukr": "Міст Харбор-Брідж у Сіднеї",
+    "rus": "Мост через гавань Сиднея"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4540,10 +5702,14 @@
   },
   {
    "file_name": "sydney_opera_house.jpg",
+   "index": "L107",
    "names": {
     "en": "Sydney Opera House",
-    "de": "Sydney Opera House",
-    "sl": "Opera v Sydneyju"
+    "de": "Opernhaus von Sydney",
+    "sl": "Operna hiša v Sydneyju",
+    "tur": "Sidney Opera Binası",
+    "ukr": "Сіднейський оперний театр",
+    "rus": "Сиднейский оперный театр"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4557,10 +5723,14 @@
   },
   {
    "file_name": "table_mountain_cape_town.jpg",
+   "index": "L108",
    "names": {
     "en": "Table Mountain, Cape Town",
-    "de": "Tafelberg (Kapstadt)",
-    "sl": "Mizasta gora (Cape Town)"
+    "de": "Tafelberg, Kapstadt",
+    "sl": "Table Mountain, Cape Town",
+    "tur": "Masa Dağı, Cape Town",
+    "ukr": "Столова гора, Кейптаун",
+    "rus": "Столовая гора, Кейптаун"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4572,10 +5742,14 @@
   },
   {
    "file_name": "taipei_101.jpg",
+   "index": "L109",
    "names": {
     "en": "Taipei 101",
     "de": "Taipei 101",
-    "sl": "Taipei 101"
+    "sl": "Taipei 101",
+    "tur": "Taipei 101",
+    "ukr": "Тайбей 101",
+    "rus": "Тайбэй 101"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4588,10 +5762,14 @@
   },
   {
    "file_name": "taj_mahal.jpg",
+   "index": "L110",
    "names": {
     "en": "Taj Mahal",
     "de": "Taj Mahal",
-    "sl": "Taj Mahal"
+    "sl": "Taj Mahal",
+    "tur": "Tac Mahal",
+    "ukr": "Тадж-Махал",
+    "rus": "Тадж-Махал"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4605,10 +5783,14 @@
   },
   {
    "file_name": "temple_of_heaven_beijing.jpg",
+   "index": "L111",
    "names": {
     "en": "Temple of Heaven, Beijing",
-    "de": "Himmelstempel (Peking)",
-    "sl": "Tempelj neba (Peking)"
+    "de": "Himmelstempel, Peking",
+    "sl": "Nebeški tempelj, Peking",
+    "tur": "Cennet Tapınağı, Pekin",
+    "ukr": "Храм Неба, Пекін",
+    "rus": "Храм Небес Пекин"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4622,10 +5804,14 @@
   },
   {
    "file_name": "terracotta_army.jpg",
+   "index": "L112",
    "names": {
     "en": "Terracotta Army",
-    "de": "Terracotta Army",
-    "sl": "Terracotta Army"
+    "de": "Terrakotta-Armee",
+    "sl": "Terakotna armada",
+    "tur": "Terracotta Ordusu",
+    "ukr": "Теракотова армія",
+    "rus": "Терракотовая армия"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4637,10 +5823,14 @@
   },
   {
    "file_name": "the_gherkin_london.JPG",
+   "index": "L113",
    "names": {
     "en": "The Gherkin",
     "de": "The Gherkin",
-    "sl": "The Gherkin"
+    "sl": "Gherkin (uhorka)",
+    "tur": "The Gherkin",
+    "ukr": "The Gherkin (огурец)",
+    "rus": "The Gherkin (огірок)"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4652,11 +5842,34 @@
    "type": "place"
   },
   {
+   "file_name": "pentagon_building.jpg",
+   "index": "L114",
+   "names": {
+    "en": "The Pentagon",
+    "de": "Pentagon",
+    "sl": "Pentagon",
+    "tur": "Pentagon",
+    "ukr": "Пентагон",
+    "rus": "Пентагон"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Politics"
+   ],
+   "type": "place"
+  },
+  {
    "file_name": "the_shard_london.jpg",
+   "index": "L115",
    "names": {
     "en": "The Shard",
     "de": "The Shard",
-    "sl": "The Shard"
+    "sl": "The Shard",
+    "tur": "The Shard",
+    "ukr": "Шард",
+    "rus": "Шард"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4667,28 +5880,15 @@
    "type": "place"
   },
   {
-   "file_name": "the_white_house.jpg",
-   "names": {
-    "en": "White House",
-    "de": "Weißes Haus",
-    "sl": "Bela hiša"
-   },
-   "population": "global",
-   "min_age_group": 1,
-   "max_age_group": 4,
-   "interest_tags": [
-    "Politics",
-    "Architecture",
-    "General"
-   ],
-   "type": "place"
-  },
-  {
    "file_name": "times_square.jpg",
+   "index": "L116",
    "names": {
     "en": "Times Square",
     "de": "Times Square",
-    "sl": "Times Square"
+    "sl": "Times Square",
+    "tur": "Times Meydanı",
+    "ukr": "Таймс-сквер",
+    "rus": "Таймс-сквер"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4701,10 +5901,14 @@
   },
   {
    "file_name": "tower_bridge.jpg",
+   "index": "L117",
    "names": {
     "en": "Tower Bridge",
     "de": "Tower Bridge",
-    "sl": "Tower Bridge"
+    "sl": "Tower Bridge",
+    "tur": "Tower Bridge",
+    "ukr": "Тауерський міст",
+    "rus": "Тауэрский мост"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4716,10 +5920,14 @@
   },
   {
    "file_name": "tower_of_london.jpg",
+   "index": "L118",
    "names": {
     "en": "Tower of London",
     "de": "Tower of London",
-    "sl": "Londonski Tower"
+    "sl": "Stolp London",
+    "tur": "Londra Kulesi",
+    "ukr": "Тауерська вежа Лондон",
+    "rus": "Лондонский Тауэр"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4733,10 +5941,14 @@
   },
   {
    "file_name": "trafalgar_square.jpg",
+   "index": "L119",
    "names": {
     "en": "Trafalgar Square",
     "de": "Trafalgar Square",
-    "sl": "Trg Trafalgar"
+    "sl": "Trafalgarjev trg",
+    "tur": "Trafalgar Meydanı",
+    "ukr": "Трафальгарська площа",
+    "rus": "Трафальгарская площадь"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4748,10 +5960,14 @@
   },
   {
    "file_name": "trevi_fountain.jpg",
+   "index": "L120",
    "names": {
     "en": "Trevi Fountain",
     "de": "Trevi-Brunnen",
-    "sl": "Fontana di Trevi"
+    "sl": "Fontana di Trevi",
+    "tur": "Trevi Çeşmesi",
+    "ukr": "Фонтан Треві",
+    "rus": "Фонтан Треви"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4764,10 +5980,14 @@
   },
   {
    "file_name": "triple_bridge.jpg",
+   "index": "L121",
    "names": {
     "en": "Triple Bridge, Ljubljana",
-    "de": "Dreierbrücke (Ljubljana)",
-    "sl": "Tromostovje (Ljubljana)"
+    "de": "Drei-Brücken-Ensemble (Tromostovje), Ljubljana",
+    "sl": "Tromostje, Ljubljana",
+    "tur": "Üçlü Köprü, Ljubljana",
+    "ukr": "Потрійний міст, Любляна",
+    "rus": "Тройной мост, Любляна"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4779,10 +5999,14 @@
   },
   {
    "file_name": "uluru_ayers_rock.jpg",
+   "index": "L122",
    "names": {
     "en": "Uluru (Ayers Rock)",
     "de": "Uluru (Ayers Rock)",
-    "sl": "Uluru (Ayers Rock)"
+    "sl": "Uluru (Ayers Rock)",
+    "tur": "Uluru (Ayers Kayası)",
+    "ukr": "Улуру (Айєрс-Рок)",
+    "rus": "Улуру (Эйерс-Рок)"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4793,11 +6017,35 @@
    "type": "place"
   },
   {
+   "file_name": "capitol_hill.jpg",
+   "index": "L123",
+   "names": {
+    "en": "United States Capitol",
+    "de": "Kapitol der Vereinigten Staaten",
+    "sl": "Kapitol Združenih držav Amerike",
+    "tur": "ABD Kongre Binası",
+    "ukr": "Капітолій США",
+    "rus": "Капитолий США"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Politics",
+    "Architecture"
+   ],
+   "type": "place"
+  },
+  {
    "file_name": "venice_canals.jpg",
+   "index": "L124",
    "names": {
     "en": "Venice Canals",
-    "de": "Venice Canals",
-    "sl": "Venice Canals"
+    "de": "Kanäle von Venedig",
+    "sl": "Beneški kanali",
+    "tur": "Venedik Kanalları",
+    "ukr": "Венеційські канали",
+    "rus": "Венецианские каналы"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4809,30 +6057,17 @@
    "type": "place"
   },
   {
-   "file_name": "versailles_palace.jpg",
-   "names": {
-    "en": "Palace of Versailles",
-    "de": "Schloss Versailles",
-    "sl": "Versajska palača"
-   },
-   "population": "Slovenian",
-   "min_age_group": 1,
-   "max_age_group": 4,
-   "interest_tags": [
-    "History/Ancient",
-    "Royalty",
-    "Architecture"
-   ],
-   "type": "place"
-  },
-  {
    "file_name": "vintgar_gorge.jpg",
+   "index": "L125",
    "names": {
     "en": "Vintgar Gorge",
     "de": "Vintgar-Klamm",
-    "sl": "Soteska Vintgar"
+    "sl": "Soteska Vintgar",
+    "tur": "Vintgar Geçidi",
+    "ukr": "Ущелина Вінтгар",
+    "rus": "Ущелье Винтгар"
    },
-   "population": "global",
+   "population": "slovenian",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
@@ -4842,10 +6077,14 @@
   },
   {
    "file_name": "western_wailing_wall.jpg",
+   "index": "L126",
    "names": {
     "en": "Western Wall (Wailing Wall)",
-    "de": "Westmauer (Klagemauer)",
-    "sl": "Zahodni zid (Zid objokovanja)"
+    "de": "Klagemauer",
+    "sl": "Zid objokovanja",
+    "tur": "Batı Duvarı (Ağlama Duvarı)",
+    "ukr": "Стіна Плачу",
+    "rus": "Западная стена (Стена плача)"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4858,10 +6097,14 @@
   },
   {
    "file_name": "westminster_abbey.jpg",
+   "index": "L127",
    "names": {
     "en": "Westminster Abbey",
     "de": "Westminster Abbey",
-    "sl": "Westminster Abbey"
+    "sl": "Westminstrska opatija",
+    "tur": "Westminster Manastırı",
+    "ukr": "Вестмінстерське абатство",
+    "rus": "Вестминстерское аббатство"
    },
    "population": "global",
    "min_age_group": 1,
@@ -4875,16 +6118,41 @@
   },
   {
    "file_name": "white_cliffs_of_dover.jpg",
+   "index": "L128",
    "names": {
     "en": "White Cliffs of Dover",
-    "de": "White Cliffs of Dover",
-    "sl": "White Cliffs of Dover"
+    "de": "Weiße Klippen von Dover",
+    "sl": "Bele pečine Doverja",
+    "tur": "Dover'ın Beyaz Kayalıkları",
+    "ukr": "Білі скелі Дувра",
+    "rus": "Белые скалы Дувра"
    },
    "population": "global",
    "min_age_group": 1,
    "max_age_group": 4,
    "interest_tags": [
     "Nature/Outdoors"
+   ],
+   "type": "place"
+  },
+  {
+   "file_name": "the_white_house.jpg",
+   "index": "L129",
+   "names": {
+    "en": "White House",
+    "de": "Weißes Haus",
+    "sl": "Bela hiša",
+    "tur": "Beyaz Saray",
+    "ukr": "Білий дім",
+    "rus": "Белый дом"
+   },
+   "population": "global",
+   "min_age_group": 1,
+   "max_age_group": 4,
+   "interest_tags": [
+    "Politics",
+    "Architecture",
+    "General"
    ],
    "type": "place"
   }

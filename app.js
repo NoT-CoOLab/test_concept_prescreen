@@ -6,12 +6,11 @@
   "use strict";
 
   var STATE_KEY = "expstate_" + CONFIG.siteId;
-  var QUEUE_KEY = "expqueue_" + CONFIG.siteId;
   var LANG_KEY = "explang_" + CONFIG.siteId;
 
   var CSV_HEADER = ["participant_code", "site", "session_start_iso", "response_timestamp_iso",
     "trial_index", "language", "regions_selected", "age_group_code", "interests_selected",
-    "file_name", "name_shown", "type", "population", "min_age_group", "max_age_group", "interest_tags",
+    "file_name", "index", "name_shown", "type", "population", "min_age_group", "max_age_group", "interest_tags",
     "response", "response_time_ms"];
 
   var data = null;        // { concepts: [...], age_groups: [...] }
@@ -54,6 +53,29 @@
     for (var i = 0; i < 6; i++) out += charset[Math.floor(Math.random() * charset.length)];
     return out;
   }
+  // Lets a researcher assign a specific, human-chosen participant ID (e.g. sequential
+  // "001", "002"...) by handing out a link like "?pid=001" for each session, instead of
+  // a random generated code. Deliberately NOT auto-incremented by the site itself —
+  // there's no shared counter anywhere in this architecture (no server, no database),
+  // so two participants on two different computers independently generating "the next
+  // number" could genuinely collide. Putting the researcher in control of the number
+  // sidesteps that entirely. Falls back to the random generator if no ?pid= is given,
+  // so nothing breaks for casual testing.
+  //
+  // The value is sanitized because it flows into a pipe-delimited email subject line
+  // (a stray "|" would corrupt the fields the Power Automate flow parses out) and into
+  // a downloaded filename (so no path separators or other unsafe characters either) —
+  // only letters, numbers, "-", and "_" survive, capped at 20 characters.
+  function getAssignedParticipantId() {
+    try {
+      var raw = new URLSearchParams(window.location.search).get("pid");
+      if (!raw) return null;
+      var cleaned = String(raw).replace(/[^A-Za-z0-9_-]/g, "").slice(0, 20);
+      return cleaned || null;
+    } catch (e) {
+      return null;
+    }
+  }
   function shuffle(arr) {
     for (var i = arr.length - 1; i > 0; i--) {
       var j = Math.floor(Math.random() * (i + 1));
@@ -69,8 +91,14 @@
   }
 
   function buildPool(regionPopulations, ageGroupCode) {
+    // Case-insensitive on purpose: population values come from two independently-
+    // edited places (the spreadsheet and each site's config.js), and a casing
+    // mismatch between them (e.g. "german" vs "German") would otherwise silently
+    // exclude every region-specific concept with no visible error at all.
+    var regionPopulationsLower = regionPopulations.map(function (p) { return String(p).toLowerCase(); });
     return data.concepts.filter(function (c) {
-      var popOk = (c.population === "global") || (regionPopulations.indexOf(c.population) !== -1);
+      var cPop = String(c.population).toLowerCase();
+      var popOk = (cPop === "global") || (regionPopulationsLower.indexOf(cPop) !== -1);
       var ageOk = ageGroupCode >= c.min_age_group && ageGroupCode <= c.max_age_group;
       return popOk && ageOk;
     });
@@ -89,73 +117,6 @@
     return bucketA.concat(bucketB);
   }
 
-  // ---------------- Remote sync (Google Apps Script) ----------------
-  function jsonp(url) {
-    return new Promise(function (resolve, reject) {
-      var cbName = "cb_" + Math.random().toString(36).slice(2);
-      var done = false;
-      window[cbName] = function (payload) {
-        done = true;
-        resolve(payload);
-        cleanup();
-      };
-      var script = document.createElement("script");
-      script.src = url + (url.indexOf("?") !== -1 ? "&" : "?") + "callback=" + cbName;
-      script.onerror = function () { if (!done) { reject(new Error("jsonp_failed")); cleanup(); } };
-      function cleanup() {
-        delete window[cbName];
-        if (script.parentNode) script.parentNode.removeChild(script);
-      }
-      document.body.appendChild(script);
-      setTimeout(function () { if (!done) { reject(new Error("jsonp_timeout")); cleanup(); } }, 9000);
-    });
-  }
-
-  function lookupRemote(code) {
-    var url = CONFIG.lookupUrl + "?action=lookup&site=" + encodeURIComponent(CONFIG.siteId) +
-      "&code=" + encodeURIComponent(code) + "&token=" + encodeURIComponent(CONFIG.backendToken);
-    return jsonp(url);
-  }
-
-  function sendAppend(row) {
-    var payload = Object.assign({}, row, { token: CONFIG.backendToken });
-    return fetch(CONFIG.appendUrl, {
-      method: "POST",
-      mode: "no-cors",
-      headers: { "Content-Type": "text/plain;charset=utf-8" },
-      body: JSON.stringify(payload)
-    });
-  }
-
-  var sending = false;
-  function processQueue() {
-    if (sending) return;
-    var q = JSON.parse(localStorage.getItem(QUEUE_KEY) || "[]");
-    if (!q.length) return;
-    sending = true;
-    setSaveIndicator("pending");
-    (function step() {
-      var q2 = JSON.parse(localStorage.getItem(QUEUE_KEY) || "[]");
-      if (!q2.length) { sending = false; setSaveIndicator("ok"); return; }
-      sendAppend(q2[0]).then(function () {
-        q2.shift();
-        localStorage.setItem(QUEUE_KEY, JSON.stringify(q2));
-        step();
-      }).catch(function () {
-        sending = false;
-        setSaveIndicator("offline");
-      });
-    })();
-  }
-  function queueAppend(row) {
-    var q = JSON.parse(localStorage.getItem(QUEUE_KEY) || "[]");
-    q.push(row);
-    localStorage.setItem(QUEUE_KEY, JSON.stringify(q));
-    processQueue();
-  }
-  window.addEventListener("online", processQueue);
-  setInterval(processQueue, 6000);
-
   function setSaveIndicator(kind) {
     var el = $("save-indicator");
     if (!kind) { el.hidden = true; return; }
@@ -173,54 +134,90 @@
   //
   // Because each checkpoint is a complete snapshot (not a diff), a single failed send
   // is not fatal — the next checkpoint resends everything, so there's no separate
-  // retry queue here the way the apps-script backend needs.
+  // retry queue needed here.
   //
-  // The EmailJS SDK is only loaded for sites actually using this backend, so sites on
-  // the apps-script backend carry no extra network dependency.
-  var emailjsReady = null;
-  function ensureEmailjsLoaded() {
-    if (emailjsReady) return emailjsReady;
-    emailjsReady = new Promise(function (resolve, reject) {
-      function initAndResolve() {
-        try { window.emailjs.init({ publicKey: (CONFIG.emailjs || {}).publicKey }); } catch (e) { /* older SDK: init not required */ }
-        resolve();
-      }
-      if (typeof window.emailjs !== "undefined") { initAndResolve(); return; }
-      var script = document.createElement("script");
-      script.src = "https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js";
-      script.onload = initAndResolve;
-      script.onerror = function () { reject(new Error("emailjs_sdk_load_failed")); };
-      document.head.appendChild(script);
-    });
-    return emailjsReady;
-  }
-
+  // This calls EmailJS's plain REST endpoint directly with fetch() rather than loading
+  // their SDK from a CDN — deliberately. The SDK approach had a real bug: loading it
+  // requires a separate script from a CDN, and that load was cached, including when it
+  // failed — so if the very first attempt happened while offline, every future retry
+  // (even after reconnecting) kept reusing that same failed, cached attempt forever
+  // instead of trying again. A plain fetch() call has no such shared, cacheable
+  // "is it loaded" state to get stuck in — every call is independent by construction,
+  // and there's one fewer external host (the CDN) that could be the thing that's down.
   function buildCheckpointBody() {
     return state.rows.map(function (row) { return JSON.stringify(row); }).join("\n");
   }
 
+  function recipientsFor(checkpointType) {
+    var always = (CONFIG.notifyEmails || []).filter(Boolean);
+    var finalOnly = (CONFIG.finalOnlyEmails || []).filter(Boolean);
+    return checkpointType === "finish" ? always.concat(finalOnly) : always;
+  }
+
+  // Resolves with {ok: true} or {ok: false} — never rejects — so callers can react to
+  // failure (e.g. finishSession showing a "still trying to save" screen) without needing
+  // a try/catch. A failed send isn't reported as a JS error, just a false "ok".
   function sendCheckpointEmail(checkpointType) {
-    if (CONFIG.backend !== "email-relay") return Promise.resolve();
     var cfg = CONFIG.emailjs || {};
-    var recipients = (CONFIG.notifyEmails || []).filter(Boolean);
+    var recipients = recipientsFor(checkpointType);
     // Recipients joined with commas as ONE subject segment (not fixed slots), so this
     // works whether there's 1 recipient today or more added later — see
     // email-relay/DEPLOY.md for how the flow turns this back into a proper To field.
     var subject = ["PRETEST-DATA", CONFIG.siteId, state.code, checkpointType,
       recipients.join(",")].join("|");
-    var params = {
-      to_email: cfg.ingressTo,
-      subject: subject,
-      message: buildCheckpointBody()
+    var payload = {
+      service_id: cfg.serviceId,
+      template_id: cfg.templateId,
+      user_id: cfg.publicKey,
+      template_params: {
+        to_email: cfg.ingressTo,
+        subject: subject,
+        message: buildCheckpointBody()
+      }
     };
     setSaveIndicator("pending");
-    return ensureEmailjsLoaded().then(function () {
-      return window.emailjs.send(cfg.serviceId, cfg.templateId, params);
-    }).then(function () {
-      setSaveIndicator("ok");
+    // A stalled connection (e.g. "connected to WiFi but no real internet") often
+    // doesn't reject quickly — it can just hang for a long time. Racing it against a
+    // timeout isn't enough on its own: the abandoned request keeps running in the
+    // background regardless, and after enough of those pile up, the browser's
+    // per-host connection limit (6 in most browsers) is exhausted, silently queueing
+    // every later retry behind them forever — which is exactly what was happening.
+    // AbortController actually cancels the request when the timeout fires, freeing
+    // that connection slot immediately so the next retry can really go out.
+    var controller = new AbortController();
+    var timeoutId = setTimeout(function () { controller.abort(); }, 8000);
+    return fetch("https://api.emailjs.com/api/v1.0/email/send", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+      signal: controller.signal
+    }).then(function (resp) {
+      clearTimeout(timeoutId);
+      if (resp.ok) {
+        setSaveIndicator("ok");
+        return { ok: true };
+      }
+      // We got an actual response — the connection is fine, EmailJS just rejected the
+      // request. Most commonly this is their free-tier quota (200/month): once used
+      // up, EmailJS returns HTTP 426 and silently ignores every request until the
+      // quota resets. That's a completely different situation from "no internet" —
+      // retrying identically will never succeed until the quota resets or the plan is
+      // upgraded, and blaming the participant's connection for it is actively
+      // misleading. Log the real reason so it's actually diagnosable later, and tell
+      // callers this explicitly rather than lumping it in with genuine connectivity
+      // failures.
+      return resp.text().then(function (bodyText) {
+        console.warn("EmailJS rejected the request — status " + resp.status + ": " + bodyText);
+        setSaveIndicator("offline");
+        return { ok: false, serverRejected: true, status: resp.status, quotaLikely: resp.status === 426 };
+      });
     }).catch(function (err) {
-      console.warn("Checkpoint email failed (the next checkpoint will resend everything):", err);
+      clearTimeout(timeoutId);
+      // fetch() throwing (rather than resolving with a response) means the request
+      // never reached a server at all — this is the genuine "no internet" case.
+      console.warn("Checkpoint email failed before getting a response (genuine connectivity issue):", err);
       setSaveIndicator("offline");
+      return { ok: false, serverRejected: false };
     });
   }
 
@@ -252,11 +249,6 @@
     $("welcome-body").textContent = t("welcomeBody");
     $("btn-resume-local").textContent = (state && !$("btn-resume-local").hidden) ? resumeLocalLabel(state) : t("resumeContinueLocal");
     $("btn-start-new").textContent = t("startNew");
-    $("btn-show-code-entry").textContent = t("resumeWithCode");
-    $("btn-show-code-entry").hidden = !CONFIG.crossDeviceResumeSupported;
-    $("code-input-label").textContent = t("codeInputLabel");
-    $("code-input").placeholder = t("codeInputPlaceholder");
-    $("btn-code-submit").textContent = t("codeSubmit");
 
     $("setup-title").textContent = t("setupTitle");
     $("regions-label").textContent = t("regionsLabel");
@@ -281,9 +273,22 @@
 
     $("finishing-title").textContent = t("finishingTitle");
     $("finishing-body").textContent = t("finishingBody");
+    $("waiting-connection-title").textContent = t("waitingConnectionTitle");
+    $("waiting-connection-body").textContent = t("waitingConnectionBody");
     $("done-title").textContent = t("doneTitle");
-    $("done-body").textContent = t("doneBody");
-    $("btn-download-backup").textContent = t("downloadBackup");
+    $("done-body").textContent = (state && state.finishUnconfirmed) ? t("doneBodyUnconfirmed") : t("doneBody");
+    document.querySelectorAll(".btn-download-backup").forEach(function (btn) {
+      btn.textContent = t("downloadBackup");
+    });
+    var doneBtn = $("btn-download-backup-done");
+    doneBtn.classList.toggle("btn-primary", !!(state && state.finishUnconfirmed));
+    doneBtn.classList.toggle("btn-text", !(state && state.finishUnconfirmed));
+    doneBtn.classList.toggle("btn-ghost", false);
+    var retryBtn = $("btn-retry-send");
+    retryBtn.hidden = !(state && state.finishUnconfirmed);
+    retryBtn.classList.toggle("btn-primary", false);
+    retryBtn.classList.toggle("btn-ghost", true);
+    if (!retryBtn.disabled) retryBtn.textContent = t("retrySendButton");
 
     populateRegionsGrid();
     populateAgeGroupGrid();
@@ -402,8 +407,6 @@
   function initWelcome() {
     var saved = loadState();
     var continueBtn = $("btn-resume-local");
-    var codeBlock = $("welcome-code-entry");
-    codeBlock.hidden = true;
 
     if (saved && !saved.finished && saved.order && (saved.order.length || saved.current)) {
       state = saved;
@@ -419,7 +422,6 @@
   $("btn-resume-local").addEventListener("click", function () {
     if (!state.current) advanceTrial();
     setSaveIndicator(null);
-    if (CONFIG.backend === "email-relay") ensureEmailjsLoaded().catch(function () { /* handled per-send */ });
     showScreen("screen-task");
     renderCurrentStim();
     startKeyboardListening();
@@ -429,103 +431,6 @@
     state = null;
     showScreen("screen-setup");
   });
-  $("btn-show-code-entry").addEventListener("click", function () {
-    $("welcome-code-entry").hidden = false;
-    $("code-input").focus();
-  });
-  $("btn-code-submit").addEventListener("click", submitCode);
-  $("code-input").addEventListener("keydown", function (e) { if (e.key === "Enter") submitCode(); });
-
-  // Some backends (Apps Script) aggregate known/seen counts server-side and return them
-  // directly. Others (the Power Automate/OneDrive flow) just hand back the raw JSON-Lines
-  // file content, since that's far less error-prone to build in a low-code flow than
-  // aggregating with loops and variables — so we aggregate it here instead, client-side,
-  // where it's actually testable.
-  function normalizeLookupResult(res) {
-    if (!res) return { found: false };
-    if (res.raw === undefined) return res; // already aggregated (Apps Script shape)
-
-    var lines = String(res.raw).split("\n").map(function (l) { return l.trim(); }).filter(Boolean);
-    var seen = [];
-    var knownPeople = 0, knownPlaces = 0, seenPeople = 0, seenPlaces = 0;
-    var last = null;
-    lines.forEach(function (line) {
-      var row;
-      try { row = JSON.parse(line); } catch (e) { return; } // skip a corrupted/partial line
-      seen.push(row.file_name);
-      var isKnown = row.response === "known";
-      if (row.type === "person") { seenPeople++; if (isKnown) knownPeople++; }
-      else if (row.type === "place") { seenPlaces++; if (isKnown) knownPlaces++; }
-      last = row;
-    });
-    if (!last) return { found: false };
-    return {
-      found: true,
-      seenFileNames: seen,
-      knownPeopleCount: knownPeople,
-      knownPlacesCount: knownPlaces,
-      seenPeopleCount: seenPeople,
-      seenPlacesCount: seenPlaces,
-      regionsSelected: last.regions_selected,
-      ageGroupCode: last.age_group_code,
-      interestsSelected: last.interests_selected,
-      sessionStartIso: last.session_start_iso
-    };
-  }
-
-  function submitCode() {
-    var code = $("code-input").value.trim().toUpperCase();
-    var errEl = $("code-error");
-    errEl.hidden = true;
-    if (!code) return;
-    $("btn-code-submit").disabled = true;
-    lookupRemote(code).then(function (rawRes) {
-      $("btn-code-submit").disabled = false;
-      var res = normalizeLookupResult(rawRes);
-      if (!res || !res.found) {
-        errEl.textContent = t("codeNotFound");
-        errEl.hidden = false;
-        return;
-      }
-      resumeFromRemote(code, res);
-    }).catch(function () {
-      $("btn-code-submit").disabled = false;
-      errEl.textContent = t("codeLookupError");
-      errEl.hidden = false;
-    });
-  }
-
-  function resumeFromRemote(code, res) {
-    var regionCodes = (res.regionsSelected || "").split("|").filter(Boolean);
-    var regionPopulations = regionsByCodes(regionCodes).map(function (r) { return r.population; });
-    var ageGroupCode = parseInt(res.ageGroupCode, 10);
-    if (isNaN(ageGroupCode)) ageGroupCode = (data.age_groups && data.age_groups[0] && data.age_groups[0].code) || 1;
-    var interests = (res.interestsSelected || "").split("|").filter(Boolean);
-    var pool = buildPool(regionPopulations, ageGroupCode);
-    var order = buildOrder(pool, interests, res.seenFileNames || []);
-
-    state = {
-      code: code,
-      regionCodes: regionCodes,
-      ageGroupCode: ageGroupCode,
-      interests: interests,
-      order: order,
-      current: null,
-      rows: [], // detailed rows from before the resume aren't re-fetched locally; server file already has them
-      knownPeopleCount: res.knownPeopleCount || 0,
-      knownPlacesCount: res.knownPlacesCount || 0,
-      seenPeopleCount: res.seenPeopleCount || 0,
-      seenPlacesCount: res.seenPlacesCount || 0,
-      sessionStartIso: res.sessionStartIso || nowIso(),
-      trialIndex: (res.seenFileNames || []).length,
-      finished: false
-    };
-    saveState();
-    advanceTrial();
-    showScreen("screen-task");
-    renderCurrentStim();
-    startKeyboardListening();
-  }
 
   // ---------------- Setup screen ----------------
   $("btn-setup-continue").addEventListener("click", function () {
@@ -551,7 +456,7 @@
     var order = buildOrder(pool, interests, []);
 
     state = {
-      code: generateCode(),
+      code: getAssignedParticipantId() || generateCode(),
       regionCodes: regionCodes,
       ageGroupCode: ageGroupCode,
       interests: interests,
@@ -572,7 +477,6 @@
 
   // ---------------- Instructions screen ----------------
   $("btn-instructions-begin").addEventListener("click", function () {
-    if (CONFIG.backend === "email-relay") ensureEmailjsLoaded().catch(function () { /* handled per-send */ });
     advanceTrial();
     showScreen("screen-task");
     renderCurrentStim();
@@ -618,11 +522,39 @@
       state.current = null; advanceTrial(); renderCurrentStim(); return;
     }
     resetCardTransform(true);
+
+    // Stay locked, and hide the previous picture + name immediately, until the new
+    // image is actually ready. Otherwise a slow-loading image leaves the OLD picture
+    // on screen next to the NEW name for however long it takes to load — a mismatched
+    // pairing that's confusing at best, and actively wrong for a task that's asking
+    // "do you recognise this picture AND this name together."
+    locked = true;
+    stimName.textContent = "";
+    stimImage.style.visibility = "hidden";
+    var wrap = stimImage.parentNode;
+    var oldFallback = wrap.querySelector(".stim-missing-fallback");
+    if (oldFallback) oldFallback.remove();
+    var loadingEl = wrap.querySelector(".stim-loading");
+    if (!loadingEl) {
+      loadingEl = document.createElement("div");
+      loadingEl.className = "stim-loading spinner";
+      wrap.appendChild(loadingEl);
+    }
+    loadingEl.hidden = false;
+
+    function reveal() {
+      loadingEl.hidden = true;
+      stimImage.style.visibility = "visible";
+      stimName.textContent = concept.names[lang] || concept.names.en;
+      trialStartTs = performance.now();
+      locked = false;
+    }
+
     stimImage.alt = "";
+    stimImage.onload = reveal;
     stimImage.onerror = function () {
       stimImage.onerror = null;
       stimImage.style.display = "none";
-      var wrap = stimImage.parentNode;
       var fallback = wrap.querySelector(".stim-missing-fallback");
       if (!fallback) {
         fallback = document.createElement("div");
@@ -631,14 +563,10 @@
         wrap.appendChild(fallback);
       }
       fallback.textContent = concept.file_name;
+      reveal();
     };
     stimImage.style.display = "";
-    var oldFallback = stimImage.parentNode.querySelector(".stim-missing-fallback");
-    if (oldFallback) oldFallback.remove();
     stimImage.src = "images/" + concept.file_name;
-    stimName.textContent = concept.names[lang] || concept.names.en;
-    trialStartTs = performance.now();
-    locked = false;
   }
 
   function recordResponse(responseValue) {
@@ -655,6 +583,7 @@
       age_group_code: state.ageGroupCode,
       interests_selected: state.interests.join("|"),
       file_name: concept.file_name,
+      index: concept.index,
       name_shown: concept.names[lang] || concept.names.en,
       type: concept.type,
       population: concept.population,
@@ -676,13 +605,9 @@
     state.current = null;
     saveState();
 
-    if (CONFIG.backend === "email-relay") {
-      var every = CONFIG.checkpointEveryNResponses || 25;
-      if (state.trialIndex > 0 && state.trialIndex % every === 0) {
-        sendCheckpointEmail("periodic");
-      }
-    } else {
-      queueAppend(row);
+    var every = CONFIG.checkpointEveryNResponses || 25;
+    if (state.trialIndex > 0 && state.trialIndex % every === 0) {
+      sendCheckpointEmail("periodic");
     }
   }
 
@@ -756,32 +681,90 @@
   $("btn-dont-know").addEventListener("click", function () { handleResponse("unknown"); });
 
   // ---------------- Done screen ----------------
-  function withTimeout(promise, ms) {
-    return Promise.race([
-      promise,
-      new Promise(function (resolve) { setTimeout(resolve, ms); })
-    ]);
-  }
-
   function finishSession() {
     stopKeyboardListening();
     state.finished = true;
     saveState();
     $("done-stats").hidden = true;
-    if (CONFIG.backend === "email-relay") {
-      // Show "done" only once the final save has actually completed (or given up after
-      // a timeout) — not before. Showing "thank you" immediately, with the send still
-      // in flight in the background, invites closing the tab before it finishes.
-      showScreen("screen-finishing");
-      withTimeout(sendCheckpointEmail("finish"), 8000).then(function () {
-        showScreen("screen-done");
-      });
-    } else {
-      showScreen("screen-done");
-    }
+    showScreen("screen-finishing");
+    attemptFinishSend();
   }
 
-  $("btn-download-backup").addEventListener("click", function () {
+  var finishRetryTimer = null;
+  var finishSendInFlight = false;
+  function attemptFinishSend() {
+    if (finishSendInFlight) return;
+    finishSendInFlight = true;
+    sendCheckpointEmail("finish").then(function (result) {
+      finishSendInFlight = false;
+      if (result && result.ok) {
+        stopFinishRetrying();
+        state.finishUnconfirmed = false;
+        saveState();
+        showDoneScreen();
+        return;
+      }
+      // navigator.onLine === false means the browser itself has confirmed there's no
+      // network connection at all — a plain, ordinary "wait for the internet to come
+      // back" situation, worth actually waiting through since it will very likely
+      // resolve on its own. Anything else (a real response that was rejected, a
+      // request that failed or timed out while the browser believes it's online) is
+      // NOT that — retrying identically won't necessarily help, and there's no reason
+      // to make anyone wait through it. This is exactly the distinction that matters:
+      // "no internet" is worth pausing for; "internet's fine, something else is wrong"
+      // is not, and should never block finishing the task.
+      if (navigator.onLine === false && $("screen-done").hidden) {
+        showScreen("screen-waiting-connection");
+      } else if ($("screen-done").hidden) {
+        state.finishUnconfirmed = true;
+        saveState();
+        showDoneScreen();
+      } else {
+        // Already on screen-done (e.g. this was a manual retry click, or a background
+        // attempt while already there) and it failed again — reset the retry button
+        // so it doesn't stay stuck showing "Sending…" forever.
+        var retryBtn = $("btn-retry-send");
+        retryBtn.disabled = false;
+        retryBtn.textContent = t("retrySendButton");
+      }
+      startFinishRetrying();
+    });
+  }
+  function showDoneScreen() {
+    $("done-body").textContent = state.finishUnconfirmed ? t("doneBodyUnconfirmed") : t("doneBody");
+    var dlBtn = $("btn-download-backup-done");
+    dlBtn.classList.toggle("btn-text", !state.finishUnconfirmed);
+    dlBtn.classList.toggle("btn-primary", !!state.finishUnconfirmed);
+    var retryBtn = $("btn-retry-send");
+    retryBtn.hidden = !state.finishUnconfirmed;
+    retryBtn.classList.add("btn-ghost");
+    retryBtn.disabled = false;
+    retryBtn.textContent = t("retrySendButton");
+    showScreen("screen-done");
+  }
+  function startFinishRetrying() {
+    if (finishRetryTimer) return; // already retrying
+    finishRetryTimer = setInterval(attemptFinishSend, 8000);
+    window.addEventListener("online", attemptFinishSend);
+  }
+  function stopFinishRetrying() {
+    if (finishRetryTimer) { clearInterval(finishRetryTimer); finishRetryTimer = null; }
+    window.removeEventListener("online", attemptFinishSend);
+  }
+
+  // Manual retry, for when someone doesn't want to just wait on the automatic
+  // background attempts — same underlying send, just triggered on demand with
+  // immediate feedback instead of silently happening (or not) in the background.
+  // attemptFinishSend()'s own finishSendInFlight guard already makes this safe to
+  // press even if a background retry happens to be in flight at the same moment.
+  $("btn-retry-send").addEventListener("click", function () {
+    var btn = $("btn-retry-send");
+    btn.disabled = true;
+    btn.textContent = t("retrySendButtonSending");
+    attemptFinishSend();
+  });
+
+  function downloadBackupCsv() {
     var lines = [CSV_HEADER.join(",")];
     state.rows.forEach(function (row) {
       lines.push(CSV_HEADER.map(function (h) { return csvEscape(row[h]); }).join(","));
@@ -795,6 +778,11 @@
     a.click();
     document.body.removeChild(a);
     setTimeout(function () { URL.revokeObjectURL(url); }, 2000);
+  }
+  // Always available, on every screen that can follow the last trial — never
+  // conditional, never automatic, always just a click away if wanted.
+  document.querySelectorAll(".btn-download-backup").forEach(function (btn) {
+    btn.addEventListener("click", downloadBackupCsv);
   });
 
   function csvEscape(v) {
