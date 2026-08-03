@@ -10,7 +10,7 @@
 
   var CSV_HEADER = ["participant_code", "site", "session_start_iso", "response_timestamp_iso",
     "trial_index", "language", "regions_selected", "age_group_code", "interests_selected",
-    "file_name", "name_shown", "type", "population", "min_age_group", "max_age_group", "interest_tags",
+    "file_name", "index", "name_shown", "type", "population", "min_age_group", "max_age_group", "interest_tags",
     "response", "response_time_ms"];
 
   var data = null;        // { concepts: [...], age_groups: [...] }
@@ -91,8 +91,14 @@
   }
 
   function buildPool(regionPopulations, ageGroupCode) {
+    // Case-insensitive on purpose: population values come from two independently-
+    // edited places (the spreadsheet and each site's config.js), and a casing
+    // mismatch between them (e.g. "german" vs "German") would otherwise silently
+    // exclude every region-specific concept with no visible error at all.
+    var regionPopulationsLower = regionPopulations.map(function (p) { return String(p).toLowerCase(); });
     return data.concepts.filter(function (c) {
-      var popOk = (c.population === "global") || (regionPopulations.indexOf(c.population) !== -1);
+      var cPop = String(c.population).toLowerCase();
+      var popOk = (cPop === "global") || (regionPopulationsLower.indexOf(cPop) !== -1);
       var ageOk = ageGroupCode >= c.min_age_group && ageGroupCode <= c.max_age_group;
       return popOk && ageOk;
     });
@@ -577,6 +583,7 @@
       age_group_code: state.ageGroupCode,
       interests_selected: state.interests.join("|"),
       file_name: concept.file_name,
+      index: concept.index,
       name_shown: concept.names[lang] || concept.names.en,
       type: concept.type,
       population: concept.population,
