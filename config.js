@@ -19,8 +19,8 @@ const CONFIG = {
   // has no local pool until you add one, e.g.:
   //   regions: [{ code: "AT", population: "Austrian", label: { en: "Austria" } }]
   regions: [
-    { code: "DE", population: "German", label: { en: "Germany", de: "Deutschland", sl: "Nemčija" } },
-    { code: "SI", population: "Slovenian", label: { en: "Slovenia", de: "Slowenien", sl: "Slovenija" } }
+    { code: "DE", population: "German", label: { en: "Germany", de: "Deutschland", sl: "Nemčija", tur: "Almanya", ukr: "Німеччина", rus: "Германия" } },
+    { code: "SI", population: "Slovenian", label: { en: "Slovenia", de: "Slowenien", sl: "Slovenija", tur: "Slovenya", ukr: "Словенія", rus: "Словения" } }
   ],
 
   // The session ends automatically once BOTH of these are reached (whichever comes
