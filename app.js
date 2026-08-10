@@ -280,8 +280,12 @@
     $("waiting-connection-body").textContent = t("waitingConnectionBody");
     $("done-title").textContent = t("doneTitle");
     var emailDisabledDone = CONFIG.emailEnabled === false && !!(state && state.finished);
-    $("done-body").textContent = emailDisabledDone ? t("doneBodyEmailDisabled") :
-      (state && state.finishUnconfirmed) ? t("doneBodyUnconfirmed") : t("doneBody");
+    $("done-body").hidden = emailDisabledDone;
+    if (emailDisabledDone) {
+      $("done-body").textContent = "";
+    } else {
+      $("done-body").textContent = (state && state.finishUnconfirmed) ? t("doneBodyUnconfirmed") : t("doneBody");
+    }
     document.querySelectorAll(".btn-download-backup").forEach(function (btn) {
       btn.textContent = t("downloadBackup");
     });
@@ -642,7 +646,8 @@
     attemptFinishSend();
   }
   function showDoneScreenNoEmail() {
-    $("done-body").textContent = t("doneBodyEmailDisabled");
+    $("done-body").hidden = true;
+    $("done-body").textContent = "";
     var dlBtn = $("btn-download-backup-done");
     dlBtn.classList.remove("btn-text");
     dlBtn.classList.add("btn-primary");
@@ -691,6 +696,7 @@
     });
   }
   function showDoneScreen() {
+    $("done-body").hidden = false;
     $("done-body").textContent = state.finishUnconfirmed ? t("doneBodyUnconfirmed") : t("doneBody");
     var dlBtn = $("btn-download-backup-done");
     dlBtn.classList.toggle("btn-text", !state.finishUnconfirmed);
