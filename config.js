@@ -34,7 +34,6 @@ const CONFIG = {
   // Ask for an optional patient/participant ID before setup starts. Always skippable
   // even when true — there's a "proceed anyway" note on that screen for whoever
   // doesn't have the ID handy. false (or omitted) skips this screen entirely.
-  // Turned on here (only) so it's easy to try without editing anything.
   patientIdEntry: true,
 
   // Whether this site emails data out at all. false means: no periodic checkpoints,
@@ -42,7 +41,7 @@ const CONFIG = {
   // download button instead — useful for a site where automatic sending genuinely
   // isn't needed. Everything below this line (notifyEmails, emailjs, etc.) is only
   // read when this is true.
-  emailEnabled: true,
+  emailEnabled: false,
 
   // ↓↓↓ WHERE RESPONSES GET SENT — see email-relay/DEPLOY.md ↓↓↓
 
