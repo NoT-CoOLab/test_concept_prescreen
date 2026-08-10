@@ -9,11 +9,11 @@
   var LANG_KEY = "explang_" + CONFIG.siteId;
 
   var CSV_HEADER = ["participant_code", "site", "session_start_iso", "response_timestamp_iso",
-    "trial_index", "language", "regions_selected", "age_group_code", "interests_selected",
-    "file_name", "index", "name_shown", "type", "population", "min_age_group", "max_age_group", "interest_tags",
+    "trial_index", "language", "regions_selected",
+    "file_name", "index", "name_shown", "type", "population",
     "response", "response_time_ms"];
 
-  var data = null;        // { concepts: [...], age_groups: [...] }
+  var data = null;        // { concepts: [...] }
   var conceptByFile = {};
   var lang = (CONFIG.languages && CONFIG.languages[0]) || "en";
   var state = null;       // active session state, see newState()
@@ -90,7 +90,7 @@
     return list.filter(function (r) { return codes.indexOf(r.code) !== -1; });
   }
 
-  function buildPool(regionPopulations, ageGroupCode) {
+  function buildPool(regionPopulations) {
     // Case-insensitive on purpose: population values come from two independently-
     // edited places (the spreadsheet and each site's config.js), and a casing
     // mismatch between them (e.g. "german" vs "German") would otherwise silently
@@ -98,23 +98,23 @@
     var regionPopulationsLower = regionPopulations.map(function (p) { return String(p).toLowerCase(); });
     return data.concepts.filter(function (c) {
       var cPop = String(c.population).toLowerCase();
-      var popOk = (cPop === "global") || (regionPopulationsLower.indexOf(cPop) !== -1);
-      var ageOk = ageGroupCode >= c.min_age_group && ageGroupCode <= c.max_age_group;
-      return popOk && ageOk;
+      return (cPop === "global") || (regionPopulationsLower.indexOf(cPop) !== -1);
     });
   }
 
-  function buildOrder(pool, selectedInterests, excludeFileNames) {
+  function buildOrder(pool, excludeFileNames) {
+    // Plain random order — deliberately not biased toward any topic, so a
+    // participant's stated interests can't influence which stimuli they see
+    // first (or at all, if the pool runs out before finishing).
     var excl = {};
     (excludeFileNames || []).forEach(function (f) { excl[f] = true; });
-    var bucketA = [], bucketB = [];
+    var fileNames = [];
     pool.forEach(function (c) {
       if (excl[c.file_name]) return;
-      var match = c.interest_tags.some(function (tag) { return selectedInterests.indexOf(tag) !== -1; });
-      (match ? bucketA : bucketB).push(c.file_name);
+      fileNames.push(c.file_name);
     });
-    shuffle(bucketA); shuffle(bucketB);
-    return bucketA.concat(bucketB);
+    shuffle(fileNames);
+    return fileNames;
   }
 
   function setSaveIndicator(kind) {
@@ -253,9 +253,6 @@
     $("setup-title").textContent = t("setupTitle");
     $("regions-label").textContent = t("regionsLabel");
     $("regions-note").textContent = t("regionsNote");
-    $("age-label").textContent = t("ageLabel");
-    $("age-error").textContent = t("ageError");
-    $("interests-label").textContent = t("interestsLabel");
     $("btn-setup-continue").textContent = t("setupContinue");
 
     $("instructions-title").textContent = t("instructionsTitle");
@@ -291,8 +288,6 @@
     if (!retryBtn.disabled) retryBtn.textContent = t("retrySendButton");
 
     populateRegionsGrid();
-    populateAgeGroupGrid();
-    populateInterestsGrid();
     renderInstructionsImage();
 
     // If mid-task, refresh the currently visible stimulus name in the new language
@@ -319,62 +314,6 @@
       });
       var span = document.createElement("span");
       span.textContent = (region.label && (region.label[lang] || region.label.en)) || region.code;
-      label.appendChild(input);
-      label.appendChild(span);
-      grid.appendChild(label);
-    });
-  }
-
-  function ageGroupDisplayLabel(group, allGroupsSorted) {
-    var isLast = group.code === allGroupsSorted[allGroupsSorted.length - 1].code;
-    return isLast ? (group.age_min + "+") : (group.age_min + "\u2013" + group.age_max);
-  }
-
-  function populateAgeGroupGrid() {
-    var grid = $("age-group-grid");
-    var prevChecked = grid.querySelector("input:checked");
-    var prevValue = prevChecked ? prevChecked.value : null;
-    grid.innerHTML = "";
-    var groups = (data.age_groups || []).slice().sort(function (a, b) { return a.age_min - b.age_min; });
-    groups.forEach(function (group) {
-      var label = document.createElement("label");
-      label.className = "tag-chip";
-      var input = document.createElement("input");
-      input.type = "radio";
-      input.name = "age-group";
-      input.value = String(group.code);
-      if (prevValue === String(group.code)) { input.checked = true; label.classList.add("checked"); }
-      input.addEventListener("change", function () {
-        grid.querySelectorAll(".tag-chip").forEach(function (chip) { chip.classList.remove("checked"); });
-        label.classList.add("checked");
-      });
-      var span = document.createElement("span");
-      span.textContent = ageGroupDisplayLabel(group, groups);
-      label.appendChild(input);
-      label.appendChild(span);
-      grid.appendChild(label);
-    });
-  }
-
-  var INTEREST_TAG_ORDER = ["Sports", "Music", "Movies/TV", "Comedy/Entertainment", "Politics",
-    "Business/Tech", "Royalty", "Religion", "History/Ancient", "Architecture", "Nature/Outdoors"];
-
-  function populateInterestsGrid() {
-    var grid = $("interests-grid");
-    var prevChecked = Array.prototype.slice.call(grid.querySelectorAll("input:checked")).map(function (i) { return i.value; });
-    grid.innerHTML = "";
-    INTEREST_TAG_ORDER.forEach(function (tag) {
-      var label = document.createElement("label");
-      label.className = "tag-chip";
-      var input = document.createElement("input");
-      input.type = "checkbox";
-      input.value = tag;
-      if (prevChecked.indexOf(tag) !== -1) { input.checked = true; label.classList.add("checked"); }
-      input.addEventListener("change", function () {
-        label.classList.toggle("checked", input.checked);
-      });
-      var span = document.createElement("span");
-      span.textContent = (STRINGS[lang] && STRINGS[lang].interestTags[tag]) || STRINGS.en.interestTags[tag];
       label.appendChild(input);
       label.appendChild(span);
       grid.appendChild(label);
@@ -438,28 +377,13 @@
       document.querySelectorAll("#regions-grid input:checked")
     ).map(function (i) { return i.value; });
 
-    var ageGroupInput = document.querySelector('#age-group-grid input:checked');
-    var ageErr = $("age-error");
-    if (!ageGroupInput) {
-      ageErr.hidden = false;
-      return;
-    }
-    ageErr.hidden = true;
-    var ageGroupCode = parseInt(ageGroupInput.value, 10);
-
-    var interests = Array.prototype.slice.call(
-      document.querySelectorAll("#interests-grid input:checked")
-    ).map(function (i) { return i.value; });
-
     var regionPopulations = regionsByCodes(regionCodes).map(function (r) { return r.population; });
-    var pool = buildPool(regionPopulations, ageGroupCode);
-    var order = buildOrder(pool, interests, []);
+    var pool = buildPool(regionPopulations);
+    var order = buildOrder(pool, []);
 
     state = {
       code: getAssignedParticipantId() || generateCode(),
       regionCodes: regionCodes,
-      ageGroupCode: ageGroupCode,
-      interests: interests,
       order: order,
       current: null,
       rows: [],
@@ -580,16 +504,11 @@
       trial_index: state.trialIndex,
       language: lang,
       regions_selected: state.regionCodes.join("|"),
-      age_group_code: state.ageGroupCode,
-      interests_selected: state.interests.join("|"),
       file_name: concept.file_name,
       index: concept.index,
       name_shown: concept.names[lang] || concept.names.en,
       type: concept.type,
       population: concept.population,
-      min_age_group: concept.min_age_group,
-      max_age_group: concept.max_age_group,
-      interest_tags: concept.interest_tags.join("|"),
       response: responseValue,
       response_time_ms: rt
     };

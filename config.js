@@ -15,12 +15,15 @@ const CONFIG = {
   // Countries participants can flag as "I know people/places from here especially well".
   // This is about familiarity, not identity — a participant can select none or several.
   // "population" must match a value you use in the population column of
-  // concept_list.xlsx for this site's local concepts. Empty by default — this template
+  // stimuli.xlsx for this site's local concepts. Empty by default — this template
   // has no local pool until you add one, e.g.:
   //   regions: [{ code: "AT", population: "Austrian", label: { en: "Austria" } }]
   regions: [
     { code: "DE", population: "German", label: { en: "Germany", de: "Deutschland", sl: "Nemčija", tur: "Almanya", ukr: "Німеччина", rus: "Германия" } },
-    { code: "SI", population: "Slovenian", label: { en: "Slovenia", de: "Slowenien", sl: "Slovenija", tur: "Slovenya", ukr: "Словенія", rus: "Словения" } }
+    { code: "SI", population: "Slovenian", label: { en: "Slovenia", de: "Slowenien", sl: "Slovenija", tur: "Slovenya", ukr: "Словенія", rus: "Словения" } },
+    { code: "CN", population: "Chinese", label: { en: "China", de: "China", sl: "Kitajska", tur: "Çin", ukr: "Китай", rus: "Китай" } },
+    { code: "IN", population: "Indian", label: { en: "India", de: "Indien", sl: "Indija", tur: "Hindistan", ukr: "Індія", rus: "Индия" } },
+    { code: "SCT", population: "Scottish", label: { en: "Scotland", de: "Schottland", sl: "Škotska", tur: "İskoçya", ukr: "Шотландія", rus: "Шотландия" } }
   ],
 
   // The session ends automatically once BOTH of these are reached (whichever comes
