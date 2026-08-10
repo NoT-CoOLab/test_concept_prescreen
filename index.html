@@ -34,6 +34,18 @@
     </div>
   </section>
 
+  <!-- PATIENT ID (only shown for a fresh session, only if the site's config turns it
+       on — see CONFIG.patientIdEntry) -->
+  <section class="screen" id="screen-patient-id" data-screen hidden>
+    <div class="card card-static">
+      <h1 id="patient-id-title"></h1>
+      <p id="patient-id-body"></p>
+      <input type="text" class="text-input" id="patient-id-input" autocomplete="off">
+      <p class="field-note" id="patient-id-skip-note"></p>
+      <button class="btn btn-primary btn-block" id="btn-patient-id-continue"></button>
+    </div>
+  </section>
+
   <!-- SETUP -->
   <section class="screen" id="screen-setup" data-screen hidden>
     <div class="card card-static">

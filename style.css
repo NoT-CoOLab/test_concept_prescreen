@@ -188,6 +188,19 @@ p { margin: 0 0 14px; color: var(--color-text); }
   margin: -4px 0 10px;
   font-weight: 400;
 }
+.text-input {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  font-family: inherit;
+  margin-bottom: 10px;
+}
+.text-input:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 1px;
+}
 .tag-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;

@@ -8,7 +8,7 @@
   var STATE_KEY = "expstate_" + CONFIG.siteId;
   var LANG_KEY = "explang_" + CONFIG.siteId;
 
-  var CSV_HEADER = ["participant_code", "site", "session_start_iso", "response_timestamp_iso",
+  var CSV_HEADER = ["participant_code", "patient_id", "site", "session_start_iso", "response_timestamp_iso",
     "trial_index", "language", "regions_selected",
     "file_name", "index", "name_shown", "type", "population",
     "response", "response_time_ms"];
@@ -250,6 +250,12 @@
     $("btn-resume-local").textContent = (state && !$("btn-resume-local").hidden) ? resumeLocalLabel(state) : t("resumeContinueLocal");
     $("btn-start-new").textContent = t("startNew");
 
+    $("patient-id-title").textContent = t("patientIdTitle");
+    $("patient-id-body").textContent = t("patientIdBody");
+    $("patient-id-input").placeholder = t("patientIdPlaceholder");
+    $("patient-id-skip-note").textContent = t("patientIdSkipNote");
+    $("btn-patient-id-continue").textContent = t("setupContinue");
+
     $("setup-title").textContent = t("setupTitle");
     $("regions-label").textContent = t("regionsLabel");
     $("regions-note").textContent = t("regionsNote");
@@ -273,16 +279,19 @@
     $("waiting-connection-title").textContent = t("waitingConnectionTitle");
     $("waiting-connection-body").textContent = t("waitingConnectionBody");
     $("done-title").textContent = t("doneTitle");
-    $("done-body").textContent = (state && state.finishUnconfirmed) ? t("doneBodyUnconfirmed") : t("doneBody");
+    var emailDisabledDone = CONFIG.emailEnabled === false && !!(state && state.finished);
+    $("done-body").textContent = emailDisabledDone ? t("doneBodyEmailDisabled") :
+      (state && state.finishUnconfirmed) ? t("doneBodyUnconfirmed") : t("doneBody");
     document.querySelectorAll(".btn-download-backup").forEach(function (btn) {
       btn.textContent = t("downloadBackup");
     });
     var doneBtn = $("btn-download-backup-done");
-    doneBtn.classList.toggle("btn-primary", !!(state && state.finishUnconfirmed));
-    doneBtn.classList.toggle("btn-text", !(state && state.finishUnconfirmed));
+    var doneBtnProminent = emailDisabledDone || !!(state && state.finishUnconfirmed);
+    doneBtn.classList.toggle("btn-primary", doneBtnProminent);
+    doneBtn.classList.toggle("btn-text", !doneBtnProminent);
     doneBtn.classList.toggle("btn-ghost", false);
     var retryBtn = $("btn-retry-send");
-    retryBtn.hidden = !(state && state.finishUnconfirmed);
+    retryBtn.hidden = emailDisabledDone || !(state && state.finishUnconfirmed);
     retryBtn.classList.toggle("btn-primary", false);
     retryBtn.classList.toggle("btn-ghost", true);
     if (!retryBtn.disabled) retryBtn.textContent = t("retrySendButton");
@@ -365,9 +374,24 @@
     renderCurrentStim();
     startKeyboardListening();
   });
+  var pendingPatientId = "";
   $("btn-start-new").addEventListener("click", function () {
     clearState();
     state = null;
+    if (CONFIG.patientIdEntry) {
+      $("patient-id-input").value = "";
+      showScreen("screen-patient-id");
+    } else {
+      pendingPatientId = "";
+      showScreen("screen-setup");
+    }
+  });
+  $("btn-patient-id-continue").addEventListener("click", function () {
+    // Deliberately no validation here — entering an ID is always optional, even
+    // when this screen itself is turned on for a site (see CONFIG.patientIdEntry).
+    // csvEscape() already handles any punctuation safely in the output, so there's
+    // no need to restrict what characters are allowed here.
+    pendingPatientId = ($("patient-id-input").value || "").trim().slice(0, 50);
     showScreen("screen-setup");
   });
 
@@ -383,6 +407,7 @@
 
     state = {
       code: getAssignedParticipantId() || generateCode(),
+      patientId: pendingPatientId,
       regionCodes: regionCodes,
       order: order,
       current: null,
@@ -498,6 +523,7 @@
     var rt = Math.round(performance.now() - trialStartTs);
     var row = {
       participant_code: state.code,
+      patient_id: state.patientId || "",
       site: CONFIG.siteId,
       session_start_iso: state.sessionStartIso,
       response_timestamp_iso: nowIso(),
@@ -525,7 +551,7 @@
     saveState();
 
     var every = CONFIG.checkpointEveryNResponses || 25;
-    if (state.trialIndex > 0 && state.trialIndex % every === 0) {
+    if (CONFIG.emailEnabled !== false && state.trialIndex > 0 && state.trialIndex % every === 0) {
       sendCheckpointEmail("periodic");
     }
   }
@@ -605,8 +631,23 @@
     state.finished = true;
     saveState();
     $("done-stats").hidden = true;
+    if (CONFIG.emailEnabled === false) {
+      // No backend configured for this site at all — there's nothing to attempt or
+      // retry, so go straight to "done" with the download option front and center,
+      // since it's the only way this session's data reaches anyone.
+      showDoneScreenNoEmail();
+      return;
+    }
     showScreen("screen-finishing");
     attemptFinishSend();
+  }
+  function showDoneScreenNoEmail() {
+    $("done-body").textContent = t("doneBodyEmailDisabled");
+    var dlBtn = $("btn-download-backup-done");
+    dlBtn.classList.remove("btn-text");
+    dlBtn.classList.add("btn-primary");
+    $("btn-retry-send").hidden = true;
+    showScreen("screen-done");
   }
 
   var finishRetryTimer = null;
