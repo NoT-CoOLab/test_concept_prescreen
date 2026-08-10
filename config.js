@@ -1,6 +1,4 @@
-// BLANK TEMPLATE — copy this file to src/config.<yoursite>.js to start a new site,
-// then edit every value below and run build_sites.py — it builds one site per
-// src/config.*.js file it finds. See /README.md → "Adding a new site" for the full walkthrough.
+// Configuration for test
 const CONFIG = {
   // Short lowercase id, no spaces — used in filenames. e.g. "vienna"
   siteId: "Test",
@@ -34,6 +32,7 @@ const CONFIG = {
   // Ask for an optional patient/participant ID before setup starts. Always skippable
   // even when true — there's a "proceed anyway" note on that screen for whoever
   // doesn't have the ID handy. false (or omitted) skips this screen entirely.
+  // Turned on here (only) so it's easy to try without editing anything.
   patientIdEntry: true,
 
   // Whether this site emails data out at all. false means: no periodic checkpoints,
@@ -51,7 +50,7 @@ const CONFIG = {
   // Recipients who only get the FINAL email (e.g. a supervising doctor who doesn't
   // need the periodic in-progress copies) — leave empty for nobody in this category.
   // Add an address here like: finalOnlyEmails: ["doctor@example.com"]
-  finalOnlyEmails: ["barbala.ostrovska@gmail.com"],
+  finalOnlyEmails: [],
 
   emailjs: {
     // From your EmailJS account (emailjs.com) — see email-relay/DEPLOY.md step 1.

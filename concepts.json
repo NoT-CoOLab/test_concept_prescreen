@@ -9,7 +9,8 @@
     "sl": "Atenska Akropola (Partenon)",
     "tur": "Atina Akropolü (Parthenon)",
     "ukr": "Афінський Акрополь (Парфенон)",
-    "rus": "Афинский акрополь (Парфенон)"
+    "rus": "Афинский акрополь (Парфенон)",
+    "ch": "雅典卫城"
    },
    "population": "global",
    "type": "place"
@@ -23,7 +24,8 @@
     "sl": "Angkor Vat",
     "tur": "Angkor Vat",
     "ukr": "Ангкор-Ват",
-    "rus": "Ангкор-Ват"
+    "rus": "Ангкор-Ват",
+    "ch": "吴哥窟"
    },
    "population": "global",
    "type": "place"
@@ -37,7 +39,8 @@
     "sl": "Slavolok zmage, Pariz",
     "tur": "Zafer Takı (Arc de Triomphe)",
     "ukr": "Тріумфальна арка",
-    "rus": "Триумфальная арка"
+    "rus": "Триумфальная арка",
+    "ch": "凯旋门"
    },
    "population": "global",
    "type": "place"
@@ -51,7 +54,8 @@
     "sl": "Atomium",
     "tur": "Atomium",
     "ukr": "Атоміум",
-    "rus": "Атомиум"
+    "rus": "Атомиум",
+    "ch": "原子球塔"
    },
    "population": "global",
    "type": "place"
@@ -65,7 +69,8 @@
     "sl": "televizijski stolp Berlin",
     "tur": "Berliner Fernsehturm",
     "ukr": "Берлінська телевежа",
-    "rus": "Берлинская телебашня"
+    "rus": "Берлинская телебашня",
+    "ch": "柏林电视塔"
    },
    "population": "global",
    "type": "place"
@@ -79,7 +84,8 @@
     "sl": "Berlinski zid (Galerija vzhodne strani)",
     "tur": "Berlin Duvarı (East Side Gallery)",
     "ukr": "Берлінська стіна (Східна галерея)",
-    "rus": "Берлинская стена (Восточная галерея)"
+    "rus": "Берлинская стена (Восточная галерея)",
+    "ch": "柏林墙"
    },
    "population": "global",
    "type": "place"
@@ -93,7 +99,8 @@
     "sl": "Big Ben",
     "tur": "Big Ben",
     "ukr": "Біг-Бен",
-    "rus": "Биг-Бен"
+    "rus": "Биг-Бен",
+    "ch": "大本钟"
    },
    "population": "global",
    "type": "place"
@@ -107,7 +114,8 @@
     "sl": "Modra laguna, Islandija",
     "tur": "Mavi Lagün, İzlanda",
     "ukr": "Блакитна лагуна, Ісландія",
-    "rus": "Голубая лагуна, Исландия"
+    "rus": "Голубая лагуна, Исландия",
+    "ch": "蓝湖"
    },
    "population": "global",
    "type": "place"
@@ -121,7 +129,8 @@
     "sl": "Modra mošeja",
     "tur": "Sultanahmet Camii, İstanbul",
     "ukr": "Блакитна мечеть, Стамбул",
-    "rus": "Голубая мечеть, Стамбул"
+    "rus": "Голубая мечеть, Стамбул",
+    "ch": "蓝色清真寺"
    },
    "population": "global",
    "type": "place"
@@ -135,7 +144,8 @@
     "sl": "Borobudur",
     "tur": "Borobudur",
     "ukr": "Боробудур",
-    "rus": "Боробудур"
+    "rus": "Боробудур",
+    "ch": "婆罗浮屠"
    },
    "population": "global",
    "type": "place"
@@ -149,7 +159,8 @@
     "sl": "Brandenburška vrata",
     "tur": "Brandenburg Kapısı",
     "ukr": "Бранденбурзькі ворота",
-    "rus": "Бранденбургские ворота"
+    "rus": "Бранденбургские ворота",
+    "ch": "勃兰登堡门"
    },
    "population": "global",
    "type": "place"
@@ -163,7 +174,8 @@
     "sl": "Brooklynski most",
     "tur": "Brooklyn Köprüsü",
     "ukr": "Бруклінський міст",
-    "rus": "Бруклинский мост"
+    "rus": "Бруклинский мост",
+    "ch": "布鲁克林大桥"
    },
    "population": "global",
    "type": "place"
@@ -177,7 +189,8 @@
     "sl": "Buckinghamska palača",
     "tur": "Buckingham Sarayı",
     "ukr": "Букінгемський палац",
-    "rus": "Букингемский дворец"
+    "rus": "Букингемский дворец",
+    "ch": "白金汉宫"
    },
    "population": "global",
    "type": "place"
@@ -191,7 +204,8 @@
     "sl": "Burdž Al Arab",
     "tur": "Burc el-Arab",
     "ukr": "Бурдж-аль-Араб",
-    "rus": "Бурдж-эль-Араб"
+    "rus": "Бурдж-эль-Араб",
+    "ch": "帆船酒店"
    },
    "population": "global",
    "type": "place"
@@ -205,7 +219,8 @@
     "sl": "Burdž Kalifa",
     "tur": "Burc Halife",
     "ukr": "Бурдж-Халіфа",
-    "rus": "Бурдж-Халифа"
+    "rus": "Бурдж-Халифа",
+    "ch": "哈利法塔"
    },
    "population": "global",
    "type": "place"
@@ -219,7 +234,8 @@
     "sl": "Karlov most, Praga",
     "tur": "Charles Köprüsü, Prag",
     "ukr": "Карлів міст, Прага",
-    "rus": "Карлов мост, Прага"
+    "rus": "Карлов мост, Прага",
+    "ch": "查理大桥"
    },
    "population": "global",
    "type": "place"
@@ -233,7 +249,8 @@
     "sl": "Chichén Itzá",
     "tur": "Chichén Itzá",
     "ukr": "Чичен-Іца",
-    "rus": "Чичен-Ица"
+    "rus": "Чичен-Ица",
+    "ch": "奇琴伊察"
    },
    "population": "global",
    "type": "place"
@@ -247,7 +264,8 @@
     "sl": "Kristus Odrešenik",
     "tur": "Kurtarıcı İsa",
     "ukr": "Статуя Христа-Спасителя",
-    "rus": "Статуя Христа-Искупителя"
+    "rus": "Статуя Христа-Искупителя",
+    "ch": "基督像"
    },
    "population": "global",
    "type": "place"
@@ -261,7 +279,8 @@
     "sl": "Stolp CN",
     "tur": "CN Kulesi",
     "ukr": "Сі-Ен Тауер",
-    "rus": "Си-Эн Тауэр"
+    "rus": "Си-Эн Тауэр",
+    "ch": "CN塔"
    },
    "population": "global",
    "type": "place"
@@ -275,7 +294,8 @@
     "sl": "Stolnica sv. Petra, Köln",
     "tur": "Köln Katedrali",
     "ukr": "Кельнський собор",
-    "rus": "Кёльнский собор"
+    "rus": "Кёльнский собор",
+    "ch": "科隆大教堂"
    },
    "population": "global",
    "type": "place"
@@ -289,7 +309,8 @@
     "sl": "Kolosej",
     "tur": "Kolezyum",
     "ukr": "Колізей",
-    "rus": "Колизей"
+    "rus": "Колизей",
+    "ch": "罗马斗兽场"
    },
    "population": "global",
    "type": "place"
@@ -303,7 +324,8 @@
     "sl": "Disneyland Pariški grad (Grad Trnuljčice)",
     "tur": "Disneyland Paris Şatosu (Uyuyan Güzel Şatosu)",
     "ukr": "Паризький замок Діснейленд (Замок Сплячої Красуні)",
-    "rus": "Диснейленд Парижский замок (Замок Спящей красавицы)"
+    "rus": "Диснейленд Парижский замок (Замок Спящей красавицы)",
+    "ch": "睡美人城堡"
    },
    "population": "global",
    "type": "place"
@@ -317,7 +339,8 @@
     "sl": "Kupola na skali",
     "tur": "Kubbetü's-Sahre",
     "ukr": "Баня Скелі",
-    "rus": "Купол Скалы"
+    "rus": "Купол Скалы",
+    "ch": "圆顶清真寺"
    },
    "population": "global",
    "type": "place"
@@ -331,7 +354,8 @@
     "sl": "Zmajski most, Ljubljana",
     "tur": "Ejderha Köprüsü, Ljubljana",
     "ukr": "Міст Дракона, Любляна",
-    "rus": "Драконий мост, Любляна"
+    "rus": "Драконий мост, Любляна",
+    "ch": "龙桥"
    },
    "population": "global",
    "type": "place"
@@ -345,7 +369,8 @@
     "sl": "Velikonočni otok",
     "tur": "Paskalya Adası",
     "ukr": "Острів Пасхи",
-    "rus": "Остров Пасхи"
+    "rus": "Остров Пасхи",
+    "ch": "复活节岛"
    },
    "population": "global",
    "type": "place"
@@ -359,7 +384,8 @@
     "sl": "Grad Edinburg",
     "tur": "Edinburgh Kalesi",
     "ukr": "Единбурзький замок",
-    "rus": "Эдинбургский замок"
+    "rus": "Эдинбургский замок",
+    "ch": "爱丁堡城堡"
    },
    "population": "global",
    "type": "place"
@@ -373,7 +399,8 @@
     "sl": "Eifflov stolp",
     "tur": "Eyfel Kulesi",
     "ukr": "Ейфелева вежа",
-    "rus": "Эйфелева башня"
+    "rus": "Эйфелева башня",
+    "ch": "埃菲尔铁塔"
    },
    "population": "global",
    "type": "place"
@@ -387,7 +414,8 @@
     "sl": "Labska filharmonija, Hamburg",
     "tur": "Elbphilharmonie, Hamburg",
     "ukr": "Ельбська філармонія, Гамбург",
-    "rus": "Эльбфилармония, Гамбург"
+    "rus": "Эльбфилармония, Гамбург",
+    "ch": "易北爱乐音乐厅"
    },
    "population": "global",
    "type": "place"
@@ -401,7 +429,8 @@
     "sl": "Empire State Building",
     "tur": "Empire State Binası",
     "ukr": "Емпайр-Стейт-Білдінг",
-    "rus": "Эмпайр-стейт-билдинг"
+    "rus": "Эмпайр-стейт-билдинг",
+    "ch": "帝国大厦"
    },
    "population": "global",
    "type": "place"
@@ -415,7 +444,8 @@
     "sl": "Firenška stolnica",
     "tur": "Floransa Katedrali",
     "ukr": "Санта-Марія-дель-Фйоре",
-    "rus": "Санта-Мария-дель-Фьоре"
+    "rus": "Санта-Мария-дель-Фьоре",
+    "ch": "圣母百花大教堂"
    },
    "population": "global",
    "type": "place"
@@ -429,7 +459,8 @@
     "sl": "Brána nebeského pokoja",
     "tur": "Tiananmen (Göksel Barış Kapısı)",
     "ukr": "Брама небесного спокою",
-    "rus": "Врата Небесного Спокойствия"
+    "rus": "Врата Небесного Спокойствия",
+    "ch": "故宫（天安门）"
    },
    "population": "global",
    "type": "place"
@@ -443,7 +474,8 @@
     "sl": "Frauenkirche, Dresden",
     "tur": "Frauenkirche, Dresden",
     "ukr": "Фрауенкірхе, Дрезден",
-    "rus": "Фрауэнкирхе, Дрезден"
+    "rus": "Фрауэнкирхе, Дрезден",
+    "ch": "德累斯顿圣母教堂"
    },
    "population": "german",
    "type": "place"
@@ -457,7 +489,8 @@
     "sl": "Vrata Fushimi Inari Torii",
     "tur": "Fushimi Inari Torii Kapıları",
     "ukr": "Ворота Фусімі-Інарі-Торії",
-    "rus": "Ворота Тории Фусими Инари"
+    "rus": "Ворота Тории Фусими Инари",
+    "ch": "伏见稻荷大社千本鸟居"
    },
    "population": "global",
    "type": "place"
@@ -471,7 +504,8 @@
     "sl": "Gateway Arch",
     "tur": "Geçit Kemeri",
     "ukr": "Арка Гейтвей",
-    "rus": "Ворота на запад"
+    "rus": "Ворота на запад",
+    "ch": "圣路易斯拱门"
    },
    "population": "global",
    "type": "place"
@@ -485,7 +519,8 @@
     "sl": "Velikanova pot",
     "tur": "Devler Kaldırımı (Giant's Causeway)",
     "ukr": "Дорога Гігантів",
-    "rus": "Мостовая гигантов"
+    "rus": "Мостовая гигантов",
+    "ch": "巨人堤道"
    },
    "population": "global",
    "type": "place"
@@ -499,7 +534,8 @@
     "sl": "Most Golden Gate",
     "tur": "Golden Gate Köprüsü",
     "ukr": "Міст Золота Брама",
-    "rus": "Золотые Ворота (мост)"
+    "rus": "Золотые Ворота (мост)",
+    "ch": "金门大桥"
    },
    "population": "global",
    "type": "place"
@@ -513,7 +549,8 @@
     "sl": "Grand Kanjon",
     "tur": "Büyük Kanyon",
     "ukr": "Гранд Каньйон",
-    "rus": "Большой каньон"
+    "rus": "Большой каньон",
+    "ch": "科罗拉多大峡谷"
    },
    "population": "global",
    "type": "place"
@@ -527,7 +564,8 @@
     "sl": "Veliki Buda v Kamakuri",
     "tur": "Kamakura Büyük Buda Heykeli",
     "ukr": "Великий Будда Камакури",
-    "rus": "Большой сфинкс"
+    "rus": "Большой сфинкс",
+    "ch": "镰仓大佛"
    },
    "population": "global",
    "type": "place"
@@ -541,7 +579,8 @@
     "sl": "Velika sfinga v Gizi",
     "tur": "Büyük Gize Sfenksi",
     "ukr": "Великий Сфінкс",
-    "rus": "Великий Сфинкс Гизы"
+    "rus": "Великий Сфинкс Гизы",
+    "ch": "吉萨狮身人面像"
    },
    "population": "global",
    "type": "place"
@@ -555,7 +594,8 @@
     "sl": "Kitajski zid",
     "tur": "Çin Seddi",
     "ukr": "Великий китайський мур",
-    "rus": "Великая Китайская стена"
+    "rus": "Великая Китайская стена",
+    "ch": "万里长城"
    },
    "population": "global",
    "type": "place"
@@ -569,7 +609,8 @@
     "sl": "Guggenheimov muzej, Bilbao",
     "tur": "Guggenheim Müzesi Bilbao",
     "ukr": "Музей Соломона Гуггенгайма (Більбао)",
-    "rus": "Музей Гуггенхайма в Бильбао"
+    "rus": "Музей Гуггенхайма в Бильбао",
+    "ch": "毕尔巴鄂古根海姆博物馆"
    },
    "population": "global",
    "type": "place"
@@ -583,7 +624,8 @@
     "sl": "Hagija Sofija",
     "tur": "Ayasofya",
     "ukr": "Софійський собор (Константинополь)",
-    "rus": "Собор Святой Софии"
+    "rus": "Собор Святой Софии",
+    "ch": "圣索菲亚大教堂"
    },
    "population": "global",
    "type": "place"
@@ -597,7 +639,8 @@
     "sl": "Vas Hallstatt",
     "tur": "Hallstatt Köyü",
     "ukr": "Селище Гальштат",
-    "rus": "Деревня Гальштатт"
+    "rus": "Деревня Гальштатт",
+    "ch": "哈尔施塔特"
    },
    "population": "german",
    "type": "place"
@@ -611,7 +654,8 @@
     "sl": "Grad Heidelberg",
     "tur": "Heidelberg Sarayı",
     "ukr": "Гайдельберзький замок",
-    "rus": "Гейдельбергский замок"
+    "rus": "Гейдельбергский замок",
+    "ch": "海德堡城堡"
    },
    "population": "german",
    "type": "place"
@@ -625,7 +669,8 @@
     "sl": "Grad Hohenzollern",
     "tur": "Hohenzollern Kalesi",
     "ukr": "Замок Гогенцоллерн",
-    "rus": "Замок Гогенцоллерн"
+    "rus": "Замок Гогенцоллерн",
+    "ch": "霍亨索伦城堡"
    },
    "population": "german",
    "type": "place"
@@ -639,7 +684,8 @@
     "sl": "Hollywoodski znak",
     "tur": "Hollywood Yazısı",
     "ukr": "Знак Голлівуду",
-    "rus": "Знак Голливуда"
+    "rus": "Знак Голливуда",
+    "ch": "好莱坞标志"
    },
    "population": "global",
    "type": "place"
@@ -653,7 +699,8 @@
     "sl": "Holstentor, Lübeck",
     "tur": "Holstentor, Lübeck",
     "ukr": "Гольстентор, Любек",
-    "rus": "Хольстентор, Любек"
+    "rus": "Хольстентор, Любек",
+    "ch": "吕贝克霍尔斯滕门"
    },
    "population": "german",
    "type": "place"
@@ -667,7 +714,8 @@
     "sl": "Hooverjev jez",
     "tur": "Hoover Barajı",
     "ukr": "Гребля Гувера",
-    "rus": "Плотина Гувера"
+    "rus": "Плотина Гувера",
+    "ch": "胡佛水坝"
    },
    "population": "global",
    "type": "place"
@@ -681,7 +729,8 @@
     "sl": "Stavba madžarskega parlamenta",
     "tur": "Macaristan Parlamento Binası",
     "ukr": "Будівля парламенту Угорщини",
-    "rus": "Здание венгерского парламента"
+    "rus": "Здание венгерского парламента",
+    "ch": "匈牙利国会大厦"
    },
    "population": "global",
    "type": "place"
@@ -695,7 +744,8 @@
     "sl": "Vetrne mline Kinderdijk",
     "tur": "Kinderdijk Yel Değirmenleri",
     "ukr": "Вітряки Кіндердейк",
-    "rus": "Ветряные мельницы Киндердейк"
+    "rus": "Ветряные мельницы Киндердейк",
+    "ch": "小孩堤防风车群"
    },
    "population": "global",
    "type": "place"
@@ -709,7 +759,8 @@
     "sl": "Blejsko jezero in cerkev na Blejskem otoku",
     "tur": "Bled Gölü ve Bled Adası Kilisesi",
     "ukr": "Озеро Блед та церква на острові Блед",
-    "rus": "Озеро Блед и церковь на острове Блед"
+    "rus": "Озеро Блед и церковь на острове Блед",
+    "ch": "布莱德湖和布莱德岛教堂"
    },
    "population": "global",
    "type": "place"
@@ -723,7 +774,8 @@
     "sl": "Bohinjsko jezero",
     "tur": "Bohinj Gölü",
     "ukr": "Бохинське озеро",
-    "rus": "Бохиньское озеро"
+    "rus": "Бохиньское озеро",
+    "ch": "博希尼湖"
    },
    "population": "slovenian",
    "type": "place"
@@ -737,7 +789,8 @@
     "sl": "Las Vegas Strip",
     "tur": "Las Vegas Strip",
     "ukr": "Лас-Вегас-Стріп",
-    "rus": "Лас-Вегас-Стрип"
+    "rus": "Лас-Вегас-Стрип",
+    "ch": "拉斯维加斯大道"
    },
    "population": "global",
    "type": "place"
@@ -751,7 +804,8 @@
     "sl": "Poševni stolp v Pisi",
     "tur": "Pisa Kulesi",
     "ukr": "Пізанська вежа",
-    "rus": "Пизанская башня"
+    "rus": "Пизанская башня",
+    "ch": "比萨斜塔"
    },
    "population": "global",
    "type": "place"
@@ -765,7 +819,8 @@
     "sl": "Kip Male morske deklice",
     "tur": "Küçük Deniz Kızı Heykeli",
     "ukr": "Статуя Русалоньки",
-    "rus": "Статуя Русалочки"
+    "rus": "Статуя Русалочки",
+    "ch": "小美人鱼雕像"
    },
    "population": "global",
    "type": "place"
@@ -779,7 +834,8 @@
     "sl": "Ljubljanski grad",
     "tur": "Ljubljana Kalesi",
     "ukr": "Люблянський замок",
-    "rus": "Люблянский град"
+    "rus": "Люблянский град",
+    "ch": "卢布尔雅那城堡"
    },
    "population": "slovenian",
    "type": "place"
@@ -793,7 +849,8 @@
     "sl": "Londonsko oko",
     "tur": "London Eye",
     "ukr": "Лондонське око",
-    "rus": "Лондонский глаз"
+    "rus": "Лондонский глаз",
+    "ch": "伦敦眼"
    },
    "population": "slovenian",
    "type": "place"
@@ -807,7 +864,8 @@
     "sl": "Muzej Louvre in steklena piramida",
     "tur": "Louvre Müzesi ve Cam Piramit",
     "ukr": "Музей Лувр та скляна піраміда",
-    "rus": "Лувр и стеклянная пирамида"
+    "rus": "Лувр и стеклянная пирамида",
+    "ch": "卢浮宫和玻璃金字塔"
    },
    "population": "slovenian",
    "type": "place"
@@ -821,7 +879,8 @@
     "sl": "Tempelj v Luksorju",
     "tur": "Luksor Tapınağı",
     "ukr": "Луксорський храм",
-    "rus": "Луксорский храм"
+    "rus": "Луксорский храм",
+    "ch": "卢克索神庙"
    },
    "population": "global",
    "type": "place"
@@ -835,7 +894,8 @@
     "sl": "Machu Picchu",
     "tur": "Machu Picchu",
     "ukr": "Мачу-Пікчу",
-    "rus": "Мачу-Пикчу"
+    "rus": "Мачу-Пикчу",
+    "ch": "马丘比丘"
    },
    "population": "global",
    "type": "place"
@@ -849,7 +909,8 @@
     "sl": "Marina Bay Sands",
     "tur": "Marina Bay Sands",
     "ukr": "Марина-Бей-Сендс",
-    "rus": "Марина-Бэй-Сэндс"
+    "rus": "Марина-Бэй-Сэндс",
+    "ch": "滨海湾金沙"
    },
    "population": "global",
    "type": "place"
@@ -863,7 +924,8 @@
     "sl": "Mošeja al-Haram (Kaaba, Meka)",
     "tur": "Mescid-i Haram (Kabe, Mekke)",
     "ukr": "Масджид аль-Харам (Кааба, Мекка)",
-    "rus": "Мечеть аль-Харам (Кааба, Мекка)"
+    "rus": "Мечеть аль-Харам (Кааба, Мекка)",
+    "ch": "麦加大清真寺（克尔白天房）"
    },
    "population": "global",
    "type": "place"
@@ -877,7 +939,8 @@
     "sl": "Merlion, Singapur",
     "tur": "Merlion, Singapur",
     "ukr": "Мерліон, Сінгапур",
-    "rus": "Мерлион, Сингапур"
+    "rus": "Мерлион, Сингапур",
+    "ch": "新加坡鱼尾狮"
    },
    "population": "german",
    "type": "place"
@@ -891,7 +954,8 @@
     "sl": "Milanska stolnica",
     "tur": "Milano Katedrali",
     "ukr": "Міланський собор",
-    "rus": "Миланский собор"
+    "rus": "Миланский собор",
+    "ch": "米兰大教堂"
    },
    "population": "global",
    "type": "place"
@@ -905,7 +969,8 @@
     "sl": "Mont Saint-Michel",
     "tur": "Mont Saint-Michel",
     "ukr": "Мон-Сен-Мішель",
-    "rus": "Мон-Сен-Мишель"
+    "rus": "Мон-Сен-Мишель",
+    "ch": "圣米歇尔山"
    },
    "population": "global",
    "type": "place"
@@ -919,7 +984,8 @@
     "sl": "Moulin Rouge",
     "tur": "Kırmızı Değirmen",
     "ukr": "Мулен-Руж",
-    "rus": "Мулен-Руж"
+    "rus": "Мулен-Руж",
+    "ch": "红磨坊"
    },
    "population": "global",
    "type": "place"
@@ -933,7 +999,8 @@
     "sl": "Mount Everest",
     "tur": "Everest Dağı",
     "ukr": "Еверест",
-    "rus": "Джомолунгма"
+    "rus": "Джомолунгма",
+    "ch": "珠穆朗玛峰"
    },
    "population": "global",
    "type": "place"
@@ -947,7 +1014,8 @@
     "sl": "Fudži",
     "tur": "Fuji Dağı",
     "ukr": "Фудзі (гора)",
-    "rus": "Фудзияма"
+    "rus": "Фудзияма",
+    "ch": "富士山"
    },
    "population": "global",
    "type": "place"
@@ -961,7 +1029,8 @@
     "sl": "Gora Rushmore",
     "tur": "Rushmore Dağı Anıtı",
     "ukr": "Рашмор",
-    "rus": "Рашмор"
+    "rus": "Рашмор",
+    "ch": "拉什莫尔山"
    },
    "population": "global",
    "type": "place"
@@ -975,7 +1044,8 @@
     "sl": "Gora Triglav",
     "tur": "Triglav",
     "ukr": "Триглав (гора)",
-    "rus": "Триглав"
+    "rus": "Триглав",
+    "ch": "特里格拉夫山"
    },
    "population": "global",
    "type": "place"
@@ -989,7 +1059,8 @@
     "sl": "Mestna hiša v Münchnu",
     "tur": "Münih Belediye Binası",
     "ukr": "Мюнхенська ратуша",
-    "rus": "Мюнхенская ратуша"
+    "rus": "Мюнхенская ратуша",
+    "ch": "慕尼黑新市政厅"
    },
    "population": "slovenian",
    "type": "place"
@@ -1003,7 +1074,8 @@
     "sl": "Grad Neuschwanstein",
     "tur": "Neuschwanstein Şatosu",
     "ukr": "Нойшванштайн",
-    "rus": "Нойшванштайн"
+    "rus": "Нойшванштайн",
+    "ch": "新天鹅堡"
    },
    "population": "global",
    "type": "place"
@@ -1017,7 +1089,8 @@
     "sl": "Niagarski slapovi",
     "tur": "Niagara Şelaleleri",
     "ukr": "Ніагарський водоспад",
-    "rus": "Ниагарский водопад"
+    "rus": "Ниагарский водопад",
+    "ch": "尼亚加拉瀑布"
    },
    "population": "global",
    "type": "place"
@@ -1031,7 +1104,8 @@
     "sl": "Stolnica Notre-Dame v Parizu",
     "tur": "Notre-Dame Katedrali",
     "ukr": "Собор Паризької Богоматері",
-    "rus": "Собор Парижской Богоматери"
+    "rus": "Собор Парижской Богоматери",
+    "ch": "巴黎圣母院"
    },
    "population": "global",
    "type": "place"
@@ -1045,7 +1119,8 @@
     "sl": "Univerza v Oxfordu",
     "tur": "Oxford Üniversitesi",
     "ukr": "Оксфордський університет",
-    "rus": "Оксфордский университет"
+    "rus": "Оксфордский университет",
+    "ch": "牛津大学"
    },
    "population": "global",
    "type": "place"
@@ -1059,7 +1134,8 @@
     "sl": "Versajska palača",
     "tur": "Versay Sarayı",
     "ukr": "Версальський палац",
-    "rus": "Версаль"
+    "rus": "Версаль",
+    "ch": "凡尔赛宫"
    },
    "population": "global",
    "type": "place"
@@ -1073,7 +1149,8 @@
     "sl": "Palm Jumeirah",
     "tur": "Palm Cumeyra",
     "ukr": "Пальма Джумейра",
-    "rus": "Палм-Джумейра"
+    "rus": "Палм-Джумейра",
+    "ch": "朱美拉棕榈岛"
    },
    "population": "global",
    "type": "place"
@@ -1087,7 +1164,8 @@
     "sl": "Panteon, Rim",
     "tur": "Pantheon, Roma",
     "ukr": "Пантеон, Рим",
-    "rus": "Пантеон, Рим"
+    "rus": "Пантеон, Рим",
+    "ch": "罗马万神殿"
    },
    "population": "global",
    "type": "place"
@@ -1101,7 +1179,8 @@
     "sl": "Park Güell",
     "tur": "Park Güell",
     "ukr": "Парк Гуель",
-    "rus": "Парк Гуэль"
+    "rus": "Парк Гуэль",
+    "ch": "桂尔公园"
    },
    "population": "global",
    "type": "place"
@@ -1115,7 +1194,8 @@
     "sl": "Petra",
     "tur": "Petra",
     "ukr": "Петра",
-    "rus": "Петра"
+    "rus": "Петра",
+    "ch": "佩特拉古城"
    },
    "population": "global",
    "type": "place"
@@ -1129,7 +1209,8 @@
     "sl": "Petronasova stolpa",
     "tur": "Petronas İkiz Kuleleri",
     "ukr": "Вежі Петронас",
-    "rus": "Башни Петронас"
+    "rus": "Башни Петронас",
+    "ch": "吉隆坡双子塔"
    },
    "population": "global",
    "type": "place"
@@ -1143,7 +1224,8 @@
     "sl": "Piccadilly Circus",
     "tur": "Piccadilly Circus",
     "ukr": "Пікаділлі-Серкус",
-    "rus": "Пикадилли-серкус"
+    "rus": "Пикадилли-серкус",
+    "ch": "皮卡迪利广场"
    },
    "population": "global",
    "type": "place"
@@ -1157,7 +1239,8 @@
     "sl": "Piran",
     "tur": "Piran",
     "ukr": "Пиран",
-    "rus": "Пиран"
+    "rus": "Пиран",
+    "ch": "皮兰"
    },
    "population": "slovenian",
    "type": "place"
@@ -1171,7 +1254,8 @@
     "sl": "Ponte Vecchio",
     "tur": "Ponte Vecchio",
     "ukr": "Понте Веккйо",
-    "rus": "Понте-Веккьо"
+    "rus": "Понте-Веккьо",
+    "ch": "维琪奥桥（老桥）"
    },
    "population": "global",
    "type": "place"
@@ -1185,7 +1269,8 @@
     "sl": "Porta Nigra, Trier",
     "tur": "Porta Nigra, Trier",
     "ukr": "Порта-Нігра, Трір",
-    "rus": "Порта-Нигра, Трир"
+    "rus": "Порта-Нигра, Трир",
+    "ch": "特里尔黑门"
    },
    "population": "german",
    "type": "place"
@@ -1199,7 +1284,8 @@
     "sl": "Grad Predjama",
     "tur": "Postojna Mağarası",
     "ukr": "Постойнска Яма",
-    "rus": "Постойнска-Яма"
+    "rus": "Постойнска-Яма",
+    "ch": "波斯托伊纳溶洞"
    },
    "population": "slovenian",
    "type": "place"
@@ -1213,7 +1299,8 @@
     "sl": "Praška astronomska ura",
     "tur": "Prag Astronomik Saati",
     "ukr": "Празькі куранти",
-    "rus": "Пражские куранты"
+    "rus": "Пражские куранты",
+    "ch": "布拉格天文钟"
    },
    "population": "global",
    "type": "place"
@@ -1227,7 +1314,8 @@
     "sl": "Predjamski grad",
     "tur": "Predjama Kalesi",
     "ukr": "Предямський замок",
-    "rus": "Предъямский замок"
+    "rus": "Предъямский замок",
+    "ch": "普雷贾马城堡"
    },
    "population": "slovenian",
    "type": "place"
@@ -1241,7 +1329,8 @@
     "sl": "Prešernov trg, Ljubljana",
     "tur": "Prešeren Meydanı, Ljubljana",
     "ukr": "Площа Прешерна, Любляна",
-    "rus": "Площадь Прешерена, Любляна"
+    "rus": "Площадь Прешерена, Любляна",
+    "ch": "卢布尔雅那普列舍伦广场"
    },
    "population": "slovenian",
    "type": "place"
@@ -1255,7 +1344,8 @@
     "sl": "piramide pri Gizi",
     "tur": "Gize Piramitleri",
     "ukr": "Піраміди Гізи",
-    "rus": "Пирамиды Гизы"
+    "rus": "Пирамиды Гизы",
+    "ch": "吉萨金字塔群"
    },
    "population": "global",
    "type": "place"
@@ -1269,7 +1359,8 @@
     "sl": "Rdeči trg",
     "tur": "Kızıl Meydan",
     "ukr": "Красна площа",
-    "rus": "Красная площадь"
+    "rus": "Красная площадь",
+    "ch": "红场"
    },
    "population": "global",
    "type": "place"
@@ -1283,7 +1374,8 @@
     "sl": "Reichstag",
     "tur": "Reichstag",
     "ukr": "Будівля Райхстагу",
-    "rus": "Рейхстаг (здание)"
+    "rus": "Рейхстаг (здание)",
+    "ch": "德国国会大厦"
    },
    "population": "german",
    "type": "place"
@@ -1297,7 +1389,8 @@
     "sl": "Royal Albert Hall",
     "tur": "Royal Albert Hall",
     "ukr": "Роял Альберт Холл",
-    "rus": "Альберт-холл"
+    "rus": "Альберт-холл",
+    "ch": "皇家阿尔伯特音乐厅"
    },
    "population": "global",
    "type": "place"
@@ -1311,7 +1404,8 @@
     "sl": "Bazilika Sacré-Cœur",
     "tur": "Sacré-Cœur Bazilikası",
     "ukr": "Базиліка Сакре-Кер",
-    "rus": "Базилика Сакре-Кёр"
+    "rus": "Базилика Сакре-Кёр",
+    "ch": "圣心大教堂"
    },
    "population": "global",
    "type": "place"
@@ -1325,7 +1419,8 @@
     "sl": "Bazilika sv. Družine, Barcelona",
     "tur": "Sagrada Família",
     "ukr": "Храм Спокути Святої Родини",
-    "rus": "Саграда-Фамилия"
+    "rus": "Саграда-Фамилия",
+    "ch": "圣家堂"
    },
    "population": "global",
    "type": "place"
@@ -1339,7 +1434,8 @@
     "sl": "Santorini",
     "tur": "Santorini",
     "ukr": "Санторині",
-    "rus": "Тира (остров)"
+    "rus": "Тира (остров)",
+    "ch": "圣托里尼岛"
    },
    "population": "global",
    "type": "place"
@@ -1353,7 +1449,8 @@
     "sl": "Velika mošeja šejka Zayeda",
     "tur": "Şeyh Zayid Camii",
     "ukr": "Мечеть шейха Заїда",
-    "rus": "Мечеть шейха Заида"
+    "rus": "Мечеть шейха Заида",
+    "ch": "谢赫·扎耶德大清真寺"
    },
    "population": "global",
    "type": "place"
@@ -1367,7 +1464,8 @@
     "sl": "Prehod Shibuya",
     "tur": "Shibuya Kavşağı",
     "ukr": "Перехрестя Сібуя",
-    "rus": "Сибуйский диагональный пешеходный переход"
+    "rus": "Сибуйский диагональный пешеходный переход",
+    "ch": "涩谷十字路口"
    },
    "population": "global",
    "type": "place"
@@ -1381,7 +1479,8 @@
     "sl": "Sikstinska kapela",
     "tur": "Sistina Şapeli",
     "ukr": "Сікстинська капела",
-    "rus": "Сикстинская капелла"
+    "rus": "Сикстинская капелла",
+    "ch": "西斯廷教堂"
    },
    "population": "global",
    "type": "place"
@@ -1395,7 +1494,8 @@
     "sl": "Space Needle",
     "tur": "Space Needle",
     "ukr": "Спейс-Нідл",
-    "rus": "Спейс-Нидл"
+    "rus": "Спейс-Нидл",
+    "ch": "太空针塔"
    },
    "population": "global",
    "type": "place"
@@ -1409,7 +1509,8 @@
     "sl": "Španske stopnice, Rim",
     "tur": "İspanyol Merdivenleri, Roma",
     "ukr": "Іспанські сходи, Рим",
-    "rus": "Испанская лестница, Рим"
+    "rus": "Испанская лестница, Рим",
+    "ch": "罗马西班牙阶梯"
    },
    "population": "global",
    "type": "place"
@@ -1423,7 +1524,8 @@
     "sl": "Trg in bazilika sv. Marka, Benetke",
     "tur": "San Marco Meydanı ve Bazilikası, Venedik",
     "ukr": "Площа та базиліка Святого Марка, Венеція",
-    "rus": "Площадь и базилика Святого Марка, Венеция"
+    "rus": "Площадь и базилика Святого Марка, Венеция",
+    "ch": "威尼斯圣马可广场和圣马可大教堂"
    },
    "population": "global",
    "type": "place"
@@ -1437,7 +1539,8 @@
     "sl": "Bazilika sv. Petra, Vatikan",
     "tur": "Aziz Petrus Bazilikası",
     "ukr": "Собор Святого Петра",
-    "rus": "Собор Святого Петра"
+    "rus": "Собор Святого Петра",
+    "ch": "圣彼得大教堂"
    },
    "population": "global",
    "type": "place"
@@ -1451,7 +1554,8 @@
     "sl": "Kip svobode",
     "tur": "Özgürlük Heykeli",
     "ukr": "Статуя Свободи",
-    "rus": "Статуя Свободы"
+    "rus": "Статуя Свободы",
+    "ch": "自由女神像"
    },
    "population": "global",
    "type": "place"
@@ -1465,7 +1569,8 @@
     "sl": "Stonehenge",
     "tur": "Stonehenge",
     "ukr": "Стоунгендж",
-    "rus": "Стоунхендж"
+    "rus": "Стоунхендж",
+    "ch": "巨石阵"
    },
    "population": "global",
    "type": "place"
@@ -1479,7 +1584,8 @@
     "sl": "Sydneyjski pristaniški most",
     "tur": "Sidney Liman Köprüsü",
     "ukr": "Гарбор-Брідж (Сідней)",
-    "rus": "Харбор-Бридж (Сидней)"
+    "rus": "Харбор-Бридж (Сидней)",
+    "ch": "悉尼海港大桥"
    },
    "population": "global",
    "type": "place"
@@ -1493,7 +1599,8 @@
     "sl": "Sydneyjska opera",
     "tur": "Sidney Opera Evi",
     "ukr": "Сіднейський оперний театр",
-    "rus": "Сиднейский оперный театр"
+    "rus": "Сиднейский оперный театр",
+    "ch": "悉尼歌剧院"
    },
    "population": "global",
    "type": "place"
@@ -1507,7 +1614,8 @@
     "sl": "Table Mountain, Cape Town",
     "tur": "Masa Dağı, Cape Town",
     "ukr": "Столова гора, Кейптаун",
-    "rus": "Столовая гора, Кейптаун"
+    "rus": "Столовая гора, Кейптаун",
+    "ch": "开普敦桌山"
    },
    "population": "global",
    "type": "place"
@@ -1521,7 +1629,8 @@
     "sl": "Taipei 101",
     "tur": "Taipei 101",
     "ukr": "Тайбей 101",
-    "rus": "Тайбэй 101"
+    "rus": "Тайбэй 101",
+    "ch": "台北101大楼"
    },
    "population": "global",
    "type": "place"
@@ -1535,7 +1644,8 @@
     "sl": "Taj Mahal",
     "tur": "Tac Mahal",
     "ukr": "Тадж-Махал",
-    "rus": "Тадж-Махал"
+    "rus": "Тадж-Махал",
+    "ch": "泰姬陵"
    },
    "population": "global",
    "type": "place"
@@ -1549,7 +1659,8 @@
     "sl": "Nebeški tempelj, Peking",
     "tur": "Cennet Tapınağı, Pekin",
     "ukr": "Храм Неба, Пекін",
-    "rus": "Храм Небес Пекин"
+    "rus": "Храм Небес Пекин",
+    "ch": "北京天坛"
    },
    "population": "global",
    "type": "place"
@@ -1563,7 +1674,8 @@
     "sl": "Glinena vojska",
     "tur": "Toprak Askerler",
     "ukr": "Теракотова армія",
-    "rus": "Терракотовая армия"
+    "rus": "Терракотовая армия",
+    "ch": "秦始皇兵马俑"
    },
    "population": "global",
    "type": "place"
@@ -1577,7 +1689,8 @@
     "sl": "Gherkin (uhorka)",
     "tur": "The Gherkin",
     "ukr": "The Gherkin (огурец)",
-    "rus": "Небоскрёб Мэри-Экс"
+    "rus": "Небоскрёб Мэри-Экс",
+    "ch": "小黄瓜大楼"
    },
    "population": "global",
    "type": "place"
@@ -1591,7 +1704,8 @@
     "sl": "Pentagon",
     "tur": "Pentagon",
     "ukr": "Пентагон",
-    "rus": "Пентагон"
+    "rus": "Пентагон",
+    "ch": "五角大楼"
    },
    "population": "global",
    "type": "place"
@@ -1605,7 +1719,8 @@
     "sl": "Črepinja (zgradba)",
     "tur": "The Shard",
     "ukr": "Шард",
-    "rus": "Шард"
+    "rus": "Шард",
+    "ch": "碎片大厦"
    },
    "population": "global",
    "type": "place"
@@ -1619,7 +1734,8 @@
     "sl": "Times Square",
     "tur": "Times Square",
     "ukr": "Таймс-сквер",
-    "rus": "Таймс-сквер"
+    "rus": "Таймс-сквер",
+    "ch": "时代广场"
    },
    "population": "global",
    "type": "place"
@@ -1633,7 +1749,8 @@
     "sl": "Tower Bridge",
     "tur": "Tower Bridge",
     "ukr": "Тауерський міст",
-    "rus": "Тауэрский мост"
+    "rus": "Тауэрский мост",
+    "ch": "伦敦塔桥"
    },
    "population": "global",
    "type": "place"
@@ -1647,7 +1764,8 @@
     "sl": "Londonski Tower",
     "tur": "Londra Kalesi",
     "ukr": "Лондонський Тауер",
-    "rus": "Лондонский Тауэр"
+    "rus": "Лондонский Тауэр",
+    "ch": "伦敦塔"
    },
    "population": "global",
    "type": "place"
@@ -1661,7 +1779,8 @@
     "sl": "Trafalgarski trg",
     "tur": "Trafalgar Meydanı",
     "ukr": "Трафальгар-сквер",
-    "rus": "Трафальгарская площадь"
+    "rus": "Трафальгарская площадь",
+    "ch": "特拉法加广场"
    },
    "population": "global",
    "type": "place"
@@ -1675,7 +1794,8 @@
     "sl": "Vodnjak Trevi",
     "tur": "Trevi Çeşmesi",
     "ukr": "Фонтан Треві",
-    "rus": "Фонтан Треви"
+    "rus": "Фонтан Треви",
+    "ch": "特雷维喷泉（许愿池）"
    },
    "population": "global",
    "type": "place"
@@ -1689,7 +1809,8 @@
     "sl": "Tromostje, Ljubljana",
     "tur": "Üçlü Köprü, Ljubljana",
     "ukr": "Потрійний міст, Любляна",
-    "rus": "Тройной мост, Любляна"
+    "rus": "Тройной мост, Любляна",
+    "ch": "卢布尔雅那三桥"
    },
    "population": "global",
    "type": "place"
@@ -1703,7 +1824,8 @@
     "sl": "Uluru (Ayers Rock)",
     "tur": "Uluru (Ayers Kayası)",
     "ukr": "Улуру (Айєрс-Рок)",
-    "rus": "Улуру (Эйерс-Рок)"
+    "rus": "Улуру (Эйерс-Рок)",
+    "ch": "乌鲁鲁（艾尔斯岩）"
    },
    "population": "global",
    "type": "place"
@@ -1717,7 +1839,8 @@
     "sl": "Kapitol",
     "tur": "Amerikan Kongre Binası",
     "ukr": "Капітолій (Вашингтон)",
-    "rus": "Капитолий (Вашингтон)"
+    "rus": "Капитолий (Вашингтон)",
+    "ch": "美国国会大厦"
    },
    "population": "global",
    "type": "place"
@@ -1731,7 +1854,8 @@
     "sl": "Beneški kanali",
     "tur": "Venedik Kanalları",
     "ukr": "Венеційські канали",
-    "rus": "Венецианские каналы"
+    "rus": "Венецианские каналы",
+    "ch": "威尼斯运河"
    },
    "population": "global",
    "type": "place"
@@ -1745,7 +1869,8 @@
     "sl": "Blejski vintgar",
     "tur": "Vintgar Geçidi",
     "ukr": "Ущелина Вінтгар",
-    "rus": "Винтгар (ущелье)"
+    "rus": "Винтгар (ущелье)",
+    "ch": "文特加峡谷"
    },
    "population": "slovenian",
    "type": "place"
@@ -1759,7 +1884,8 @@
     "sl": "Zid objokovanja",
     "tur": "Batı Duvarı (Ağlama Duvarı)",
     "ukr": "Стіна Плачу",
-    "rus": "Западная стена (Стена плача)"
+    "rus": "Западная стена (Стена плача)",
+    "ch": "西墙（哭墙）"
    },
    "population": "global",
    "type": "place"
@@ -1773,7 +1899,8 @@
     "sl": "Westminstrska opatija",
     "tur": "Westminster Manastırı",
     "ukr": "Вестмінстерське абатство",
-    "rus": "Вестминстерское аббатство"
+    "rus": "Вестминстерское аббатство",
+    "ch": "威斯敏斯特教堂"
    },
    "population": "global",
    "type": "place"
@@ -1787,7 +1914,8 @@
     "sl": "Dovrski beli klifi",
     "tur": "Dover'ın Beyaz Uçurumları",
     "ukr": "Білі скелі Дувра",
-    "rus": "Белые скалы Дувра"
+    "rus": "Белые скалы Дувра",
+    "ch": "多佛白崖"
    },
    "population": "global",
    "type": "place"
@@ -1801,7 +1929,8 @@
     "sl": "Bela hiša",
     "tur": "Beyaz Saray",
     "ukr": "Білий дім",
-    "rus": "Белый дом"
+    "rus": "Белый дом",
+    "ch": "白宫"
    },
    "population": "global",
    "type": "place"
@@ -1815,7 +1944,8 @@
     "sl": "Alcatraz",
     "tur": "Alcatraz Adası",
     "ukr": "Алькатрас",
-    "rus": "Алькатрас"
+    "rus": "Алькатрас",
+    "ch": "恶魔岛（阿尔卡特拉斯岛）"
    },
    "population": "global",
    "type": "place"
@@ -1829,7 +1959,8 @@
     "sl": "Pekinški narodni stadion ''Ptičje gnezdo''",
     "tur": "Pekin Ulusal Stadyumu",
     "ukr": "Пекінський національний стадіон",
-    "rus": "Национальный стадион (Пекин)"
+    "rus": "Национальный стадион (Пекин)",
+    "ch": "国家体育场（鸟巢）"
    },
    "population": "chinese",
    "type": "place"
@@ -1843,7 +1974,8 @@
     "sl": "Brighton Pier",
     "tur": "Brighton İskelesi",
     "ukr": "Пірс у Брайтоні",
-    "rus": "Пирс в Брайтоне"
+    "rus": "Пирс в Брайтоне",
+    "ch": "布莱顿码头"
    },
    "population": "global",
    "type": "place"
@@ -1857,7 +1989,8 @@
     "sl": "Calton Hill",
     "tur": "Calton Hill",
     "ukr": "Калтон-Хілл",
-    "rus": "Калтон-Хилл"
+    "rus": "Калтон-Хилл",
+    "ch": "卡尔顿山"
    },
    "population": "global",
    "type": "place"
@@ -1871,7 +2004,8 @@
     "sl": "Kantonski stolp",
     "tur": "Kanton Kulesi",
     "ukr": "Телевежа Ґуанчжоу",
-    "rus": "Телебашня Гуанчжоу"
+    "rus": "Телебашня Гуанчжоу",
+    "ch": "广州塔（小蛮腰）"
    },
    "population": "chinese",
    "type": "place"
@@ -1885,7 +2019,8 @@
     "sl": "Terminal čatrapatija Šivadžija",
     "tur": "Chhatrapati Shivaji Maharaj Terminus",
     "ukr": "Вокзал Чгатрапаті-Шиваджі",
-    "rus": "Вокзал Чхатрапати-Шиваджи"
+    "rus": "Вокзал Чхатрапати-Шиваджи",
+    "ch": "贾特拉帕蒂·希瓦吉终点站"
    },
    "population": "indian",
    "type": "place"
@@ -1899,7 +2034,8 @@
     "sl": "Plesna hiša",
     "tur": "Dans Eden Ev",
     "ukr": "Танцюючий дім",
-    "rus": "Танцующий дом"
+    "rus": "Танцующий дом",
+    "ch": "跳舞的房子"
    },
    "population": "global",
    "type": "place"
@@ -1913,7 +2049,8 @@
     "sl": "Delicate Arch (Utah)",
     "tur": "Delicate Arch (Utah)",
     "ukr": "Делікейт-Арч (Юта)",
-    "rus": "Изящная арка"
+    "rus": "Изящная арка",
+    "ch": "精致拱门"
    },
    "population": "global",
    "type": "place"
@@ -1927,7 +2064,8 @@
     "sl": "Kip vojvode Wellingtona",
     "tur": "Wellington Dükü Heykeli",
     "ukr": "Статуя герцога Веллінгтона",
-    "rus": "Статуя герцога Веллингтона"
+    "rus": "Статуя герцога Веллингтона",
+    "ch": "惠灵顿公爵雕像"
    },
    "population": "scottish",
    "type": "place"
@@ -1941,7 +2079,8 @@
     "sl": "Falkirško kolo",
     "tur": "Falkirk Wheel",
     "ukr": "Фолкеркське колесо",
-    "rus": "Фолкеркское колесо"
+    "rus": "Фолкеркское колесо",
+    "ch": "福尔柯克轮"
    },
    "population": "scottish",
    "type": "place"
@@ -1955,7 +2094,8 @@
     "sl": "George Square (Glasgow)",
     "tur": "George Square (Glasgow)",
     "ukr": "Площа Джорджа (Глазго)",
-    "rus": "Джордж-сквер (Глазго)"
+    "rus": "Джордж-сквер (Глазго)",
+    "ch": "格拉斯哥乔治广场"
    },
    "population": "scottish",
    "type": "place"
@@ -1969,7 +2109,8 @@
     "sl": "Velika pagoda divje gosi",
     "tur": "Büyük Vahşi Kaz Pagodası",
     "ukr": "Велика пагода диких гусей",
-    "rus": "Большая пагода диких гусей"
+    "rus": "Большая пагода диких гусей",
+    "ch": "大雁塔"
    },
    "population": "chinese",
    "type": "place"
@@ -1983,7 +2124,8 @@
     "sl": "Znanostni center in stolp v Glasgowu",
     "tur": "Glasgow Bilim Merkezi ve Kulesi",
     "ukr": "Науковий центр і вежа Глазго",
-    "rus": "Научный центр и башня Глазго"
+    "rus": "Научный центр и башня Глазго",
+    "ch": "格拉斯哥科学中心和格拉斯哥塔"
    },
    "population": "scottish",
    "type": "place"
@@ -1997,7 +2139,8 @@
     "sl": "Zlati tempelj",
     "tur": "Altın Tapınak",
     "ukr": "Хармандир-Сахіб",
-    "rus": "Хармандир-Сахиб"
+    "rus": "Хармандир-Сахиб",
+    "ch": "金庙"
    },
    "population": "indian",
    "type": "place"
@@ -2011,7 +2154,8 @@
     "sl": "Huangšan / Rumene gore",
     "tur": "Huangshan",
     "ukr": "Хуаншань (гори)",
-    "rus": "Хуаншань"
+    "rus": "Хуаншань",
+    "ch": "黄山"
    },
    "population": "chinese",
    "type": "place"
@@ -2025,7 +2169,8 @@
     "sl": "Slap Hukou (Rumena reka)",
     "tur": "Hukou Şelalesi (Sarı Nehir)",
     "ukr": "Водоспад Хукоу (Жовта річка)",
-    "rus": "Водопад Хукоу (Жёлтая река)"
+    "rus": "Водопад Хукоу (Жёлтая река)",
+    "ch": "黄河壶口瀑布"
    },
    "population": "chinese",
    "type": "place"
@@ -2039,7 +2184,8 @@
     "sl": "Petkova mošeja",
     "tur": "Delhi Cuma Camii",
     "ukr": "Джама-Масджид",
-    "rus": "Соборная мечеть"
+    "rus": "Соборная мечеть",
+    "ch": "贾玛清真寺"
    },
    "population": "indian",
    "type": "place"
@@ -2053,7 +2199,8 @@
     "sl": "Umetnostna galerija in muzej Kelvingrove",
     "tur": "Kelvingrove Sanat Galerisi ve Müzesi",
     "ukr": "Художня галерея і музей Келвінгроув",
-    "rus": "Художественная галерея и музей Келвингроув"
+    "rus": "Художественная галерея и музей Келвингроув",
+    "ch": "凯尔文格罗夫艺术博物馆"
    },
    "population": "scottish",
    "type": "place"
@@ -2067,7 +2214,8 @@
     "sl": "Lešanski veliki Buda",
     "tur": "Büyük Leshan Budası",
     "ukr": "Статуя Будди в Лешань",
-    "rus": "Статуя Будды в Лэшане"
+    "rus": "Статуя Будды в Лэшане",
+    "ch": "乐山大佛"
    },
    "population": "chinese",
    "type": "place"
@@ -2081,7 +2229,8 @@
     "sl": "Narodna galerija, London",
     "tur": "National Gallery (Londra)",
     "ukr": "Національна галерея (Лондон)",
-    "rus": "Лондонская национальная галерея"
+    "rus": "Лондонская национальная галерея",
+    "ch": "英国国家美术馆"
    },
    "population": "global",
    "type": "place"
@@ -2095,7 +2244,8 @@
     "sl": "Qutub Minar",
     "tur": "Kutub Minâr",
     "ukr": "Кутб-Мінар",
-    "rus": "Кутб-Минар"
+    "rus": "Кутб-Минар",
+    "ch": "顾特卜塔"
    },
    "population": "indian",
    "type": "place"
@@ -2109,7 +2259,8 @@
     "sl": "Rdeča trdnjava",
     "tur": "Kızıl Kale",
     "ukr": "Червоний форт",
-    "rus": "Лал-Кила"
+    "rus": "Лал-Кила",
+    "ch": "红堡"
    },
    "population": "indian",
    "type": "place"
@@ -2123,7 +2274,8 @@
     "sl": "Riverside Muzej",
     "tur": "Riverside Müzesi",
     "ukr": "Музей Ріверсайд",
-    "rus": "Музей Риверсайд"
+    "rus": "Музей Риверсайд",
+    "ch": "河滨博物馆"
    },
    "population": "scottish",
    "type": "place"
@@ -2137,7 +2289,8 @@
     "sl": "SEC Armadillo",
     "tur": "SEC Armadillo",
     "ukr": "SEC «Армаділло»",
-    "rus": "SEC Армадилло"
+    "rus": "SEC Армадилло",
+    "ch": "SEC犰狳馆"
    },
    "population": "scottish",
    "type": "place"
@@ -2151,7 +2304,8 @@
     "sl": "Scottov spomenik",
     "tur": "Scott Anıtı",
     "ukr": "Пам'ятник Скотту",
-    "rus": "Монумент Скотта"
+    "rus": "Монумент Скотта",
+    "ch": "司各特纪念塔"
    },
    "population": "global",
    "type": "place"
@@ -2165,7 +2319,8 @@
     "sl": "Samostan Šaolin",
     "tur": "Şaolin Manastırı",
     "ukr": "Шаолінь",
-    "rus": "Шаолинь"
+    "rus": "Шаолинь",
+    "ch": "少林寺"
    },
    "population": "chinese",
    "type": "place"
@@ -2179,7 +2334,8 @@
     "sl": "Stolnica sv. Tilna, Edinburg",
     "tur": "St. Giles Katedrali",
     "ukr": "Собор Святого Джайлза",
-    "rus": "Эдинбургский собор"
+    "rus": "Эдинбургский собор",
+    "ch": "圣吉尔斯大教堂"
    },
    "population": "scottish",
    "type": "place"
@@ -2193,7 +2349,8 @@
     "sl": "Vrhovno sodišče Indije",
     "tur": "Hindistan Yüksek Mahkemesi",
     "ukr": "Верховний суд Індії",
-    "rus": "Верховный суд Индии"
+    "rus": "Верховный суд Индии",
+    "ch": "印度最高法院"
    },
    "population": "indian",
    "type": "place"
@@ -2207,7 +2364,8 @@
     "sl": "The Cobbler / Ben Arthur (Alpe Arrochar)",
     "tur": "The Cobbler / Ben Arthur (Arrochar Alpleri)",
     "ukr": "«Швець» / Бен Артур (Альпи Аррочара)",
-    "rus": "«Сапожник» / Бен Артур (Альпы Аррочар)"
+    "rus": "«Сапожник» / Бен Артур (Альпы Аррочар)",
+    "ch": "科布勒山／本·阿瑟山"
    },
    "population": "scottish",
    "type": "place"
@@ -2221,7 +2379,8 @@
     "sl": "The Kelpies",
     "tur": "The Kelpies",
     "ukr": "Кельпі (скульптура)",
-    "rus": "«Келпи»"
+    "rus": "«Келпи»",
+    "ch": "凯尔派水马雕塑"
    },
    "population": "scottish",
    "type": "place"
@@ -2235,7 +2394,8 @@
     "sl": "Spominski spomenik USS Arizona (Pearl Harbor)",
     "tur": "USS Arizona Anıtı (Pearl Harbor)",
     "ukr": "Меморіал «USS Arizona» (Перл-Харбор)",
-    "rus": "Мемориал «Аризона» (Перл-Харбор)"
+    "rus": "Мемориал «Аризона» (Перл-Харбор)",
+    "ch": "珍珠港亚利桑那号战列舰纪念馆"
    },
    "population": "global",
    "type": "place"
@@ -2249,7 +2409,8 @@
     "sl": "Univerza v Glasgowu",
     "tur": "Glasgow Üniversitesi",
     "ukr": "Університет Глазго",
-    "rus": "Университет Глазго"
+    "rus": "Университет Глазго",
+    "ch": "格拉斯哥大学"
    },
    "population": "scottish",
    "type": "place"
@@ -2263,7 +2424,8 @@
     "sl": "Vodni kub / Nacionalni center za plavanje",
     "tur": "Pekin Ulusal Su Sporları Merkezi",
     "ukr": "Водяний куб / Пекінський національний плавальний комплекс",
-    "rus": "Водяной куб / Пекинский национальный плавательный комплекс"
+    "rus": "Водяной куб / Пекинский национальный плавательный комплекс",
+    "ch": "国家游泳中心（水立方）"
    },
    "population": "chinese",
    "type": "place"
@@ -2277,7 +2439,8 @@
     "sl": "Zahodno jezero / Xi Hu",
     "tur": "Batı Gölü / Xi Hu",
     "ukr": "Західне озеро / Сі Ху",
-    "rus": "Западное озеро / Сиху"
+    "rus": "Западное озеро / Сиху",
+    "ch": "西湖"
    },
    "population": "chinese",
    "type": "place"
@@ -2291,7 +2454,8 @@
     "sl": "Ermitaž",
     "tur": "Ermitaj Müzesi",
     "ukr": "Ермітаж",
-    "rus": "Эрмитаж"
+    "rus": "Эрмитаж",
+    "ch": "冬宫博物馆（艾尔米塔什博物馆）"
    },
    "population": "global",
    "type": "place"
@@ -2305,7 +2469,8 @@
     "sl": "Stolp Rumeni žerjav",
     "tur": "Sarı Vinç Kulesi",
     "ukr": "Хуанхелоу",
-    "rus": "Башня Жёлтого журавля"
+    "rus": "Башня Жёлтого журавля",
+    "ch": "黄鹤楼"
    },
    "population": "chinese",
    "type": "place"
@@ -2319,7 +2484,8 @@
     "sl": "Hava Mahal",
     "tur": "Hawa Mahal",
     "ukr": "Гава-Магал",
-    "rus": "Хава-Махал"
+    "rus": "Хава-Махал",
+    "ch": "风之宫"
    },
    "population": "Indian",
    "type": "place"
@@ -2333,7 +2499,8 @@
     "sl": "Indijska vrata",
     "tur": "Hindistan Kapısı",
     "ukr": "Брама Індії",
-    "rus": "Ворота Индии"
+    "rus": "Ворота Индии",
+    "ch": "印度门"
    },
    "population": "Indian",
    "type": "place"
@@ -2347,7 +2514,8 @@
     "sl": "Lotusov tempelj",
     "tur": "Nilüfer Tapınağı",
     "ukr": "Храм Лотоса",
-    "rus": "Храм Лотоса"
+    "rus": "Храм Лотоса",
+    "ch": "莲花寺"
    },
    "population": "Indian",
    "type": "place"
@@ -2361,7 +2529,8 @@
     "sl": "Hotel Taj Mahal Palace",
     "tur": "Taj Mahal Palace Oteli",
     "ukr": "Готель «Тадж-Махал-Палас»",
-    "rus": "Отель «Тадж-Махал Палас»"
+    "rus": "Отель «Тадж-Махал Палас»",
+    "ch": "泰姬陵宫酒店"
    },
    "population": "Indian",
    "type": "place"
@@ -2375,7 +2544,8 @@
     "sl": "Victoria Memorial",
     "tur": "Victoria Anıtı",
     "ukr": "Меморіал Вікторії",
-    "rus": "Мемориал Виктории"
+    "rus": "Мемориал Виктории",
+    "ch": "维多利亚纪念堂"
    },
    "population": "Indian",
    "type": "place"
@@ -2389,7 +2559,8 @@
     "sl": "Adam Sandler",
     "tur": "Adam Sandler",
     "ukr": "Адам Сендлер",
-    "rus": "Адам Сэндлер"
+    "rus": "Адам Сэндлер",
+    "ch": "亚当·桑德勒"
    },
    "population": "global",
    "type": "person"
@@ -2403,7 +2574,8 @@
     "sl": "Adele",
     "tur": "Adele",
     "ukr": "Адель",
-    "rus": "Адель"
+    "rus": "Адель",
+    "ch": "阿黛尔"
    },
    "population": "global",
    "type": "person"
@@ -2417,7 +2589,8 @@
     "sl": "Alicia Keys",
     "tur": "Alicia Keys",
     "ukr": "Аліша Кіз",
-    "rus": "Алиша Киз"
+    "rus": "Алиша Киз",
+    "ch": "艾丽西亚·凯斯"
    },
    "population": "global",
    "type": "person"
@@ -2431,7 +2604,8 @@
     "sl": "Andy Murray",
     "tur": "Andy Murray",
     "ukr": "Енді Маррей",
-    "rus": "Энди Маррей"
+    "rus": "Энди Маррей",
+    "ch": "安迪·穆雷"
    },
    "population": "global",
    "type": "person"
@@ -2445,7 +2619,8 @@
     "sl": "Angela Merkel",
     "tur": "Angela Merkel",
     "ukr": "Ангела Меркель",
-    "rus": "Ангела Меркель"
+    "rus": "Ангела Меркель",
+    "ch": "安格拉·默克尔"
    },
    "population": "global",
    "type": "person"
@@ -2459,7 +2634,8 @@
     "sl": "Angelina Jolie",
     "tur": "Angelina Jolie",
     "ukr": "Анджеліна Джолі",
-    "rus": "Анджелина Джоли"
+    "rus": "Анджелина Джоли",
+    "ch": "安吉丽娜·朱莉"
    },
    "population": "global",
    "type": "person"
@@ -2473,7 +2649,8 @@
     "sl": "Anne Hathaway",
     "tur": "Anne Hathaway",
     "ukr": "Енн Гетевей",
-    "rus": "Энн Хэтэуэй"
+    "rus": "Энн Хэтэуэй",
+    "ch": "安妮·海瑟薇"
    },
    "population": "global",
    "type": "person"
@@ -2487,7 +2664,8 @@
     "sl": "Anthony Hopkins",
     "tur": "Anthony Hopkins",
     "ukr": "Ентоні Гопкінс",
-    "rus": "Энтони Хопкинс"
+    "rus": "Энтони Хопкинс",
+    "ch": "安东尼·霍普金斯"
    },
    "population": "global",
    "type": "person"
@@ -2501,7 +2679,8 @@
     "sl": "Antonio Banderas",
     "tur": "Antonio Banderas",
     "ukr": "Антоніо Бандерас",
-    "rus": "Антонио Бандерас"
+    "rus": "Антонио Бандерас",
+    "ch": "安东尼奥·班德拉斯"
    },
    "population": "global",
    "type": "person"
@@ -2515,7 +2694,8 @@
     "sl": "Ariana Grande",
     "tur": "Ariana Grande",
     "ukr": "Аріана Гранде",
-    "rus": "Ариана Гранде"
+    "rus": "Ариана Гранде",
+    "ch": "爱莉安娜·格兰德"
    },
    "population": "global",
    "type": "person"
@@ -2529,7 +2709,8 @@
     "sl": "Arnold Schwarzenegger",
     "tur": "Arnold Schwarzenegger",
     "ukr": "Арнольд Шварценеггер",
-    "rus": "Арнольд Шварценеггер"
+    "rus": "Арнольд Шварценеггер",
+    "ch": "阿诺德·施瓦辛格"
    },
    "population": "global",
    "type": "person"
@@ -2543,7 +2724,8 @@
     "sl": "Avril Lavigne",
     "tur": "Avril Lavigne",
     "ukr": "Авріл Лавін",
-    "rus": "Аврил Лавин"
+    "rus": "Аврил Лавин",
+    "ch": "艾薇儿·拉维尼"
    },
    "population": "global",
    "type": "person"
@@ -2557,7 +2739,8 @@
     "sl": "Bad Bunny",
     "tur": "Bad Bunny",
     "ukr": "Bad Bunny",
-    "rus": "Bad Bunny"
+    "rus": "Bad Bunny",
+    "ch": "巴德·邦尼"
    },
    "population": "global",
    "type": "person"
@@ -2571,7 +2754,8 @@
     "sl": "Barack Obama",
     "tur": "Barack Obama",
     "ukr": "Барак Обама",
-    "rus": "Барак Обама"
+    "rus": "Барак Обама",
+    "ch": "巴拉克·奥巴马"
    },
    "population": "global",
    "type": "person"
@@ -2585,7 +2769,8 @@
     "sl": "Barbara Schöneberger",
     "tur": "Barbara Schöneberger",
     "ukr": "Барбара Шонеберґер",
-    "rus": "Барбара Шёнебергер"
+    "rus": "Барбара Шёнебергер",
+    "ch": "芭芭拉·舍内贝格尔"
    },
    "population": "german",
    "type": "person"
@@ -2599,7 +2784,8 @@
     "sl": "Bastian Schweinsteiger",
     "tur": "Bastian Schweinsteiger",
     "ukr": "Бастіан Швайнштайгер",
-    "rus": "Бастиан Швайнштайгер"
+    "rus": "Бастиан Швайнштайгер",
+    "ch": "巴斯蒂安·施魏因施泰格"
    },
    "population": "german",
    "type": "person"
@@ -2613,7 +2799,8 @@
     "sl": "Benedict Cumberbatch",
     "tur": "Benedict Cumberbatch",
     "ukr": "Бенедикт Камбербетч",
-    "rus": "Бенедикт Камбербэтч"
+    "rus": "Бенедикт Камбербэтч",
+    "ch": "本尼迪克特·康伯巴奇"
    },
    "population": "global",
    "type": "person"
@@ -2627,7 +2814,8 @@
     "sl": "Beyoncé",
     "tur": "Beyoncé",
     "ukr": "Бейонсе",
-    "rus": "Бейонсе"
+    "rus": "Бейонсе",
+    "ch": "碧昂丝"
    },
    "population": "global",
    "type": "person"
@@ -2641,7 +2829,8 @@
     "sl": "Bill Gates",
     "tur": "Bill Gates",
     "ukr": "Білл Гейтс",
-    "rus": "Билл Гейтс"
+    "rus": "Билл Гейтс",
+    "ch": "比尔·盖茨"
    },
    "population": "global",
    "type": "person"
@@ -2655,7 +2844,8 @@
     "sl": "Billie Eilish",
     "tur": "Billie Eilish",
     "ukr": "Біллі Айліш",
-    "rus": "Билли Айлиш"
+    "rus": "Билли Айлиш",
+    "ch": "比莉·艾利什"
    },
    "population": "global",
    "type": "person"
@@ -2669,7 +2859,8 @@
     "sl": "Bono",
     "tur": "Bono",
     "ukr": "Боно",
-    "rus": "Боно"
+    "rus": "Боно",
+    "ch": "波诺"
    },
    "population": "global",
    "type": "person"
@@ -2683,7 +2874,8 @@
     "sl": "Boris Becker",
     "tur": "Boris Becker",
     "ukr": "Борис Бекер",
-    "rus": "Борис Беккер"
+    "rus": "Борис Беккер",
+    "ch": "鲍里斯·贝克尔"
    },
    "population": "german",
    "type": "person"
@@ -2697,7 +2889,8 @@
     "sl": "Brad Pitt",
     "tur": "Brad Pitt",
     "ukr": "Бред Пітт",
-    "rus": "Брэд Питт"
+    "rus": "Брэд Питт",
+    "ch": "布拉德·皮特"
    },
    "population": "global",
    "type": "person"
@@ -2711,7 +2904,8 @@
     "sl": "Branko Đurić \"Đuro\"",
     "tur": "Branko Đurić \"Đuro\"",
     "ukr": "Бранко Джурич «Джуро»",
-    "rus": "Бранко Джурич («Джуро»)"
+    "rus": "Бранко Джурич («Джуро»)",
+    "ch": "布兰科·久里奇（“久罗”）"
    },
    "population": "slovenian",
    "type": "person"
@@ -2725,7 +2919,8 @@
     "sl": "Britney Spears",
     "tur": "Britney Spears",
     "ukr": "Брітні Спірс",
-    "rus": "Бритни Спирс"
+    "rus": "Бритни Спирс",
+    "ch": "布兰妮·斯皮尔斯"
    },
    "population": "global",
    "type": "person"
@@ -2739,7 +2934,8 @@
     "sl": "Cameron Diaz",
     "tur": "Cameron Diaz",
     "ukr": "Кемерон Діас",
-    "rus": "Кэмерон Диас"
+    "rus": "Кэмерон Диас",
+    "ch": "卡梅隆·迪亚兹"
    },
    "population": "global",
    "type": "person"
@@ -2753,7 +2949,8 @@
     "sl": "Camila Cabello",
     "tur": "Camila Cabello",
     "ukr": "Каміла Кабельйо",
-    "rus": "Камила Кабельо"
+    "rus": "Камила Кабельо",
+    "ch": "卡米拉·卡贝洛"
    },
    "population": "global",
    "type": "person"
@@ -2767,7 +2964,8 @@
     "sl": "Cate Blanchett",
     "tur": "Cate Blanchett",
     "ukr": "Кейт Бланшетт",
-    "rus": "Кейт Бланшетт"
+    "rus": "Кейт Бланшетт",
+    "ch": "凯特·布兰切特"
    },
    "population": "global",
    "type": "person"
@@ -2781,7 +2979,8 @@
     "sl": "Charlize Theron",
     "tur": "Charlize Theron",
     "ukr": "Шарліз Терон",
-    "rus": "Шарлиз Терон"
+    "rus": "Шарлиз Терон",
+    "ch": "查理兹·塞隆"
    },
    "population": "global",
    "type": "person"
@@ -2795,7 +2994,8 @@
     "sl": "Chris Evans",
     "tur": "Chris Evans",
     "ukr": "Кріс Еванс",
-    "rus": "Крис Эванс"
+    "rus": "Крис Эванс",
+    "ch": "克里斯·埃文斯"
    },
    "population": "global",
    "type": "person"
@@ -2809,7 +3009,8 @@
     "sl": "Chris Hemsworth",
     "tur": "Chris Hemsworth",
     "ukr": "Кріс Гемсворт",
-    "rus": "Крис Хемсворт"
+    "rus": "Крис Хемсворт",
+    "ch": "克里斯·海姆斯沃斯"
    },
    "population": "global",
    "type": "person"
@@ -2823,7 +3024,8 @@
     "sl": "Christina Aguilera",
     "tur": "Christina Aguilera",
     "ukr": "Крістіна Агілера",
-    "rus": "Кристина Агилера"
+    "rus": "Кристина Агилера",
+    "ch": "克里斯蒂娜·阿奎莱拉"
    },
    "population": "global",
    "type": "person"
@@ -2837,7 +3039,8 @@
     "sl": "Christoph Waltz",
     "tur": "Christoph Waltz",
     "ukr": "Крістоф Вальц",
-    "rus": "Кристоф Вальц"
+    "rus": "Кристоф Вальц",
+    "ch": "克里斯托弗·瓦尔兹"
    },
    "population": "german",
    "type": "person"
@@ -2851,7 +3054,8 @@
     "sl": "Cillian Murphy",
     "tur": "Cillian Murphy",
     "ukr": "Кілліан Мерфі",
-    "rus": "Киллиан Мерфи"
+    "rus": "Киллиан Мерфи",
+    "ch": "基里安·墨菲"
    },
    "population": "global",
    "type": "person"
@@ -2865,7 +3069,8 @@
     "sl": "Colin Firth",
     "tur": "Colin Firth",
     "ukr": "Колін Ферт",
-    "rus": "Колин Ферт"
+    "rus": "Колин Ферт",
+    "ch": "科林·费尔斯"
    },
    "population": "global",
    "type": "person"
@@ -2879,7 +3084,8 @@
     "sl": "Cristiano Ronaldo",
     "tur": "Cristiano Ronaldo",
     "ukr": "Кріштіану Роналду",
-    "rus": "Криштиану Роналду"
+    "rus": "Криштиану Роналду",
+    "ch": "克里斯蒂亚诺·罗纳尔多"
    },
    "population": "global",
    "type": "person"
@@ -2893,7 +3099,8 @@
     "sl": "Daniel Radcliffe",
     "tur": "Daniel Radcliffe",
     "ukr": "Денієл Редкліфф",
-    "rus": "Дэниел Рэдклифф"
+    "rus": "Дэниел Рэдклифф",
+    "ch": "丹尼尔·雷德克里夫"
    },
    "population": "global",
    "type": "person"
@@ -2907,7 +3114,8 @@
     "sl": "David Beckham",
     "tur": "David Beckham",
     "ukr": "Девід Бекхем",
-    "rus": "Дэвид Бекхэм"
+    "rus": "Дэвид Бекхэм",
+    "ch": "大卫·贝克汉姆"
    },
    "population": "global",
    "type": "person"
@@ -2921,7 +3129,8 @@
     "sl": "Denis Avdić",
     "tur": "Denis Avdić",
     "ukr": "Деніс Авдич",
-    "rus": "Денис Авдич"
+    "rus": "Денис Авдич",
+    "ch": "丹尼斯·阿夫迪奇"
    },
    "population": "slovenian",
    "type": "person"
@@ -2935,7 +3144,8 @@
     "sl": "Dieter Bohlen",
     "tur": "Dieter Bohlen",
     "ukr": "Дітер Болен",
-    "rus": "Дитер Болен"
+    "rus": "Дитер Болен",
+    "ch": "迪特·博伦"
    },
    "population": "german",
    "type": "person"
@@ -2949,7 +3159,8 @@
     "sl": "Doja Cat",
     "tur": "Doja Cat",
     "ukr": "Доджа Кет",
-    "rus": "Doja Cat"
+    "rus": "Doja Cat",
+    "ch": "多娅·凯特"
    },
    "population": "global",
    "type": "person"
@@ -2963,7 +3174,8 @@
     "sl": "Dolly Parton",
     "tur": "Dolly Parton",
     "ukr": "Доллі Партон",
-    "rus": "Долли Партон"
+    "rus": "Долли Партон",
+    "ch": "多莉·帕顿"
    },
    "population": "global",
    "type": "person"
@@ -2977,7 +3189,8 @@
     "sl": "Donald Trump",
     "tur": "Donald Trump",
     "ukr": "Дональд Трамп",
-    "rus": "Дональд Трамп"
+    "rus": "Дональд Трамп",
+    "ch": "唐纳德·特朗普"
    },
    "population": "global",
    "type": "person"
@@ -2991,7 +3204,8 @@
     "sl": "Drew Barrymore",
     "tur": "Drew Barrymore",
     "ukr": "Дрю Беррімор",
-    "rus": "Дрю Бэрримор"
+    "rus": "Дрю Бэрримор",
+    "ch": "德鲁·巴里摩尔"
    },
    "population": "global",
    "type": "person"
@@ -3005,7 +3219,8 @@
     "sl": "Dua Lipa",
     "tur": "Dua Lipa",
     "ukr": "Дуа Ліпа",
-    "rus": "Дуа Липа"
+    "rus": "Дуа Липа",
+    "ch": "杜阿·利帕"
    },
    "population": "global",
    "type": "person"
@@ -3019,7 +3234,8 @@
     "sl": "Dwayne Johnson",
     "tur": "Dwayne Johnson",
     "ukr": "Двейн Джонсон",
-    "rus": "Дуэйн Джонсон"
+    "rus": "Дуэйн Джонсон",
+    "ch": "道恩·强森（“巨石”强森）"
    },
    "population": "global",
    "type": "person"
@@ -3033,7 +3249,8 @@
     "sl": "Ed Sheeran",
     "tur": "Ed Sheeran",
     "ukr": "Ед Ширан",
-    "rus": "Эд Ширан"
+    "rus": "Эд Ширан",
+    "ch": "艾德·希兰"
    },
    "population": "global",
    "type": "person"
@@ -3047,7 +3264,8 @@
     "sl": "Eddie Murphy",
     "tur": "Eddie Murphy",
     "ukr": "Едді Мерфі",
-    "rus": "Эдди Мерфи"
+    "rus": "Эдди Мерфи",
+    "ch": "艾迪·墨菲"
    },
    "population": "global",
    "type": "person"
@@ -3061,7 +3279,8 @@
     "sl": "Elon Musk",
     "tur": "Elon Musk",
     "ukr": "Ілон Маск",
-    "rus": "Илон Маск"
+    "rus": "Илон Маск",
+    "ch": "埃隆·马斯克"
    },
    "population": "global",
    "type": "person"
@@ -3075,7 +3294,8 @@
     "sl": "Elton John",
     "tur": "Elton John",
     "ukr": "Елтон Джон",
-    "rus": "Элтон Джон"
+    "rus": "Элтон Джон",
+    "ch": "埃尔顿·约翰"
    },
    "population": "global",
    "type": "person"
@@ -3089,7 +3309,8 @@
     "sl": "Elvis Presley",
     "tur": "Elvis Presley",
     "ukr": "Елвіс Преслі",
-    "rus": "Элвис Пресли"
+    "rus": "Элвис Пресли",
+    "ch": "埃尔维斯·普雷斯利"
    },
    "population": "global",
    "type": "person"
@@ -3103,7 +3324,8 @@
     "sl": "Emilia Clarke",
     "tur": "Emilia Clarke",
     "ukr": "Емілія Кларк",
-    "rus": "Эмилия Кларк"
+    "rus": "Эмилия Кларк",
+    "ch": "艾米莉亚·克拉克"
    },
    "population": "global",
    "type": "person"
@@ -3117,7 +3339,8 @@
     "sl": "Eminem",
     "tur": "Eminem",
     "ukr": "Емінем",
-    "rus": "Эминем"
+    "rus": "Эминем",
+    "ch": "埃米纳姆"
    },
    "population": "global",
    "type": "person"
@@ -3131,7 +3354,8 @@
     "sl": "Emma Stone",
     "tur": "Emma Stone",
     "ukr": "Емма Стоун",
-    "rus": "Эмма Стоун"
+    "rus": "Эмма Стоун",
+    "ch": "艾玛·斯通"
    },
    "population": "global",
    "type": "person"
@@ -3145,7 +3369,8 @@
     "sl": "Emma Thompson",
     "tur": "Emma Thompson",
     "ukr": "Емма Томпсон",
-    "rus": "Эмма Томпсон"
+    "rus": "Эмма Томпсон",
+    "ch": "艾玛·汤普森"
    },
    "population": "global",
    "type": "person"
@@ -3159,7 +3384,8 @@
     "sl": "Emma Watson",
     "tur": "Emma Watson",
     "ukr": "Емма Вотсон",
-    "rus": "Эмма Уотсон"
+    "rus": "Эмма Уотсон",
+    "ch": "艾玛·沃森"
    },
    "population": "global",
    "type": "person"
@@ -3173,7 +3399,8 @@
     "sl": "Erling Haaland",
     "tur": "Erling Haaland",
     "ukr": "Ерлінг Голанн",
-    "rus": "Эрлинг Холанд"
+    "rus": "Эрлинг Холанд",
+    "ch": "埃尔林·哈兰德"
    },
    "population": "global",
    "type": "person"
@@ -3187,7 +3414,8 @@
     "sl": "Fernando Alonso",
     "tur": "Fernando Alonso",
     "ukr": "Фернандо Алонсо",
-    "rus": "Фернандо Алонсо"
+    "rus": "Фернандо Алонсо",
+    "ch": "费尔南多·阿隆索"
    },
    "population": "global",
    "type": "person"
@@ -3201,7 +3429,8 @@
     "sl": "Freddie Mercury",
     "tur": "Freddie Mercury",
     "ukr": "Фредді Мерк'юрі",
-    "rus": "Фредди Меркьюри"
+    "rus": "Фредди Меркьюри",
+    "ch": "弗雷迪·默丘里"
    },
    "population": "global",
    "type": "person"
@@ -3215,7 +3444,8 @@
     "sl": "George Clooney",
     "tur": "George Clooney",
     "ukr": "Джордж Клуні",
-    "rus": "Джордж Клуни"
+    "rus": "Джордж Клуни",
+    "ch": "乔治·克鲁尼"
    },
    "population": "global",
    "type": "person"
@@ -3229,7 +3459,8 @@
     "sl": "Goran Dragić",
     "tur": "Goran Dragić",
     "ukr": "Горан Драгич",
-    "rus": "Горан Драгич"
+    "rus": "Горан Драгич",
+    "ch": "戈兰·德拉季奇"
    },
    "population": "slovenian",
    "type": "person"
@@ -3243,7 +3474,8 @@
     "sl": "Gordon Ramsay",
     "tur": "Gordon Ramsay",
     "ukr": "Гордон Рамзі",
-    "rus": "Гордон Рамзи"
+    "rus": "Гордон Рамзи",
+    "ch": "戈登·拉姆齐"
    },
    "population": "global",
    "type": "person"
@@ -3256,8 +3488,9 @@
     "de": "Greta Thunberg",
     "sl": "Greta Thunberg",
     "tur": "Greta Thunberg",
-    "ukr": "рета Тунберг",
-    "rus": "Грета Тунберг"
+    "ukr": "Ґрета Тунберг",
+    "rus": "Грета Тунберг",
+    "ch": "格蕾塔·通贝里"
    },
    "population": "global",
    "type": "person"
@@ -3271,7 +3504,8 @@
     "sl": "Günther Jauch",
     "tur": "Günther Jauch",
     "ukr": "Гюнтер Яух",
-    "rus": "Гюнтер Яух"
+    "rus": "Гюнтер Яух",
+    "ch": "京特·尧赫"
    },
    "population": "german",
    "type": "person"
@@ -3285,7 +3519,8 @@
     "sl": "Gwen Stefani",
     "tur": "Gwen Stefani",
     "ukr": "Гвен Стефані",
-    "rus": "Гвен Стефани"
+    "rus": "Гвен Стефани",
+    "ch": "格温·史蒂芬妮"
    },
    "population": "global",
    "type": "person"
@@ -3299,7 +3534,8 @@
     "sl": "Halle Berry",
     "tur": "Halle Berry",
     "ukr": "Геллі Беррі",
-    "rus": "Холли Берри"
+    "rus": "Холли Берри",
+    "ch": "哈莉·贝瑞"
    },
    "population": "global",
    "type": "person"
@@ -3313,7 +3549,8 @@
     "sl": "Harald Schmidt",
     "tur": "Harald Schmidt",
     "ukr": "Гаральд Шмідт",
-    "rus": "Харальд Шмидт"
+    "rus": "Харальд Шмидт",
+    "ch": "哈拉尔德·施密特"
    },
    "population": "german",
    "type": "person"
@@ -3327,7 +3564,8 @@
     "sl": "Harrison Ford",
     "tur": "Harrison Ford",
     "ukr": "Гаррісон Форд",
-    "rus": "Харрисон Форд"
+    "rus": "Харрисон Форд",
+    "ch": "哈里森·福特"
    },
    "population": "global",
    "type": "person"
@@ -3341,7 +3579,8 @@
     "sl": "Harry Styles",
     "tur": "Harry Styles",
     "ukr": "Гаррі Стайлс",
-    "rus": "Гарри Стайлс"
+    "rus": "Гарри Стайлс",
+    "ch": "哈里·斯泰尔斯"
    },
    "population": "global",
    "type": "person"
@@ -3355,7 +3594,8 @@
     "sl": "Hayden Christensen",
     "tur": "Hayden Christensen",
     "ukr": "Гайден Крістенсен",
-    "rus": "Хейден Кристенсен"
+    "rus": "Хейден Кристенсен",
+    "ch": "海登·克里斯滕森"
    },
    "population": "global",
    "type": "person"
@@ -3369,7 +3609,8 @@
     "sl": "Helen Mirren",
     "tur": "Helen Mirren",
     "ukr": "Гелен Міррен",
-    "rus": "Хелен Миррен"
+    "rus": "Хелен Миррен",
+    "ch": "海伦·米伦"
    },
    "population": "global",
    "type": "person"
@@ -3383,7 +3624,8 @@
     "sl": "Helene Fischer",
     "tur": "Helene Fischer",
     "ukr": "Гелена Фішер",
-    "rus": "Хелена Фишер"
+    "rus": "Хелена Фишер",
+    "ch": "海伦·菲舍尔"
    },
    "population": "german",
    "type": "person"
@@ -3397,7 +3639,8 @@
     "sl": "Herbert Grönemeyer",
     "tur": "Herbert Grönemeyer",
     "ukr": "Герберт Гренемаєр",
-    "rus": "Герберт Грёнемайер"
+    "rus": "Герберт Грёнемайер",
+    "ch": "赫伯特·格勒内迈尔"
    },
    "population": "german",
    "type": "person"
@@ -3411,7 +3654,8 @@
     "sl": "Hugh Grant",
     "tur": "Hugh Grant",
     "ukr": "Г'ю Ґрант",
-    "rus": "Хью Грант"
+    "rus": "Хью Грант",
+    "ch": "休·格兰特"
    },
    "population": "global",
    "type": "person"
@@ -3425,7 +3669,8 @@
     "sl": "Hugh Jackman",
     "tur": "Hugh Jackman",
     "ukr": "Г'ю Джекман",
-    "rus": "Хью Джекман"
+    "rus": "Хью Джекман",
+    "ch": "休·杰克曼"
    },
    "population": "global",
    "type": "person"
@@ -3439,7 +3684,8 @@
     "sl": "Idris Elba",
     "tur": "Idris Elba",
     "ukr": "Ідріс Ельба",
-    "rus": "Идрис Эльба"
+    "rus": "Идрис Эльба",
+    "ch": "伊德瑞斯·艾尔巴"
    },
    "population": "global",
    "type": "person"
@@ -3453,7 +3699,8 @@
     "sl": "Jamal Musiala",
     "tur": "Jamal Musiala",
     "ukr": "Джамал Мусіала",
-    "rus": "Джамал Мусиала"
+    "rus": "Джамал Мусиала",
+    "ch": "贾马尔·穆夏拉"
    },
    "population": "german",
    "type": "person"
@@ -3467,7 +3714,8 @@
     "sl": "Jan Plestenjak",
     "tur": "Jan Plestenjak",
     "ukr": "Ян Плестеняк",
-    "rus": "Ян Плестеняк"
+    "rus": "Ян Плестеняк",
+    "ch": "扬·普莱斯滕亚克"
    },
    "population": "slovenian",
    "type": "person"
@@ -3481,7 +3729,8 @@
     "sl": "Jenna Ortega",
     "tur": "Jenna Ortega",
     "ukr": "Дженна Ортега",
-    "rus": "Дженна Ортега"
+    "rus": "Дженна Ортега",
+    "ch": "珍娜·奥特加"
    },
    "population": "global",
    "type": "person"
@@ -3495,7 +3744,8 @@
     "sl": "Jennifer Aniston",
     "tur": "Jennifer Aniston",
     "ukr": "Дженніфер Еністон",
-    "rus": "Дженнифер Энистон"
+    "rus": "Дженнифер Энистон",
+    "ch": "詹妮弗·安妮斯顿"
    },
    "population": "global",
    "type": "person"
@@ -3509,7 +3759,8 @@
     "sl": "Jennifer Lawrence",
     "tur": "Jennifer Lawrence",
     "ukr": "Дженніфер Лоренс",
-    "rus": "Дженнифер Лоуренс"
+    "rus": "Дженнифер Лоуренс",
+    "ch": "詹妮弗·劳伦斯"
    },
    "population": "global",
    "type": "person"
@@ -3523,7 +3774,8 @@
     "sl": "Jennifer Lopez",
     "tur": "Jennifer Lopez",
     "ukr": "Дженніфер Лопес",
-    "rus": "Дженнифер Лопес"
+    "rus": "Дженнифер Лопес",
+    "ch": "詹妮弗·洛佩兹"
    },
    "population": "global",
    "type": "person"
@@ -3537,7 +3789,8 @@
     "sl": "Jim Carrey",
     "tur": "Jim Carrey",
     "ukr": "Джим Керрі",
-    "rus": "Джим Керри"
+    "rus": "Джим Керри",
+    "ch": "金·凯瑞"
    },
    "population": "global",
    "type": "person"
@@ -3551,7 +3804,8 @@
     "sl": "Jodie Foster",
     "tur": "Jodie Foster",
     "ukr": "Джоді Фостер",
-    "rus": "Джоди Фостер"
+    "rus": "Джоди Фостер",
+    "ch": "朱迪·福斯特"
    },
    "population": "global",
    "type": "person"
@@ -3565,7 +3819,8 @@
     "sl": "Johnny Depp",
     "tur": "Johnny Depp",
     "ukr": "Джонні Депп",
-    "rus": "Джонни Депп"
+    "rus": "Джонни Депп",
+    "ch": "约翰尼·德普"
    },
    "population": "global",
    "type": "person"
@@ -3579,7 +3834,8 @@
     "sl": "Jon Bon Jovi",
     "tur": "Jon Bon Jovi",
     "ukr": "Джон Бон Джові",
-    "rus": "Джон Бон Джови"
+    "rus": "Джон Бон Джови",
+    "ch": "乔恩·邦·乔维"
    },
    "population": "global",
    "type": "person"
@@ -3593,7 +3849,8 @@
     "sl": "Jude Bellingham",
     "tur": "Jude Bellingham",
     "ukr": "Джуд Беллінгем",
-    "rus": "Джуд Беллингем"
+    "rus": "Джуд Беллингем",
+    "ch": "祖德·贝林厄姆"
    },
    "population": "global",
    "type": "person"
@@ -3607,7 +3864,8 @@
     "sl": "Julia Roberts",
     "tur": "Julia Roberts",
     "ukr": "Джулія Робертс",
-    "rus": "Джулия Робертс"
+    "rus": "Джулия Робертс",
+    "ch": "朱莉娅·罗伯茨"
    },
    "population": "global",
    "type": "person"
@@ -3621,7 +3879,8 @@
     "sl": "Jürgen Klopp",
     "tur": "Jürgen Klopp",
     "ukr": "Юрген Клопп",
-    "rus": "Юрген Клопп"
+    "rus": "Юрген Клопп",
+    "ch": "尤尔根·克洛普"
    },
    "population": "german",
    "type": "person"
@@ -3635,7 +3894,8 @@
     "sl": "Jurij Zrnec",
     "tur": "Jurij Zrnec",
     "ukr": "Юрій Зрнец",
-    "rus": "Юрий Зрнец"
+    "rus": "Юрий Зрнец",
+    "ch": "尤里·兹尔内茨"
    },
    "population": "slovenian",
    "type": "person"
@@ -3649,7 +3909,8 @@
     "sl": "Justin Bieber",
     "tur": "Justin Bieber",
     "ukr": "Джастін Бібер",
-    "rus": "Джастин Бибер"
+    "rus": "Джастин Бибер",
+    "ch": "贾斯汀·比伯"
    },
    "population": "global",
    "type": "person"
@@ -3663,7 +3924,8 @@
     "sl": "Kanye West",
     "tur": "Kanye West",
     "ukr": "Каньє Вест",
-    "rus": "Канье Уэст"
+    "rus": "Канье Уэст",
+    "ch": "坎耶·韦斯特"
    },
    "population": "global",
    "type": "person"
@@ -3677,7 +3939,8 @@
     "sl": "Kate Winslet",
     "tur": "Kate Winslet",
     "ukr": "Кейт Вінслет",
-    "rus": "Кейт Уинслет"
+    "rus": "Кейт Уинслет",
+    "ch": "凯特·温斯莱特"
    },
    "population": "global",
    "type": "person"
@@ -3691,7 +3954,8 @@
     "sl": "Katy Perry",
     "tur": "Katy Perry",
     "ukr": "Кеті Перрі",
-    "rus": "Кэти Перри"
+    "rus": "Кэти Перри",
+    "ch": "凯蒂·佩里"
    },
    "population": "global",
    "type": "person"
@@ -3705,7 +3969,8 @@
     "sl": "Keanu Reeves",
     "tur": "Keanu Reeves",
     "ukr": "Кіану Рівз",
-    "rus": "Киану Ривз"
+    "rus": "Киану Ривз",
+    "ch": "基努·里维斯"
    },
    "population": "global",
    "type": "person"
@@ -3719,7 +3984,8 @@
     "sl": "Keira Knightley",
     "tur": "Keira Knightley",
     "ukr": "Кіра Найтлі",
-    "rus": "Кира Найтли"
+    "rus": "Кира Найтли",
+    "ch": "凯拉·奈特莉"
    },
    "population": "global",
    "type": "person"
@@ -3733,7 +3999,8 @@
     "sl": "Kim Kardashian",
     "tur": "Kim Kardashian",
     "ukr": "Кім Кардаш'ян",
-    "rus": "Ким Кардашьян"
+    "rus": "Ким Кардашьян",
+    "ch": "金·卡戴珊"
    },
    "population": "global",
    "type": "person"
@@ -3747,7 +4014,8 @@
     "sl": "Kylian Mbappé",
     "tur": "Kylian Mbappe",
     "ukr": "Кіліан Мбаппе",
-    "rus": "Килиан Мбаппе"
+    "rus": "Килиан Мбаппе",
+    "ch": "基利安·姆巴佩"
    },
    "population": "global",
    "type": "person"
@@ -3761,7 +4029,8 @@
     "sl": "Kylie Minogue",
     "tur": "Kylie Minogue",
     "ukr": "Кайлі Міноуг",
-    "rus": "Кайли Миноуг"
+    "rus": "Кайли Миноуг",
+    "ch": "凯莉·米洛"
    },
    "population": "global",
    "type": "person"
@@ -3775,7 +4044,8 @@
     "sl": "Lady Gaga",
     "tur": "Lady Gaga",
     "ukr": "Леді Гага",
-    "rus": "Леди Гага"
+    "rus": "Леди Гага",
+    "ch": "嘎嘎小姐"
    },
    "population": "global",
    "type": "person"
@@ -3789,7 +4059,8 @@
     "sl": "LeBron James",
     "tur": "LeBron James",
     "ukr": "Леброн Джеймс",
-    "rus": "Леброн Джеймс"
+    "rus": "Леброн Джеймс",
+    "ch": "勒布朗·詹姆斯"
    },
    "population": "global",
    "type": "person"
@@ -3803,7 +4074,8 @@
     "sl": "Lena Meyer-Landrut",
     "tur": "Lena Meyer-Landrut",
     "ukr": "Лена Маєр-Ландрут",
-    "rus": "Лена Майер-Ландрут"
+    "rus": "Лена Майер-Ландрут",
+    "ch": "莱娜·迈尔-兰德鲁特"
    },
    "population": "german",
    "type": "person"
@@ -3817,7 +4089,8 @@
     "sl": "Leonardo DiCaprio",
     "tur": "Leonardo DiCaprio",
     "ukr": "Леонардо Ді Капріо",
-    "rus": "Леонардо Ди Каприо"
+    "rus": "Леонардо Ди Каприо",
+    "ch": "莱昂纳多·迪卡普里奥"
    },
    "population": "global",
    "type": "person"
@@ -3831,7 +4104,8 @@
     "sl": "Lewis Capaldi",
     "tur": "Lewis Capaldi",
     "ukr": "Льюїс Капалді",
-    "rus": "Льюис Капальди"
+    "rus": "Льюис Капальди",
+    "ch": "刘易斯·卡帕尔迪"
    },
    "population": "global",
    "type": "person"
@@ -3845,7 +4119,8 @@
     "sl": "Lionel Messi",
     "tur": "Lionel Messi",
     "ukr": "Ліонель Мессі",
-    "rus": "Лионель Месси"
+    "rus": "Лионель Месси",
+    "ch": "利昂内尔·梅西"
    },
    "population": "global",
    "type": "person"
@@ -3859,7 +4134,8 @@
     "sl": "Lothar Matthäus",
     "tur": "Lothar Matthäus",
     "ukr": "Лотар Маттеус",
-    "rus": "Лотар Маттеус"
+    "rus": "Лотар Маттеус",
+    "ch": "洛塔尔·马特乌斯"
    },
    "population": "german",
    "type": "person"
@@ -3873,7 +4149,8 @@
     "sl": "Luka Dončić",
     "tur": "Luka Dončić",
     "ukr": "Лука Дончич",
-    "rus": "Лука Дончич"
+    "rus": "Лука Дончич",
+    "ch": "卢卡·东契奇"
    },
    "population": "slovenian",
    "type": "person"
@@ -3887,7 +4164,8 @@
     "sl": "Lukas Podolski",
     "tur": "Lukas Podolski",
     "ukr": "Лукас Подольскі",
-    "rus": "Лукас Подольски"
+    "rus": "Лукас Подольски",
+    "ch": "卢卡斯·波多尔斯基"
    },
    "population": "german",
    "type": "person"
@@ -3901,7 +4179,8 @@
     "sl": "Madonna",
     "tur": "Madonna",
     "ukr": "Мадонна",
-    "rus": "Мадонна"
+    "rus": "Мадонна",
+    "ch": "麦当娜"
    },
    "population": "global",
    "type": "person"
@@ -3915,7 +4194,8 @@
     "sl": "Manuel Neuer",
     "tur": "Manuel Neuer",
     "ukr": "Мануель Ноєр",
-    "rus": "Мануэль Нойер"
+    "rus": "Мануэль Нойер",
+    "ch": "曼努埃尔·诺伊尔"
    },
    "population": "german",
    "type": "person"
@@ -3929,7 +4209,8 @@
     "sl": "Margot Robbie",
     "tur": "Margot Robbie",
     "ukr": "Марго Роббі",
-    "rus": "Марго Робби"
+    "rus": "Марго Робби",
+    "ch": "玛格特·罗比"
    },
    "population": "global",
    "type": "person"
@@ -3943,7 +4224,8 @@
     "sl": "Mariah Carey",
     "tur": "Mariah Carey",
     "ukr": "Мерая Кері",
-    "rus": "Мэрайя Кэри"
+    "rus": "Мэрайя Кэри",
+    "ch": "玛丽亚·凯莉"
    },
    "population": "global",
    "type": "person"
@@ -3957,7 +4239,8 @@
     "sl": "Marilyn Monroe",
     "tur": "Marilyn Monroe",
     "ukr": "Мерилін Монро",
-    "rus": "Мэрилин Монро"
+    "rus": "Мэрилин Монро",
+    "ch": "玛丽莲·梦露"
    },
    "population": "global",
    "type": "person"
@@ -3971,7 +4254,8 @@
     "sl": "Mark Ruffalo",
     "tur": "Mark Ruffalo",
     "ukr": "Марк Раффало",
-    "rus": "Марк Руффало"
+    "rus": "Марк Руффало",
+    "ch": "马克·鲁法洛"
    },
    "population": "global",
    "type": "person"
@@ -3985,7 +4269,8 @@
     "sl": "Mark Zuckerberg",
     "tur": "Mark Zuckerberg",
     "ukr": "Марк Цукерберг",
-    "rus": "Марк Цукерберг"
+    "rus": "Марк Цукерберг",
+    "ch": "马克·扎克伯格"
    },
    "population": "global",
    "type": "person"
@@ -3999,7 +4284,8 @@
     "sl": "Markus Lanz",
     "tur": "Markus Lanz",
     "ukr": "Маркус Ланц",
-    "rus": "Маркус Ланц"
+    "rus": "Маркус Ланц",
+    "ch": "马库斯·兰茨"
    },
    "population": "german",
    "type": "person"
@@ -4013,7 +4299,8 @@
     "sl": "Matt Damon",
     "tur": "Matt Damon",
     "ukr": "Метт Деймон",
-    "rus": "Мэтт Дэймон"
+    "rus": "Мэтт Дэймон",
+    "ch": "马特·达蒙"
    },
    "population": "global",
    "type": "person"
@@ -4027,7 +4314,8 @@
     "sl": "Matthias Schweighöfer",
     "tur": "Matthias Schweighöfer",
     "ukr": "Маттіас Швайґгефер",
-    "rus": "Маттиас Швайгхёфер"
+    "rus": "Маттиас Швайгхёфер",
+    "ch": "马蒂亚斯·施维赫弗"
    },
    "population": "german",
    "type": "person"
@@ -4041,7 +4329,8 @@
     "sl": "Max Verstappen",
     "tur": "Max Verstappen",
     "ukr": "Макс Ферстаппен",
-    "rus": "Макс Ферстаппен"
+    "rus": "Макс Ферстаппен",
+    "ch": "马克斯·维斯塔潘"
    },
    "population": "global",
    "type": "person"
@@ -4055,7 +4344,8 @@
     "sl": "Melania Trump",
     "tur": "Melania Trump",
     "ukr": "Меланія Трамп",
-    "rus": "Мелания Трамп"
+    "rus": "Мелания Трамп",
+    "ch": "梅拉尼娅·特朗普"
    },
    "population": "slovenian",
    "type": "person"
@@ -4069,7 +4359,8 @@
     "sl": "Meryl Streep",
     "tur": "Meryl Streep",
     "ukr": "Меріл Стріп",
-    "rus": "Мерил Стрип"
+    "rus": "Мерил Стрип",
+    "ch": "梅丽尔·斯特里普"
    },
    "population": "global",
    "type": "person"
@@ -4083,7 +4374,8 @@
     "sl": "Michael Bublé",
     "tur": "Michael Bublé",
     "ukr": "Майкл Бубле",
-    "rus": "Майкл Бубле"
+    "rus": "Майкл Бубле",
+    "ch": "迈克尔·布布莱"
    },
    "population": "global",
    "type": "person"
@@ -4097,7 +4389,8 @@
     "sl": "Michael Jackson",
     "tur": "Michael Jackson",
     "ukr": "Майкл Джексон",
-    "rus": "Майкл Джексон"
+    "rus": "Майкл Джексон",
+    "ch": "迈克尔·杰克逊"
    },
    "population": "global",
    "type": "person"
@@ -4111,7 +4404,8 @@
     "sl": "Michael Jordan",
     "tur": "Michael Jordan",
     "ukr": "Майкл Джордан",
-    "rus": "Майкл Джордан"
+    "rus": "Майкл Джордан",
+    "ch": "迈克尔·乔丹"
    },
    "population": "global",
    "type": "person"
@@ -4125,7 +4419,8 @@
     "sl": "Michael Phelps",
     "tur": "Michael Phelps",
     "ukr": "Майкл Фелпс",
-    "rus": "Майкл Фелпс"
+    "rus": "Майкл Фелпс",
+    "ch": "迈克尔·菲尔普斯"
    },
    "population": "global",
    "type": "person"
@@ -4139,7 +4434,8 @@
     "sl": "Miley Cyrus",
     "tur": "Miley Cyrus",
     "ukr": "Майлі Сайрус",
-    "rus": "Майли Сайрус"
+    "rus": "Майли Сайрус",
+    "ch": "麦莉·赛勒斯"
    },
    "population": "global",
    "type": "person"
@@ -4153,7 +4449,8 @@
     "sl": "Morgan Freeman",
     "tur": "Morgan Freeman",
     "ukr": "Морган Фрімен",
-    "rus": "Морган Фриман"
+    "rus": "Морган Фриман",
+    "ch": "摩根·弗里曼"
    },
    "population": "global",
    "type": "person"
@@ -4167,7 +4464,8 @@
     "sl": "Gospod Bean",
     "tur": "Mr. Bean",
     "ukr": "Містер Бін",
-    "rus": "Мистер Бин"
+    "rus": "Мистер Бин",
+    "ch": "憨豆先生"
    },
    "population": "global",
    "type": "person"
@@ -4181,7 +4479,8 @@
     "sl": "MrBeast",
     "tur": "MrBeast",
     "ukr": "MrBeast",
-    "rus": "Мистер Бист"
+    "rus": "Мистер Бист",
+    "ch": "野兽先生"
    },
    "population": "global",
    "type": "person"
@@ -4195,7 +4494,8 @@
     "sl": "Naomi Osaka",
     "tur": "Naomi Osaka",
     "ukr": "Наомі Осака",
-    "rus": "Наоми Осака"
+    "rus": "Наоми Осака",
+    "ch": "大坂直美"
    },
    "population": "global",
    "type": "person"
@@ -4209,7 +4509,8 @@
     "sl": "Natalie Portman",
     "tur": "Natalie Portman",
     "ukr": "Наталі Портман",
-    "rus": "Натали Портман"
+    "rus": "Натали Портман",
+    "ch": "娜塔莉·波特曼"
    },
    "population": "global",
    "type": "person"
@@ -4223,7 +4524,8 @@
     "sl": "Nena",
     "tur": "Nena",
     "ukr": "Нена",
-    "rus": "Нена"
+    "rus": "Нена",
+    "ch": "妮娜"
    },
    "population": "german",
    "type": "person"
@@ -4237,7 +4539,8 @@
     "sl": "Niall Horan",
     "tur": "Niall Horan",
     "ukr": "Найл Горан",
-    "rus": "Найл Хоран"
+    "rus": "Найл Хоран",
+    "ch": "尼尔·霍兰"
    },
    "population": "global",
    "type": "person"
@@ -4251,7 +4554,8 @@
     "sl": "Nicolas Cage",
     "tur": "Nicolas Cage",
     "ukr": "Ніколас Кейдж",
-    "rus": "Николас Кейдж"
+    "rus": "Николас Кейдж",
+    "ch": "尼古拉斯·凯奇"
    },
    "population": "global",
    "type": "person"
@@ -4265,7 +4569,8 @@
     "sl": "Nicole Kidman",
     "tur": "Nicole Kidman",
     "ukr": "Ніколь Кідман",
-    "rus": "Николь Кидман"
+    "rus": "Николь Кидман",
+    "ch": "妮可·基德曼"
    },
    "population": "global",
    "type": "person"
@@ -4279,7 +4584,8 @@
     "sl": "Oliver Kahn",
     "tur": "Oliver Kahn",
     "ukr": "Олівер Кан",
-    "rus": "Оливер Кан"
+    "rus": "Оливер Кан",
+    "ch": "奥利弗·卡恩"
    },
    "population": "german",
    "type": "person"
@@ -4293,7 +4599,8 @@
     "sl": "Olivia Rodrigo",
     "tur": "Olivia Rodrigo",
     "ukr": "Олівія Родріґо",
-    "rus": "Оливия Родриго"
+    "rus": "Оливия Родриго",
+    "ch": "奥利维亚·罗德里戈"
    },
    "population": "global",
    "type": "person"
@@ -4307,7 +4614,8 @@
     "sl": "Orlando Bloom",
     "tur": "Orlando Bloom",
     "ukr": "Орландо Блум",
-    "rus": "Орландо Блум"
+    "rus": "Орландо Блум",
+    "ch": "奥兰多·布鲁姆"
    },
    "population": "global",
    "type": "person"
@@ -4321,7 +4629,8 @@
     "sl": "Paul McCartney",
     "tur": "Paul McCartney",
     "ukr": "Пол Маккартні",
-    "rus": "Пол Маккартни"
+    "rus": "Пол Маккартни",
+    "ch": "保罗·麦卡特尼"
    },
    "population": "global",
    "type": "person"
@@ -4335,7 +4644,8 @@
     "sl": "Penélope Cruz",
     "tur": "Penélope Cruz",
     "ukr": "Пенелопа Крус",
-    "rus": "Пенелопе Крус"
+    "rus": "Пенелопе Крус",
+    "ch": "佩内洛普·克鲁兹"
    },
    "population": "global",
    "type": "person"
@@ -4349,7 +4659,8 @@
     "sl": "Pink",
     "tur": "Pink",
     "ukr": "Пінк",
-    "rus": "Пинк"
+    "rus": "Пинк",
+    "ch": "粉红佳人"
    },
    "population": "global",
    "type": "person"
@@ -4363,7 +4674,8 @@
     "sl": "Papež Frančišek",
     "tur": "Papa Franciscus",
     "ukr": "Папа Франциск",
-    "rus": "Папа Франциск"
+    "rus": "Папа Франциск",
+    "ch": "方济各"
    },
    "population": "global",
    "type": "person"
@@ -4377,7 +4689,8 @@
     "sl": "Princesa Diana",
     "tur": "Prenses Diana",
     "ukr": "Принцеса Діана",
-    "rus": "Принцесса Диана"
+    "rus": "Принцесса Диана",
+    "ch": "戴安娜王妃"
    },
    "population": "global",
    "type": "person"
@@ -4391,7 +4704,8 @@
     "sl": "Kraljica Elizabeta II.",
     "tur": "Kraliçe II. Elizabeth",
     "ukr": "Королева Єлизавета II",
-    "rus": "Королева Елизавета II"
+    "rus": "Королева Елизавета II",
+    "ch": "伊丽莎白二世女王"
    },
    "population": "global",
    "type": "person"
@@ -4405,7 +4719,8 @@
     "sl": "Rafael Nadal",
     "tur": "Rafael Nadal",
     "ukr": "Рафаель Надаль",
-    "rus": "Рафаэль Надаль"
+    "rus": "Рафаэль Надаль",
+    "ch": "拉斐尔·纳达尔"
    },
    "population": "global",
    "type": "person"
@@ -4419,7 +4734,8 @@
     "sl": "Reese Witherspoon",
     "tur": "Reese Witherspoon",
     "ukr": "Різ Візерспун",
-    "rus": "Риз Уизерспун"
+    "rus": "Риз Уизерспун",
+    "ch": "瑞茜·威瑟斯彭"
    },
    "population": "global",
    "type": "person"
@@ -4433,7 +4749,8 @@
     "sl": "Rihanna",
     "tur": "Rihanna",
     "ukr": "Ріанна",
-    "rus": "Рианна"
+    "rus": "Рианна",
+    "ch": "蕾哈娜"
    },
    "population": "global",
    "type": "person"
@@ -4447,7 +4764,8 @@
     "sl": "Robert De Niro",
     "tur": "Robert De Niro",
     "ukr": "Роберт Де Ніро",
-    "rus": "Роберт Де Ниро"
+    "rus": "Роберт Де Ниро",
+    "ch": "罗伯特·德尼罗"
    },
    "population": "global",
    "type": "person"
@@ -4461,7 +4779,8 @@
     "sl": "Robert Downey Jr.",
     "tur": "Robert Downey Jr.",
     "ukr": "Роберт Дауні (молодший)",
-    "rus": "Роберт Дауни мл."
+    "rus": "Роберт Дауни мл.",
+    "ch": "小罗伯特·唐尼"
    },
    "population": "global",
    "type": "person"
@@ -4475,7 +4794,8 @@
     "sl": "Robert Pattinson",
     "tur": "Robert Pattinson",
     "ukr": "Роберт Паттінсон",
-    "rus": "Роберт Паттинсон"
+    "rus": "Роберт Паттинсон",
+    "ch": "罗伯特·帕丁森"
    },
    "population": "global",
    "type": "person"
@@ -4489,7 +4809,8 @@
     "sl": "Rod Stewart",
     "tur": "Rod Stewart",
     "ukr": "Род Стюарт",
-    "rus": "Род Стюарт"
+    "rus": "Род Стюарт",
+    "ch": "罗德·斯图尔特"
    },
    "population": "global",
    "type": "person"
@@ -4503,7 +4824,8 @@
     "sl": "Roger Federer",
     "tur": "Roger Federer",
     "ukr": "Роджер Федерер",
-    "rus": "Роджер Федерер"
+    "rus": "Роджер Федерер",
+    "ch": "罗杰·费德勒"
    },
    "population": "global",
    "type": "person"
@@ -4517,7 +4839,8 @@
     "sl": "Ryan Gosling",
     "tur": "Ryan Gosling",
     "ukr": "Раян Ґослінґ",
-    "rus": "Райан Гослинг"
+    "rus": "Райан Гослинг",
+    "ch": "瑞恩·高斯林"
    },
    "population": "global",
    "type": "person"
@@ -4531,7 +4854,8 @@
     "sl": "Ryan Reynolds",
     "tur": "Ryan Reynolds",
     "ukr": "Раян Рейнольдс",
-    "rus": "Райан Рейнольдс"
+    "rus": "Райан Рейнольдс",
+    "ch": "瑞恩·雷诺兹"
    },
    "population": "global",
    "type": "person"
@@ -4545,7 +4869,8 @@
     "sl": "Sabrina Carpenter",
     "tur": "Sabrina Carpenter",
     "ukr": "Сабріна Карпентер",
-    "rus": "Сабрина Карпентер"
+    "rus": "Сабрина Карпентер",
+    "ch": "萨布丽娜·卡彭特"
    },
    "population": "global",
    "type": "person"
@@ -4559,7 +4884,8 @@
     "sl": "Salma Hayek",
     "tur": "Salma Hayek",
     "ukr": "Сальма Хаєк",
-    "rus": "Сальма Хайек"
+    "rus": "Сальма Хайек",
+    "ch": "萨尔玛·海耶克"
    },
    "population": "global",
    "type": "person"
@@ -4573,7 +4899,8 @@
     "sl": "Samuel L. Jackson",
     "tur": "Samuel L. Jackson",
     "ukr": "Семюел Лірой Джексон",
-    "rus": "Сэмюэл Л. Джексон"
+    "rus": "Сэмюэл Л. Джексон",
+    "ch": "塞缪尔·杰克逊"
    },
    "population": "global",
    "type": "person"
@@ -4587,7 +4914,8 @@
     "sl": "Sandra Bullock",
     "tur": "Sandra Bullock",
     "ukr": "Сандра Буллок",
-    "rus": "Сандра Буллок"
+    "rus": "Сандра Буллок",
+    "ch": "桑德拉·布洛克"
    },
    "population": "global",
    "type": "person"
@@ -4601,7 +4929,8 @@
     "sl": "Scarlett Johansson",
     "tur": "Scarlett Johansson",
     "ukr": "Скарлетт Йоганссон",
-    "rus": "Скарлетт Йоханссон"
+    "rus": "Скарлетт Йоханссон",
+    "ch": "斯嘉丽·约翰逊"
    },
    "population": "global",
    "type": "person"
@@ -4615,7 +4944,8 @@
     "sl": "Sebastian Vettel",
     "tur": "Sebastian Vettel",
     "ukr": "Себастьян Феттель",
-    "rus": "Себастьян Феттель"
+    "rus": "Себастьян Феттель",
+    "ch": "塞巴斯蒂安·维特尔"
    },
    "population": "german",
    "type": "person"
@@ -4629,7 +4959,8 @@
     "sl": "Selena Gomez",
     "tur": "Selena Gomez",
     "ukr": "Селена Гомес",
-    "rus": "Селена Гомес"
+    "rus": "Селена Гомес",
+    "ch": "赛琳娜·戈麦斯"
    },
    "population": "global",
    "type": "person"
@@ -4643,7 +4974,8 @@
     "sl": "Serena Williams",
     "tur": "Serena Williams",
     "ukr": "Серена Вільямс",
-    "rus": "Серена Уильямс"
+    "rus": "Серена Уильямс",
+    "ch": "塞雷娜·威廉姆斯"
    },
    "population": "global",
    "type": "person"
@@ -4657,7 +4989,8 @@
     "sl": "Shakira",
     "tur": "Shakira",
     "ukr": "Шакіра",
-    "rus": "Шакира"
+    "rus": "Шакира",
+    "ch": "夏奇拉"
    },
    "population": "global",
    "type": "person"
@@ -4671,7 +5004,8 @@
     "sl": "Shawn Mendes",
     "tur": "Shawn Mendes",
     "ukr": "Шон Мендес",
-    "rus": "Шон Мендес"
+    "rus": "Шон Мендес",
+    "ch": "肖恩·蒙德兹"
    },
    "population": "global",
    "type": "person"
@@ -4685,7 +5019,8 @@
     "sl": "Simon Cowell",
     "tur": "Simon Cowell",
     "ukr": "Саймон Ковелл",
-    "rus": "Саймон Коуэлл"
+    "rus": "Саймон Коуэлл",
+    "ch": "西蒙·考威尔"
    },
    "population": "global",
    "type": "person"
@@ -4699,7 +5034,8 @@
     "sl": "Simone Biles",
     "tur": "Simone Biles",
     "ukr": "Симона Байлз",
-    "rus": "Симона Байлз"
+    "rus": "Симона Байлз",
+    "ch": "西蒙·拜尔斯"
    },
    "population": "global",
    "type": "person"
@@ -4713,7 +5049,8 @@
     "sl": "Stefan Raab",
     "tur": "Stefan Raab",
     "ukr": "Штефан Рааб",
-    "rus": "Стефан Рааб"
+    "rus": "Стефан Рааб",
+    "ch": "斯特凡·拉布"
    },
    "population": "german",
    "type": "person"
@@ -4727,7 +5064,8 @@
     "sl": "Steve Carell",
     "tur": "Steve Carell",
     "ukr": "Стів Карелл",
-    "rus": "Стив Карелл"
+    "rus": "Стив Карелл",
+    "ch": "史蒂夫·卡瑞尔"
    },
    "population": "global",
    "type": "person"
@@ -4741,7 +5079,8 @@
     "sl": "Sting",
     "tur": "Sting",
     "ukr": "Стінг",
-    "rus": "Стинг"
+    "rus": "Стинг",
+    "ch": "斯汀"
    },
    "population": "global",
    "type": "person"
@@ -4755,7 +5094,8 @@
     "sl": "Sydney Sweeney",
     "tur": "Sydney Sweeney",
     "ukr": "Сідні Свіні",
-    "rus": "Сидни Суини"
+    "rus": "Сидни Суини",
+    "ch": "西德妮·斯威尼"
    },
    "population": "global",
    "type": "person"
@@ -4769,7 +5109,8 @@
     "sl": "Tadej Pogačar",
     "tur": "Tadej Pogačar",
     "ukr": "Тадей Погачар",
-    "rus": "Тадей Погачар"
+    "rus": "Тадей Погачар",
+    "ch": "塔代伊·波加查"
    },
    "population": "slovenian",
    "type": "person"
@@ -4783,7 +5124,8 @@
     "sl": "Taylor Swift",
     "tur": "Taylor Swift",
     "ukr": "Тейлор Свіфт",
-    "rus": "Тейлор Свифт"
+    "rus": "Тейлор Свифт",
+    "ch": "泰勒·斯威夫特"
    },
    "population": "global",
    "type": "person"
@@ -4797,7 +5139,8 @@
     "sl": "The Weeknd",
     "tur": "The Weeknd",
     "ukr": "The Weeknd",
-    "rus": "The Weeknd"
+    "rus": "The Weeknd",
+    "ch": "威肯"
    },
    "population": "global",
    "type": "person"
@@ -4811,7 +5154,8 @@
     "sl": "Thomas Gottschalk",
     "tur": "Thomas Gottschalk",
     "ukr": "Томас Готтшалк",
-    "rus": "Томас Готтшальк"
+    "rus": "Томас Готтшальк",
+    "ch": "托马斯·戈特沙尔克"
    },
    "population": "german",
    "type": "person"
@@ -4825,7 +5169,8 @@
     "sl": "Thomas Müller",
     "tur": "Thomas Müller",
     "ukr": "Томас Мюллер",
-    "rus": "Томас Мюллер"
+    "rus": "Томас Мюллер",
+    "ch": "托马斯·穆勒"
    },
    "population": "german",
    "type": "person"
@@ -4839,7 +5184,8 @@
     "sl": "Til Schweiger",
     "tur": "Til Schweiger",
     "ukr": "Тіль Швайґер",
-    "rus": "Тиль Швайгер"
+    "rus": "Тиль Швайгер",
+    "ch": "蒂尔·施魏格尔"
    },
    "population": "german",
    "type": "person"
@@ -4853,7 +5199,8 @@
     "sl": "Timothée Chalamet",
     "tur": "Timothée Chalamet",
     "ukr": "Тімоті Шаламе",
-    "rus": "Тимоти Шаламе"
+    "rus": "Тимоти Шаламе",
+    "ch": "提莫西·查拉梅"
    },
    "population": "global",
    "type": "person"
@@ -4867,7 +5214,8 @@
     "sl": "Tom Cruise",
     "tur": "Tom Cruise",
     "ukr": "Том Круз",
-    "rus": "Том Круз"
+    "rus": "Том Круз",
+    "ch": "汤姆·克鲁斯"
    },
    "population": "global",
    "type": "person"
@@ -4881,7 +5229,8 @@
     "sl": "Tom Hanks",
     "tur": "Tom Hanks",
     "ukr": "Том Генкс",
-    "rus": "Том Хэнкс"
+    "rus": "Том Хэнкс",
+    "ch": "汤姆·汉克斯"
    },
    "population": "global",
    "type": "person"
@@ -4895,7 +5244,8 @@
     "sl": "Tom Holland",
     "tur": "Tom Holland",
     "ukr": "Том Голланд",
-    "rus": "Том Холланд"
+    "rus": "Том Холланд",
+    "ch": "汤姆·赫兰德"
    },
    "population": "global",
    "type": "person"
@@ -4909,7 +5259,8 @@
     "sl": "Toni Kroos",
     "tur": "Toni Kroos",
     "ukr": "Тоні Кроос",
-    "rus": "Тони Кроос"
+    "rus": "Тони Кроос",
+    "ch": "托尼·克罗斯"
    },
    "population": "german",
    "type": "person"
@@ -4923,7 +5274,8 @@
     "sl": "Usain Bolt",
     "tur": "Usain Bolt",
     "ukr": "Усейн Болт",
-    "rus": "Усэйн Болт"
+    "rus": "Усэйн Болт",
+    "ch": "尤塞恩·博尔特"
    },
    "population": "global",
    "type": "person"
@@ -4937,7 +5289,8 @@
     "sl": "Veronica Ferres",
     "tur": "Veronica Ferres",
     "ukr": "Вероніка Феррес",
-    "rus": "Вероника Феррес"
+    "rus": "Вероника Феррес",
+    "ch": "维罗妮卡·费雷斯"
    },
    "population": "german",
    "type": "person"
@@ -4951,7 +5304,8 @@
     "sl": "Victoria Beckham",
     "tur": "Victoria Beckham",
     "ukr": "Вікторія Бекхем",
-    "rus": "Виктория Бекхэм"
+    "rus": "Виктория Бекхэм",
+    "ch": "维多利亚·贝克汉姆"
    },
    "population": "global",
    "type": "person"
@@ -4965,7 +5319,8 @@
     "sl": "Vin Diesel",
     "tur": "Vin Diesel",
     "ukr": "Він Дізель",
-    "rus": "Вин Дизель"
+    "rus": "Вин Дизель",
+    "ch": "范·迪塞尔"
    },
    "population": "global",
    "type": "person"
@@ -4979,7 +5334,8 @@
     "sl": "Will Smith",
     "tur": "Will Smith",
     "ukr": "Вілл Сміт",
-    "rus": "Уилл Смит"
+    "rus": "Уилл Смит",
+    "ch": "威尔·史密斯"
    },
    "population": "global",
    "type": "person"
@@ -4993,7 +5349,8 @@
     "sl": "Zendaya",
     "tur": "Zendaya",
     "ukr": "Зендея",
-    "rus": "Зендая"
+    "rus": "Зендая",
+    "ch": "赞达亚"
    },
    "population": "global",
    "type": "person"
@@ -5007,7 +5364,8 @@
     "sl": "Zlatan Ibrahimović",
     "tur": "Zlatan Ibrahimović",
     "ukr": "Златан Ібрагімович",
-    "rus": "Златан Ибрагимович"
+    "rus": "Златан Ибрагимович",
+    "ch": "兹拉坦·伊布拉希莫维奇"
    },
    "population": "global",
    "type": "person"
@@ -5021,7 +5379,8 @@
     "sl": "Aishwarya Rai",
     "tur": "Aishwarya Rai",
     "ukr": "Айшварія Рай",
-    "rus": "Айшвария Рай"
+    "rus": "Айшвария Рай",
+    "ch": "艾西瓦娅·雷"
    },
    "population": "indian",
    "type": "person"
@@ -5035,7 +5394,8 @@
     "sl": "Aamir Khan",
     "tur": "Aamir Khan",
     "ukr": "Аамір Хан",
-    "rus": "Аамир Хан"
+    "rus": "Аамир Хан",
+    "ch": "阿米尔·汗"
    },
    "population": "indian",
    "type": "person"
@@ -5049,7 +5409,8 @@
     "sl": "Amitabh Bachchan",
     "tur": "Amitabh Bachchan",
     "ukr": "Амітаб Баччан",
-    "rus": "Амитабх Баччан"
+    "rus": "Амитабх Баччан",
+    "ch": "阿米特巴·巴赫强"
    },
    "population": "indian",
    "type": "person"
@@ -5063,7 +5424,8 @@
     "sl": "Deepika Padukone",
     "tur": "Deepika Padukone",
     "ukr": "Діпіка Падуконе",
-    "rus": "Ди́пика Падуко́не"
+    "rus": "Ди́пика Падуко́не",
+    "ch": "迪皮卡·帕度柯妮"
    },
    "population": "indian",
    "type": "person"
@@ -5077,7 +5439,8 @@
     "sl": "Hrithik Roshan",
     "tur": "Hrithik Roshan",
     "ukr": "Рітік Рошан",
-    "rus": "Ритик Рошан"
+    "rus": "Ритик Рошан",
+    "ch": "赫里尼克·罗斯汉"
    },
    "population": "indian",
    "type": "person"
@@ -5091,7 +5454,8 @@
     "sl": "Irrfan Khan",
     "tur": "Irrfan Khan",
     "ukr": "Ірфан Хан",
-    "rus": "Ирфан Хан"
+    "rus": "Ирфан Хан",
+    "ch": "伊尔凡·汗"
    },
    "population": "Indian",
    "type": "person"
@@ -5105,7 +5469,8 @@
     "sl": "Kareena Kapoor",
     "tur": "Kareena Kapoor",
     "ukr": "Каріна Капур",
-    "rus": "Карина Капур"
+    "rus": "Карина Капур",
+    "ch": "卡琳娜·卡普尔"
    },
    "population": "indian",
    "type": "person"
@@ -5119,7 +5484,8 @@
     "sl": "Katrina Kaif",
     "tur": "Katrina Kaif",
     "ukr": "Катріна Кеф",
-    "rus": "Катрина Каиф"
+    "rus": "Катрина Каиф",
+    "ch": "卡特莉娜·卡芙"
    },
    "population": "indian",
    "type": "person"
@@ -5133,7 +5499,8 @@
     "sl": "Priyanka Chopra",
     "tur": "Priyanka Chopra",
     "ukr": "Пріянка Чопра",
-    "rus": "Приянка Чопра"
+    "rus": "Приянка Чопра",
+    "ch": "普里扬卡·乔普拉"
    },
    "population": "indian",
    "type": "person"
@@ -5147,7 +5514,8 @@
     "sl": "Salman Khan",
     "tur": "Salman Khan",
     "ukr": "Салман Кхан",
-    "rus": "Салма́н Хан"
+    "rus": "Салма́н Хан",
+    "ch": "萨尔曼·汗"
    },
    "population": "indian",
    "type": "person"
@@ -5161,7 +5529,8 @@
     "sl": "Shah Rukh Khan",
     "tur": "Shah Rukh Khan",
     "ukr": "Шахрух Хан",
-    "rus": "Ша́хрух Хан"
+    "rus": "Ша́хрух Хан",
+    "ch": "沙鲁克·汗"
    },
    "population": "indian",
    "type": "person"
@@ -5175,7 +5544,8 @@
     "sl": "Vidya Balan",
     "tur": "Vidya Balan",
     "ukr": "Відья Балан",
-    "rus": "Видья Балан"
+    "rus": "Видья Балан",
+    "ch": "维迪亚·巴兰"
    },
    "population": "Indian",
    "type": "person"
@@ -5189,7 +5559,8 @@
     "sl": "Andy Lau",
     "tur": "Andy Lau",
     "ukr": "Енді Лау",
-    "rus": "Энди Лау"
+    "rus": "Энди Лау",
+    "ch": "刘德华"
    },
    "population": "chinese",
    "type": "person"
@@ -5203,7 +5574,8 @@
     "sl": "Bruce Lee",
     "tur": "Bruce Lee",
     "ukr": "Брюс Лі",
-    "rus": "Брюс Ли"
+    "rus": "Брюс Ли",
+    "ch": "李小龙"
    },
    "population": "chinese",
    "type": "person"
@@ -5217,7 +5589,8 @@
     "sl": "Gao Xiaosong",
     "tur": "Gao Xiaosong",
     "ukr": "Гао Сяосун",
-    "rus": "Гао Сяосун"
+    "rus": "Гао Сяосун",
+    "ch": "高晓松"
    },
    "population": "chinese",
    "type": "person"
@@ -5231,7 +5604,8 @@
     "sl": "He Jiong",
     "tur": "He Jiong",
     "ukr": "Хе Цзюн",
-    "rus": "Хэ Цзюн"
+    "rus": "Хэ Цзюн",
+    "ch": "何炅"
    },
    "population": "chinese",
    "type": "person"
@@ -5245,7 +5619,8 @@
     "sl": "Huang Bo",
     "tur": "Huang Bo",
     "ukr": "Хуан Бо",
-    "rus": "Хуан Бо"
+    "rus": "Хуан Бо",
+    "ch": "黄渤"
    },
    "population": "chinese",
    "type": "person"
@@ -5259,7 +5634,8 @@
     "sl": "Jay Chou",
     "tur": "Jay Chou",
     "ukr": "Джей Чоу",
-    "rus": "Чжоу Цзелунь"
+    "rus": "Чжоу Цзелунь",
+    "ch": "周杰伦"
    },
    "population": "chinese",
    "type": "person"
@@ -5273,7 +5649,8 @@
     "sl": "Jet Li Lianjie",
     "tur": "Jet Li Lianjie",
     "ukr": "Джет Лі",
-    "rus": "Джет Ли"
+    "rus": "Джет Ли",
+    "ch": "李连杰"
    },
    "population": "chinese",
    "type": "person"
@@ -5287,7 +5664,8 @@
     "sl": "Liu Yifei",
     "tur": "Liu Yifei",
     "ukr": "Лю Іфей",
-    "rus": "Лю Ифэй"
+    "rus": "Лю Ифэй",
+    "ch": "刘亦菲"
    },
    "population": "chinese",
    "type": "person"
@@ -5301,7 +5679,8 @@
     "sl": "Na Ying",
     "tur": "Na Ying",
     "ukr": "На Ин",
-    "rus": "На Ин"
+    "rus": "На Ин",
+    "ch": "那英"
    },
    "population": "chinese",
    "type": "person"
@@ -5315,7 +5694,8 @@
     "sl": "Shen Teng",
     "tur": "Shen Teng",
     "ukr": "Шень Тен",
-    "rus": "Шэнь Тэн"
+    "rus": "Шэнь Тэн",
+    "ch": "沈腾"
    },
    "population": "chinese",
    "type": "person"
@@ -5329,7 +5709,8 @@
     "sl": "Wang Feng",
     "tur": "Wang Feng",
     "ukr": "Ван Фен",
-    "rus": "Ван Фэн"
+    "rus": "Ван Фэн",
+    "ch": "汪峰"
    },
    "population": "chinese",
    "type": "person"
@@ -5343,7 +5724,8 @@
     "sl": "Wu Jing",
     "tur": "Wu Jing",
     "ukr": "Ву Цзин",
-    "rus": "У Цзин"
+    "rus": "У Цзин",
+    "ch": "吴京"
    },
    "population": "chinese",
    "type": "person"
@@ -5357,7 +5739,8 @@
     "sl": "Wu Yanzu",
     "tur": "Wu Yanzu",
     "ukr": "У Яньцзу",
-    "rus": "Ву Инь-чо"
+    "rus": "Ву Инь-чо",
+    "ch": "吴彦祖"
    },
    "population": "chinese",
    "type": "person"
@@ -5371,7 +5754,8 @@
     "sl": "Yang Mi",
     "tur": "Yang Mi",
     "ukr": "Ян Мі",
-    "rus": "Ян Ми"
+    "rus": "Ян Ми",
+    "ch": "杨幂"
    },
    "population": "chinese",
    "type": "person"
@@ -5385,7 +5769,8 @@
     "sl": "Yao Ming",
     "tur": "Yao Ming",
     "ukr": "Яо Мін",
-    "rus": "Яо Мин"
+    "rus": "Яо Мин",
+    "ch": "姚明"
    },
    "population": "chinese",
    "type": "person"
@@ -5399,7 +5784,8 @@
     "sl": "Zhang Ziyi",
     "tur": "Zhang Ziyi",
     "ukr": "Чжан Цзиї",
-    "rus": "Чжан Цзыи"
+    "rus": "Чжан Цзыи",
+    "ch": "章子怡"
    },
    "population": "chinese",
    "type": "person"
