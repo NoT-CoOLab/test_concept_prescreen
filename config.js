@@ -34,7 +34,7 @@ const CONFIG = {
   // download button instead — useful for a site where automatic sending genuinely
   // isn't needed. Everything below this line (notifyEmails, emailjs, etc.) is only
   // read when this is true.
-  emailEnabled: false,
+  emailEnabled: true,
 
   // ↓↓↓ WHERE RESPONSES GET SENT — see email-relay/DEPLOY.md ↓↓↓
 
@@ -58,7 +58,7 @@ const CONFIG = {
 
   // Safety-net cadence: also send a checkpoint after this many responses, not just at
   // finish, so an abrupt tab close doesn't lose more than this many responses
-  // from reaching your inbox. 25 is a reasonable starting point — see
+  // from reaching your inbox. 50 is a reasonable starting point — see
   // email-relay/DEPLOY.md for the quota math.
-  checkpointEveryNResponses: 100
+  checkpointEveryNResponses: to
 };
