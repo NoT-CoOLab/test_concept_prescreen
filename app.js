@@ -312,13 +312,13 @@
     var probe = new Image();
     probe.onload = function () {
       var img = document.createElement("img");
-      img.src = "images/instructions_example.png";
+      img.src = "images/instructions_example.jpg";
       img.alt = "";
       frame.innerHTML = "";
       frame.appendChild(img);
     };
     probe.onerror = function () { /* keep placeholder text */ };
-    probe.src = "images/instructions_example.png";
+    probe.src = "images/instructions_example.jpg";
   }
 
   // ---------------- Welcome screen ----------------
