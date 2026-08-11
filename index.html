@@ -34,14 +34,17 @@
     </div>
   </section>
 
-  <!-- PATIENT ID (only shown for a fresh session, only if the site's config turns it
-       on — see CONFIG.patientIdEntry) -->
+  <!-- PATIENT ID (always shown for a fresh session, on every site - required, not
+       skippable; see the "Start" handler in app.js) -->
   <section class="screen" id="screen-patient-id" data-screen hidden>
     <div class="card card-static">
       <h1 id="patient-id-title"></h1>
       <p id="patient-id-body"></p>
-      <input type="text" class="text-input" id="patient-id-input" autocomplete="off">
-      <p class="field-note" id="patient-id-skip-note"></p>
+      <div class="input-prefix-group">
+        <span class="input-prefix">sub-</span>
+        <input type="text" class="text-input" id="patient-id-input" autocomplete="off">
+      </div>
+      <p class="field-error" id="patient-id-error" hidden></p>
       <button class="btn btn-primary btn-block" id="btn-patient-id-continue"></button>
     </div>
   </section>

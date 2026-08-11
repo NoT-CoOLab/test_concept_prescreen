@@ -47,35 +47,6 @@
   }
 
   // ---------------- Utility ----------------
-  function generateCode() {
-    var charset = "ABCDEFGHJKMNPQRSTUVWXYZ23456789"; // no 0/O/1/I/L ambiguity
-    var out = "";
-    for (var i = 0; i < 6; i++) out += charset[Math.floor(Math.random() * charset.length)];
-    return out;
-  }
-  // Lets a researcher assign a specific, human-chosen participant ID (e.g. sequential
-  // "001", "002"...) by handing out a link like "?pid=001" for each session, instead of
-  // a random generated code. Deliberately NOT auto-incremented by the site itself —
-  // there's no shared counter anywhere in this architecture (no server, no database),
-  // so two participants on two different computers independently generating "the next
-  // number" could genuinely collide. Putting the researcher in control of the number
-  // sidesteps that entirely. Falls back to the random generator if no ?pid= is given,
-  // so nothing breaks for casual testing.
-  //
-  // The value is sanitized because it flows into a pipe-delimited email subject line
-  // (a stray "|" would corrupt the fields the Power Automate flow parses out) and into
-  // a downloaded filename (so no path separators or other unsafe characters either) —
-  // only letters, numbers, "-", and "_" survive, capped at 20 characters.
-  function getAssignedParticipantId() {
-    try {
-      var raw = new URLSearchParams(window.location.search).get("pid");
-      if (!raw) return null;
-      var cleaned = String(raw).replace(/[^A-Za-z0-9_-]/g, "").slice(0, 20);
-      return cleaned || null;
-    } catch (e) {
-      return null;
-    }
-  }
   function shuffle(arr) {
     for (var i = arr.length - 1; i > 0; i--) {
       var j = Math.floor(Math.random() * (i + 1));
@@ -145,7 +116,9 @@
   // "is it loaded" state to get stuck in — every call is independent by construction,
   // and there's one fewer external host (the CDN) that could be the thing that's down.
   function buildCheckpointBody() {
-    return state.rows.map(function (row) { return JSON.stringify(row); }).join("\n");
+    // Same CSV the download button produces — one consistent format everywhere,
+    // and Excel/MATLAB's readtable() both open it natively with no custom parsing.
+    return buildCsvContent();
   }
 
   function recipientsFor(checkpointType) {
@@ -253,7 +226,7 @@
     $("patient-id-title").textContent = t("patientIdTitle");
     $("patient-id-body").textContent = t("patientIdBody");
     $("patient-id-input").placeholder = t("patientIdPlaceholder");
-    $("patient-id-skip-note").textContent = t("patientIdSkipNote");
+    $("patient-id-error").textContent = t("patientIdError");
     $("btn-patient-id-continue").textContent = t("setupContinue");
 
     $("setup-title").textContent = t("setupTitle");
@@ -379,23 +352,31 @@
     startKeyboardListening();
   });
   var pendingPatientId = "";
+  function formatSubjectId(raw) {
+    // Strip a "sub-" they might have typed themselves, so we never end up with
+    // "sub-sub-0001" - then keep only filename-safe characters.
+    var cleaned = (raw || "").trim().replace(/^sub-/i, "");
+    cleaned = cleaned.replace(/[^a-zA-Z0-9_-]/g, "").slice(0, 30);
+    return cleaned ? ("sub-" + cleaned) : "";
+  }
   $("btn-start-new").addEventListener("click", function () {
     clearState();
     state = null;
-    if (CONFIG.patientIdEntry) {
-      $("patient-id-input").value = "";
-      showScreen("screen-patient-id");
-    } else {
-      pendingPatientId = "";
-      showScreen("screen-setup");
-    }
+    $("patient-id-input").value = "";
+    $("patient-id-error").hidden = true;
+    showScreen("screen-patient-id");
   });
   $("btn-patient-id-continue").addEventListener("click", function () {
-    // Deliberately no validation here — entering an ID is always optional, even
-    // when this screen itself is turned on for a site (see CONFIG.patientIdEntry).
-    // csvEscape() already handles any punctuation safely in the output, so there's
-    // no need to restrict what characters are allowed here.
-    pendingPatientId = ($("patient-id-input").value || "").trim().slice(0, 50);
+    // Required, not optional: the researcher always hands this out ahead of time
+    // (even when the patient runs the session themselves), so there's no legitimate
+    // "I don't have one" case here the way there used to be.
+    var formatted = formatSubjectId($("patient-id-input").value);
+    if (!formatted) {
+      $("patient-id-error").hidden = false;
+      return;
+    }
+    $("patient-id-error").hidden = true;
+    pendingPatientId = formatted;
     showScreen("screen-setup");
   });
 
@@ -409,8 +390,12 @@
     var pool = buildPool(regionPopulations);
     var order = buildOrder(pool, []);
 
+    // The participant ID entered on the previous screen IS the identifier
+    // throughout - always, on every site. No separate random code anymore.
+    var code = pendingPatientId;
+
     state = {
-      code: getAssignedParticipantId() || generateCode(),
+      code: code,
       patientId: pendingPatientId,
       regionCodes: regionCodes,
       order: order,
@@ -730,16 +715,25 @@
     attemptFinishSend();
   });
 
-  function downloadBackupCsv() {
+  function buildCsvContent() {
     var lines = [CSV_HEADER.join(",")];
     state.rows.forEach(function (row) {
       lines.push(CSV_HEADER.map(function (h) { return csvEscape(row[h]); }).join(","));
     });
-    var blob = new Blob([lines.join("\n")], { type: "text/csv;charset=utf-8" });
+    return lines.join("\n");
+  }
+  function backupFileName() {
+    // Named after the participant ID directly (e.g. "sub-0001_prescreen.csv") —
+    // much easier to pick out and read into MATLAB when you already know the ID
+    // you're looking for.
+    return state.code + "_prescreen.csv";
+  }
+  function downloadBackupCsv() {
+    var blob = new Blob([buildCsvContent()], { type: "text/csv;charset=utf-8" });
     var url = URL.createObjectURL(blob);
     var a = document.createElement("a");
     a.href = url;
-    a.download = CONFIG.siteId + "_" + state.code + ".csv";
+    a.download = backupFileName();
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);

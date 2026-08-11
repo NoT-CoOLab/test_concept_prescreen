@@ -29,12 +29,6 @@ const CONFIG = {
   minPeopleKnown: 30,
   minPlacesKnown: 60,
 
-  // Ask for an optional patient/participant ID before setup starts. Always skippable
-  // even when true — there's a "proceed anyway" note on that screen for whoever
-  // doesn't have the ID handy. false (or omitted) skips this screen entirely.
-  // Turned on here (only) so it's easy to try without editing anything.
-  patientIdEntry: true,
-
   // Whether this site emails data out at all. false means: no periodic checkpoints,
   // no attempt at finish, and the "thank you" screen goes straight to a prominent
   // download button instead — useful for a site where automatic sending genuinely
