@@ -34,7 +34,7 @@ const CONFIG = {
   // download button instead — useful for a site where automatic sending genuinely
   // isn't needed. Everything below this line (notifyEmails, emailjs, etc.) is only
   // read when this is true.
-  emailEnabled: false,
+  emailEnabled: true,
 
   // ↓↓↓ WHERE RESPONSES GET SENT — see email-relay/DEPLOY.md ↓↓↓
 
