@@ -8,10 +8,9 @@
   var STATE_KEY = "expstate_" + CONFIG.siteId;
   var LANG_KEY = "explang_" + CONFIG.siteId;
 
-  var CSV_HEADER = ["participant_code", "patient_id", "site", "session_start_iso", "response_timestamp_iso",
-    "trial_index", "language", "regions_selected",
-    "file_name", "index", "name_shown", "type", "population",
-    "response", "response_time_ms"];
+  var CSV_HEADER = ["patient_id", "site", "index", "file_name", "response",
+    "session_start", "response_time", "trial_index", "language", "regions_selected",
+    "name_shown", "type", "population", "response_time_ms"];
 
   var data = null;        // { concepts: [...] }
   var conceptByFile = {};
@@ -511,20 +510,19 @@
     var concept = conceptByFile[state.current];
     var rt = Math.round(performance.now() - trialStartTs);
     var row = {
-      participant_code: state.code,
       patient_id: state.patientId || "",
       site: CONFIG.siteId,
-      session_start_iso: state.sessionStartIso,
-      response_timestamp_iso: nowIso(),
+      index: concept.index,
+      file_name: concept.file_name,
+      response: responseValue,
+      session_start: state.sessionStartIso,
+      response_time: nowIso(),
       trial_index: state.trialIndex,
       language: lang,
       regions_selected: state.regionCodes.join("|"),
-      file_name: concept.file_name,
-      index: concept.index,
       name_shown: concept.names[lang] || concept.names.en,
       type: concept.type,
       population: concept.population,
-      response: responseValue,
       response_time_ms: rt
     };
     state.rows.push(row);
