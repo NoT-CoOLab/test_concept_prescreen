@@ -7,8 +7,8 @@ const CONFIG = {
   siteName: "Test",
 
   // Which of "en" / "de" / "sl" (or other codes you add strings for in i18n.js) this site offers.
-  languages: ["en", "de", "sl", "tur", "ukr", "rus" ],
-  languageLabels: { en: "English", de: "Deutsch", sl: "Slovenščina", tur: "Türkçe", ukr: "український", rus: "русский" },
+  languages: ["en"],
+  languageLabels: { en: "English"},
 
   // Countries participants can flag as "I know people/places from here especially well".
   // This is about familiarity, not identity — a participant can select none or several.
@@ -17,8 +17,6 @@ const CONFIG = {
   // has no local pool until you add one, e.g.:
   //   regions: [{ code: "AT", population: "Austrian", label: { en: "Austria" } }]
   regions: [
-    { code: "DE", population: "German", label: { en: "Germany", de: "Deutschland", sl: "Nemčija", tur: "Almanya", ukr: "Німеччина", rus: "Германия" } },
-    { code: "SI", population: "Slovenian", label: { en: "Slovenia", de: "Slowenien", sl: "Slovenija", tur: "Slovenya", ukr: "Словенія", rus: "Словения" } },
     { code: "CN", population: "Chinese", label: { en: "China", de: "China", sl: "Kitajska", tur: "Çin", ukr: "Китай", rus: "Китай" } },
     { code: "IN", population: "Indian", label: { en: "India", de: "Indien", sl: "Indija", tur: "Hindistan", ukr: "Індія", rus: "Индия" } },
     { code: "SCT", population: "Scottish", label: { en: "Scotland", de: "Schottland", sl: "Škotska", tur: "İskoçya", ukr: "Шотландія", rus: "Шотландия" } }
