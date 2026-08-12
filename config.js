@@ -17,11 +17,11 @@ const CONFIG = {
   // has no local pool until you add one, e.g.:
   //   regions: [{ code: "AT", population: "Austrian", label: { en: "Austria" } }]
   regions: [
-    { code: "DE", population: "German", label: { en: "Germany", de: "Deutschland", sl: "Nemčija", tur: "Almanya", ukr: "Німеччина", rus: "Германия" } },
-    { code: "SI", population: "Slovenian", label: { en: "Slovenia", de: "Slowenien", sl: "Slovenija", tur: "Slovenya", ukr: "Словенія", rus: "Словения" } },
-    { code: "CN", population: "Chinese", label: { en: "China", de: "China", sl: "Kitajska", tur: "Çin", ukr: "Китай", rus: "Китай" } },
-    { code: "IN", population: "Indian", label: { en: "India", de: "Indien", sl: "Indija", tur: "Hindistan", ukr: "Індія", rus: "Индия" } },
-    { code: "SCT", population: "Scottish", label: { en: "Scotland", de: "Schottland", sl: "Škotska", tur: "İskoçya", ukr: "Шотландія", rus: "Шотландия" } }
+    { code: "DE", population: "German", label: { en: "Germany", de: "Deutschland", sl: "Nemčija", tur: "Almanya", ukr: "Німеччина", rus: "Германия", zh: "德国" } },
+    { code: "SI", population: "Slovenian", label: { en: "Slovenia", de: "Slowenien", sl: "Slovenija", tur: "Slovenya", ukr: "Словенія", rus: "Словения", zh: "斯洛文尼亚" } },
+    { code: "CN", population: "Chinese", label: { en: "China", de: "China", sl: "Kitajska", tur: "Çin", ukr: "Китай", rus: "Китай", zh: "中国" } },
+    { code: "IN", population: "Indian", label: { en: "India", de: "Indien", sl: "Indija", tur: "Hindistan", ukr: "Індія", rus: "Индия", zh: "印度" } },
+    { code: "SCT", population: "Scottish", label: { en: "Scotland", de: "Schottland", sl: "Škotska", tur: "İskoçya", ukr: "Шотландія", rus: "Шотландия", zh: "苏格兰" } }
   ],
 
   // The session ends automatically once BOTH of these are reached (whichever comes
@@ -58,7 +58,7 @@ const CONFIG = {
 
   // Safety-net cadence: also send a checkpoint after this many responses, not just at
   // finish, so an abrupt tab close doesn't lose more than this many responses
-  // from reaching your inbox. 50 is a reasonable starting point — see
+  // from reaching your inbox. 25 is a reasonable starting point — see
   // email-relay/DEPLOY.md for the quota math.
-  checkpointEveryNResponses: 300
+  checkpointEveryNResponses: 100
 };
