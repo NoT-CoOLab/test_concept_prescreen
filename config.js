@@ -7,8 +7,8 @@ const CONFIG = {
   siteName: "Test",
 
   // Which of "en" / "de" / "sl" (or other codes you add strings for in i18n.js) this site offers.
-  languages: ["en", "de", "sl", "tur", "ukr", "rus" ],
-  languageLabels: { en: "English", de: "Deutsch", sl: "Slovenščina", tur: "Türkçe", ukr: "український", rus: "русский" },
+  languages: ["en"],
+  languageLabels: { en: "English"},
 
   // Countries participants can flag as "I know people/places from here especially well".
   // This is about familiarity, not identity — a participant can select none or several.
