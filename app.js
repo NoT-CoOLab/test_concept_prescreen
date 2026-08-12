@@ -452,6 +452,30 @@
     saveState();
   }
 
+  // Read-only version of advanceTrial's own skip logic, for preloading — figures out
+  // which file_name would be shown next without touching state.order or state.current.
+  function peekNextFileName() {
+    var peopleDone = state.knownPeopleCount >= (CONFIG.minPeopleKnown || 30);
+    var placesDone = state.knownPlacesCount >= (CONFIG.minPlacesKnown || 60);
+    for (var i = 0; i < state.order.length; i++) {
+      var candidate = state.order[i];
+      var concept = conceptByFile[candidate];
+      if (concept && ((concept.type === "person" && peopleDone) || (concept.type === "place" && placesDone))) {
+        continue;
+      }
+      return candidate;
+    }
+    return null;
+  }
+  // Kicks off a background fetch only — deliberately never touches the visible
+  // <img> element, so it can't interfere with the load/reveal sequence above.
+  function preloadNextImage() {
+    var next = peekNextFileName();
+    if (!next) return;
+    var img = new Image();
+    img.src = "images/" + next;
+  }
+
   function renderCurrentStim() {
     if (isFinished()) { finishSession(); return; }
     var concept = conceptByFile[state.current];
@@ -485,6 +509,11 @@
       stimName.textContent = concept.names[lang] || concept.names.en;
       trialStartTs = performance.now();
       locked = false;
+      // Start fetching the next image now, while this one's still on screen, so it's
+      // very likely already cached by the time the response animation finishes and
+      // it's actually needed — shrinks the "locked" window from image-load-time down
+      // to close to just the animation's own 230ms.
+      preloadNextImage();
     }
 
     stimImage.alt = "";
@@ -546,16 +575,14 @@
   function handleResponse(responseValue) {
     if (locked) return;
     locked = true;
-    var dir = responseValue === "known" ? 1 : -1;
-    flagKnow.style.opacity = dir > 0 ? 1 : 0;
-    flagUnknown.style.opacity = dir < 0 ? 1 : 0;
-    stimCard.style.transition = "transform 0.22s ease";
-    stimCard.style.transform = "translateX(" + (dir * 500) + "px) rotate(" + (dir * 18) + "deg)";
     recordResponse(responseValue);
-    setTimeout(function () {
-      advanceTrial();
-      renderCurrentStim();
-    }, 230);
+    // No animation delay here anymore, deliberately: recovery of every response,
+    // regardless of how fast someone responds, matters more than the card-swipe
+    // visual. The only wait left is the genuine one in renderCurrentStim/reveal()
+    // below - the next image actually has to load before input unlocks again -
+    // which is untouched, since that's protecting response validity, not pacing.
+    advanceTrial();
+    renderCurrentStim();
   }
 
   function resetCardTransform(instant) {
