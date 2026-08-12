@@ -26,15 +26,15 @@ const CONFIG = {
 
   // The session ends automatically once BOTH of these are reached (whichever comes
   // later keeps it going) — or once the participant's pool runs out entirely.
-  minPeopleKnown: 30,
-  minPlacesKnown: 60,
+  minPeopleKnown: 1000,
+  minPlacesKnown: 1000,
 
   // Whether this site emails data out at all. false means: no periodic checkpoints,
   // no attempt at finish, and the "thank you" screen goes straight to a prominent
   // download button instead — useful for a site where automatic sending genuinely
   // isn't needed. Everything below this line (notifyEmails, emailjs, etc.) is only
   // read when this is true.
-  emailEnabled: true,
+  emailEnabled: false,
 
   // ↓↓↓ WHERE RESPONSES GET SENT — see email-relay/DEPLOY.md ↓↓↓
 
@@ -60,5 +60,5 @@ const CONFIG = {
   // finish, so an abrupt tab close doesn't lose more than this many responses
   // from reaching your inbox. 50 is a reasonable starting point — see
   // email-relay/DEPLOY.md for the quota math.
-  checkpointEveryNResponses: 50
+  checkpointEveryNResponses: 300
 };
