@@ -7,7 +7,7 @@ const CONFIG = {
   siteName: "Test",
 
   // Which of "en" / "de" / "sl" (or other codes you add strings for in i18n.js) this site offers.
-  languages: ["en", "de", "sl", "tur", "ukr", "rus", "zn" ],
+  languages: ["en", "de", "sl", "tur", "ukr", "rus", "zh" ],
   languageLabels: { en: "English", de: "Deutsch", sl: "Slovenščina", tur: "Türkçe", ukr: "український", rus: "русский", zh: "中文" },
 
   // Countries participants can flag as "I know people/places from here especially well".
