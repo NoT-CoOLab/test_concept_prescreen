@@ -52,8 +52,6 @@
   <!-- SETUP -->
   <section class="screen" id="screen-setup" data-screen hidden>
     <div class="card card-static">
-      <h1 id="setup-title"></h1>
-
       <div class="field-group" id="regions-field">
         <label id="regions-label"></label>
         <p class="field-note" id="regions-note"></p>
@@ -135,6 +133,16 @@
       <h1 id="waiting-connection-title"></h1>
       <p id="waiting-connection-body"></p>
       <button class="btn btn-ghost btn-block btn-download-backup" id="btn-download-backup-waiting"></button>
+    </div>
+  </section>
+
+  <!-- REDO PROMPT (pool ran out before reaching the known-count targets) -->
+  <section class="screen" id="screen-redo-prompt" data-screen hidden>
+    <div class="card card-static">
+      <h1 id="redo-prompt-title"></h1>
+      <p id="redo-prompt-body"></p>
+      <button class="btn btn-primary btn-block" id="btn-redo-yes"></button>
+      <button class="btn btn-ghost btn-block" id="btn-redo-no"></button>
     </div>
   </section>
 

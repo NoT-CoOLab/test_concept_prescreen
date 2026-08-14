@@ -7,8 +7,8 @@ const CONFIG = {
   siteName: "Test",
 
   // Which of "en" / "de" / "sl" (or other codes you add strings for in i18n.js) this site offers.
-  languages: ["en"],
-  languageLabels: { en: "English"},
+  languages: ["en", "de", "sl", "tur", "ukr", "rus", "zn" ],
+  languageLabels: { en: "English", de: "Deutsch", sl: "Slovenščina", tur: "Türkçe", ukr: "український", rus: "русский", zh: "中文" },
 
   // Countries participants can flag as "I know people/places from here especially well".
   // This is about familiarity, not identity — a participant can select none or several.
@@ -26,8 +26,8 @@ const CONFIG = {
 
   // The session ends automatically once BOTH of these are reached (whichever comes
   // later keeps it going) — or once the participant's pool runs out entirely.
-  minPeopleKnown: 1000,
-  minPlacesKnown: 1000,
+  minPeopleKnown: 30,
+  minPlacesKnown: 60,
 
   // Whether this site emails data out at all. false means: no periodic checkpoints,
   // no attempt at finish, and the "thank you" screen goes straight to a prominent
@@ -60,5 +60,5 @@ const CONFIG = {
   // finish, so an abrupt tab close doesn't lose more than this many responses
   // from reaching your inbox. 25 is a reasonable starting point — see
   // email-relay/DEPLOY.md for the quota math.
-  checkpointEveryNResponses: 100
+  checkpointEveryNResponses: 1000
 };

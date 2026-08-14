@@ -183,7 +183,7 @@ p { margin: 0 0 14px; color: var(--color-text); }
   color: var(--color-text);
 }
 .field-note {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--color-text-soft);
   margin: -4px 0 10px;
   font-weight: 400;

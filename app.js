@@ -228,7 +228,6 @@
     $("patient-id-error").textContent = t("patientIdError");
     $("btn-patient-id-continue").textContent = t("setupContinue");
 
-    $("setup-title").textContent = t("setupTitle");
     $("regions-label").textContent = t("regionsLabel");
     $("regions-note").textContent = t("regionsNote");
     $("btn-setup-continue").textContent = t("setupContinue");
@@ -250,6 +249,10 @@
     $("finishing-body").textContent = t("finishingBody");
     $("waiting-connection-title").textContent = t("waitingConnectionTitle");
     $("waiting-connection-body").textContent = t("waitingConnectionBody");
+    $("redo-prompt-title").textContent = t("redoPromptTitle");
+    $("redo-prompt-body").textContent = t("redoPromptBody");
+    $("btn-redo-yes").textContent = t("redoYesButton");
+    $("btn-redo-no").textContent = t("redoNoButton");
     $("done-title").textContent = t("doneTitle");
     var emailDisabledDone = CONFIG.emailEnabled === false && !!(state && state.finished);
     $("done-body").hidden = emailDisabledDone;
@@ -279,6 +282,7 @@
     if (state && state.current) renderCurrentStim();
   }
 
+  var NONE_REGION_VALUE = "__none__";
   function populateRegionsGrid() {
     var grid = $("regions-grid");
     var wrap = $("regions-field");
@@ -287,21 +291,47 @@
     wrap.hidden = false;
     var prevChecked = Array.prototype.slice.call(grid.querySelectorAll("input:checked")).map(function (i) { return i.value; });
     grid.innerHTML = "";
-    regions.forEach(function (region) {
+
+    var allCheckboxes = [];
+    function buildTile(value, text) {
       var label = document.createElement("label");
       label.className = "tag-chip";
       var input = document.createElement("input");
       input.type = "checkbox";
-      input.value = region.code;
-      if (prevChecked.indexOf(region.code) !== -1) { input.checked = true; label.classList.add("checked"); }
-      input.addEventListener("change", function () {
-        label.classList.toggle("checked", input.checked);
-      });
+      input.value = value;
+      if (prevChecked.indexOf(value) !== -1) { input.checked = true; label.classList.add("checked"); }
       var span = document.createElement("span");
-      span.textContent = (region.label && (region.label[lang] || region.label.en)) || region.code;
+      span.textContent = text;
       label.appendChild(input);
       label.appendChild(span);
       grid.appendChild(label);
+      allCheckboxes.push(input);
+      return { label: label, input: input };
+    }
+
+    regions.forEach(function (region) {
+      var text = (region.label && (region.label[lang] || region.label.en)) || region.code;
+      var tile = buildTile(region.code, text);
+      tile.input.addEventListener("change", function () {
+        tile.label.classList.toggle("checked", tile.input.checked);
+        // Picking an actual country deselects "None of these" - they're mutually
+        // exclusive by definition (you can't mean both "none of these" and "this one").
+        if (tile.input.checked) { noneTile.input.checked = false; noneTile.label.classList.remove("checked"); }
+      });
+    });
+
+    // A country-selection question with only checkboxes never has an explicit "no"
+    // - leaving everything blank looks identical to "hasn't answered yet". This tile
+    // gives participants (and the data) a real, deliberate "none of these apply" to
+    // select, distinct from simply not having engaged with the question at all.
+    var noneTile = buildTile(NONE_REGION_VALUE, t("regionsNoneLabel"));
+    noneTile.input.addEventListener("change", function () {
+      noneTile.label.classList.toggle("checked", noneTile.input.checked);
+      if (noneTile.input.checked) {
+        allCheckboxes.forEach(function (cb) {
+          if (cb !== noneTile.input) { cb.checked = false; cb.dispatchEvent(new Event("change")); }
+        });
+      }
     });
   }
 
@@ -383,7 +413,7 @@
   $("btn-setup-continue").addEventListener("click", function () {
     var regionCodes = Array.prototype.slice.call(
       document.querySelectorAll("#regions-grid input:checked")
-    ).map(function (i) { return i.value; });
+    ).map(function (i) { return i.value; }).filter(function (v) { return v !== NONE_REGION_VALUE; });
 
     var regionPopulations = regionsByCodes(regionCodes).map(function (r) { return r.population; });
     var pool = buildPool(regionPopulations);
@@ -406,7 +436,8 @@
       seenPlacesCount: 0,
       sessionStartIso: nowIso(),
       trialIndex: 0,
-      finished: false
+      finished: false,
+      redoOffered: false
     };
     saveState();
     showScreen("screen-instructions");
@@ -420,15 +451,46 @@
     startKeyboardListening();
   });
 
+  $("btn-redo-yes").addEventListener("click", function () {
+    state.order = shuffle(unknownFileNames());
+    state.current = null;
+    saveState();
+    advanceTrial();
+    showScreen("screen-task");
+    renderCurrentStim();
+    startKeyboardListening();
+  });
+  $("btn-redo-no").addEventListener("click", function () {
+    finishSession();
+  });
+
   // ---------------- Task screen ----------------
   var stimCard = null, stimImage = null, stimName = null, flagKnow = null, flagUnknown = null;
 
-  function isFinished() {
+  function thresholdsMet() {
     var peopleTarget = CONFIG.minPeopleKnown || 30;
     var placesTarget = CONFIG.minPlacesKnown || 60;
-    var thresholdsMet = state.knownPeopleCount >= peopleTarget && state.knownPlacesCount >= placesTarget;
-    var poolExhausted = !state.current && state.order.length === 0;
-    return thresholdsMet || poolExhausted;
+    return state.knownPeopleCount >= peopleTarget && state.knownPlacesCount >= placesTarget;
+  }
+  function poolExhausted() {
+    return !state.current && state.order.length === 0;
+  }
+  function isFinished() {
+    return thresholdsMet() || poolExhausted();
+  }
+  // The file_names of every response currently on record as "unknown" - what a
+  // redo pass would go back through. Deliberately keyed by file_name (not just row
+  // index) and deduplicated, since a redo pass itself adds more "unknown" rows for
+  // the same items if they're still not recognised the second time - this always
+  // reflects the CURRENT set of not-yet-known items, not a stale list from before
+  // any earlier redo pass.
+  // recordResponse() now guarantees at most one row per file_name (a redo-pass
+  // response replaces the original rather than adding alongside it), so this is
+  // just every file_name whose single current row says "unknown".
+  function unknownFileNames() {
+    return state.rows
+      .filter(function (row) { return row.response === "unknown"; })
+      .map(function (row) { return row.file_name; });
   }
 
   function advanceTrial() {
@@ -477,7 +539,24 @@
   }
 
   function renderCurrentStim() {
-    if (isFinished()) { finishSession(); return; }
+    if (thresholdsMet()) { finishSession(); return; }
+    if (poolExhausted()) {
+      // Give the participant a real choice here rather than ending the session
+      // outright just because the pool ran dry before reaching the target -
+      // maybe a name comes back to them on a second look, maybe it doesn't, either
+      // is a completely fine outcome. unknownFileNames() already excludes anything
+      // this same redo pass has since turned into "known", so re-declining an item
+      // doesn't loop it back in for a third try.
+      if (!state.redoOffered && unknownFileNames().length > 0) {
+        state.redoOffered = true;
+        saveState();
+        stopKeyboardListening();
+        showScreen("screen-redo-prompt");
+        return;
+      }
+      finishSession();
+      return;
+    }
     var concept = conceptByFile[state.current];
     if (!concept) { // data mismatch safety net: skip unknown file and move on
       state.current = null; advanceTrial(); renderCurrentStim(); return;
@@ -538,6 +617,27 @@
   function recordResponse(responseValue) {
     var concept = conceptByFile[state.current];
     var rt = Math.round(performance.now() - trialStartTs);
+
+    // A redo pass answers something already in state.rows - the new response should
+    // replace that old row outright, not add a second row for the same item. Undo
+    // the old row's contribution to the seen/known counts before removing it, so
+    // those stay accurate no matter which way the response changes (known->unknown,
+    // unknown->known, or unchanged).
+    for (var i = 0; i < state.rows.length; i++) {
+      if (state.rows[i].file_name === concept.file_name) {
+        var oldRow = state.rows[i];
+        if (oldRow.type === "person") {
+          state.seenPeopleCount -= 1;
+          if (oldRow.response === "known") state.knownPeopleCount -= 1;
+        } else if (oldRow.type === "place") {
+          state.seenPlacesCount -= 1;
+          if (oldRow.response === "known") state.knownPlacesCount -= 1;
+        }
+        state.rows.splice(i, 1);
+        break;
+      }
+    }
+
     var row = {
       patient_id: state.patientId || "",
       site: CONFIG.siteId,
