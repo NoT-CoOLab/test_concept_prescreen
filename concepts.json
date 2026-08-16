@@ -1,2556 +1,6 @@
 {
  "concepts": [
   {
-   "file_name": "acropolis_parthenon.jpg",
-   "index": "L001",
-   "names": {
-    "en": "Acropolis of Athens (Parthenon)",
-    "de": "Akropolis von Athen (Parthenon)",
-    "sl": "Atenska Akropola (Partenon)",
-    "tur": "Atina Akropolü (Parthenon)",
-    "ukr": "Афінський Акрополь (Парфенон)",
-    "rus": "Афинский акрополь (Парфенон)",
-    "ch": "雅典卫城"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "angkor_wat.jpg",
-   "index": "L002",
-   "names": {
-    "en": "Angkor Wat",
-    "de": "Angkor Wat",
-    "sl": "Angkor Vat",
-    "tur": "Angkor Vat",
-    "ukr": "Ангкор-Ват",
-    "rus": "Ангкор-Ват",
-    "ch": "吴哥窟"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "arc_de_triomphe.jpg",
-   "index": "L003",
-   "names": {
-    "en": "Arc de Triomphe",
-    "de": "Arc de Triomphe",
-    "sl": "Slavolok zmage, Pariz",
-    "tur": "Zafer Takı (Arc de Triomphe)",
-    "ukr": "Тріумфальна арка",
-    "rus": "Триумфальная арка",
-    "ch": "凯旋门"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "atomium.jpg",
-   "index": "L004",
-   "names": {
-    "en": "Atomium",
-    "de": "Atomium",
-    "sl": "Atomium",
-    "tur": "Atomium",
-    "ukr": "Атоміум",
-    "rus": "Атомиум",
-    "ch": "原子球塔"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "berlin_tv_tower.jpg",
-   "index": "L005",
-   "names": {
-    "en": "Berlin TV Tower",
-    "de": "Berliner Fernsehturm",
-    "sl": "televizijski stolp Berlin",
-    "tur": "Berliner Fernsehturm",
-    "ukr": "Берлінська телевежа",
-    "rus": "Берлинская телебашня",
-    "ch": "柏林电视塔"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "berlin_wall_east_side_gallery.jpg",
-   "index": "L006",
-   "names": {
-    "en": "Berlin Wall (East Side Gallery)",
-    "de": "Berliner Mauer (East Side Gallery)",
-    "sl": "Berlinski zid (Galerija vzhodne strani)",
-    "tur": "Berlin Duvarı (East Side Gallery)",
-    "ukr": "Берлінська стіна (Східна галерея)",
-    "rus": "Берлинская стена (Восточная галерея)",
-    "ch": "柏林墙"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "big_ben.jpg",
-   "index": "L007",
-   "names": {
-    "en": "Big Ben",
-    "de": "Big Ben",
-    "sl": "Big Ben",
-    "tur": "Big Ben",
-    "ukr": "Біг-Бен",
-    "rus": "Биг-Бен",
-    "ch": "大本钟"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "blue_lagoon_iceland.jpg",
-   "index": "L008",
-   "names": {
-    "en": "Blue Lagoon, Iceland",
-    "de": "Blaue Lagune, Island",
-    "sl": "Modra laguna, Islandija",
-    "tur": "Mavi Lagün, İzlanda",
-    "ukr": "Блакитна лагуна, Ісландія",
-    "rus": "Голубая лагуна, Исландия",
-    "ch": "蓝湖"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "blue_mosque_istanbul.jpg",
-   "index": "L009",
-   "names": {
-    "en": "Blue Mosque, Istanbul",
-    "de": "Sultan-Ahmed-Moschee",
-    "sl": "Modra mošeja",
-    "tur": "Sultanahmet Camii, İstanbul",
-    "ukr": "Блакитна мечеть, Стамбул",
-    "rus": "Голубая мечеть, Стамбул",
-    "ch": "蓝色清真寺"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "borobudur.jpg",
-   "index": "L010",
-   "names": {
-    "en": "Borobudur",
-    "de": "Borobudur",
-    "sl": "Borobudur",
-    "tur": "Borobudur",
-    "ukr": "Боробудур",
-    "rus": "Боробудур",
-    "ch": "婆罗浮屠"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "brandenburg_gate.jpg",
-   "index": "L011",
-   "names": {
-    "en": "Brandenburg Gate",
-    "de": "Brandenburger Tor",
-    "sl": "Brandenburška vrata",
-    "tur": "Brandenburg Kapısı",
-    "ukr": "Бранденбурзькі ворота",
-    "rus": "Бранденбургские ворота",
-    "ch": "勃兰登堡门"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "brooklyn_bridge.jpg",
-   "index": "L012",
-   "names": {
-    "en": "Brooklyn Bridge",
-    "de": "Brooklyn Bridge",
-    "sl": "Brooklynski most",
-    "tur": "Brooklyn Köprüsü",
-    "ukr": "Бруклінський міст",
-    "rus": "Бруклинский мост",
-    "ch": "布鲁克林大桥"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "buckingham_palace.jpg",
-   "index": "L013",
-   "names": {
-    "en": "Buckingham Palace",
-    "de": "Buckingham Palace",
-    "sl": "Buckinghamska palača",
-    "tur": "Buckingham Sarayı",
-    "ukr": "Букінгемський палац",
-    "rus": "Букингемский дворец",
-    "ch": "白金汉宫"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "burj_al_arab.jpg",
-   "index": "L014",
-   "names": {
-    "en": "Burj Al Arab",
-    "de": "Burj Al Arab",
-    "sl": "Burdž Al Arab",
-    "tur": "Burc el-Arab",
-    "ukr": "Бурдж-аль-Араб",
-    "rus": "Бурдж-эль-Араб",
-    "ch": "帆船酒店"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "burj_khalifa.jpg",
-   "index": "L015",
-   "names": {
-    "en": "Burj Khalifa",
-    "de": "Burj Khalifa",
-    "sl": "Burdž Kalifa",
-    "tur": "Burc Halife",
-    "ukr": "Бурдж-Халіфа",
-    "rus": "Бурдж-Халифа",
-    "ch": "哈利法塔"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "charles_bridge_prague.jpg",
-   "index": "L016",
-   "names": {
-    "en": "Charles Bridge, Prague",
-    "de": "Karlsbrücke, Prag",
-    "sl": "Karlov most, Praga",
-    "tur": "Charles Köprüsü, Prag",
-    "ukr": "Карлів міст, Прага",
-    "rus": "Карлов мост, Прага",
-    "ch": "查理大桥"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "chichen_itza.jpg",
-   "index": "L017",
-   "names": {
-    "en": "Chichén Itzá",
-    "de": "Chichén Itzá",
-    "sl": "Chichén Itzá",
-    "tur": "Chichén Itzá",
-    "ukr": "Чичен-Іца",
-    "rus": "Чичен-Ица",
-    "ch": "奇琴伊察"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "christ_the_redeemer.jpg",
-   "index": "L018",
-   "names": {
-    "en": "Christ the Redeemer",
-    "de": "Cristo Redentor (Rio de Janeiro)",
-    "sl": "Kristus Odrešenik",
-    "tur": "Kurtarıcı İsa",
-    "ukr": "Статуя Христа-Спасителя",
-    "rus": "Статуя Христа-Искупителя",
-    "ch": "基督像"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "cn_tower.jpg",
-   "index": "L019",
-   "names": {
-    "en": "CN Tower",
-    "de": "CN Tower",
-    "sl": "Stolp CN",
-    "tur": "CN Kulesi",
-    "ukr": "Сі-Ен Тауер",
-    "rus": "Си-Эн Тауэр",
-    "ch": "CN塔"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "cologne_cathedral_koelner_dom.jpg",
-   "index": "L020",
-   "names": {
-    "en": "Cologne Cathedral",
-    "de": "Kölner Dom",
-    "sl": "Stolnica sv. Petra, Köln",
-    "tur": "Köln Katedrali",
-    "ukr": "Кельнський собор",
-    "rus": "Кёльнский собор",
-    "ch": "科隆大教堂"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "colosseum.jpg",
-   "index": "L021",
-   "names": {
-    "en": "Colosseum",
-    "de": "Kolosseum",
-    "sl": "Kolosej",
-    "tur": "Kolezyum",
-    "ukr": "Колізей",
-    "rus": "Колизей",
-    "ch": "罗马斗兽场"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "disneyland_paris_castle.jpg",
-   "index": "L022",
-   "names": {
-    "en": "Disneyland Paris Castle (Sleeping Beauty Castle)",
-    "de": "Disneyland Paris Schloss (Schloss Dornröschen)",
-    "sl": "Disneyland Pariški grad (Grad Trnuljčice)",
-    "tur": "Disneyland Paris Şatosu (Uyuyan Güzel Şatosu)",
-    "ukr": "Паризький замок Діснейленд (Замок Сплячої Красуні)",
-    "rus": "Диснейленд Парижский замок (Замок Спящей красавицы)",
-    "ch": "睡美人城堡"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "dome_of_the_rock.jpg",
-   "index": "L023",
-   "names": {
-    "en": "Dome of the Rock",
-    "de": "Felsendom",
-    "sl": "Kupola na skali",
-    "tur": "Kubbetü's-Sahre",
-    "ukr": "Баня Скелі",
-    "rus": "Купол Скалы",
-    "ch": "圆顶清真寺"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "dragon_bridge.jpg",
-   "index": "L024",
-   "names": {
-    "en": "Dragon Bridge, Ljubljana",
-    "de": "Drachenbrücke, Ljubljana",
-    "sl": "Zmajski most, Ljubljana",
-    "tur": "Ejderha Köprüsü, Ljubljana",
-    "ukr": "Міст Дракона, Любляна",
-    "rus": "Драконий мост, Любляна",
-    "ch": "龙桥"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "easter_island_moai.jpg",
-   "index": "L025",
-   "names": {
-    "en": "Easter Island",
-    "de": "Osterinsel",
-    "sl": "Velikonočni otok",
-    "tur": "Paskalya Adası",
-    "ukr": "Острів Пасхи",
-    "rus": "Остров Пасхи",
-    "ch": "复活节岛"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "edinburgh_castle.jpg",
-   "index": "L026",
-   "names": {
-    "en": "Edinburgh Castle",
-    "de": "Edinburgh Castle",
-    "sl": "Grad Edinburg",
-    "tur": "Edinburgh Kalesi",
-    "ukr": "Единбурзький замок",
-    "rus": "Эдинбургский замок",
-    "ch": "爱丁堡城堡"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "eiffel_tower.jpg",
-   "index": "L027",
-   "names": {
-    "en": "Eiffel Tower",
-    "de": "Eiffelturm",
-    "sl": "Eifflov stolp",
-    "tur": "Eyfel Kulesi",
-    "ukr": "Ейфелева вежа",
-    "rus": "Эйфелева башня",
-    "ch": "埃菲尔铁塔"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "hamburg_elbphilharmonie.jpg",
-   "index": "L028",
-   "names": {
-    "en": "Elbphilharmonie, Hamburg",
-    "de": "Elbphilharmonie, Hamburg",
-    "sl": "Labska filharmonija, Hamburg",
-    "tur": "Elbphilharmonie, Hamburg",
-    "ukr": "Ельбська філармонія, Гамбург",
-    "rus": "Эльбфилармония, Гамбург",
-    "ch": "易北爱乐音乐厅"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "empire_state_building.jpg",
-   "index": "L029",
-   "names": {
-    "en": "Empire State Building",
-    "de": "Empire State Building",
-    "sl": "Empire State Building",
-    "tur": "Empire State Binası",
-    "ukr": "Емпайр-Стейт-Білдінг",
-    "rus": "Эмпайр-стейт-билдинг",
-    "ch": "帝国大厦"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "florence_cathedral_duomo_brunelleschi_dome.jpg",
-   "index": "L030",
-   "names": {
-    "en": "Florence Cathedral",
-    "de": "Dom zu Florenz",
-    "sl": "Firenška stolnica",
-    "tur": "Floransa Katedrali",
-    "ukr": "Санта-Марія-дель-Фйоре",
-    "rus": "Санта-Мария-дель-Фьоре",
-    "ch": "圣母百花大教堂"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "forbidden_city_tiananmen_gate.jpg",
-   "index": "L031",
-   "names": {
-    "en": "Forbidden City (Tiananmen Gate)",
-    "de": "Tor des Himmlischen Friedens",
-    "sl": "Brána nebeského pokoja",
-    "tur": "Tiananmen (Göksel Barış Kapısı)",
-    "ukr": "Брама небесного спокою",
-    "rus": "Врата Небесного Спокойствия",
-    "ch": "故宫（天安门）"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "frauenkirche_dresden.jpg",
-   "index": "L032",
-   "names": {
-    "en": "Frauenkirche, Dresden",
-    "de": "Frauenkirche, Dresden",
-    "sl": "Frauenkirche, Dresden",
-    "tur": "Frauenkirche, Dresden",
-    "ukr": "Фрауенкірхе, Дрезден",
-    "rus": "Фрауэнкирхе, Дрезден",
-    "ch": "德累斯顿圣母教堂"
-   },
-   "population": "german",
-   "type": "place"
-  },
-  {
-   "file_name": "fushimi_inari_torii_gates.jpg",
-   "index": "L033",
-   "names": {
-    "en": "Fushimi Inari Torii Gates",
-    "de": "Fushimi-Inari-Torii-Tore",
-    "sl": "Vrata Fushimi Inari Torii",
-    "tur": "Fushimi Inari Torii Kapıları",
-    "ukr": "Ворота Фусімі-Інарі-Торії",
-    "rus": "Ворота Тории Фусими Инари",
-    "ch": "伏见稻荷大社千本鸟居"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "gateway_arch_st_louis.jpg",
-   "index": "L034",
-   "names": {
-    "en": "Gateway Arch",
-    "de": "Gateway Arch",
-    "sl": "Gateway Arch",
-    "tur": "Geçit Kemeri",
-    "ukr": "Арка Гейтвей",
-    "rus": "Ворота на запад",
-    "ch": "圣路易斯拱门"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "giants_causeway.jpg",
-   "index": "L035",
-   "names": {
-    "en": "Giant's Causeway",
-    "de": "Giant’s Causeway",
-    "sl": "Velikanova pot",
-    "tur": "Devler Kaldırımı (Giant's Causeway)",
-    "ukr": "Дорога Гігантів",
-    "rus": "Мостовая гигантов",
-    "ch": "巨人堤道"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "golden_gate_bridge.jpg",
-   "index": "L036",
-   "names": {
-    "en": "Golden Gate Bridge",
-    "de": "Golden Gate Bridge",
-    "sl": "Most Golden Gate",
-    "tur": "Golden Gate Köprüsü",
-    "ukr": "Міст Золота Брама",
-    "rus": "Золотые Ворота (мост)",
-    "ch": "金门大桥"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "grand_canyon.jpg",
-   "index": "L037",
-   "names": {
-    "en": "Grand Canyon",
-    "de": "Grand Canyon",
-    "sl": "Grand Kanjon",
-    "tur": "Büyük Kanyon",
-    "ukr": "Гранд Каньйон",
-    "rus": "Большой каньон",
-    "ch": "科罗拉多大峡谷"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "great_buddha_of_kamakura.jpg",
-   "index": "L038",
-   "names": {
-    "en": "Great Buddha of Kamakura",
-    "de": "Großer Buddha von Kamakura",
-    "sl": "Veliki Buda v Kamakuri",
-    "tur": "Kamakura Büyük Buda Heykeli",
-    "ukr": "Великий Будда Камакури",
-    "rus": "Большой сфинкс",
-    "ch": "镰仓大佛"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "great_sphinx_of_giza.jpg",
-   "index": "L039",
-   "names": {
-    "en": "Great Sphinx of Giza",
-    "de": "Große Sphinx von Gizeh",
-    "sl": "Velika sfinga v Gizi",
-    "tur": "Büyük Gize Sfenksi",
-    "ukr": "Великий Сфінкс",
-    "rus": "Великий Сфинкс Гизы",
-    "ch": "吉萨狮身人面像"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "great_wall_of_china.jpg",
-   "index": "L040",
-   "names": {
-    "en": "Great Wall of China",
-    "de": "Chinesische Mauer",
-    "sl": "Kitajski zid",
-    "tur": "Çin Seddi",
-    "ukr": "Великий китайський мур",
-    "rus": "Великая Китайская стена",
-    "ch": "万里长城"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "guggenheim_museum_bilbao.jpg",
-   "index": "L041",
-   "names": {
-    "en": "Guggenheim Museum Bilbao",
-    "de": "Guggenheim-Museum Bilbao",
-    "sl": "Guggenheimov muzej, Bilbao",
-    "tur": "Guggenheim Müzesi Bilbao",
-    "ukr": "Музей Соломона Гуггенгайма (Більбао)",
-    "rus": "Музей Гуггенхайма в Бильбао",
-    "ch": "毕尔巴鄂古根海姆博物馆"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "hagia_sophia.jpg",
-   "index": "L042",
-   "names": {
-    "en": "Hagia Sophia",
-    "de": "Hagia Sophia",
-    "sl": "Hagija Sofija",
-    "tur": "Ayasofya",
-    "ukr": "Софійський собор (Константинополь)",
-    "rus": "Собор Святой Софии",
-    "ch": "圣索菲亚大教堂"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "hallstatt_village.jpg",
-   "index": "L043",
-   "names": {
-    "en": "Hallstatt Village",
-    "de": "Dorf Hallstatt",
-    "sl": "Vas Hallstatt",
-    "tur": "Hallstatt Köyü",
-    "ukr": "Селище Гальштат",
-    "rus": "Деревня Гальштатт",
-    "ch": "哈尔施塔特"
-   },
-   "population": "german",
-   "type": "place"
-  },
-  {
-   "file_name": "heidelberg_castle.jpg",
-   "index": "L044",
-   "names": {
-    "en": "Heidelberg Castle",
-    "de": "Heidelberger Schloss",
-    "sl": "Grad Heidelberg",
-    "tur": "Heidelberg Sarayı",
-    "ukr": "Гайдельберзький замок",
-    "rus": "Гейдельбергский замок",
-    "ch": "海德堡城堡"
-   },
-   "population": "german",
-   "type": "place"
-  },
-  {
-   "file_name": "hohenzollern_castle.jpg",
-   "index": "L045",
-   "names": {
-    "en": "Hohenzollern Castle",
-    "de": "Burg Hohenzollern",
-    "sl": "Grad Hohenzollern",
-    "tur": "Hohenzollern Kalesi",
-    "ukr": "Замок Гогенцоллерн",
-    "rus": "Замок Гогенцоллерн",
-    "ch": "霍亨索伦城堡"
-   },
-   "population": "german",
-   "type": "place"
-  },
-  {
-   "file_name": "hollywood_sign.jpg",
-   "index": "L046",
-   "names": {
-    "en": "Hollywood Sign",
-    "de": "Hollywood Sign",
-    "sl": "Hollywoodski znak",
-    "tur": "Hollywood Yazısı",
-    "ukr": "Знак Голлівуду",
-    "rus": "Знак Голливуда",
-    "ch": "好莱坞标志"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "holstentor_luebeck.jpg",
-   "index": "L047",
-   "names": {
-    "en": "Holstentor, Lübeck",
-    "de": "Holstentor, Lübeck",
-    "sl": "Holstentor, Lübeck",
-    "tur": "Holstentor, Lübeck",
-    "ukr": "Гольстентор, Любек",
-    "rus": "Хольстентор, Любек",
-    "ch": "吕贝克霍尔斯滕门"
-   },
-   "population": "german",
-   "type": "place"
-  },
-  {
-   "file_name": "hoover_dam.jpg",
-   "index": "L048",
-   "names": {
-    "en": "Hoover Dam",
-    "de": "Hoover Dam",
-    "sl": "Hooverjev jez",
-    "tur": "Hoover Barajı",
-    "ukr": "Гребля Гувера",
-    "rus": "Плотина Гувера",
-    "ch": "胡佛水坝"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "hungarian_parliament_building.jpg",
-   "index": "L049",
-   "names": {
-    "en": "Hungarian Parliament Building",
-    "de": "Parlamentsgebäude (Budapest)",
-    "sl": "Stavba madžarskega parlamenta",
-    "tur": "Macaristan Parlamento Binası",
-    "ukr": "Будівля парламенту Угорщини",
-    "rus": "Здание венгерского парламента",
-    "ch": "匈牙利国会大厦"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "kinderdijk_windmills.jpg",
-   "index": "L050",
-   "names": {
-    "en": "Kinderdijk Windmills",
-    "de": "Windmühlen von Kinderdijk",
-    "sl": "Vetrne mline Kinderdijk",
-    "tur": "Kinderdijk Yel Değirmenleri",
-    "ukr": "Вітряки Кіндердейк",
-    "rus": "Ветряные мельницы Киндердейк",
-    "ch": "小孩堤防风车群"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "lake_bled_island_church.jpg",
-   "index": "L051",
-   "names": {
-    "en": "Lake Bled and Bled Island Church",
-    "de": "Bleder See und Inselkirche",
-    "sl": "Blejsko jezero in cerkev na Blejskem otoku",
-    "tur": "Bled Gölü ve Bled Adası Kilisesi",
-    "ukr": "Озеро Блед та церква на острові Блед",
-    "rus": "Озеро Блед и церковь на острове Блед",
-    "ch": "布莱德湖和布莱德岛教堂"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "lake_bohinj.jpg",
-   "index": "L052",
-   "names": {
-    "en": "Lake Bohinj",
-    "de": "Bohinjsko jezero",
-    "sl": "Bohinjsko jezero",
-    "tur": "Bohinj Gölü",
-    "ukr": "Бохинське озеро",
-    "rus": "Бохиньское озеро",
-    "ch": "博希尼湖"
-   },
-   "population": "slovenian",
-   "type": "place"
-  },
-  {
-   "file_name": "las_vegas_strip.jpg",
-   "index": "L053",
-   "names": {
-    "en": "Las Vegas Strip",
-    "de": "Las Vegas Strip",
-    "sl": "Las Vegas Strip",
-    "tur": "Las Vegas Strip",
-    "ukr": "Лас-Вегас-Стріп",
-    "rus": "Лас-Вегас-Стрип",
-    "ch": "拉斯维加斯大道"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "leaning_tower_of_pisa.jpg",
-   "index": "L054",
-   "names": {
-    "en": "Leaning Tower of Pisa",
-    "de": "Schiefer Turm von Pisa",
-    "sl": "Poševni stolp v Pisi",
-    "tur": "Pisa Kulesi",
-    "ukr": "Пізанська вежа",
-    "rus": "Пизанская башня",
-    "ch": "比萨斜塔"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "little_mermaid_statue_copenhagen.jpg",
-   "index": "L055",
-   "names": {
-    "en": "Little Mermaid Statue",
-    "de": "Statue der kleinen Meerjungfrau",
-    "sl": "Kip Male morske deklice",
-    "tur": "Küçük Deniz Kızı Heykeli",
-    "ukr": "Статуя Русалоньки",
-    "rus": "Статуя Русалочки",
-    "ch": "小美人鱼雕像"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "ljubljana_castle.jpg",
-   "index": "L056",
-   "names": {
-    "en": "Ljubljana Castle",
-    "de": "Ljubljanaer Burg",
-    "sl": "Ljubljanski grad",
-    "tur": "Ljubljana Kalesi",
-    "ukr": "Люблянський замок",
-    "rus": "Люблянский град",
-    "ch": "卢布尔雅那城堡"
-   },
-   "population": "slovenian",
-   "type": "place"
-  },
-  {
-   "file_name": "london_eye.jpg",
-   "index": "L057",
-   "names": {
-    "en": "London Eye",
-    "de": "London Eye",
-    "sl": "Londonsko oko",
-    "tur": "London Eye",
-    "ukr": "Лондонське око",
-    "rus": "Лондонский глаз",
-    "ch": "伦敦眼"
-   },
-   "population": "slovenian",
-   "type": "place"
-  },
-  {
-   "file_name": "louvre_museum_glass_pyramid.jpg",
-   "index": "L058",
-   "names": {
-    "en": "Louvre Museum and Glass Pyramid",
-    "de": "Louvre-Museum und Glaspyramide",
-    "sl": "Muzej Louvre in steklena piramida",
-    "tur": "Louvre Müzesi ve Cam Piramit",
-    "ukr": "Музей Лувр та скляна піраміда",
-    "rus": "Лувр и стеклянная пирамида",
-    "ch": "卢浮宫和玻璃金字塔"
-   },
-   "population": "slovenian",
-   "type": "place"
-  },
-  {
-   "file_name": "luxor_temple.jpg",
-   "index": "L059",
-   "names": {
-    "en": "Luxor Temple",
-    "de": "Luxor-Tempel",
-    "sl": "Tempelj v Luksorju",
-    "tur": "Luksor Tapınağı",
-    "ukr": "Луксорський храм",
-    "rus": "Луксорский храм",
-    "ch": "卢克索神庙"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "machu_picchu.jpg",
-   "index": "L060",
-   "names": {
-    "en": "Machu Picchu",
-    "de": "Machu Picchu",
-    "sl": "Machu Picchu",
-    "tur": "Machu Picchu",
-    "ukr": "Мачу-Пікчу",
-    "rus": "Мачу-Пикчу",
-    "ch": "马丘比丘"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "marina_bay_sands.jpg",
-   "index": "L061",
-   "names": {
-    "en": "Marina Bay Sands",
-    "de": "Marina Bay Sands",
-    "sl": "Marina Bay Sands",
-    "tur": "Marina Bay Sands",
-    "ukr": "Марина-Бей-Сендс",
-    "rus": "Марина-Бэй-Сэндс",
-    "ch": "滨海湾金沙"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "kaaba_mecca.jpg",
-   "index": "L062",
-   "names": {
-    "en": "Masjid al-Haram (Kaaba, Mecca)",
-    "de": "Masdschid al-Haram (Kaaba, Mekka)",
-    "sl": "Mošeja al-Haram (Kaaba, Meka)",
-    "tur": "Mescid-i Haram (Kabe, Mekke)",
-    "ukr": "Масджид аль-Харам (Кааба, Мекка)",
-    "rus": "Мечеть аль-Харам (Кааба, Мекка)",
-    "ch": "麦加大清真寺（克尔白天房）"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "singapore_merlion.jpg",
-   "index": "L063",
-   "names": {
-    "en": "Merlion, Singapore",
-    "de": "Merlion, Singapur",
-    "sl": "Merlion, Singapur",
-    "tur": "Merlion, Singapur",
-    "ukr": "Мерліон, Сінгапур",
-    "rus": "Мерлион, Сингапур",
-    "ch": "新加坡鱼尾狮"
-   },
-   "population": "german",
-   "type": "place"
-  },
-  {
-   "file_name": "duomo_di_milano_milan_cathedral.jpg",
-   "index": "L064",
-   "names": {
-    "en": "Milan Cathedral",
-    "de": "Dom zu Mailand",
-    "sl": "Milanska stolnica",
-    "tur": "Milano Katedrali",
-    "ukr": "Міланський собор",
-    "rus": "Миланский собор",
-    "ch": "米兰大教堂"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "mont_saint_michel.jpg",
-   "index": "L065",
-   "names": {
-    "en": "Mont Saint-Michel",
-    "de": "Le Mont-Saint-Michel",
-    "sl": "Mont Saint-Michel",
-    "tur": "Mont Saint-Michel",
-    "ukr": "Мон-Сен-Мішель",
-    "rus": "Мон-Сен-Мишель",
-    "ch": "圣米歇尔山"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "moulin_rouge.jpg",
-   "index": "L066",
-   "names": {
-    "en": "Moulin Rouge",
-    "de": "Moulin Rouge",
-    "sl": "Moulin Rouge",
-    "tur": "Kırmızı Değirmen",
-    "ukr": "Мулен-Руж",
-    "rus": "Мулен-Руж",
-    "ch": "红磨坊"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "mount_everest.jpg",
-   "index": "L067",
-   "names": {
-    "en": "Mount Everest",
-    "de": "Mount Everest",
-    "sl": "Mount Everest",
-    "tur": "Everest Dağı",
-    "ukr": "Еверест",
-    "rus": "Джомолунгма",
-    "ch": "珠穆朗玛峰"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "mount_fuji.jpg",
-   "index": "L068",
-   "names": {
-    "en": "Mount Fuji",
-    "de": "Fuji (Vulkan)",
-    "sl": "Fudži",
-    "tur": "Fuji Dağı",
-    "ukr": "Фудзі (гора)",
-    "rus": "Фудзияма",
-    "ch": "富士山"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "mount_rushmore.jpg",
-   "index": "L069",
-   "names": {
-    "en": "Mount Rushmore",
-    "de": "Mount Rushmore",
-    "sl": "Gora Rushmore",
-    "tur": "Rushmore Dağı Anıtı",
-    "ukr": "Рашмор",
-    "rus": "Рашмор",
-    "ch": "拉什莫尔山"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "mount_triglav.jpg",
-   "index": "L070",
-   "names": {
-    "en": "Mount Triglav",
-    "de": "Triglav",
-    "sl": "Gora Triglav",
-    "tur": "Triglav",
-    "ukr": "Триглав (гора)",
-    "rus": "Триглав",
-    "ch": "特里格拉夫山"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "marienplatz_new_town_hall_munich.jpg",
-   "index": "L071",
-   "names": {
-    "en": "Munich Town Hall",
-    "de": "Münchner Rathaus",
-    "sl": "Mestna hiša v Münchnu",
-    "tur": "Münih Belediye Binası",
-    "ukr": "Мюнхенська ратуша",
-    "rus": "Мюнхенская ратуша",
-    "ch": "慕尼黑新市政厅"
-   },
-   "population": "slovenian",
-   "type": "place"
-  },
-  {
-   "file_name": "neuschwanstein_castle.jpg",
-   "index": "L072",
-   "names": {
-    "en": "Neuschwanstein Castle",
-    "de": "Schloss Neuschwanstein",
-    "sl": "Grad Neuschwanstein",
-    "tur": "Neuschwanstein Şatosu",
-    "ukr": "Нойшванштайн",
-    "rus": "Нойшванштайн",
-    "ch": "新天鹅堡"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "niagara_falls.jpg",
-   "index": "L073",
-   "names": {
-    "en": "Niagara Falls",
-    "de": "Niagarafälle",
-    "sl": "Niagarski slapovi",
-    "tur": "Niagara Şelaleleri",
-    "ukr": "Ніагарський водоспад",
-    "rus": "Ниагарский водопад",
-    "ch": "尼亚加拉瀑布"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "notre_dame_cathedral_paris.jpg",
-   "index": "L074",
-   "names": {
-    "en": "Notre-Dame Cathedral",
-    "de": "Kathedrale Notre-Dame de Paris",
-    "sl": "Stolnica Notre-Dame v Parizu",
-    "tur": "Notre-Dame Katedrali",
-    "ukr": "Собор Паризької Богоматері",
-    "rus": "Собор Парижской Богоматери",
-    "ch": "巴黎圣母院"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "oxford_university.jpg",
-   "index": "L075",
-   "names": {
-    "en": "Oxford University",
-    "de": "Universität Oxford",
-    "sl": "Univerza v Oxfordu",
-    "tur": "Oxford Üniversitesi",
-    "ukr": "Оксфордський університет",
-    "rus": "Оксфордский университет",
-    "ch": "牛津大学"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "versailles_palace.jpg",
-   "index": "L076",
-   "names": {
-    "en": "Palace of Versailles",
-    "de": "Schloss Versailles",
-    "sl": "Versajska palača",
-    "tur": "Versay Sarayı",
-    "ukr": "Версальський палац",
-    "rus": "Версаль",
-    "ch": "凡尔赛宫"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "palm_jumeirah.jpg",
-   "index": "L077",
-   "names": {
-    "en": "Palm Jumeirah",
-    "de": "Palm Jumeirah",
-    "sl": "Palm Jumeirah",
-    "tur": "Palm Cumeyra",
-    "ukr": "Пальма Джумейра",
-    "rus": "Палм-Джумейра",
-    "ch": "朱美拉棕榈岛"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "pantheon_rome.jpg",
-   "index": "L078",
-   "names": {
-    "en": "Pantheon, Rome",
-    "de": "Pantheon, Rom",
-    "sl": "Panteon, Rim",
-    "tur": "Pantheon, Roma",
-    "ukr": "Пантеон, Рим",
-    "rus": "Пантеон, Рим",
-    "ch": "罗马万神殿"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "park_guell.jpg",
-   "index": "L079",
-   "names": {
-    "en": "Park Güell",
-    "de": "Park Güell",
-    "sl": "Park Güell",
-    "tur": "Park Güell",
-    "ukr": "Парк Гуель",
-    "rus": "Парк Гуэль",
-    "ch": "桂尔公园"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "petra_jordan.jpg",
-   "index": "L080",
-   "names": {
-    "en": "Petra",
-    "de": "Petra",
-    "sl": "Petra",
-    "tur": "Petra",
-    "ukr": "Петра",
-    "rus": "Петра",
-    "ch": "佩特拉古城"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "petronas_twin_towers.jpg",
-   "index": "L081",
-   "names": {
-    "en": "Petronas Twin Towers",
-    "de": "Petronas Towers",
-    "sl": "Petronasova stolpa",
-    "tur": "Petronas İkiz Kuleleri",
-    "ukr": "Вежі Петронас",
-    "rus": "Башни Петронас",
-    "ch": "吉隆坡双子塔"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "piccadilly_circus.jpg",
-   "index": "L082",
-   "names": {
-    "en": "Piccadilly Circus",
-    "de": "Piccadilly Circus",
-    "sl": "Piccadilly Circus",
-    "tur": "Piccadilly Circus",
-    "ukr": "Пікаділлі-Серкус",
-    "rus": "Пикадилли-серкус",
-    "ch": "皮卡迪利广场"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "piran.jpg",
-   "index": "L083",
-   "names": {
-    "en": "Piran",
-    "de": "Piran",
-    "sl": "Piran",
-    "tur": "Piran",
-    "ukr": "Пиран",
-    "rus": "Пиран",
-    "ch": "皮兰"
-   },
-   "population": "slovenian",
-   "type": "place"
-  },
-  {
-   "file_name": "ponte_vecchio.jpg",
-   "index": "L084",
-   "names": {
-    "en": "Ponte Vecchio",
-    "de": "Ponte Vecchio",
-    "sl": "Ponte Vecchio",
-    "tur": "Ponte Vecchio",
-    "ukr": "Понте Веккйо",
-    "rus": "Понте-Веккьо",
-    "ch": "维琪奥桥（老桥）"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "porta_nigra_trier.jpg",
-   "index": "L085",
-   "names": {
-    "en": "Porta Nigra, Trier",
-    "de": "Porta Nigra, Trier",
-    "sl": "Porta Nigra, Trier",
-    "tur": "Porta Nigra, Trier",
-    "ukr": "Порта-Нігра, Трір",
-    "rus": "Порта-Нигра, Трир",
-    "ch": "特里尔黑门"
-   },
-   "population": "german",
-   "type": "place"
-  },
-  {
-   "file_name": "postojna_cave.jpg",
-   "index": "L086",
-   "names": {
-    "en": "Postojna Cave",
-    "de": "Höhlen von Postojna",
-    "sl": "Grad Predjama",
-    "tur": "Postojna Mağarası",
-    "ukr": "Постойнска Яма",
-    "rus": "Постойнска-Яма",
-    "ch": "波斯托伊纳溶洞"
-   },
-   "population": "slovenian",
-   "type": "place"
-  },
-  {
-   "file_name": "prague_astronomical_clock.jpg",
-   "index": "L087",
-   "names": {
-    "en": "Prague Astronomical Clock",
-    "de": "Prager Rathausuhr",
-    "sl": "Praška astronomska ura",
-    "tur": "Prag Astronomik Saati",
-    "ukr": "Празькі куранти",
-    "rus": "Пражские куранты",
-    "ch": "布拉格天文钟"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "predjama_castle.jpg",
-   "index": "L088",
-   "names": {
-    "en": "Predjama Castle",
-    "de": "Höhlenburg Predjama",
-    "sl": "Predjamski grad",
-    "tur": "Predjama Kalesi",
-    "ukr": "Предямський замок",
-    "rus": "Предъямский замок",
-    "ch": "普雷贾马城堡"
-   },
-   "population": "slovenian",
-   "type": "place"
-  },
-  {
-   "file_name": "preseren_square.jpg",
-   "index": "L089",
-   "names": {
-    "en": "Prešeren Square, Ljubljana",
-    "de": "Prešeren-Platz, Ljubljana",
-    "sl": "Prešernov trg, Ljubljana",
-    "tur": "Prešeren Meydanı, Ljubljana",
-    "ukr": "Площа Прешерна, Любляна",
-    "rus": "Площадь Прешерена, Любляна",
-    "ch": "卢布尔雅那普列舍伦广场"
-   },
-   "population": "slovenian",
-   "type": "place"
-  },
-  {
-   "file_name": "pyramids_of_giza.jpg",
-   "index": "L090",
-   "names": {
-    "en": "Pyramids of Giza",
-    "de": "Pyramiden von Gizeh",
-    "sl": "piramide pri Gizi",
-    "tur": "Gize Piramitleri",
-    "ukr": "Піраміди Гізи",
-    "rus": "Пирамиды Гизы",
-    "ch": "吉萨金字塔群"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "red_square_moscow.jpg",
-   "index": "L091",
-   "names": {
-    "en": "Red Square",
-    "de": "Roter Platz",
-    "sl": "Rdeči trg",
-    "tur": "Kızıl Meydan",
-    "ukr": "Красна площа",
-    "rus": "Красная площадь",
-    "ch": "红场"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "reichstag_building_berlin.jpg",
-   "index": "L092",
-   "names": {
-    "en": "Reichstag Building",
-    "de": "Reichstagsgebäude",
-    "sl": "Reichstag",
-    "tur": "Reichstag",
-    "ukr": "Будівля Райхстагу",
-    "rus": "Рейхстаг (здание)",
-    "ch": "德国国会大厦"
-   },
-   "population": "german",
-   "type": "place"
-  },
-  {
-   "file_name": "royal_albert_hall.jpg",
-   "index": "L093",
-   "names": {
-    "en": "Royal Albert Hall",
-    "de": "Royal Albert Hall",
-    "sl": "Royal Albert Hall",
-    "tur": "Royal Albert Hall",
-    "ukr": "Роял Альберт Холл",
-    "rus": "Альберт-холл",
-    "ch": "皇家阿尔伯特音乐厅"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "sacre_coeur_basilica.jpg",
-   "index": "L094",
-   "names": {
-    "en": "Sacré-Cœur Basilica",
-    "de": "Basilika Sacré-Cœur",
-    "sl": "Bazilika Sacré-Cœur",
-    "tur": "Sacré-Cœur Bazilikası",
-    "ukr": "Базиліка Сакре-Кер",
-    "rus": "Базилика Сакре-Кёр",
-    "ch": "圣心大教堂"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "sagrada_familia.jpg",
-   "index": "L095",
-   "names": {
-    "en": "Sagrada Família",
-    "de": "Sagrada Família",
-    "sl": "Bazilika sv. Družine, Barcelona",
-    "tur": "Sagrada Família",
-    "ukr": "Храм Спокути Святої Родини",
-    "rus": "Саграда-Фамилия",
-    "ch": "圣家堂"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "santorini.jpg",
-   "index": "L096",
-   "names": {
-    "en": "Santorini",
-    "de": "Santorin",
-    "sl": "Santorini",
-    "tur": "Santorini",
-    "ukr": "Санторині",
-    "rus": "Тира (остров)",
-    "ch": "圣托里尼岛"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "sheikh_zayed_grand_mosque.jpg",
-   "index": "L097",
-   "names": {
-    "en": "Sheikh Zayed Grand Mosque",
-    "de": "Scheich-Zayid-Moschee",
-    "sl": "Velika mošeja šejka Zayeda",
-    "tur": "Şeyh Zayid Camii",
-    "ukr": "Мечеть шейха Заїда",
-    "rus": "Мечеть шейха Заида",
-    "ch": "谢赫·扎耶德大清真寺"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "shibuya_crossing.jpg",
-   "index": "L098",
-   "names": {
-    "en": "Shibuya Crossing",
-    "de": "Shibuya Crossing",
-    "sl": "Prehod Shibuya",
-    "tur": "Shibuya Kavşağı",
-    "ukr": "Перехрестя Сібуя",
-    "rus": "Сибуйский диагональный пешеходный переход",
-    "ch": "涩谷十字路口"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "sistine_chapel.jpg",
-   "index": "L099",
-   "names": {
-    "en": "Sistine Chapel",
-    "de": "Sixtinische Kapelle",
-    "sl": "Sikstinska kapela",
-    "tur": "Sistina Şapeli",
-    "ukr": "Сікстинська капела",
-    "rus": "Сикстинская капелла",
-    "ch": "西斯廷教堂"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "space_needle.jpg",
-   "index": "L100",
-   "names": {
-    "en": "Space Needle",
-    "de": "Space Needle",
-    "sl": "Space Needle",
-    "tur": "Space Needle",
-    "ukr": "Спейс-Нідл",
-    "rus": "Спейс-Нидл",
-    "ch": "太空针塔"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "spanish_steps_rome.jpg",
-   "index": "L101",
-   "names": {
-    "en": "Spanish Steps, Rome",
-    "de": "Spanische Treppe, Rom",
-    "sl": "Španske stopnice, Rim",
-    "tur": "İspanyol Merdivenleri, Roma",
-    "ukr": "Іспанські сходи, Рим",
-    "rus": "Испанская лестница, Рим",
-    "ch": "罗马西班牙阶梯"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "st_marks_square_and_basilica_venice.jpg",
-   "index": "L102",
-   "names": {
-    "en": "St. Mark's Square and Basilica, Venice",
-    "de": "Markusplatz und Markusdom, Venedig",
-    "sl": "Trg in bazilika sv. Marka, Benetke",
-    "tur": "San Marco Meydanı ve Bazilikası, Venedik",
-    "ukr": "Площа та базиліка Святого Марка, Венеція",
-    "rus": "Площадь и базилика Святого Марка, Венеция",
-    "ch": "威尼斯圣马可广场和圣马可大教堂"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "st_peters_basilica.jpg",
-   "index": "L103",
-   "names": {
-    "en": "St. Peter's Basilica",
-    "de": "Petersdom",
-    "sl": "Bazilika sv. Petra, Vatikan",
-    "tur": "Aziz Petrus Bazilikası",
-    "ukr": "Собор Святого Петра",
-    "rus": "Собор Святого Петра",
-    "ch": "圣彼得大教堂"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "statue_of_liberty.jpg",
-   "index": "L104",
-   "names": {
-    "en": "Statue of Liberty",
-    "de": "Freiheitsstatue",
-    "sl": "Kip svobode",
-    "tur": "Özgürlük Heykeli",
-    "ukr": "Статуя Свободи",
-    "rus": "Статуя Свободы",
-    "ch": "自由女神像"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "stonehenge.jpg",
-   "index": "L105",
-   "names": {
-    "en": "Stonehenge",
-    "de": "Stonehenge",
-    "sl": "Stonehenge",
-    "tur": "Stonehenge",
-    "ukr": "Стоунгендж",
-    "rus": "Стоунхендж",
-    "ch": "巨石阵"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "sydney_harbour_bridge.jpg",
-   "index": "L106",
-   "names": {
-    "en": "Sydney Harbour Bridge",
-    "de": "Sydney Harbour Bridge",
-    "sl": "Sydneyjski pristaniški most",
-    "tur": "Sidney Liman Köprüsü",
-    "ukr": "Гарбор-Брідж (Сідней)",
-    "rus": "Харбор-Бридж (Сидней)",
-    "ch": "悉尼海港大桥"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "sydney_opera_house.jpg",
-   "index": "L107",
-   "names": {
-    "en": "Sydney Opera House",
-    "de": "Opernhaus von Sydney",
-    "sl": "Sydneyjska opera",
-    "tur": "Sidney Opera Evi",
-    "ukr": "Сіднейський оперний театр",
-    "rus": "Сиднейский оперный театр",
-    "ch": "悉尼歌剧院"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "table_mountain_cape_town.jpg",
-   "index": "L108",
-   "names": {
-    "en": "Table Mountain, Cape Town",
-    "de": "Tafelberg, Kapstadt",
-    "sl": "Table Mountain, Cape Town",
-    "tur": "Masa Dağı, Cape Town",
-    "ukr": "Столова гора, Кейптаун",
-    "rus": "Столовая гора, Кейптаун",
-    "ch": "开普敦桌山"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "taipei_101.jpg",
-   "index": "L109",
-   "names": {
-    "en": "Taipei 101",
-    "de": "Taipei 101",
-    "sl": "Taipei 101",
-    "tur": "Taipei 101",
-    "ukr": "Тайбей 101",
-    "rus": "Тайбэй 101",
-    "ch": "台北101大楼"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "taj_mahal.jpg",
-   "index": "L110",
-   "names": {
-    "en": "Taj Mahal",
-    "de": "Taj Mahal",
-    "sl": "Taj Mahal",
-    "tur": "Tac Mahal",
-    "ukr": "Тадж-Махал",
-    "rus": "Тадж-Махал",
-    "ch": "泰姬陵"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "temple_of_heaven_beijing.jpg",
-   "index": "L111",
-   "names": {
-    "en": "Temple of Heaven, Beijing",
-    "de": "Himmelstempel, Peking",
-    "sl": "Nebeški tempelj, Peking",
-    "tur": "Cennet Tapınağı, Pekin",
-    "ukr": "Храм Неба, Пекін",
-    "rus": "Храм Небес Пекин",
-    "ch": "北京天坛"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "terracotta_army.jpg",
-   "index": "L112",
-   "names": {
-    "en": "Terracotta Army",
-    "de": "Terrakotta-Armee",
-    "sl": "Glinena vojska",
-    "tur": "Toprak Askerler",
-    "ukr": "Теракотова армія",
-    "rus": "Терракотовая армия",
-    "ch": "秦始皇兵马俑"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "the_gherkin_london.jpg",
-   "index": "L113",
-   "names": {
-    "en": "The Gherkin",
-    "de": "The Gherkin",
-    "sl": "Gherkin (uhorka)",
-    "tur": "The Gherkin",
-    "ukr": "The Gherkin (огурец)",
-    "rus": "Небоскрёб Мэри-Экс",
-    "ch": "小黄瓜大楼"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "pentagon_building.jpg",
-   "index": "L114",
-   "names": {
-    "en": "The Pentagon",
-    "de": "Pentagon",
-    "sl": "Pentagon",
-    "tur": "Pentagon",
-    "ukr": "Пентагон",
-    "rus": "Пентагон",
-    "ch": "五角大楼"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "the_shard_london.jpg",
-   "index": "L115",
-   "names": {
-    "en": "The Shard",
-    "de": "The Shard",
-    "sl": "Črepinja (zgradba)",
-    "tur": "The Shard",
-    "ukr": "Шард",
-    "rus": "Шард",
-    "ch": "碎片大厦"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "times_square.jpg",
-   "index": "L116",
-   "names": {
-    "en": "Times Square",
-    "de": "Times Square",
-    "sl": "Times Square",
-    "tur": "Times Square",
-    "ukr": "Таймс-сквер",
-    "rus": "Таймс-сквер",
-    "ch": "时代广场"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "tower_bridge.jpg",
-   "index": "L117",
-   "names": {
-    "en": "Tower Bridge",
-    "de": "Tower Bridge",
-    "sl": "Tower Bridge",
-    "tur": "Tower Bridge",
-    "ukr": "Тауерський міст",
-    "rus": "Тауэрский мост",
-    "ch": "伦敦塔桥"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "tower_of_london.jpg",
-   "index": "L118",
-   "names": {
-    "en": "Tower of London",
-    "de": "Tower of London",
-    "sl": "Londonski Tower",
-    "tur": "Londra Kalesi",
-    "ukr": "Лондонський Тауер",
-    "rus": "Лондонский Тауэр",
-    "ch": "伦敦塔"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "trafalgar_square.jpg",
-   "index": "L119",
-   "names": {
-    "en": "Trafalgar Square",
-    "de": "Trafalgar Square",
-    "sl": "Trafalgarski trg",
-    "tur": "Trafalgar Meydanı",
-    "ukr": "Трафальгар-сквер",
-    "rus": "Трафальгарская площадь",
-    "ch": "特拉法加广场"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "trevi_fountain.jpg",
-   "index": "L120",
-   "names": {
-    "en": "Trevi Fountain",
-    "de": "Trevi-Brunnen",
-    "sl": "Vodnjak Trevi",
-    "tur": "Trevi Çeşmesi",
-    "ukr": "Фонтан Треві",
-    "rus": "Фонтан Треви",
-    "ch": "特雷维喷泉（许愿池）"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "triple_bridge.jpg",
-   "index": "L121",
-   "names": {
-    "en": "Triple Bridge, Ljubljana",
-    "de": "Drei-Brücken-Ensemble (Tromostovje), Ljubljana",
-    "sl": "Tromostje, Ljubljana",
-    "tur": "Üçlü Köprü, Ljubljana",
-    "ukr": "Потрійний міст, Любляна",
-    "rus": "Тройной мост, Любляна",
-    "ch": "卢布尔雅那三桥"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "uluru_ayers_rock.jpg",
-   "index": "L122",
-   "names": {
-    "en": "Uluru (Ayers Rock)",
-    "de": "Uluru (Ayers Rock)",
-    "sl": "Uluru (Ayers Rock)",
-    "tur": "Uluru (Ayers Kayası)",
-    "ukr": "Улуру (Айєрс-Рок)",
-    "rus": "Улуру (Эйерс-Рок)",
-    "ch": "乌鲁鲁（艾尔斯岩）"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "capitol_hill.jpg",
-   "index": "L123",
-   "names": {
-    "en": "United States Capitol",
-    "de": "Kapitol der Vereinigten Staaten",
-    "sl": "Kapitol",
-    "tur": "Amerikan Kongre Binası",
-    "ukr": "Капітолій (Вашингтон)",
-    "rus": "Капитолий (Вашингтон)",
-    "ch": "美国国会大厦"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "venice_canals.jpg",
-   "index": "L124",
-   "names": {
-    "en": "Venice Canals",
-    "de": "Kanäle von Venedig",
-    "sl": "Beneški kanali",
-    "tur": "Venedik Kanalları",
-    "ukr": "Венеційські канали",
-    "rus": "Венецианские каналы",
-    "ch": "威尼斯运河"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "vintgar_gorge.jpg",
-   "index": "L125",
-   "names": {
-    "en": "Vintgar Gorge",
-    "de": "Vintgarklamm",
-    "sl": "Blejski vintgar",
-    "tur": "Vintgar Geçidi",
-    "ukr": "Ущелина Вінтгар",
-    "rus": "Винтгар (ущелье)",
-    "ch": "文特加峡谷"
-   },
-   "population": "slovenian",
-   "type": "place"
-  },
-  {
-   "file_name": "western_wailing_wall.jpg",
-   "index": "L126",
-   "names": {
-    "en": "Western Wall (Wailing Wall)",
-    "de": "Klagemauer",
-    "sl": "Zid objokovanja",
-    "tur": "Batı Duvarı (Ağlama Duvarı)",
-    "ukr": "Стіна Плачу",
-    "rus": "Западная стена (Стена плача)",
-    "ch": "西墙（哭墙）"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "westminster_abbey.jpg",
-   "index": "L127",
-   "names": {
-    "en": "Westminster Abbey",
-    "de": "Westminster Abbey",
-    "sl": "Westminstrska opatija",
-    "tur": "Westminster Manastırı",
-    "ukr": "Вестмінстерське абатство",
-    "rus": "Вестминстерское аббатство",
-    "ch": "威斯敏斯特教堂"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "white_cliffs_of_dover.jpg",
-   "index": "L128",
-   "names": {
-    "en": "White Cliffs of Dover",
-    "de": "Kreidefelsen von Dover",
-    "sl": "Dovrski beli klifi",
-    "tur": "Dover'ın Beyaz Uçurumları",
-    "ukr": "Білі скелі Дувра",
-    "rus": "Белые скалы Дувра",
-    "ch": "多佛白崖"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "the_white_house.jpg",
-   "index": "L129",
-   "names": {
-    "en": "White House",
-    "de": "Weißes Haus",
-    "sl": "Bela hiša",
-    "tur": "Beyaz Saray",
-    "ukr": "Білий дім",
-    "rus": "Белый дом",
-    "ch": "白宫"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "alcatraz.jpg",
-   "index": "L130",
-   "names": {
-    "en": "Alcatraz",
-    "de": "Alcatraz",
-    "sl": "Alcatraz",
-    "tur": "Alcatraz Adası",
-    "ukr": "Алькатрас",
-    "rus": "Алькатрас",
-    "ch": "恶魔岛（阿尔卡特拉斯岛）"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "beijing_stadium.jpg",
-   "index": "L131",
-   "names": {
-    "en": "Beijing National Stadium",
-    "de": "Nationalstadion Peking",
-    "sl": "Pekinški narodni stadion ''Ptičje gnezdo''",
-    "tur": "Pekin Ulusal Stadyumu",
-    "ukr": "Пекінський національний стадіон",
-    "rus": "Национальный стадион (Пекин)",
-    "ch": "国家体育场（鸟巢）"
-   },
-   "population": "chinese",
-   "type": "place"
-  },
-  {
-   "file_name": "brighton_pier.jpg",
-   "index": "L132",
-   "names": {
-    "en": "Brighton Pier",
-    "de": "Brighton Pier",
-    "sl": "Brighton Pier",
-    "tur": "Brighton İskelesi",
-    "ukr": "Пірс у Брайтоні",
-    "rus": "Пирс в Брайтоне",
-    "ch": "布莱顿码头"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "calton_hill.jpg",
-   "index": "L133",
-   "names": {
-    "en": "Calton Hill",
-    "de": "Calton Hill",
-    "sl": "Calton Hill",
-    "tur": "Calton Hill",
-    "ukr": "Калтон-Хілл",
-    "rus": "Калтон-Хилл",
-    "ch": "卡尔顿山"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "canton_tower.jpg",
-   "index": "L134",
-   "names": {
-    "en": "Canton Tower",
-    "de": "Canton Tower",
-    "sl": "Kantonski stolp",
-    "tur": "Kanton Kulesi",
-    "ukr": "Телевежа Ґуанчжоу",
-    "rus": "Телебашня Гуанчжоу",
-    "ch": "广州塔（小蛮腰）"
-   },
-   "population": "chinese",
-   "type": "place"
-  },
-  {
-   "file_name": "chhatrapati_terminus.jpg",
-   "index": "L135",
-   "names": {
-    "en": "Chhatrapati Shivaji Terminus",
-    "de": "Chhatrapati Shivaji Terminus",
-    "sl": "Terminal čatrapatija Šivadžija",
-    "tur": "Chhatrapati Shivaji Maharaj Terminus",
-    "ukr": "Вокзал Чгатрапаті-Шиваджі",
-    "rus": "Вокзал Чхатрапати-Шиваджи",
-    "ch": "贾特拉帕蒂·希瓦吉终点站"
-   },
-   "population": "indian",
-   "type": "place"
-  },
-  {
-   "file_name": "dancing_house.jpg",
-   "index": "L136",
-   "names": {
-    "en": "Dancing House",
-    "de": "Tanzendes Haus",
-    "sl": "Plesna hiša",
-    "tur": "Dans Eden Ev",
-    "ukr": "Танцюючий дім",
-    "rus": "Танцующий дом",
-    "ch": "跳舞的房子"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "delicate_arch.jpg",
-   "index": "L137",
-   "names": {
-    "en": "Delicate Arch (Utah)",
-    "de": "Delicate Arch (Utah)",
-    "sl": "Delicate Arch (Utah)",
-    "tur": "Delicate Arch (Utah)",
-    "ukr": "Делікейт-Арч (Юта)",
-    "rus": "Изящная арка",
-    "ch": "精致拱门"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "duke_statue.jpg",
-   "index": "L138",
-   "names": {
-    "en": "Duke of Wellington statue",
-    "de": "Reiterstatue des Duke of Wellington",
-    "sl": "Kip vojvode Wellingtona",
-    "tur": "Wellington Dükü Heykeli",
-    "ukr": "Статуя герцога Веллінгтона",
-    "rus": "Статуя герцога Веллингтона",
-    "ch": "惠灵顿公爵雕像"
-   },
-   "population": "scottish",
-   "type": "place"
-  },
-  {
-   "file_name": "falkirk_wheel.jpg",
-   "index": "L139",
-   "names": {
-    "en": "Falkirk Wheel",
-    "de": "Falkirk Wheel",
-    "sl": "Falkirško kolo",
-    "tur": "Falkirk Wheel",
-    "ukr": "Фолкеркське колесо",
-    "rus": "Фолкеркское колесо",
-    "ch": "福尔柯克轮"
-   },
-   "population": "scottish",
-   "type": "place"
-  },
-  {
-   "file_name": "george_square.jpg",
-   "index": "L140",
-   "names": {
-    "en": "George Square (Glasgow)",
-    "de": "George Square (Glasgow)",
-    "sl": "George Square (Glasgow)",
-    "tur": "George Square (Glasgow)",
-    "ukr": "Площа Джорджа (Глазго)",
-    "rus": "Джордж-сквер (Глазго)",
-    "ch": "格拉斯哥乔治广场"
-   },
-   "population": "scottish",
-   "type": "place"
-  },
-  {
-   "file_name": "goose_pagoda.jpg",
-   "index": "L141",
-   "names": {
-    "en": "Giant Wild Goose Pagoda",
-    "de": "Große Wildganspagode",
-    "sl": "Velika pagoda divje gosi",
-    "tur": "Büyük Vahşi Kaz Pagodası",
-    "ukr": "Велика пагода диких гусей",
-    "rus": "Большая пагода диких гусей",
-    "ch": "大雁塔"
-   },
-   "population": "chinese",
-   "type": "place"
-  },
-  {
-   "file_name": "glasgow_science.jpg",
-   "index": "L142",
-   "names": {
-    "en": "Glasgow Science Centre & Tower",
-    "de": "Glasgow Science Centre & Tower",
-    "sl": "Znanostni center in stolp v Glasgowu",
-    "tur": "Glasgow Bilim Merkezi ve Kulesi",
-    "ukr": "Науковий центр і вежа Глазго",
-    "rus": "Научный центр и башня Глазго",
-    "ch": "格拉斯哥科学中心和格拉斯哥塔"
-   },
-   "population": "scottish",
-   "type": "place"
-  },
-  {
-   "file_name": "golden_temple.jpg",
-   "index": "L143",
-   "names": {
-    "en": "Golden Temple",
-    "de": "Harmandir Sahib",
-    "sl": "Zlati tempelj",
-    "tur": "Altın Tapınak",
-    "ukr": "Хармандир-Сахіб",
-    "rus": "Хармандир-Сахиб",
-    "ch": "金庙"
-   },
-   "population": "indian",
-   "type": "place"
-  },
-  {
-   "file_name": "yellow_mountains.jpg",
-   "index": "L144",
-   "names": {
-    "en": "Huangshan / Yellow Mountains",
-    "de": "Huang Shan",
-    "sl": "Huangšan / Rumene gore",
-    "tur": "Huangshan",
-    "ukr": "Хуаншань (гори)",
-    "rus": "Хуаншань",
-    "ch": "黄山"
-   },
-   "population": "chinese",
-   "type": "place"
-  },
-  {
-   "file_name": "hukou_waterfall.jpg",
-   "index": "L145",
-   "names": {
-    "en": "Hukou Waterfall (Yellow River)",
-    "de": "Hukou-Wasserfall (Gelber Fluss)",
-    "sl": "Slap Hukou (Rumena reka)",
-    "tur": "Hukou Şelalesi (Sarı Nehir)",
-    "ukr": "Водоспад Хукоу (Жовта річка)",
-    "rus": "Водопад Хукоу (Жёлтая река)",
-    "ch": "黄河壶口瀑布"
-   },
-   "population": "chinese",
-   "type": "place"
-  },
-  {
-   "file_name": "jama_masjid.jpg",
-   "index": "L146",
-   "names": {
-    "en": "Jama Masjid",
-    "de": "Jama Masjid",
-    "sl": "Petkova mošeja",
-    "tur": "Delhi Cuma Camii",
-    "ukr": "Джама-Масджид",
-    "rus": "Соборная мечеть",
-    "ch": "贾玛清真寺"
-   },
-   "population": "indian",
-   "type": "place"
-  },
-  {
-   "file_name": "kelvingrove_gallery.jpg",
-   "index": "L147",
-   "names": {
-    "en": "Kelvingrove Art Gallery",
-    "de": "Kelvingrove Art Gallery",
-    "sl": "Umetnostna galerija in muzej Kelvingrove",
-    "tur": "Kelvingrove Sanat Galerisi ve Müzesi",
-    "ukr": "Художня галерея і музей Келвінгроув",
-    "rus": "Художественная галерея и музей Келвингроув",
-    "ch": "凯尔文格罗夫艺术博物馆"
-   },
-   "population": "scottish",
-   "type": "place"
-  },
-  {
-   "file_name": "leshan_buddha.jpg",
-   "index": "L148",
-   "names": {
-    "en": "Leshan Giant Buddha",
-    "de": "Großer Buddha von Leshan",
-    "sl": "Lešanski veliki Buda",
-    "tur": "Büyük Leshan Budası",
-    "ukr": "Статуя Будди в Лешань",
-    "rus": "Статуя Будды в Лэшане",
-    "ch": "乐山大佛"
-   },
-   "population": "chinese",
-   "type": "place"
-  },
-  {
-   "file_name": "london_gallery.jpg",
-   "index": "L149",
-   "names": {
-    "en": "National Gallery (London)",
-    "de": "National Gallery (London)",
-    "sl": "Narodna galerija, London",
-    "tur": "National Gallery (Londra)",
-    "ukr": "Національна галерея (Лондон)",
-    "rus": "Лондонская национальная галерея",
-    "ch": "英国国家美术馆"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "qutub_minar.jpg",
-   "index": "L150",
-   "names": {
-    "en": "Qutub Minar",
-    "de": "Qutb Minar",
-    "sl": "Qutub Minar",
-    "tur": "Kutub Minâr",
-    "ukr": "Кутб-Мінар",
-    "rus": "Кутб-Минар",
-    "ch": "顾特卜塔"
-   },
-   "population": "indian",
-   "type": "place"
-  },
-  {
-   "file_name": "red_fort.jpg",
-   "index": "L151",
-   "names": {
-    "en": "Red Fort",
-    "de": "Rotes Fort",
-    "sl": "Rdeča trdnjava",
-    "tur": "Kızıl Kale",
-    "ukr": "Червоний форт",
-    "rus": "Лал-Кила",
-    "ch": "红堡"
-   },
-   "population": "indian",
-   "type": "place"
-  },
-  {
-   "file_name": "riverside_museum.jpg",
-   "index": "L152",
-   "names": {
-    "en": "Riverside Museum",
-    "de": "Riverside Museum",
-    "sl": "Riverside Muzej",
-    "tur": "Riverside Müzesi",
-    "ukr": "Музей Ріверсайд",
-    "rus": "Музей Риверсайд",
-    "ch": "河滨博物馆"
-   },
-   "population": "scottish",
-   "type": "place"
-  },
-  {
-   "file_name": "sec_armadillo.jpg",
-   "index": "L153",
-   "names": {
-    "en": "SEC Armadillo",
-    "de": "SEC Armadillo",
-    "sl": "SEC Armadillo",
-    "tur": "SEC Armadillo",
-    "ukr": "SEC «Армаділло»",
-    "rus": "SEC Армадилло",
-    "ch": "SEC犰狳馆"
-   },
-   "population": "scottish",
-   "type": "place"
-  },
-  {
-   "file_name": "scott_monument.jpg",
-   "index": "L154",
-   "names": {
-    "en": "Scott Monument",
-    "de": "Scott-Denkmal",
-    "sl": "Scottov spomenik",
-    "tur": "Scott Anıtı",
-    "ukr": "Пам'ятник Скотту",
-    "rus": "Монумент Скотта",
-    "ch": "司各特纪念塔"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "shaolin_temple.jpg",
-   "index": "L155",
-   "names": {
-    "en": "Shaolin Temple",
-    "de": "Shaolin",
-    "sl": "Samostan Šaolin",
-    "tur": "Şaolin Manastırı",
-    "ukr": "Шаолінь",
-    "rus": "Шаолинь",
-    "ch": "少林寺"
-   },
-   "population": "chinese",
-   "type": "place"
-  },
-  {
-   "file_name": "giles_cathedral.jpg",
-   "index": "L156",
-   "names": {
-    "en": "St. Giles' Cathedral",
-    "de": "St. Giles' Cathedral",
-    "sl": "Stolnica sv. Tilna, Edinburg",
-    "tur": "St. Giles Katedrali",
-    "ukr": "Собор Святого Джайлза",
-    "rus": "Эдинбургский собор",
-    "ch": "圣吉尔斯大教堂"
-   },
-   "population": "scottish",
-   "type": "place"
-  },
-  {
-   "file_name": "supreme_court.jpg",
-   "index": "L157",
-   "names": {
-    "en": "Supreme Court of India",
-    "de": "Oberstes Gericht (Indien)",
-    "sl": "Vrhovno sodišče Indije",
-    "tur": "Hindistan Yüksek Mahkemesi",
-    "ukr": "Верховний суд Індії",
-    "rus": "Верховный суд Индии",
-    "ch": "印度最高法院"
-   },
-   "population": "indian",
-   "type": "place"
-  },
-  {
-   "file_name": "cobbler.jpg",
-   "index": "L158",
-   "names": {
-    "en": "The Cobbler / Ben Arthur (Arrochar Alps)",
-    "de": "„The Cobbler“ / Ben Arthur (Arrochar-Alpen)",
-    "sl": "The Cobbler / Ben Arthur (Alpe Arrochar)",
-    "tur": "The Cobbler / Ben Arthur (Arrochar Alpleri)",
-    "ukr": "«Швець» / Бен Артур (Альпи Аррочара)",
-    "rus": "«Сапожник» / Бен Артур (Альпы Аррочар)",
-    "ch": "科布勒山／本·阿瑟山"
-   },
-   "population": "scottish",
-   "type": "place"
-  },
-  {
-   "file_name": "kelpies.jpg",
-   "index": "L159",
-   "names": {
-    "en": "The Kelpies",
-    "de": "The Kelpies",
-    "sl": "The Kelpies",
-    "tur": "The Kelpies",
-    "ukr": "Кельпі (скульптура)",
-    "rus": "«Келпи»",
-    "ch": "凯尔派水马雕塑"
-   },
-   "population": "scottish",
-   "type": "place"
-  },
-  {
-   "file_name": "pearl_harbor.jpg",
-   "index": "L160",
-   "names": {
-    "en": "USS Arizona Memorial (Pearl Harbor)",
-    "de": "USS Arizona Memorial (Pearl Harbor)",
-    "sl": "Spominski spomenik USS Arizona (Pearl Harbor)",
-    "tur": "USS Arizona Anıtı (Pearl Harbor)",
-    "ukr": "Меморіал «USS Arizona» (Перл-Харбор)",
-    "rus": "Мемориал «Аризона» (Перл-Харбор)",
-    "ch": "珍珠港亚利桑那号战列舰纪念馆"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "glasgow_uni.jpg",
-   "index": "L161",
-   "names": {
-    "en": "University of Glasgow",
-    "de": "Universität von Glasgow",
-    "sl": "Univerza v Glasgowu",
-    "tur": "Glasgow Üniversitesi",
-    "ukr": "Університет Глазго",
-    "rus": "Университет Глазго",
-    "ch": "格拉斯哥大学"
-   },
-   "population": "scottish",
-   "type": "place"
-  },
-  {
-   "file_name": "water_cube.jpg",
-   "index": "L162",
-   "names": {
-    "en": "Water Cube / National Aquatics Center",
-    "de": "Water Cube / Nationale Schwimmzentrum",
-    "sl": "Vodni kub / Nacionalni center za plavanje",
-    "tur": "Pekin Ulusal Su Sporları Merkezi",
-    "ukr": "Водяний куб / Пекінський національний плавальний комплекс",
-    "rus": "Водяной куб / Пекинский национальный плавательный комплекс",
-    "ch": "国家游泳中心（水立方）"
-   },
-   "population": "chinese",
-   "type": "place"
-  },
-  {
-   "file_name": "west_lake.jpg",
-   "index": "L163",
-   "names": {
-    "en": "West Lake / Xi Hu",
-    "de": "Westsee / Xi Hu",
-    "sl": "Zahodno jezero / Xi Hu",
-    "tur": "Batı Gölü / Xi Hu",
-    "ukr": "Західне озеро / Сі Ху",
-    "rus": "Западное озеро / Сиху",
-    "ch": "西湖"
-   },
-   "population": "chinese",
-   "type": "place"
-  },
-  {
-   "file_name": "hermitage.jpg",
-   "index": "L164",
-   "names": {
-    "en": "Hermitage Museum",
-    "de": "Eremitage",
-    "sl": "Ermitaž",
-    "tur": "Ermitaj Müzesi",
-    "ukr": "Ермітаж",
-    "rus": "Эрмитаж",
-    "ch": "冬宫博物馆（艾尔米塔什博物馆）"
-   },
-   "population": "global",
-   "type": "place"
-  },
-  {
-   "file_name": "crane_tower.jpg",
-   "index": "L165",
-   "names": {
-    "en": "Yellow Crane Tower",
-    "de": "Kranichpagode",
-    "sl": "Stolp Rumeni žerjav",
-    "tur": "Sarı Vinç Kulesi",
-    "ukr": "Хуанхелоу",
-    "rus": "Башня Жёлтого журавля",
-    "ch": "黄鹤楼"
-   },
-   "population": "chinese",
-   "type": "place"
-  },
-  {
-   "file_name": "hawa_mahal.jpg",
-   "index": "L166",
-   "names": {
-    "en": "Hawa Mahal",
-    "de": "Hawa Mahal",
-    "sl": "Hava Mahal",
-    "tur": "Hawa Mahal",
-    "ukr": "Гава-Магал",
-    "rus": "Хава-Махал",
-    "ch": "风之宫"
-   },
-   "population": "Indian",
-   "type": "place"
-  },
-  {
-   "file_name": "india_gate.jpg",
-   "index": "L167",
-   "names": {
-    "en": "India Gate",
-    "de": "India Gate",
-    "sl": "Indijska vrata",
-    "tur": "Hindistan Kapısı",
-    "ukr": "Брама Індії",
-    "rus": "Ворота Индии",
-    "ch": "印度门"
-   },
-   "population": "Indian",
-   "type": "place"
-  },
-  {
-   "file_name": "lotus_temple.jpg",
-   "index": "L168",
-   "names": {
-    "en": "Lotus Temple",
-    "de": "Lotustempel",
-    "sl": "Lotusov tempelj",
-    "tur": "Nilüfer Tapınağı",
-    "ukr": "Храм Лотоса",
-    "rus": "Храм Лотоса",
-    "ch": "莲花寺"
-   },
-   "population": "Indian",
-   "type": "place"
-  },
-  {
-   "file_name": "taj_hotel.jpg",
-   "index": "L169",
-   "names": {
-    "en": "Taj Mahal Palace Hotel",
-    "de": "Taj Mahal Palace Hotel",
-    "sl": "Hotel Taj Mahal Palace",
-    "tur": "Taj Mahal Palace Oteli",
-    "ukr": "Готель «Тадж-Махал-Палас»",
-    "rus": "Отель «Тадж-Махал Палас»",
-    "ch": "泰姬陵宫酒店"
-   },
-   "population": "Indian",
-   "type": "place"
-  },
-  {
-   "file_name": "victoria_memorial.jpg",
-   "index": "L170",
-   "names": {
-    "en": "Victoria Memorial",
-    "de": "Victoria Memorial",
-    "sl": "Victoria Memorial",
-    "tur": "Victoria Anıtı",
-    "ukr": "Меморіал Вікторії",
-    "rus": "Мемориал Виктории",
-    "ch": "维多利亚纪念堂"
-   },
-   "population": "Indian",
-   "type": "place"
-  },
-  {
    "file_name": "adam_sandler.jpg",
    "index": "P001",
    "names": {
@@ -5457,7 +2907,7 @@
     "rus": "Ирфан Хан",
     "ch": "伊尔凡·汗"
    },
-   "population": "Indian",
+   "population": "indian",
    "type": "person"
   },
   {
@@ -5547,7 +2997,7 @@
     "rus": "Видья Балан",
     "ch": "维迪亚·巴兰"
    },
-   "population": "Indian",
+   "population": "indian",
    "type": "person"
   },
   {
@@ -5789,6 +3239,3066 @@
    },
    "population": "chinese",
    "type": "person"
+  },
+  {
+   "file_name": "narendra_modi.jpg",
+   "index": "P217",
+   "names": {
+    "en": "Narendra Modi",
+    "de": "Narendra Modi",
+    "sl": "Narendra Modi",
+    "tur": "Narendra Modi",
+    "ukr": "Нарендра Моді",
+    "rus": "Нарендра Моди",
+    "ch": "纳伦德拉·莫迪"
+   },
+   "population": "indian",
+   "type": "person"
+  },
+  {
+   "file_name": "abdul_kalam.jpg",
+   "index": "P218",
+   "names": {
+    "en": "APJ Abdul Kalam",
+    "de": "APJ Abdul Kalam",
+    "sl": "APJ Abdul Kalam",
+    "tur": "APJ Abdul Kalam",
+    "ukr": "АПДЖ Абдул Калам",
+    "rus": "АПДЖ Абдул Калам",
+    "ch": "阿卜杜勒·卡拉姆"
+   },
+   "population": "indian",
+   "type": "person"
+  },
+  {
+   "file_name": "sundar_pichai.jpg",
+   "index": "P219",
+   "names": {
+    "en": "Sundar Pichai",
+    "de": "Sundar Pichai",
+    "sl": "Sundar Pichai",
+    "tur": "Sundar Pichai",
+    "ukr": "Сундар Пічаї",
+    "rus": "Сундар Пичаи",
+    "ch": "桑达·皮采"
+   },
+   "population": "indian",
+   "type": "person"
+  },
+  {
+   "file_name": "acropolis_parthenon.jpg",
+   "index": "L001",
+   "names": {
+    "en": "Acropolis / Parthenon",
+    "de": "Akropolis / Parthenon",
+    "sl": "Akropola / Partenon",
+    "tur": "Akropol / Parthenon",
+    "ukr": "Акрополь / Парфенон",
+    "rus": "Акрополь / Парфенон",
+    "ch": "雅典卫城"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "angkor_wat.jpg",
+   "index": "L002",
+   "names": {
+    "en": "Angkor Wat",
+    "de": "Angkor Wat",
+    "sl": "Angkor Vat",
+    "tur": "Angkor Vat",
+    "ukr": "Ангкор-Ват",
+    "rus": "Ангкор-Ват",
+    "ch": "吴哥窟"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "arc_de_triomphe.jpg",
+   "index": "L003",
+   "names": {
+    "en": "Arc de Triomphe",
+    "de": "Arc de Triomphe",
+    "sl": "Slavolok zmage",
+    "tur": "Zafer Takı",
+    "ukr": "Тріумфальна арка",
+    "rus": "Триумфальная арка",
+    "ch": "凯旋门"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "atomium.jpg",
+   "index": "L004",
+   "names": {
+    "en": "Atomium",
+    "de": "Atomium",
+    "sl": "Atomium",
+    "tur": "Atomium",
+    "ukr": "Атоміум",
+    "rus": "Атомиум",
+    "ch": "原子球塔"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "berlin_tv_tower.jpg",
+   "index": "L005",
+   "names": {
+    "en": "Berlin TV Tower",
+    "de": "Berliner Fernsehturm",
+    "sl": "televizijski stolp Berlin",
+    "tur": "Berliner Fernsehturm",
+    "ukr": "Берлінська телевежа",
+    "rus": "Берлинская телебашня",
+    "ch": "柏林电视塔"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "berlin_wall_east_side_gallery.jpg",
+   "index": "L006",
+   "names": {
+    "en": "Berlin Wall",
+    "de": "Berliner Mauer",
+    "sl": "Berlinski zid",
+    "tur": "Berlin Duvarı",
+    "ukr": "Берлінська стіна",
+    "rus": "Берлинская стена",
+    "ch": "柏林墙"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "big_ben.jpg",
+   "index": "L007",
+   "names": {
+    "en": "Big Ben",
+    "de": "Big Ben",
+    "sl": "Big Ben",
+    "tur": "Big Ben",
+    "ukr": "Біг-Бен",
+    "rus": "Биг-Бен",
+    "ch": "大本钟"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "blue_lagoon_iceland.jpg",
+   "index": "L008",
+   "names": {
+    "en": "Blue Lagoon, Iceland",
+    "de": "Blaue Lagune, Island",
+    "sl": "Modra laguna, Islandija",
+    "tur": "Mavi Lagün, İzlanda",
+    "ukr": "Блакитна лагуна, Ісландія",
+    "rus": "Голубая лагуна, Исландия",
+    "ch": "蓝湖"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "blue_mosque_istanbul.jpg",
+   "index": "L009",
+   "names": {
+    "en": "Blue Mosque",
+    "de": "Sultan-Ahmed-Moschee",
+    "sl": "Modra mošeja",
+    "tur": "Sultanahmet Camii",
+    "ukr": "Блакитна мечеть",
+    "rus": "Голубая мечеть",
+    "ch": "蓝色清真寺"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "borobudur.jpg",
+   "index": "L010",
+   "names": {
+    "en": "Borobudur",
+    "de": "Borobudur",
+    "sl": "Borobudur",
+    "tur": "Borobudur",
+    "ukr": "Боробудур",
+    "rus": "Боробудур",
+    "ch": "婆罗浮屠"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "brandenburg_gate.jpg",
+   "index": "L011",
+   "names": {
+    "en": "Brandenburg Gate",
+    "de": "Brandenburger Tor",
+    "sl": "Brandenburška vrata",
+    "tur": "Brandenburg Kapısı",
+    "ukr": "Бранденбурзькі ворота",
+    "rus": "Бранденбургские ворота",
+    "ch": "勃兰登堡门"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "brooklyn_bridge.jpg",
+   "index": "L012",
+   "names": {
+    "en": "Brooklyn Bridge",
+    "de": "Brooklyn Bridge",
+    "sl": "Brooklynski most",
+    "tur": "Brooklyn Köprüsü",
+    "ukr": "Бруклінський міст",
+    "rus": "Бруклинский мост",
+    "ch": "布鲁克林大桥"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "buckingham_palace.jpg",
+   "index": "L013",
+   "names": {
+    "en": "Buckingham Palace",
+    "de": "Buckingham Palace",
+    "sl": "Buckinghamska palača",
+    "tur": "Buckingham Sarayı",
+    "ukr": "Букінгемський палац",
+    "rus": "Букингемский дворец",
+    "ch": "白金汉宫"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "burj_al_arab.jpg",
+   "index": "L014",
+   "names": {
+    "en": "Burj Al Arab",
+    "de": "Burj Al Arab",
+    "sl": "Burdž Al Arab",
+    "tur": "Burc el-Arab",
+    "ukr": "Бурдж-аль-Араб",
+    "rus": "Бурдж-эль-Араб",
+    "ch": "帆船酒店"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "burj_khalifa.jpg",
+   "index": "L015",
+   "names": {
+    "en": "Burj Khalifa",
+    "de": "Burj Khalifa",
+    "sl": "Burdž Kalifa",
+    "tur": "Burc Halife",
+    "ukr": "Бурдж-Халіфа",
+    "rus": "Бурдж-Халифа",
+    "ch": "哈利法塔"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "charles_bridge_prague.jpg",
+   "index": "L016",
+   "names": {
+    "en": "Charles Bridge, Prague",
+    "de": "Karlsbrücke, Prag",
+    "sl": "Karlov most, Praga",
+    "tur": "Charles Köprüsü, Prag",
+    "ukr": "Карлів міст, Прага",
+    "rus": "Карлов мост, Прага",
+    "ch": "查理大桥"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "chichen_itza.jpg",
+   "index": "L017",
+   "names": {
+    "en": "Chichén Itzá",
+    "de": "Chichén Itzá",
+    "sl": "Chichén Itzá",
+    "tur": "Chichén Itzá",
+    "ukr": "Чичен-Іца",
+    "rus": "Чичен-Ица",
+    "ch": "奇琴伊察"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "christ_the_redeemer.jpg",
+   "index": "L018",
+   "names": {
+    "en": "Christ the Redeemer",
+    "de": "Cristo Redentor",
+    "sl": "Kristus Odrešenik",
+    "tur": "Kurtarıcı İsa",
+    "ukr": "Статуя Христа-Спасителя",
+    "rus": "Статуя Христа-Искупителя",
+    "ch": "基督像"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "cn_tower.jpg",
+   "index": "L019",
+   "names": {
+    "en": "CN Tower",
+    "de": "CN Tower",
+    "sl": "Stolp CN",
+    "tur": "CN Kulesi",
+    "ukr": "Сі-Ен Тауер",
+    "rus": "Си-Эн Тауэр",
+    "ch": "CN塔"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "cologne_cathedral_koelner_dom.jpg",
+   "index": "L020",
+   "names": {
+    "en": "Cologne Cathedral",
+    "de": "Kölner Dom",
+    "sl": "Stolnica sv. Petra",
+    "tur": "Köln Katedrali",
+    "ukr": "Кельнський собор",
+    "rus": "Кёльнский собор",
+    "ch": "科隆大教堂"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "colosseum.jpg",
+   "index": "L021",
+   "names": {
+    "en": "Colosseum",
+    "de": "Kolosseum",
+    "sl": "Kolosej",
+    "tur": "Kolezyum",
+    "ukr": "Колізей",
+    "rus": "Колизей",
+    "ch": "罗马斗兽场"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "disneyland_paris_castle.jpg",
+   "index": "L022",
+   "names": {
+    "en": "Disneyland Paris Castle",
+    "de": "Disneyland Paris Schloss",
+    "sl": "Disneyland Pariški grad",
+    "tur": "Disneyland Paris Şatosu",
+    "ukr": "Паризький замок Діснейленд",
+    "rus": "Диснейленд Парижский замок",
+    "ch": "睡美人城堡"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "dome_of_the_rock.jpg",
+   "index": "L023",
+   "names": {
+    "en": "Dome of the Rock",
+    "de": "Felsendom",
+    "sl": "Kupola na skali",
+    "tur": "Kubbetü's-Sahre",
+    "ukr": "Баня Скелі",
+    "rus": "Купол Скалы",
+    "ch": "圆顶清真寺"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "dragon_bridge.jpg",
+   "index": "L024",
+   "names": {
+    "en": "Dragon Bridge, Ljubljana",
+    "de": "Drachenbrücke, Ljubljana",
+    "sl": "Zmajski most, Ljubljana",
+    "tur": "Ejderha Köprüsü, Ljubljana",
+    "ukr": "Міст Дракона, Любляна",
+    "rus": "Драконий мост, Любляна",
+    "ch": "龙桥"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "easter_island_moai.jpg",
+   "index": "L025",
+   "names": {
+    "en": "Easter Island",
+    "de": "Osterinsel",
+    "sl": "Velikonočni otok",
+    "tur": "Paskalya Adası",
+    "ukr": "Острів Пасхи",
+    "rus": "Остров Пасхи",
+    "ch": "复活节岛"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "edinburgh_castle.jpg",
+   "index": "L026",
+   "names": {
+    "en": "Edinburgh Castle",
+    "de": "Edinburgh Castle",
+    "sl": "Grad Edinburg",
+    "tur": "Edinburgh Kalesi",
+    "ukr": "Единбурзький замок",
+    "rus": "Эдинбургский замок",
+    "ch": "爱丁堡城堡"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "eiffel_tower.jpg",
+   "index": "L027",
+   "names": {
+    "en": "Eiffel Tower",
+    "de": "Eiffelturm",
+    "sl": "Eifflov stolp",
+    "tur": "Eyfel Kulesi",
+    "ukr": "Ейфелева вежа",
+    "rus": "Эйфелева башня",
+    "ch": "埃菲尔铁塔"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "hamburg_elbphilharmonie.jpg",
+   "index": "L028",
+   "names": {
+    "en": "Elbphilharmonie, Hamburg",
+    "de": "Elbphilharmonie, Hamburg",
+    "sl": "Labska filharmonija, Hamburg",
+    "tur": "Elbphilharmonie, Hamburg",
+    "ukr": "Ельбська філармонія, Гамбург",
+    "rus": "Эльбфилармония, Гамбург",
+    "ch": "易北爱乐音乐厅"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "empire_state_building.jpg",
+   "index": "L029",
+   "names": {
+    "en": "Empire State Building",
+    "de": "Empire State Building",
+    "sl": "Empire State Building",
+    "tur": "Empire State Binası",
+    "ukr": "Емпайр-Стейт-Білдінг",
+    "rus": "Эмпайр-стейт-билдинг",
+    "ch": "帝国大厦"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "florence_cathedral_duomo_brunelleschi_dome.jpg",
+   "index": "L030",
+   "names": {
+    "en": "Florence Cathedral",
+    "de": "Dom zu Florenz",
+    "sl": "Firenška stolnica",
+    "tur": "Floransa Katedrali",
+    "ukr": "Санта-Марія-дель-Фйоре",
+    "rus": "Санта-Мария-дель-Фьоре",
+    "ch": "圣母百花大教堂"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "forbidden_city_tiananmen_gate.jpg",
+   "index": "L031",
+   "names": {
+    "en": "Tiananmen",
+    "de": "Tor des Himmlischen Friedens",
+    "sl": "Vrata nebeškega miru",
+    "tur": "Tiananmen",
+    "ukr": "Брама небесного спокою",
+    "rus": "Врата Небесного Спокойствия",
+    "ch": "故宫（天安门）"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "frauenkirche_dresden.jpg",
+   "index": "L032",
+   "names": {
+    "en": "Frauenkirche, Dresden",
+    "de": "Frauenkirche, Dresden",
+    "sl": "Frauenkirche, Dresden",
+    "tur": "Frauenkirche, Dresden",
+    "ukr": "Фрауенкірхе, Дрезден",
+    "rus": "Фрауэнкирхе, Дрезден",
+    "ch": "德累斯顿圣母教堂"
+   },
+   "population": "german",
+   "type": "place"
+  },
+  {
+   "file_name": "fushimi_inari_torii_gates.jpg",
+   "index": "L033",
+   "names": {
+    "en": "Torii Gates",
+    "de": "Torii-Tore",
+    "sl": "Vrata Torii",
+    "tur": "Torii Kapıları",
+    "ukr": "Ворота Торії",
+    "rus": "Ворота Тории",
+    "ch": "伏见稻荷大社千本鸟居"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "gateway_arch_st_louis.jpg",
+   "index": "L034",
+   "names": {
+    "en": "Gateway Arch",
+    "de": "Gateway Arch",
+    "sl": "Gateway Arch",
+    "tur": "Geçit Kemeri",
+    "ukr": "Арка Гейтвей",
+    "rus": "Ворота на запад",
+    "ch": "圣路易斯拱门"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "giants_causeway.jpg",
+   "index": "L035",
+   "names": {
+    "en": "Giant's Causeway",
+    "de": "Giant’s Causeway",
+    "sl": "Velikanova pot",
+    "tur": "Devler Kaldırımı",
+    "ukr": "Дорога Гігантів",
+    "rus": "Мостовая гигантов",
+    "ch": "巨人堤道"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "golden_gate_bridge.jpg",
+   "index": "L036",
+   "names": {
+    "en": "Golden Gate Bridge",
+    "de": "Golden Gate Bridge",
+    "sl": "Most Golden Gate",
+    "tur": "Golden Gate Köprüsü",
+    "ukr": "Міст Золота Брама",
+    "rus": "Золотые Ворота (мост)",
+    "ch": "金门大桥"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "grand_canyon.jpg",
+   "index": "L037",
+   "names": {
+    "en": "Grand Canyon",
+    "de": "Grand Canyon",
+    "sl": "Grand Kanjon",
+    "tur": "Büyük Kanyon",
+    "ukr": "Гранд Каньйон",
+    "rus": "Большой каньон",
+    "ch": "科罗拉多大峡谷"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "great_buddha_of_kamakura.jpg",
+   "index": "L038",
+   "names": {
+    "en": "Great Buddha of Kamakura",
+    "de": "Großer Buddha von Kamakura",
+    "sl": "Veliki Buda v Kamakuri",
+    "tur": "Kamakura Büyük Buda Heykeli",
+    "ukr": "Великий Будда Камакури",
+    "rus": "Большой Будда в Камакуре",
+    "ch": "镰仓大佛"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "great_sphinx_of_giza.jpg",
+   "index": "L039",
+   "names": {
+    "en": "Great Sphinx of Giza",
+    "de": "Große Sphinx von Gizeh",
+    "sl": "Velika sfinga v Gizi",
+    "tur": "Büyük Gize Sfenksi",
+    "ukr": "Великий Сфінкс",
+    "rus": "Великий Сфинкс Гизы",
+    "ch": "吉萨狮身人面像"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "great_wall_of_china.jpg",
+   "index": "L040",
+   "names": {
+    "en": "Great Wall of China",
+    "de": "Chinesische Mauer",
+    "sl": "Kitajski zid",
+    "tur": "Çin Seddi",
+    "ukr": "Великий китайський мур",
+    "rus": "Великая Китайская стена",
+    "ch": "万里长城"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "guggenheim_museum_bilbao.jpg",
+   "index": "L041",
+   "names": {
+    "en": "Guggenheim Museum Bilbao",
+    "de": "Guggenheim-Museum Bilbao",
+    "sl": "Guggenheimov muzej, Bilbao",
+    "tur": "Guggenheim Müzesi Bilbao",
+    "ukr": "Музей Соломона Гуггенгайма (Більбао)",
+    "rus": "Музей Гуггенхайма в Бильбао",
+    "ch": "毕尔巴鄂古根海姆博物馆"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "hagia_sophia.jpg",
+   "index": "L042",
+   "names": {
+    "en": "Hagia Sophia",
+    "de": "Hagia Sophia",
+    "sl": "Hagija Sofija",
+    "tur": "Ayasofya",
+    "ukr": "Софійський собор",
+    "rus": "Собор Святой Софии",
+    "ch": "圣索菲亚大教堂"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "hallstatt_village.jpg",
+   "index": "L043",
+   "names": {
+    "en": "Hallstatt Village",
+    "de": "Dorf Hallstatt",
+    "sl": "Vas Hallstatt",
+    "tur": "Hallstatt Köyü",
+    "ukr": "Селище Гальштат",
+    "rus": "Деревня Гальштатт",
+    "ch": "哈尔施塔特"
+   },
+   "population": "german",
+   "type": "place"
+  },
+  {
+   "file_name": "heidelberg_castle.jpg",
+   "index": "L044",
+   "names": {
+    "en": "Heidelberg Castle",
+    "de": "Heidelberger Schloss",
+    "sl": "Grad Heidelberg",
+    "tur": "Heidelberg Sarayı",
+    "ukr": "Гайдельберзький замок",
+    "rus": "Гейдельбергский замок",
+    "ch": "海德堡城堡"
+   },
+   "population": "german",
+   "type": "place"
+  },
+  {
+   "file_name": "hohenzollern_castle.jpg",
+   "index": "L045",
+   "names": {
+    "en": "Hohenzollern Castle",
+    "de": "Burg Hohenzollern",
+    "sl": "Grad Hohenzollern",
+    "tur": "Hohenzollern Kalesi",
+    "ukr": "Замок Гогенцоллерн",
+    "rus": "Замок Гогенцоллерн",
+    "ch": "霍亨索伦城堡"
+   },
+   "population": "german",
+   "type": "place"
+  },
+  {
+   "file_name": "hollywood_sign.jpg",
+   "index": "L046",
+   "names": {
+    "en": "Hollywood Sign",
+    "de": "Hollywood Sign",
+    "sl": "Hollywoodski znak",
+    "tur": "Hollywood Yazısı",
+    "ukr": "Знак Голлівуду",
+    "rus": "Знак Голливуда",
+    "ch": "好莱坞标志"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "holstentor_luebeck.jpg",
+   "index": "L047",
+   "names": {
+    "en": "Holsten Gate",
+    "de": "Holstentor",
+    "sl": "Holstentor",
+    "tur": "Holstentor",
+    "ukr": "Гольстентор",
+    "rus": "Хольстентор",
+    "ch": "吕贝克霍尔斯滕门"
+   },
+   "population": "german",
+   "type": "place"
+  },
+  {
+   "file_name": "hoover_dam.jpg",
+   "index": "L048",
+   "names": {
+    "en": "Hoover Dam",
+    "de": "Hoover Dam",
+    "sl": "Hooverjev jez",
+    "tur": "Hoover Barajı",
+    "ukr": "Гребля Гувера",
+    "rus": "Плотина Гувера",
+    "ch": "胡佛水坝"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "hungarian_parliament_building.jpg",
+   "index": "L049",
+   "names": {
+    "en": "Hungarian Parliament",
+    "de": "Parlamentsgebäude",
+    "sl": "Stavba madžarskega parlamenta",
+    "tur": "Macaristan Parlamento Binası",
+    "ukr": "Будівля парламенту Угорщини",
+    "rus": "Здание венгерского парламента",
+    "ch": "匈牙利国会大厦"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "kinderdijk_windmills.jpg",
+   "index": "L050",
+   "names": {
+    "en": "Kinderdijk Windmills",
+    "de": "Windmühlen von Kinderdijk",
+    "sl": "Vetrne mline Kinderdijk",
+    "tur": "Kinderdijk Yel Değirmenleri",
+    "ukr": "Вітряки Кіндердейк",
+    "rus": "Ветряные мельницы Киндердейк",
+    "ch": "小孩堤防风车群"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "lake_bled_island_church.jpg",
+   "index": "L051",
+   "names": {
+    "en": "Lake Bled",
+    "de": "Bleder See",
+    "sl": "Blejsko jezero",
+    "tur": "Bled Gölü",
+    "ukr": "Озеро Блед",
+    "rus": "Озеро Блед",
+    "ch": "布莱德湖和布莱德岛教堂"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "lake_bohinj.jpg",
+   "index": "L052",
+   "names": {
+    "en": "Lake Bohinj",
+    "de": "Bohinjsko jezero",
+    "sl": "Bohinjsko jezero",
+    "tur": "Bohinj Gölü",
+    "ukr": "Бохинське озеро",
+    "rus": "Бохиньское озеро",
+    "ch": "博希尼湖"
+   },
+   "population": "slovenian",
+   "type": "place"
+  },
+  {
+   "file_name": "las_vegas_strip.jpg",
+   "index": "L053",
+   "names": {
+    "en": "Las Vegas",
+    "de": "Las Vegas",
+    "sl": "Las Vegas",
+    "tur": "Las Vegas",
+    "ukr": "Лас-Вегас",
+    "rus": "Лас-Вегас",
+    "ch": "拉斯维加斯大道"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "leaning_tower_of_pisa.jpg",
+   "index": "L054",
+   "names": {
+    "en": "Tower of Pisa",
+    "de": "Turm von Pisa",
+    "sl": "Stolp v Pisi",
+    "tur": "Pisa Kulesi",
+    "ukr": "Пізанська вежа",
+    "rus": "Пизанская башня",
+    "ch": "比萨斜塔"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "little_mermaid_statue_copenhagen.jpg",
+   "index": "L055",
+   "names": {
+    "en": "Little Mermaid Statue",
+    "de": "Statue der kleinen Meerjungfrau",
+    "sl": "Kip Male morske deklice",
+    "tur": "Küçük Deniz Kızı Heykeli",
+    "ukr": "Статуя Русалоньки",
+    "rus": "Статуя Русалочки",
+    "ch": "小美人鱼雕像"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "ljubljana_castle.jpg",
+   "index": "L056",
+   "names": {
+    "en": "Ljubljana Castle",
+    "de": "Ljubljanaer Burg",
+    "sl": "Ljubljanski grad",
+    "tur": "Ljubljana Kalesi",
+    "ukr": "Люблянський замок",
+    "rus": "Люблянский град",
+    "ch": "卢布尔雅那城堡"
+   },
+   "population": "slovenian",
+   "type": "place"
+  },
+  {
+   "file_name": "london_eye.jpg",
+   "index": "L057",
+   "names": {
+    "en": "London Eye",
+    "de": "London Eye",
+    "sl": "Londonsko oko",
+    "tur": "London Eye",
+    "ukr": "Лондонське око",
+    "rus": "Лондонский глаз",
+    "ch": "伦敦眼"
+   },
+   "population": "slovenian",
+   "type": "place"
+  },
+  {
+   "file_name": "louvre_museum_glass_pyramid.jpg",
+   "index": "L058",
+   "names": {
+    "en": "Louvre Museum",
+    "de": "Louvre-Museum",
+    "sl": "Muzej Louvre",
+    "tur": "Louvre Müzesi",
+    "ukr": "Музей Лувр",
+    "rus": "Лувр",
+    "ch": "卢浮宫和玻璃金字塔"
+   },
+   "population": "slovenian",
+   "type": "place"
+  },
+  {
+   "file_name": "luxor_temple.jpg",
+   "index": "L059",
+   "names": {
+    "en": "Luxor Temple",
+    "de": "Luxor-Tempel",
+    "sl": "Tempelj v Luksorju",
+    "tur": "Luksor Tapınağı",
+    "ukr": "Луксорський храм",
+    "rus": "Луксорский храм",
+    "ch": "卢克索神庙"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "machu_picchu.jpg",
+   "index": "L060",
+   "names": {
+    "en": "Machu Picchu",
+    "de": "Machu Picchu",
+    "sl": "Machu Picchu",
+    "tur": "Machu Picchu",
+    "ukr": "Мачу-Пікчу",
+    "rus": "Мачу-Пикчу",
+    "ch": "马丘比丘"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "marina_bay_sands.jpg",
+   "index": "L061",
+   "names": {
+    "en": "Marina Bay Sands",
+    "de": "Marina Bay Sands",
+    "sl": "Marina Bay Sands",
+    "tur": "Marina Bay Sands",
+    "ukr": "Марина-Бей-Сендс",
+    "rus": "Марина-Бэй-Сэндс",
+    "ch": "滨海湾金沙"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "kaaba_mecca.jpg",
+   "index": "L062",
+   "names": {
+    "en": "Kaaba, Mecca",
+    "de": "Masdschid al-Haram (Kaaba, Mekka)",
+    "sl": "Mošeja al-Haram (Kaaba, Meka)",
+    "tur": "Mescid-i Haram (Kabe, Mekke)",
+    "ukr": "Масджид аль-Харам (Кааба, Мекка)",
+    "rus": "Мечеть аль-Харам (Кааба, Мекка)",
+    "ch": "麦加大清真寺（克尔白天房）"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "singapore_merlion.jpg",
+   "index": "L063",
+   "names": {
+    "en": "Merlion Park",
+    "de": "Merlion Park",
+    "sl": "Merlion Park",
+    "tur": "Merlion Park",
+    "ukr": "Парк Мерліон",
+    "rus": "Парк Мерлион",
+    "ch": "新加坡鱼尾狮"
+   },
+   "population": "german",
+   "type": "place"
+  },
+  {
+   "file_name": "duomo_di_milano_milan_cathedral.jpg",
+   "index": "L064",
+   "names": {
+    "en": "Milan Cathedral",
+    "de": "Dom zu Mailand",
+    "sl": "Milanska stolnica",
+    "tur": "Milano Katedrali",
+    "ukr": "Міланський собор",
+    "rus": "Миланский собор",
+    "ch": "米兰大教堂"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "mont_saint_michel.jpg",
+   "index": "L065",
+   "names": {
+    "en": "Mont Saint-Michel",
+    "de": "Le Mont-Saint-Michel",
+    "sl": "Mont Saint-Michel",
+    "tur": "Mont Saint-Michel",
+    "ukr": "Мон-Сен-Мішель",
+    "rus": "Мон-Сен-Мишель",
+    "ch": "圣米歇尔山"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "moulin_rouge.jpg",
+   "index": "L066",
+   "names": {
+    "en": "Moulin Rouge",
+    "de": "Moulin Rouge",
+    "sl": "Moulin Rouge",
+    "tur": "Kırmızı Değirmen",
+    "ukr": "Мулен-Руж",
+    "rus": "Мулен-Руж",
+    "ch": "红磨坊"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "mount_everest.jpg",
+   "index": "L067",
+   "names": {
+    "en": "Mount Everest",
+    "de": "Mount Everest",
+    "sl": "Mount Everest",
+    "tur": "Everest Dağı",
+    "ukr": "Еверест",
+    "rus": "Джомолунгма",
+    "ch": "珠穆朗玛峰"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "mount_fuji.jpg",
+   "index": "L068",
+   "names": {
+    "en": "Mount Fuji",
+    "de": "Fuji (Vulkan)",
+    "sl": "Fudži",
+    "tur": "Fuji Dağı",
+    "ukr": "Фудзі (гора)",
+    "rus": "Фудзияма",
+    "ch": "富士山"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "mount_rushmore.jpg",
+   "index": "L069",
+   "names": {
+    "en": "Mount Rushmore",
+    "de": "Mount Rushmore",
+    "sl": "Gora Rushmore",
+    "tur": "Rushmore Dağı Anıtı",
+    "ukr": "Рашмор",
+    "rus": "Рашмор",
+    "ch": "拉什莫尔山"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "mount_triglav.jpg",
+   "index": "L070",
+   "names": {
+    "en": "Mount Triglav",
+    "de": "Triglav",
+    "sl": "Gora Triglav",
+    "tur": "Triglav",
+    "ukr": "Триглав (гора)",
+    "rus": "Триглав",
+    "ch": "特里格拉夫山"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "marienplatz_new_town_hall_munich.jpg",
+   "index": "L071",
+   "names": {
+    "en": "Munich Town Hall",
+    "de": "Münchner Rathaus",
+    "sl": "Mestna hiša v Münchnu",
+    "tur": "Münih Belediye Binası",
+    "ukr": "Мюнхенська ратуша",
+    "rus": "Мюнхенская ратуша",
+    "ch": "慕尼黑新市政厅"
+   },
+   "population": "slovenian",
+   "type": "place"
+  },
+  {
+   "file_name": "neuschwanstein_castle.jpg",
+   "index": "L072",
+   "names": {
+    "en": "Neuschwanstein Castle",
+    "de": "Schloss Neuschwanstein",
+    "sl": "Grad Neuschwanstein",
+    "tur": "Neuschwanstein Şatosu",
+    "ukr": "Нойшванштайн",
+    "rus": "Нойшванштайн",
+    "ch": "新天鹅堡"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "niagara_falls.jpg",
+   "index": "L073",
+   "names": {
+    "en": "Niagara Falls",
+    "de": "Niagarafälle",
+    "sl": "Niagarski slapovi",
+    "tur": "Niagara Şelaleleri",
+    "ukr": "Ніагарський водоспад",
+    "rus": "Ниагарский водопад",
+    "ch": "尼亚加拉瀑布"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "notre_dame_cathedral_paris.jpg",
+   "index": "L074",
+   "names": {
+    "en": "Notre-Dame",
+    "de": "Notre-Dame",
+    "sl": "Notre-Dame",
+    "tur": "Notre-Dame",
+    "ukr": "Нотр-Дам",
+    "rus": "Нотр-Дам",
+    "ch": "巴黎圣母院"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "oxford_university.jpg",
+   "index": "L075",
+   "names": {
+    "en": "Oxford University",
+    "de": "Universität Oxford",
+    "sl": "Univerza v Oxfordu",
+    "tur": "Oxford Üniversitesi",
+    "ukr": "Оксфордський університет",
+    "rus": "Оксфордский университет",
+    "ch": "牛津大学"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "versailles_palace.jpg",
+   "index": "L076",
+   "names": {
+    "en": "Palace of Versailles",
+    "de": "Schloss Versailles",
+    "sl": "Versajska palača",
+    "tur": "Versay Sarayı",
+    "ukr": "Версальський палац",
+    "rus": "Версаль",
+    "ch": "凡尔赛宫"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "palm_jumeirah.jpg",
+   "index": "L077",
+   "names": {
+    "en": "Palm Jumeirah",
+    "de": "Palm Jumeirah",
+    "sl": "Palm Jumeirah",
+    "tur": "Palm Cumeyra",
+    "ukr": "Пальма Джумейра",
+    "rus": "Палм-Джумейра",
+    "ch": "朱美拉棕榈岛"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "pantheon_rome.jpg",
+   "index": "L078",
+   "names": {
+    "en": "Pantheon, Rome",
+    "de": "Pantheon, Rom",
+    "sl": "Panteon, Rim",
+    "tur": "Pantheon, Roma",
+    "ukr": "Пантеон, Рим",
+    "rus": "Пантеон, Рим",
+    "ch": "罗马万神殿"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "park_guell.jpg",
+   "index": "L079",
+   "names": {
+    "en": "Park Güell",
+    "de": "Park Güell",
+    "sl": "Park Güell",
+    "tur": "Park Güell",
+    "ukr": "Парк Гуель",
+    "rus": "Парк Гуэль",
+    "ch": "桂尔公园"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "petra_jordan.jpg",
+   "index": "L080",
+   "names": {
+    "en": "Petra",
+    "de": "Petra",
+    "sl": "Petra",
+    "tur": "Petra",
+    "ukr": "Петра",
+    "rus": "Петра",
+    "ch": "佩特拉古城"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "petronas_twin_towers.jpg",
+   "index": "L081",
+   "names": {
+    "en": "Petronas Twin Towers",
+    "de": "Petronas Towers",
+    "sl": "Petronasova stolpa",
+    "tur": "Petronas İkiz Kuleleri",
+    "ukr": "Вежі Петронас",
+    "rus": "Башни Петронас",
+    "ch": "吉隆坡双子塔"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "piccadilly_circus.jpg",
+   "index": "L082",
+   "names": {
+    "en": "Piccadilly Circus",
+    "de": "Piccadilly Circus",
+    "sl": "Piccadilly Circus",
+    "tur": "Piccadilly Circus",
+    "ukr": "Пікаділлі-Серкус",
+    "rus": "Пикадилли-серкус",
+    "ch": "皮卡迪利广场"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "piran.jpg",
+   "index": "L083",
+   "names": {
+    "en": "Piran",
+    "de": "Piran",
+    "sl": "Piran",
+    "tur": "Piran",
+    "ukr": "Пиран",
+    "rus": "Пиран",
+    "ch": "皮兰"
+   },
+   "population": "slovenian",
+   "type": "place"
+  },
+  {
+   "file_name": "ponte_vecchio.jpg",
+   "index": "L084",
+   "names": {
+    "en": "Ponte Vecchio",
+    "de": "Ponte Vecchio",
+    "sl": "Ponte Vecchio",
+    "tur": "Ponte Vecchio",
+    "ukr": "Понте Веккйо",
+    "rus": "Понте-Веккьо",
+    "ch": "维琪奥桥（老桥）"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "porta_nigra_trier.jpg",
+   "index": "L085",
+   "names": {
+    "en": "Porta Nigra",
+    "de": "Porta Nigra",
+    "sl": "Porta Nigra",
+    "tur": "Porta Nigra",
+    "ukr": "Порта-Нігра",
+    "rus": "Порта-Нигра",
+    "ch": "特里尔黑门"
+   },
+   "population": "german",
+   "type": "place"
+  },
+  {
+   "file_name": "postojna_cave.jpg",
+   "index": "L086",
+   "names": {
+    "en": "Postojna Cave",
+    "de": "Höhlen von Postojna",
+    "sl": "Postojnska jama",
+    "tur": "Postojna Mağarası",
+    "ukr": "Постойнска Яма",
+    "rus": "Постойнска-Яма",
+    "ch": "波斯托伊纳溶洞"
+   },
+   "population": "slovenian",
+   "type": "place"
+  },
+  {
+   "file_name": "prague_astronomical_clock.jpg",
+   "index": "L087",
+   "names": {
+    "en": "Prague Astronomical Clock",
+    "de": "Prager Rathausuhr",
+    "sl": "Praška astronomska ura",
+    "tur": "Prag Astronomik Saati",
+    "ukr": "Празькі куранти",
+    "rus": "Пражские куранты",
+    "ch": "布拉格天文钟"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "predjama_castle.jpg",
+   "index": "L088",
+   "names": {
+    "en": "Predjama Castle",
+    "de": "Höhlenburg Predjama",
+    "sl": "Predjamski grad",
+    "tur": "Predjama Kalesi",
+    "ukr": "Предямський замок",
+    "rus": "Предъямский замок",
+    "ch": "普雷贾马城堡"
+   },
+   "population": "slovenian",
+   "type": "place"
+  },
+  {
+   "file_name": "preseren_square.jpg",
+   "index": "L089",
+   "names": {
+    "en": "Prešeren Square",
+    "de": "Prešeren-Platz",
+    "sl": "Prešernov trg",
+    "tur": "Prešeren Meydanı",
+    "ukr": "Площа Прешерна",
+    "rus": "Площадь Прешерена",
+    "ch": "卢布尔雅那普列舍伦广场"
+   },
+   "population": "slovenian",
+   "type": "place"
+  },
+  {
+   "file_name": "pyramids_of_giza.jpg",
+   "index": "L090",
+   "names": {
+    "en": "Pyramids of Giza",
+    "de": "Pyramiden von Gizeh",
+    "sl": "piramide pri Gizi",
+    "tur": "Gize Piramitleri",
+    "ukr": "Піраміди Гізи",
+    "rus": "Пирамиды Гизы",
+    "ch": "吉萨金字塔群"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "red_square_moscow.jpg",
+   "index": "L091",
+   "names": {
+    "en": "Red Square",
+    "de": "Roter Platz",
+    "sl": "Rdeči trg",
+    "tur": "Kızıl Meydan",
+    "ukr": "Красна площа",
+    "rus": "Красная площадь",
+    "ch": "红场"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "reichstag_building_berlin.jpg",
+   "index": "L092",
+   "names": {
+    "en": "Reichstag Building",
+    "de": "Reichstagsgebäude",
+    "sl": "Reichstag",
+    "tur": "Reichstag",
+    "ukr": "Будівля Райхстагу",
+    "rus": "Рейхстаг (здание)",
+    "ch": "德国国会大厦"
+   },
+   "population": "german",
+   "type": "place"
+  },
+  {
+   "file_name": "royal_albert_hall.jpg",
+   "index": "L093",
+   "names": {
+    "en": "Royal Albert Hall",
+    "de": "Royal Albert Hall",
+    "sl": "Royal Albert Hall",
+    "tur": "Royal Albert Hall",
+    "ukr": "Роял Альберт Холл",
+    "rus": "Альберт-холл",
+    "ch": "皇家阿尔伯特音乐厅"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "sacre_coeur_basilica.jpg",
+   "index": "L094",
+   "names": {
+    "en": "Sacré-Cœur Basilica",
+    "de": "Basilika Sacré-Cœur",
+    "sl": "Bazilika Sacré-Cœur",
+    "tur": "Sacré-Cœur Bazilikası",
+    "ukr": "Базиліка Сакре-Кер",
+    "rus": "Базилика Сакре-Кёр",
+    "ch": "圣心大教堂"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "sagrada_familia.jpg",
+   "index": "L095",
+   "names": {
+    "en": "Sagrada Família",
+    "de": "Sagrada Família",
+    "sl": "Bazilika sv. Družine",
+    "tur": "Sagrada Família",
+    "ukr": "Храм Спокути Святої Родини",
+    "rus": "Саграда-Фамилия",
+    "ch": "圣家堂"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "santorini.jpg",
+   "index": "L096",
+   "names": {
+    "en": "Santorini",
+    "de": "Santorin",
+    "sl": "Santorini",
+    "tur": "Santorini",
+    "ukr": "Санторині",
+    "rus": "Тира (остров)",
+    "ch": "圣托里尼岛"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "sheikh_zayed_grand_mosque.jpg",
+   "index": "L097",
+   "names": {
+    "en": "Sheikh Zayed Grand Mosque",
+    "de": "Scheich-Zayid-Moschee",
+    "sl": "Velika mošeja šejka Zayeda",
+    "tur": "Şeyh Zayid Camii",
+    "ukr": "Мечеть шейха Заїда",
+    "rus": "Мечеть шейха Заида",
+    "ch": "谢赫·扎耶德大清真寺"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "shibuya_crossing.jpg",
+   "index": "L098",
+   "names": {
+    "en": "Shibuya Crossing",
+    "de": "Shibuya Crossing",
+    "sl": "Prehod Shibuya",
+    "tur": "Shibuya Kavşağı",
+    "ukr": "Перехрестя Сібуя",
+    "rus": "Сибуйский диагональный пешеходный переход",
+    "ch": "涩谷十字路口"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "sistine_chapel.jpg",
+   "index": "L099",
+   "names": {
+    "en": "Sistine Chapel",
+    "de": "Sixtinische Kapelle",
+    "sl": "Sikstinska kapela",
+    "tur": "Sistina Şapeli",
+    "ukr": "Сікстинська капела",
+    "rus": "Сикстинская капелла",
+    "ch": "西斯廷教堂"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "space_needle.jpg",
+   "index": "L100",
+   "names": {
+    "en": "Space Needle",
+    "de": "Space Needle",
+    "sl": "Space Needle",
+    "tur": "Space Needle",
+    "ukr": "Спейс-Нідл",
+    "rus": "Спейс-Нидл",
+    "ch": "太空针塔"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "spanish_steps_rome.jpg",
+   "index": "L101",
+   "names": {
+    "en": "Spanish Steps, Rome",
+    "de": "Spanische Treppe, Rom",
+    "sl": "Španske stopnice, Rim",
+    "tur": "İspanyol Merdivenleri, Roma",
+    "ukr": "Іспанські сходи, Рим",
+    "rus": "Испанская лестница, Рим",
+    "ch": "罗马西班牙阶梯"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "st_marks_square_and_basilica_venice.jpg",
+   "index": "L102",
+   "names": {
+    "en": "St. Mark's Basilica",
+    "de": "Markusdom",
+    "sl": "Bazilika sv. Marka",
+    "tur": "San Marco Bazilikası",
+    "ukr": "Базиліка Святого Марка",
+    "rus": "Базилика Святого Марка",
+    "ch": "威尼斯圣马可广场和圣马可大教堂"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "st_peters_basilica.jpg",
+   "index": "L103",
+   "names": {
+    "en": "St. Peter's Basilica",
+    "de": "Petersdom",
+    "sl": "Bazilika sv. Petra, Vatikan",
+    "tur": "Aziz Petrus Bazilikası",
+    "ukr": "Собор Святого Петра",
+    "rus": "Собор Святого Петра",
+    "ch": "圣彼得大教堂"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "statue_of_liberty.jpg",
+   "index": "L104",
+   "names": {
+    "en": "Statue of Liberty",
+    "de": "Freiheitsstatue",
+    "sl": "Kip svobode",
+    "tur": "Özgürlük Heykeli",
+    "ukr": "Статуя Свободи",
+    "rus": "Статуя Свободы",
+    "ch": "自由女神像"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "stonehenge.jpg",
+   "index": "L105",
+   "names": {
+    "en": "Stonehenge",
+    "de": "Stonehenge",
+    "sl": "Stonehenge",
+    "tur": "Stonehenge",
+    "ukr": "Стоунгендж",
+    "rus": "Стоунхендж",
+    "ch": "巨石阵"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "sydney_harbour_bridge.jpg",
+   "index": "L106",
+   "names": {
+    "en": "Sydney Harbour Bridge",
+    "de": "Sydney Harbour Bridge",
+    "sl": "Sydneyjski pristaniški most",
+    "tur": "Sidney Liman Köprüsü",
+    "ukr": "Гарбор-Брідж (Сідней)",
+    "rus": "Харбор-Бридж (Сидней)",
+    "ch": "悉尼海港大桥"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "sydney_opera_house.jpg",
+   "index": "L107",
+   "names": {
+    "en": "Sydney Opera House",
+    "de": "Opernhaus von Sydney",
+    "sl": "Sydneyjska opera",
+    "tur": "Sidney Opera Evi",
+    "ukr": "Сіднейський оперний театр",
+    "rus": "Сиднейский оперный театр",
+    "ch": "悉尼歌剧院"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "table_mountain_cape_town.jpg",
+   "index": "L108",
+   "names": {
+    "en": "Table Mountain",
+    "de": "Tafelberg",
+    "sl": "Table Mountain",
+    "tur": "Masa Dağı",
+    "ukr": "Столова гора",
+    "rus": "Столовая гора",
+    "ch": "开普敦桌山"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "taipei_101.jpg",
+   "index": "L109",
+   "names": {
+    "en": "Taipei 101",
+    "de": "Taipei 101",
+    "sl": "Taipei 101",
+    "tur": "Taipei 101",
+    "ukr": "Тайбей 101",
+    "rus": "Тайбэй 101",
+    "ch": "台北101大楼"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "taj_mahal.jpg",
+   "index": "L110",
+   "names": {
+    "en": "Taj Mahal",
+    "de": "Taj Mahal",
+    "sl": "Taj Mahal",
+    "tur": "Tac Mahal",
+    "ukr": "Тадж-Махал",
+    "rus": "Тадж-Махал",
+    "ch": "泰姬陵"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "temple_of_heaven_beijing.jpg",
+   "index": "L111",
+   "names": {
+    "en": "Temple of Heaven",
+    "de": "Himmelstempel",
+    "sl": "Nebeški tempelj",
+    "tur": "Cennet Tapınağı",
+    "ukr": "Храм Неба",
+    "rus": "Храм Небес",
+    "ch": "北京天坛"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "terracotta_army.jpg",
+   "index": "L112",
+   "names": {
+    "en": "Terracotta Army",
+    "de": "Terrakotta-Armee",
+    "sl": "Glinena vojska",
+    "tur": "Toprak Askerler",
+    "ukr": "Теракотова армія",
+    "rus": "Терракотовая армия",
+    "ch": "秦始皇兵马俑"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "the_gherkin_london.jpg",
+   "index": "L113",
+   "names": {
+    "en": "The Gherkin",
+    "de": "The Gherkin",
+    "sl": "The Gherkin",
+    "tur": "The Gherkin",
+    "ukr": "The Gherkin",
+    "rus": "Небоскрёб Мэри-Экс",
+    "ch": "小黄瓜大楼"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "pentagon_building.jpg",
+   "index": "L114",
+   "names": {
+    "en": "The Pentagon",
+    "de": "Pentagon",
+    "sl": "Pentagon",
+    "tur": "Pentagon",
+    "ukr": "Пентагон",
+    "rus": "Пентагон",
+    "ch": "五角大楼"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "the_shard_london.jpg",
+   "index": "L115",
+   "names": {
+    "en": "The Shard",
+    "de": "The Shard",
+    "sl": "Črepinja",
+    "tur": "The Shard",
+    "ukr": "Шард",
+    "rus": "Шард",
+    "ch": "碎片大厦"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "times_square.jpg",
+   "index": "L116",
+   "names": {
+    "en": "Times Square",
+    "de": "Times Square",
+    "sl": "Times Square",
+    "tur": "Times Square",
+    "ukr": "Таймс-сквер",
+    "rus": "Таймс-сквер",
+    "ch": "时代广场"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "tower_bridge.jpg",
+   "index": "L117",
+   "names": {
+    "en": "Tower Bridge",
+    "de": "Tower Bridge",
+    "sl": "Tower Bridge",
+    "tur": "Tower Bridge",
+    "ukr": "Тауерський міст",
+    "rus": "Тауэрский мост",
+    "ch": "伦敦塔桥"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "tower_of_london.jpg",
+   "index": "L118",
+   "names": {
+    "en": "Tower of London",
+    "de": "Tower of London",
+    "sl": "Londonski Tower",
+    "tur": "Londra Kalesi",
+    "ukr": "Лондонський Тауер",
+    "rus": "Лондонский Тауэр",
+    "ch": "伦敦塔"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "trafalgar_square.jpg",
+   "index": "L119",
+   "names": {
+    "en": "Trafalgar Square",
+    "de": "Trafalgar Square",
+    "sl": "Trafalgarski trg",
+    "tur": "Trafalgar Meydanı",
+    "ukr": "Трафальгар-сквер",
+    "rus": "Трафальгарская площадь",
+    "ch": "特拉法加广场"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "trevi_fountain.jpg",
+   "index": "L120",
+   "names": {
+    "en": "Trevi Fountain",
+    "de": "Trevi-Brunnen",
+    "sl": "Vodnjak Trevi",
+    "tur": "Trevi Çeşmesi",
+    "ukr": "Фонтан Треві",
+    "rus": "Фонтан Треви",
+    "ch": "特雷维喷泉（许愿池）"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "triple_bridge.jpg",
+   "index": "L121",
+   "names": {
+    "en": "Triple Bridge",
+    "de": "Drei-Brücken-Ensemble",
+    "sl": "Tromostje",
+    "tur": "Üçlü Köprü",
+    "ukr": "Потрійний міст",
+    "rus": "Тройной мост",
+    "ch": "卢布尔雅那三桥"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "uluru_ayers_rock.jpg",
+   "index": "L122",
+   "names": {
+    "en": "Uluru / Ayers Rock",
+    "de": "Uluru / Ayers Rock",
+    "sl": "Uluru / Ayers Rock",
+    "tur": "Uluru / Ayers Kayası",
+    "ukr": "Улуру / Айєрс-Рок",
+    "rus": "Улуру / Эйерс-Рок",
+    "ch": "乌鲁鲁（艾尔斯岩）"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "capitol_hill.jpg",
+   "index": "L123",
+   "names": {
+    "en": "United States Capitol",
+    "de": "Kapitol der Vereinigten Staaten",
+    "sl": "Kapitol",
+    "tur": "Amerikan Kongre Binası",
+    "ukr": "Капітолій (Вашингтон)",
+    "rus": "Капитолий (Вашингтон)",
+    "ch": "美国国会大厦"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "venice_canals.jpg",
+   "index": "L124",
+   "names": {
+    "en": "Venice Canals",
+    "de": "Kanäle von Venedig",
+    "sl": "Beneški kanali",
+    "tur": "Venedik Kanalları",
+    "ukr": "Венеційські канали",
+    "rus": "Венецианские каналы",
+    "ch": "威尼斯运河"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "vintgar_gorge.jpg",
+   "index": "L125",
+   "names": {
+    "en": "Vintgar Gorge",
+    "de": "Vintgarklamm",
+    "sl": "Blejski vintgar",
+    "tur": "Vintgar Geçidi",
+    "ukr": "Ущелина Вінтгар",
+    "rus": "Винтгар (ущелье)",
+    "ch": "文特加峡谷"
+   },
+   "population": "slovenian",
+   "type": "place"
+  },
+  {
+   "file_name": "western_wailing_wall.jpg",
+   "index": "L126",
+   "names": {
+    "en": "Wailing Wall",
+    "de": "Klagemauer",
+    "sl": "Zid objokovanja",
+    "tur": "Ağlama Duvarı",
+    "ukr": "Стіна Плачу",
+    "rus": "Стена плача",
+    "ch": "西墙（哭墙）"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "westminster_abbey.jpg",
+   "index": "L127",
+   "names": {
+    "en": "Westminster Abbey",
+    "de": "Westminster Abbey",
+    "sl": "Westminstrska opatija",
+    "tur": "Westminster Manastırı",
+    "ukr": "Вестмінстерське абатство",
+    "rus": "Вестминстерское аббатство",
+    "ch": "威斯敏斯特教堂"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "white_cliffs_of_dover.jpg",
+   "index": "L128",
+   "names": {
+    "en": "White Cliffs of Dover",
+    "de": "Kreidefelsen von Dover",
+    "sl": "Dovrski beli klifi",
+    "tur": "Dover'ın Beyaz Uçurumları",
+    "ukr": "Білі скелі Дувра",
+    "rus": "Белые скалы Дувра",
+    "ch": "多佛白崖"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "the_white_house.jpg",
+   "index": "L129",
+   "names": {
+    "en": "White House",
+    "de": "Weißes Haus",
+    "sl": "Bela hiša",
+    "tur": "Beyaz Saray",
+    "ukr": "Білий дім",
+    "rus": "Белый дом",
+    "ch": "白宫"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "alcatraz.jpg",
+   "index": "L130",
+   "names": {
+    "en": "Alcatraz",
+    "de": "Alcatraz",
+    "sl": "Alcatraz",
+    "tur": "Alcatraz",
+    "ukr": "Алькатрас",
+    "rus": "Алькатрас",
+    "ch": "恶魔岛（阿尔卡特拉斯岛）"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "beijing_stadium.jpg",
+   "index": "L131",
+   "names": {
+    "en": "Beijing National Stadium",
+    "de": "Nationalstadion Peking",
+    "sl": "Pekinški narodni stadion",
+    "tur": "Pekin Ulusal Stadyumu",
+    "ukr": "Пекінський національний стадіон",
+    "rus": "Национальный стадион (Пекин)",
+    "ch": "国家体育场（鸟巢）"
+   },
+   "population": "chinese",
+   "type": "place"
+  },
+  {
+   "file_name": "brighton_pier.jpg",
+   "index": "L132",
+   "names": {
+    "en": "Brighton Pier",
+    "de": "Brighton Pier",
+    "sl": "Brighton Pier",
+    "tur": "Brighton İskelesi",
+    "ukr": "Пірс у Брайтоні",
+    "rus": "Пирс в Брайтоне",
+    "ch": "布莱顿码头"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "calton_hill.jpg",
+   "index": "L133",
+   "names": {
+    "en": "Calton Hill",
+    "de": "Calton Hill",
+    "sl": "Calton Hill",
+    "tur": "Calton Hill",
+    "ukr": "Калтон-Хілл",
+    "rus": "Калтон-Хилл",
+    "ch": "卡尔顿山"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "canton_tower.jpg",
+   "index": "L134",
+   "names": {
+    "en": "Canton Tower",
+    "de": "Canton Tower",
+    "sl": "Kantonski stolp",
+    "tur": "Kanton Kulesi",
+    "ukr": "Телевежа Ґуанчжоу",
+    "rus": "Телебашня Гуанчжоу",
+    "ch": "广州塔（小蛮腰）"
+   },
+   "population": "chinese",
+   "type": "place"
+  },
+  {
+   "file_name": "chhatrapati_terminus.jpg",
+   "index": "L135",
+   "names": {
+    "en": "Chhatrapati Shivaji Terminus",
+    "de": "Chhatrapati Shivaji Terminus",
+    "sl": "Terminal čatrapatija Šivadžija",
+    "tur": "Chhatrapati Shivaji Maharaj Terminus",
+    "ukr": "Вокзал Чгатрапаті-Шиваджі",
+    "rus": "Вокзал Чхатрапати-Шиваджи",
+    "ch": "贾特拉帕蒂·希瓦吉终点站"
+   },
+   "population": "indian",
+   "type": "place"
+  },
+  {
+   "file_name": "dancing_house.jpg",
+   "index": "L136",
+   "names": {
+    "en": "Dancing House",
+    "de": "Tanzendes Haus",
+    "sl": "Plesna hiša",
+    "tur": "Dans Eden Ev",
+    "ukr": "Танцюючий дім",
+    "rus": "Танцующий дом",
+    "ch": "跳舞的房子"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "delicate_arch.jpg",
+   "index": "L137",
+   "names": {
+    "en": "Delicate Arch",
+    "de": "Delicate Arch",
+    "sl": "Delicate Arch",
+    "tur": "Delicate Arch",
+    "ukr": "Делікейт-Арч",
+    "rus": "Изящная арка",
+    "ch": "精致拱门"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "duke_statue.jpg",
+   "index": "L138",
+   "names": {
+    "en": "Duke of Wellington statue",
+    "de": "Reiterstatue des Duke of Wellington",
+    "sl": "Kip vojvode Wellingtona",
+    "tur": "Wellington Dükü Heykeli",
+    "ukr": "Статуя герцога Веллінгтона",
+    "rus": "Статуя герцога Веллингтона",
+    "ch": "惠灵顿公爵雕像"
+   },
+   "population": "scottish",
+   "type": "place"
+  },
+  {
+   "file_name": "falkirk_wheel.jpg",
+   "index": "L139",
+   "names": {
+    "en": "Falkirk Wheel",
+    "de": "Falkirk Wheel",
+    "sl": "Falkirško kolo",
+    "tur": "Falkirk Wheel",
+    "ukr": "Фолкеркське колесо",
+    "rus": "Фолкеркское колесо",
+    "ch": "福尔柯克轮"
+   },
+   "population": "scottish",
+   "type": "place"
+  },
+  {
+   "file_name": "george_square.jpg",
+   "index": "L140",
+   "names": {
+    "en": "George Square",
+    "de": "George Square",
+    "sl": "George Square",
+    "tur": "George Square",
+    "ukr": "Площа Джорджа",
+    "rus": "Джордж-сквер",
+    "ch": "格拉斯哥乔治广场"
+   },
+   "population": "scottish",
+   "type": "place"
+  },
+  {
+   "file_name": "goose_pagoda.jpg",
+   "index": "L141",
+   "names": {
+    "en": "Giant Wild Goose Pagoda",
+    "de": "Große Wildganspagode",
+    "sl": "Velika pagoda divje gosi",
+    "tur": "Büyük Vahşi Kaz Pagodası",
+    "ukr": "Велика пагода диких гусей",
+    "rus": "Большая пагода диких гусей",
+    "ch": "大雁塔"
+   },
+   "population": "chinese",
+   "type": "place"
+  },
+  {
+   "file_name": "glasgow_science.jpg",
+   "index": "L142",
+   "names": {
+    "en": "Glasgow Science Centre",
+    "de": "Glasgow Science Centre & Tower",
+    "sl": "Znanostni center v Glasgowu",
+    "tur": "Glasgow Bilim Merkezi",
+    "ukr": "Науковий центр Глазго",
+    "rus": "Научный центр Глазго",
+    "ch": "格拉斯哥科学中心和格拉斯哥塔"
+   },
+   "population": "scottish",
+   "type": "place"
+  },
+  {
+   "file_name": "golden_temple.jpg",
+   "index": "L143",
+   "names": {
+    "en": "Golden Temple",
+    "de": "Harmandir Sahib",
+    "sl": "Zlati tempelj",
+    "tur": "Altın Tapınak",
+    "ukr": "Хармандир-Сахіб",
+    "rus": "Хармандир-Сахиб",
+    "ch": "金庙"
+   },
+   "population": "indian",
+   "type": "place"
+  },
+  {
+   "file_name": "yellow_mountains.jpg",
+   "index": "L144",
+   "names": {
+    "en": "Huangshan / Yellow Mountains",
+    "de": "Huang Shan",
+    "sl": "Huangšan / Rumene gore",
+    "tur": "Huangshan",
+    "ukr": "Хуаншань (гори)",
+    "rus": "Хуаншань",
+    "ch": "黄山"
+   },
+   "population": "chinese",
+   "type": "place"
+  },
+  {
+   "file_name": "hukou_waterfall.jpg",
+   "index": "L145",
+   "names": {
+    "en": "Hukou Waterfalls",
+    "de": "Hukou-Wasserfall",
+    "sl": "Slap Hukou",
+    "tur": "Hukou Şelalesi",
+    "ukr": "Водоспад Хукоу",
+    "rus": "Водопад Хукоу",
+    "ch": "黄河壶口瀑布"
+   },
+   "population": "chinese",
+   "type": "place"
+  },
+  {
+   "file_name": "jama_masjid.jpg",
+   "index": "L146",
+   "names": {
+    "en": "Jama Masjid",
+    "de": "Jama Masjid",
+    "sl": "Petkova mošeja",
+    "tur": "Delhi Cuma Camii",
+    "ukr": "Джама-Масджид",
+    "rus": "Соборная мечеть",
+    "ch": "贾玛清真寺"
+   },
+   "population": "indian",
+   "type": "place"
+  },
+  {
+   "file_name": "kelvingrove_gallery.jpg",
+   "index": "L147",
+   "names": {
+    "en": "Kelvingrove Art Gallery",
+    "de": "Kelvingrove Art Gallery",
+    "sl": "Umetnostna galerija Kelvingrove",
+    "tur": "Kelvingrove Sanat Galerisi",
+    "ukr": "Художня галерея Келвінгроув",
+    "rus": "Художественная галерея Келвингроув",
+    "ch": "凯尔文格罗夫艺术博物馆"
+   },
+   "population": "scottish",
+   "type": "place"
+  },
+  {
+   "file_name": "leshan_buddha.jpg",
+   "index": "L148",
+   "names": {
+    "en": "Leshan Giant Buddha",
+    "de": "Großer Buddha von Leshan",
+    "sl": "Lešanski veliki Buda",
+    "tur": "Büyük Leshan Budası",
+    "ukr": "Статуя Будди в Лешань",
+    "rus": "Статуя Будды в Лэшане",
+    "ch": "乐山大佛"
+   },
+   "population": "chinese",
+   "type": "place"
+  },
+  {
+   "file_name": "london_gallery.jpg",
+   "index": "L149",
+   "names": {
+    "en": "National Gallery, London",
+    "de": "National Gallery (London)",
+    "sl": "Narodna galerija, London",
+    "tur": "National Gallery (Londra)",
+    "ukr": "Національна галерея (Лондон)",
+    "rus": "Лондонская национальная галерея",
+    "ch": "英国国家美术馆"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "qutub_minar.jpg",
+   "index": "L150",
+   "names": {
+    "en": "Qutub Minar",
+    "de": "Qutb Minar",
+    "sl": "Qutub Minar",
+    "tur": "Kutub Minâr",
+    "ukr": "Кутб-Мінар",
+    "rus": "Кутб-Минар",
+    "ch": "顾特卜塔"
+   },
+   "population": "indian",
+   "type": "place"
+  },
+  {
+   "file_name": "red_fort.jpg",
+   "index": "L151",
+   "names": {
+    "en": "Red Fort",
+    "de": "Rotes Fort",
+    "sl": "Rdeča trdnjava",
+    "tur": "Kızıl Kale",
+    "ukr": "Червоний форт",
+    "rus": "Лал-Кила",
+    "ch": "红堡"
+   },
+   "population": "indian",
+   "type": "place"
+  },
+  {
+   "file_name": "riverside_museum.jpg",
+   "index": "L152",
+   "names": {
+    "en": "Riverside Museum",
+    "de": "Riverside Museum",
+    "sl": "Riverside Muzej",
+    "tur": "Riverside Müzesi",
+    "ukr": "Музей Ріверсайд",
+    "rus": "Музей Риверсайд",
+    "ch": "河滨博物馆"
+   },
+   "population": "scottish",
+   "type": "place"
+  },
+  {
+   "file_name": "sec_armadillo.jpg",
+   "index": "L153",
+   "names": {
+    "en": "SEC Armadillo",
+    "de": "SEC Armadillo",
+    "sl": "SEC Armadillo",
+    "tur": "SEC Armadillo",
+    "ukr": "SEC «Армаділло»",
+    "rus": "SEC Армадилло",
+    "ch": "SEC犰狳馆"
+   },
+   "population": "scottish",
+   "type": "place"
+  },
+  {
+   "file_name": "scott_monument.jpg",
+   "index": "L154",
+   "names": {
+    "en": "Scott Monument",
+    "de": "Scott-Denkmal",
+    "sl": "Scottov spomenik",
+    "tur": "Scott Anıtı",
+    "ukr": "Пам'ятник Скотту",
+    "rus": "Монумент Скотта",
+    "ch": "司各特纪念塔"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "shaolin_temple.jpg",
+   "index": "L155",
+   "names": {
+    "en": "Shaolin Temple",
+    "de": "Shaolin",
+    "sl": "Samostan Šaolin",
+    "tur": "Şaolin Manastırı",
+    "ukr": "Шаолінь",
+    "rus": "Шаолинь",
+    "ch": "少林寺"
+   },
+   "population": "chinese",
+   "type": "place"
+  },
+  {
+   "file_name": "giles_cathedral.jpg",
+   "index": "L156",
+   "names": {
+    "en": "St. Giles' Cathedral",
+    "de": "St. Giles' Cathedral",
+    "sl": "Stolnica sv. Tilna, Edinburg",
+    "tur": "St. Giles Katedrali",
+    "ukr": "Собор Святого Джайлза",
+    "rus": "Эдинбургский собор",
+    "ch": "圣吉尔斯大教堂"
+   },
+   "population": "scottish",
+   "type": "place"
+  },
+  {
+   "file_name": "supreme_court.jpg",
+   "index": "L157",
+   "names": {
+    "en": "Supreme Court of India",
+    "de": "Oberstes Gericht (Indien)",
+    "sl": "Vrhovno sodišče Indije",
+    "tur": "Hindistan Yüksek Mahkemesi",
+    "ukr": "Верховний суд Індії",
+    "rus": "Верховный суд Индии",
+    "ch": "印度最高法院"
+   },
+   "population": "indian",
+   "type": "place"
+  },
+  {
+   "file_name": "cobbler.jpg",
+   "index": "L158",
+   "names": {
+    "en": "The Cobbler",
+    "de": "„The Cobbler“",
+    "sl": "The Cobbler",
+    "tur": "The Cobbler",
+    "ukr": "«Швець»",
+    "rus": "«Сапожник»",
+    "ch": "科布勒山／本·阿瑟山"
+   },
+   "population": "scottish",
+   "type": "place"
+  },
+  {
+   "file_name": "kelpies.jpg",
+   "index": "L159",
+   "names": {
+    "en": "The Kelpies",
+    "de": "The Kelpies",
+    "sl": "The Kelpies",
+    "tur": "The Kelpies",
+    "ukr": "Кельпі",
+    "rus": "«Келпи»",
+    "ch": "凯尔派水马雕塑"
+   },
+   "population": "scottish",
+   "type": "place"
+  },
+  {
+   "file_name": "pearl_harbor.jpg",
+   "index": "L160",
+   "names": {
+    "en": "Pearl Harbor",
+    "de": "Pearl Harbor",
+    "sl": "Pearl Harbor",
+    "tur": "Pearl Harbor",
+    "ukr": "Перл-Харбор",
+    "rus": "Перл-Харбор",
+    "ch": "珍珠港亚利桑那号战列舰纪念馆"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "glasgow_uni.jpg",
+   "index": "L161",
+   "names": {
+    "en": "University of Glasgow",
+    "de": "Universität von Glasgow",
+    "sl": "Univerza v Glasgowu",
+    "tur": "Glasgow Üniversitesi",
+    "ukr": "Університет Глазго",
+    "rus": "Университет Глазго",
+    "ch": "格拉斯哥大学"
+   },
+   "population": "scottish",
+   "type": "place"
+  },
+  {
+   "file_name": "water_cube.jpg",
+   "index": "L162",
+   "names": {
+    "en": "Water Cube",
+    "de": "Water Cube",
+    "sl": "Vodni kub",
+    "tur": "Pekin Ulusal Su Sporları Merkezi",
+    "ukr": "Водяний куб",
+    "rus": "Водяной куб",
+    "ch": "国家游泳中心（水立方）"
+   },
+   "population": "chinese",
+   "type": "place"
+  },
+  {
+   "file_name": "west_lake.jpg",
+   "index": "L163",
+   "names": {
+    "en": "West Lake / Xi Hu",
+    "de": "Westsee / Xi Hu",
+    "sl": "Zahodno jezero / Xi Hu",
+    "tur": "Batı Gölü / Xi Hu",
+    "ukr": "Західне озеро / Сі Ху",
+    "rus": "Западное озеро / Сиху",
+    "ch": "西湖"
+   },
+   "population": "chinese",
+   "type": "place"
+  },
+  {
+   "file_name": "hermitage.jpg",
+   "index": "L164",
+   "names": {
+    "en": "Hermitage Museum",
+    "de": "Eremitage",
+    "sl": "Ermitaž",
+    "tur": "Ermitaj Müzesi",
+    "ukr": "Ермітаж",
+    "rus": "Эрмитаж",
+    "ch": "冬宫博物馆（艾尔米塔什博物馆）"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "crane_tower.jpg",
+   "index": "L165",
+   "names": {
+    "en": "Yellow Crane Tower",
+    "de": "Kranichpagode",
+    "sl": "Stolp Rumeni žerjav",
+    "tur": "Sarı Vinç Kulesi",
+    "ukr": "Хуанхелоу",
+    "rus": "Башня Жёлтого журавля",
+    "ch": "黄鹤楼"
+   },
+   "population": "chinese",
+   "type": "place"
+  },
+  {
+   "file_name": "hawa_mahal.jpg",
+   "index": "L166",
+   "names": {
+    "en": "Hawa Mahal",
+    "de": "Hawa Mahal",
+    "sl": "Hava Mahal",
+    "tur": "Hawa Mahal",
+    "ukr": "Гава-Магал",
+    "rus": "Хава-Махал",
+    "ch": "风之宫"
+   },
+   "population": "indian",
+   "type": "place"
+  },
+  {
+   "file_name": "india_gate.jpg",
+   "index": "L167",
+   "names": {
+    "en": "India Gate",
+    "de": "India Gate",
+    "sl": "Indijska vrata",
+    "tur": "Hindistan Kapısı",
+    "ukr": "Брама Індії",
+    "rus": "Ворота Индии",
+    "ch": "印度门"
+   },
+   "population": "indian",
+   "type": "place"
+  },
+  {
+   "file_name": "lotus_temple.jpg",
+   "index": "L168",
+   "names": {
+    "en": "Lotus Temple",
+    "de": "Lotustempel",
+    "sl": "Lotusov tempelj",
+    "tur": "Nilüfer Tapınağı",
+    "ukr": "Храм Лотоса",
+    "rus": "Храм Лотоса",
+    "ch": "莲花寺"
+   },
+   "population": "indian",
+   "type": "place"
+  },
+  {
+   "file_name": "taj_hotel.jpg",
+   "index": "L169",
+   "names": {
+    "en": "Taj Palace Hotel",
+    "de": "Taj Palace Hotel",
+    "sl": "Hotel Taj Palace",
+    "tur": "Taj Palace Oteli",
+    "ukr": "Готель «Тадж-Палас»",
+    "rus": "Отель «Тадж Палас»",
+    "ch": "泰姬陵宫酒店"
+   },
+   "population": "indian",
+   "type": "place"
+  },
+  {
+   "file_name": "victoria_memorial.jpg",
+   "index": "L170",
+   "names": {
+    "en": "Victoria Memorial",
+    "de": "Victoria Memorial",
+    "sl": "Victoria Memorial",
+    "tur": "Victoria Anıtı",
+    "ukr": "Меморіал Вікторії",
+    "rus": "Мемориал Виктории",
+    "ch": "维多利亚纪念堂"
+   },
+   "population": "indian",
+   "type": "place"
+  },
+  {
+   "file_name": "gateway_of_india.jpg",
+   "index": "L171",
+   "names": {
+    "en": "Gateway of India",
+    "de": "Gateway of India",
+    "sl": "Vrata Indije",
+    "tur": "Hindistan Kapısı",
+    "ukr": "Брама до Індії",
+    "rus": "Ворота Индии",
+    "ch": "印度门"
+   },
+   "population": "indian",
+   "type": "place"
+  },
+  {
+   "file_name": "alhambra.jpg",
+   "index": "L172",
+   "names": {
+    "en": "Alhambra",
+    "de": "Alhambra",
+    "sl": "Alhambra",
+    "tur": "Elhamra Sarayı",
+    "ukr": "Альгамбра",
+    "rus": "Альгамбра",
+    "ch": "阿尔罕布拉宫"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "manneken_pis.jpg",
+   "index": "L173",
+   "names": {
+    "en": "Manneken Pis",
+    "de": "Manneken Pis",
+    "sl": "Manneken Pis",
+    "tur": "Manneken Pis",
+    "ukr": "Хлопчик-дзюркунчик",
+    "rus": "Писающий мальчик",
+    "ch": "尿尿小童"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "casa_batllo.jpg",
+   "index": "L174",
+   "names": {
+    "en": "Casa Batlló",
+    "de": "Casa Batlló",
+    "sl": "Casa Batlló",
+    "tur": "Casa Batlló",
+    "ukr": "Будинок Бальо",
+    "rus": "Каса-Батльо",
+    "ch": "巴特略之家"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "bran_castle.jpg",
+   "index": "L175",
+   "names": {
+    "en": "Bran Castle",
+    "de": "Schloss Bran",
+    "sl": "Grad Bran",
+    "tur": "Bran Kalesi",
+    "ukr": "Замок Бран",
+    "rus": "Бран (замок)",
+    "ch": "布兰城堡"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "grand_palace.jpg",
+   "index": "L176",
+   "names": {
+    "en": "Grand Palace",
+    "de": "Großer Palast",
+    "sl": "Velika palača",
+    "tur": "Büyük Saray",
+    "ukr": "Великий палац",
+    "rus": "Большой дворец",
+    "ch": "曼谷大皇宫"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "berlin_cathedral.jpg",
+   "index": "L177",
+   "names": {
+    "en": "Berlin Cathedral",
+    "de": "Berliner Dom",
+    "sl": "Berlinska stolnica",
+    "tur": "Berlin Katedrali",
+    "ukr": "Берлінський собор",
+    "rus": "Берлинский кафедральный собор",
+    "ch": "柏林大教堂"
+   },
+   "population": "german",
+   "type": "place"
+  },
+  {
+   "file_name": "sanssouci_palace.jpg",
+   "index": "L178",
+   "names": {
+    "en": "Sanssouci",
+    "de": "Schloss Sanssouci",
+    "sl": "Sanssouci",
+    "tur": "Sanssouci Sarayı",
+    "ukr": "Палац Сансусі",
+    "rus": "Сан-Суси",
+    "ch": "無憂宮"
+   },
+   "population": "german",
+   "type": "place"
+  },
+  {
+   "file_name": "wartburg_castle.jpg",
+   "index": "L179",
+   "names": {
+    "en": "Wartburg",
+    "de": "Wartburg",
+    "sl": "Grad Wartburg",
+    "tur": "Wartburg Kalesi",
+    "ukr": "Замок Вартбург",
+    "rus": "Замок Вартбург",
+    "ch": "瓦特堡"
+   },
+   "population": "german",
+   "type": "place"
+  },
+  {
+   "file_name": "great_reef.jpg",
+   "index": "L180",
+   "names": {
+    "en": "Great Barrier Reef",
+    "de": "Great Barrier Reef",
+    "sl": "Veliki koralni greben",
+    "tur": "Büyük Set Resifi",
+    "ukr": "Великий Бар'єрний риф",
+    "rus": "Большой Барьерный риф",
+    "ch": "大堡礁"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "kinkaku_ji.jpg",
+   "index": "L181",
+   "names": {
+    "en": "Kinkaku-ji",
+    "de": "Kinkaku-ji",
+    "sl": "Kinkaku-dži",
+    "tur": "Kinkaku-ji",
+    "ukr": "Монастир Кінкаку",
+    "rus": "Кинкаку-дзи",
+    "ch": "鹿苑寺"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "potala_palace.jpg",
+   "index": "L182",
+   "names": {
+    "en": "Potala Palace",
+    "de": "Potala-Palast",
+    "sl": "Palača Potala",
+    "tur": "Potala Sarayı",
+    "ukr": "Потала (храм)",
+    "rus": "Потала",
+    "ch": "布达拉宫"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "chapel_bridge.jpg",
+   "index": "L183",
+   "names": {
+    "en": "Chapel Bridge",
+    "de": "Kapellbrücke",
+    "sl": "Kapellbrücke",
+    "tur": "Kapell Köprüsü",
+    "ukr": "Капелльбрюке",
+    "rus": "Капельбрюкке",
+    "ch": "教堂桥"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "meteora_monasteries.jpg",
+   "index": "L184",
+   "names": {
+    "en": "Meteora monasteries",
+    "de": "Metéora-Klöster",
+    "sl": "Samostani v Meteori",
+    "tur": "Meteora Manastırları",
+    "ukr": "Монастирі Метеори",
+    "rus": "Монастыри Метеоры",
+    "ch": "梅特奥拉修道院"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "sahara_desert.jpg",
+   "index": "L185",
+   "names": {
+    "en": "Sahara Desert",
+    "de": "Sahara-Wüste",
+    "sl": "Saharska puščava",
+    "tur": "Sahra Çölü",
+    "ukr": "Пустеля Сахара",
+    "rus": "Пустыня Сахара",
+    "ch": "撒哈拉沙漠"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "salt_flat.jpg",
+   "index": "L186",
+   "names": {
+    "en": "Uyuni Salt Flat",
+    "de": "Salar de Uyuni",
+    "sl": "Salar de Uyuni",
+    "tur": "Salar de Uyuni Gölü",
+    "ukr": "Салар-де-Уюні",
+    "rus": "Уюни (солончак)",
+    "ch": "烏尤尼鹽沼"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "cinque_terre.jpg",
+   "index": "L187",
+   "names": {
+    "en": "Cinque Terre",
+    "de": "Cinque Terre",
+    "sl": "Cinque Terre",
+    "tur": "Cinque Terre",
+    "ukr": "Чинкве-Терре",
+    "rus": "Чинкве-Терре",
+    "ch": "五渔村"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "frank_house.jpg",
+   "index": "L188",
+   "names": {
+    "en": "Anne Frank House",
+    "de": "Anne-Frank-Haus",
+    "sl": "Hiša Anne Frank",
+    "tur": "Anne Frank Evi",
+    "ukr": "Будинок Анни Франк",
+    "rus": "Дом Анны Франк",
+    "ch": "安妮·弗兰克之家"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "trolltunga.jpg",
+   "index": "L189",
+   "names": {
+    "en": "Trolltunga",
+    "de": "Trolltunga",
+    "sl": "Trolltunga",
+    "tur": "Trolltunga",
+    "ukr": "Язик троля",
+    "rus": "Язык Тролля",
+    "ch": "特罗尔图恩加"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "pompeii.jpg",
+   "index": "L190",
+   "names": {
+    "en": "Pompeii",
+    "de": "Pompeji",
+    "sl": "Pompeji",
+    "tur": "Pompeii",
+    "ukr": "Помпеї",
+    "rus": "Помпеи",
+    "ch": "庞贝"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "juliet_balcony.jpg",
+   "index": "L191",
+   "names": {
+    "en": "Juliet's Balcony",
+    "de": "Julias Balkon",
+    "sl": "Julijin balkon",
+    "tur": "Juliet'in Balkonu",
+    "ukr": "Балкон Джульєтти",
+    "rus": "Балкон Джульетты",
+    "ch": "朱丽叶的阳台"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "hobbiton.jpg",
+   "index": "L192",
+   "names": {
+    "en": "Hobbiton",
+    "de": "Hobbiton",
+    "sl": "Hobbiton",
+    "tur": "Hobbiton",
+    "ukr": "Хоббітон",
+    "rus": "Хоббитон",
+    "ch": "哈比村"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "galapagos.jpg",
+   "index": "L193",
+   "names": {
+    "en": "Galápagos Islands",
+    "de": "Galapagosinseln",
+    "sl": "Galapaški otoki",
+    "tur": "Galápagos Adaları",
+    "ukr": "Галапагоські острови",
+    "rus": "Галапагос",
+    "ch": "加拉帕戈斯群岛"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "nazca_lines.jpg",
+   "index": "L194",
+   "names": {
+    "en": "Nazca Lines",
+    "de": "Nazca-Linien",
+    "sl": "Nazca linije",
+    "tur": "Nazca çizgileri",
+    "ukr": "Геогліфи Наски",
+    "rus": "Геоглифы Наски",
+    "ch": "纳斯卡线条"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "plitvic_lakes.jpg",
+   "index": "L195",
+   "names": {
+    "en": "Plitvice Lakes",
+    "de": "Plitvicer Seen",
+    "sl": "Plitviška jezera",
+    "tur": "Plitvice Gölleri",
+    "ukr": "Плитвицькі озера",
+    "rus": "Плитвицкие озёра",
+    "ch": "普利特维采湖群国家公园"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "dubrovnik.jpg",
+   "index": "L196",
+   "names": {
+    "en": "Dubrovnik",
+    "de": "Dubrovnik",
+    "sl": "Dubrovnik",
+    "tur": "Dubrovnik",
+    "ukr": "Дубровник",
+    "rus": "Дубровник",
+    "ch": "杜布羅夫尼克"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "tikal.jpg",
+   "index": "L198",
+   "names": {
+    "en": "Tikal",
+    "de": "Tikal",
+    "sl": "Tikal",
+    "tur": "Tikal",
+    "ukr": "Тікаль",
+    "rus": "Тикаль",
+    "ch": "蒂卡尔"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "gardens_bay.jpg",
+   "index": "L199",
+   "names": {
+    "en": "Gardens by the Bay",
+    "de": "Gardens by the Bay",
+    "sl": "Gardens by the Bay",
+    "tur": "Gardens by the Bay",
+    "ukr": "Сади біля затоки",
+    "rus": "Сады у Залива",
+    "ch": "濱海灣花園"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "wat_arun.jpg",
+   "index": "L197",
+   "names": {
+    "en": "Wat Arun",
+    "de": "Wat Arun",
+    "sl": "Wat Arun",
+    "tur": "Vat Arun",
+    "ukr": "Ват Арун",
+    "rus": "Ват Арун",
+    "ch": "黎明寺"
+   },
+   "population": "global",
+   "type": "place"
+  },
+  {
+   "file_name": "bled_castle.jpg",
+   "index": "L200",
+   "names": {
+    "en": "Bled Castle",
+    "de": "Burg von Bled",
+    "sl": "Blejski grad",
+    "tur": "Bled Kalesi",
+    "ukr": "Замок у Бледі",
+    "rus": "Бледский замок",
+    "ch": "布莱德城堡"
+   },
+   "population": "slovenian",
+   "type": "place"
+  },
+  {
+   "file_name": "ulm_minster.jpg",
+   "index": "L201",
+   "names": {
+    "en": "Ulm Minster",
+    "de": "Ulmer Münster",
+    "sl": "Glavna cerkev v Ulmu",
+    "tur": "Ulm Katedrali",
+    "ukr": "Ульмський собор",
+    "rus": "Ульмский собор",
+    "ch": "乌尔姆大教堂"
+   },
+   "population": "german",
+   "type": "place"
   }
  ]
 }
