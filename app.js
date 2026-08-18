@@ -386,6 +386,13 @@
     // "sub-sub-0001" - then keep only filename-safe characters.
     var cleaned = (raw || "").trim().replace(/^sub-/i, "");
     cleaned = cleaned.replace(/[^a-zA-Z0-9_-]/g, "").slice(0, 30);
+    // Auto zero-pad pure-numeric input to 4 digits, so typing "1" gives the same
+    // "sub-0001" a full-width entry would - only touches short numeric input, so
+    // anything non-numeric (a name-based scheme, say) or already 4+ digits is left
+    // exactly as typed.
+    if (/^\d+$/.test(cleaned) && cleaned.length < 4) {
+      while (cleaned.length < 4) cleaned = "0" + cleaned;
+    }
     return cleaned ? ("sub-" + cleaned) : "";
   }
   $("btn-start-new").addEventListener("click", function () {
