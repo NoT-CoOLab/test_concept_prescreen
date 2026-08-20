@@ -253,6 +253,10 @@
     $("redo-prompt-body").textContent = t("redoPromptBody");
     $("btn-redo-yes").textContent = t("redoYesButton");
     $("btn-redo-no").textContent = t("redoNoButton");
+    $("continue-prompt-title").textContent = t("continuePromptTitle");
+    $("continue-prompt-body").textContent = t("continuePromptBody");
+    $("btn-continue-yes").textContent = t("continueYesButton");
+    $("btn-continue-no").textContent = t("continueNoButton");
     $("done-title").textContent = t("doneTitle");
     var emailDisabledDone = CONFIG.emailEnabled === false && !!(state && state.finished);
     $("done-body").hidden = emailDisabledDone;
@@ -444,7 +448,9 @@
       sessionStartIso: nowIso(),
       trialIndex: 0,
       finished: false,
-      redoOffered: false
+      redoOffered: false,
+      continuePromptOffered: false,
+      continuePastThreshold: false
     };
     saveState();
     showScreen("screen-instructions");
@@ -468,6 +474,21 @@
     startKeyboardListening();
   });
   $("btn-redo-no").addEventListener("click", function () {
+    finishSession();
+  });
+
+  $("btn-continue-yes").addEventListener("click", function () {
+    state.continuePastThreshold = true;
+    saveState();
+    // state.current is still null here (that's what got us into this screen in
+    // the first place) - advanceTrial() picks up the next item now that the
+    // type-skip logic above is disabled for the rest of this session.
+    advanceTrial();
+    showScreen("screen-task");
+    renderCurrentStim();
+    startKeyboardListening();
+  });
+  $("btn-continue-no").addEventListener("click", function () {
     finishSession();
   });
 
@@ -502,8 +523,19 @@
 
   function advanceTrial() {
     if (state.current) return;
-    var peopleDone = state.knownPeopleCount >= (CONFIG.minPeopleKnown || 30);
-    var placesDone = state.knownPlacesCount >= (CONFIG.minPlacesKnown || 60);
+    // Thresholds freshly met, prompt not yet shown/answered: leave state.order
+    // completely untouched. Otherwise the type-skip below would drain it (every
+    // remaining item gets skipped once both types are "done") before
+    // renderCurrentStim() even gets a chance to offer the choice - by the time
+    // someone clicked "continue" there'd be nothing left to advance to.
+    if (thresholdsMet() && !state.continuePromptOffered) return;
+    // Once someone has chosen to continue past the thresholds, every remaining
+    // item is fair game again - the type-skip below exists to stop wasting trials
+    // on an already-satisfied type during the normal run, not to block someone who
+    // deliberately asked to keep going.
+    var extending = state.continuePastThreshold;
+    var peopleDone = !extending && state.knownPeopleCount >= (CONFIG.minPeopleKnown || 30);
+    var placesDone = !extending && state.knownPlacesCount >= (CONFIG.minPlacesKnown || 60);
     while (state.order.length > 0) {
       var candidate = state.order[0];
       var concept = conceptByFile[candidate];
@@ -524,8 +556,9 @@
   // Read-only version of advanceTrial's own skip logic, for preloading — figures out
   // which file_name would be shown next without touching state.order or state.current.
   function peekNextFileName() {
-    var peopleDone = state.knownPeopleCount >= (CONFIG.minPeopleKnown || 30);
-    var placesDone = state.knownPlacesCount >= (CONFIG.minPlacesKnown || 60);
+    var extending = state.continuePastThreshold;
+    var peopleDone = !extending && state.knownPeopleCount >= (CONFIG.minPeopleKnown || 30);
+    var placesDone = !extending && state.knownPlacesCount >= (CONFIG.minPlacesKnown || 60);
     for (var i = 0; i < state.order.length; i++) {
       var candidate = state.order[i];
       var concept = conceptByFile[candidate];
@@ -546,8 +579,20 @@
   }
 
   function renderCurrentStim() {
-    if (thresholdsMet()) { finishSession(); return; }
-    if (poolExhausted()) {
+    if (thresholdsMet()) {
+      // Only asked once - if they've already chosen to continue, thresholds stay
+      // "met" for the rest of the session, but that shouldn't mean asking again
+      // every single trial. If they're back here AND still extending, it just
+      // means the pool has now also run out - a normal finish, nothing left to ask.
+      if (!state.continuePromptOffered) {
+        state.continuePromptOffered = true;
+        saveState();
+        stopKeyboardListening();
+        showScreen("screen-continue-prompt");
+        return;
+      }
+      if (poolExhausted()) { finishSession(); return; }
+    } else if (poolExhausted()) {
       // Give the participant a real choice here rather than ending the session
       // outright just because the pool ran dry before reaching the target -
       // maybe a name comes back to them on a second look, maybe it doesn't, either
@@ -751,6 +796,10 @@
     stopKeyboardListening();
     state.finished = true;
     saveState();
+    // A simple count of participation, not performance - there's no "right" number
+    // of people/places to recognise, so this deliberately avoids anything that
+    // could read as a score. How many pictures they looked at can't be a bad
+    // number, so it's a safe, always-positive note to end on.
     $("done-stats").hidden = true;
     if (CONFIG.emailEnabled === false) {
       // No backend configured for this site at all — there's nothing to attempt or
