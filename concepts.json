@@ -3642,7 +3642,7 @@
     "rus": "Драконий мост, Любляна",
     "ch": "龙桥"
    },
-   "population": "global",
+   "population": "slovenian",
    "type": "place"
   },
   {
@@ -3927,7 +3927,7 @@
     "rus": "Деревня Гальштатт",
     "ch": "哈尔施塔特"
    },
-   "population": "german",
+   "population": "global",
    "type": "place"
   },
   {
@@ -4137,7 +4137,7 @@
     "rus": "Лондонский глаз",
     "ch": "伦敦眼"
    },
-   "population": "slovenian",
+   "population": "global",
    "type": "place"
   },
   {
@@ -4152,7 +4152,7 @@
     "rus": "Лувр",
     "ch": "卢浮宫和玻璃金字塔"
    },
-   "population": "slovenian",
+   "population": "global",
    "type": "place"
   },
   {
@@ -4227,7 +4227,7 @@
     "rus": "Парк Мерлион",
     "ch": "新加坡鱼尾狮"
    },
-   "population": "german",
+   "population": "global",
    "type": "place"
   },
   {
@@ -4332,7 +4332,7 @@
     "rus": "Триглав",
     "ch": "特里格拉夫山"
    },
-   "population": "global",
+   "population": "slovenian",
    "type": "place"
   },
   {
@@ -4347,7 +4347,7 @@
     "rus": "Мюнхенская ратуша",
     "ch": "慕尼黑新市政厅"
    },
-   "population": "slovenian",
+   "population": "german",
    "type": "place"
   },
   {
@@ -5097,7 +5097,7 @@
     "rus": "Тройной мост",
     "ch": "卢布尔雅那三桥"
    },
-   "population": "global",
+   "population": "slovenian",
    "type": "place"
   },
   {
@@ -6298,6 +6298,21 @@
     "ch": "乌尔姆大教堂"
    },
    "population": "german",
+   "type": "place"
+  },
+  {
+   "file_name": "rainbow_mountain.jpg",
+   "index": "L202",
+   "names": {
+    "en": "Rainbow Mountain",
+    "de": "Regenbogen-Berg",
+    "sl": "Mavrična gora",
+    "tur": "Gökkuşağı Dağı",
+    "ukr": "Райдужна гора",
+    "rus": "Радужная гора",
+    "ch": "彩虹山"
+   },
+   "population": "global",
    "type": "place"
   }
  ]
